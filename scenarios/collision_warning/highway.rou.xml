@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    
+    <!-- Définition des types de véhicules -->
+    <vType id="car" vClass="passenger" length="4.5" minGap="2.5" maxSpeed="33.33" accel="2.6" decel="4.5" sigma="0.5" color="1,1,0"/>
+    <vType id="truck" vClass="truck" length="12.0" minGap="2.5" maxSpeed="25.0" accel="1.3" decel="4.0" sigma="0.5" color="0,0,1"/>
+    <vType id="emergency" vClass="emergency" length="5.0" minGap="2.5" maxSpeed="41.67" accel="3.0" decel="5.0" sigma="0.5" color="1,0,0"/>
+
+    <!-- Définition des routes -->
+    <route id="route_A" edges="B1 B2 B3 B4"/>
+    <route id="route_B" edges="A3 218941312#1 A2 A1"/>
+
+    <!-- Véhicules -->
+    <!-- Véhicule A (celui qui détecte le risque de collision) -->
+    <vehicle id="vehA" type="car" route="route_A" depart="0" departLane="1" departSpeed="5">
+        <param key="has.ssm.device" value="true"/>
+        <param key="device.ssm.measures" value="TTC DRAC PET"/>
+        <param key="device.ssm.range" value="50"/>
+        <param key="device.ssm.trajectories" value="true"/>
+        <param key="device.ssm.write-positions" value="true"/>
+    </vehicle>
+
+    <!-- Véhicule B (celui qui approche rapidement) -->
+    <vehicle id="vehB" type="car" route="route_A" depart="1" departLane="1" departSpeed="30">
+        <param key="has.ssm.device" value="true"/>
+    </vehicle>
+
+    <!-- Autres véhicules sur la route -->
+    <flow id="cars_A" type="car" route="route_A" begin="0" end="3600" probability="0.3"/>
+    <flow id="trucks_A" type="truck" route="route_A" begin="0" end="3600" probability="0.1"/>
+    
+    <flow id="cars_B" type="car" route="route_B" begin="0" end="3600" probability="0.3"/>
+    <flow id="trucks_B" type="truck" route="route_B" begin="0" end="3600" probability="0.1"/>
+
+    <!-- Véhicule d'urgence occasionnel -->
+    <vehicle id="emergency1" type="emergency" route="route_A" depart="300" departLane="0" departSpeed="max"/>
+
+</routes>

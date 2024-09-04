@@ -1,0 +1,894 @@
+      vehA       0.10 VehicleController found in Facilities
+      vehA       0.10 LocalEnvironmentModel found in Facilities
+      vehA       0.10 CollisionWarningService initialized
+      vehA       0.26 Total objects detected: 0
+      vehA       0.36 Total objects detected: 0
+      vehA       0.46 Total objects detected: 0
+      vehA       0.56 Total objects detected: 0
+      vehA       0.66 Total objects detected: 0
+      vehA       0.76 Total objects detected: 0
+      vehA       0.86 Total objects detected: 0
+      vehA       0.96 Total objects detected: 0
+      vehA       1.06 Total objects detected: 0
+      vehA       1.16 Total objects detected: 0
+      vehA       1.26 Total objects detected: 0
+      vehA       1.36 Total objects detected: 0
+      vehA       1.46 Total objects detected: 0
+      vehA       1.56 Total objects detected: 0
+      vehA       1.66 Total objects detected: 0
+      vehA       1.76 Total objects detected: 0
+      vehA       1.86 Total objects detected: 0
+      vehA       1.96 Total objects detected: 0
+      vehA       2.06 Total objects detected: 0
+      vehA       2.16 Total objects detected: 0
+      vehA       2.26 Total objects detected: 0
+      vehA       2.36 Total objects detected: 0
+      vehA       2.46 Total objects detected: 0
+      vehA       2.56 Total objects detected: 0
+      vehA       2.66 Total objects detected: 0
+      vehA       2.76 Total objects detected: 0
+      vehA       2.86 Total objects detected: 0
+      vehA       2.96 Total objects detected: 0
+      vehA       3.06 Total objects detected: 0
+      vehA       3.16 Total objects detected: 0
+      vehA       3.26 Total objects detected: 0
+      vehA       3.36 Total objects detected: 0
+      vehA       3.46 Total objects detected: 0
+      vehA       3.56 Total objects detected: 0
+      vehA       3.66 Total objects detected: 0
+      vehA       3.76 Total objects detected: 0
+      vehA       3.86 Total objects detected: 0
+      vehA       3.96 Total objects detected: 0
+      vehA       4.06 Total objects detected: 0
+      vehA       4.16 Total objects detected: 0
+      vehA       4.26 Total objects detected: 0
+      vehA       4.36 Total objects detected: 0
+      vehA       4.46 Total objects detected: 0
+      vehA       4.56 Total objects detected: 0
+      vehA       4.66 Total objects detected: 0
+      vehA       4.76 Total objects detected: 0
+      vehA       4.86 Total objects detected: 0
+      vehA       4.96 Total objects detected: 0
+      vehA       5.06 Total objects detected: 0
+      vehA       5.16 Total objects detected: 0
+      vehA       5.26 Total objects detected: 1
+      vehA       5.26 Processing object ID: 1
+  Position: (1751.843489, 9353.797428)
+  Distance: 53.785746 m
+  Object external ID: vehB
+      vehA       5.26 Calculating TTC:
+  Host position: (1788.32, 9314.27)
+  Host speed: 15.0143 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 5.2
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       5.26 Processing object ID: 1
+  Position: (1751.843489, 9353.797428)
+  Distance: 53.785746 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       5.26 
+      vehA       5.36 Total objects detected: 1
+      vehA       5.36 Processing object ID: 1
+  Position: (1753.745557, 9351.460601)
+  Distance: 52.296774 m
+  Object external ID: vehB
+      vehA       5.36 Calculating TTC:
+  Host position: (1789.33, 9313.13)
+  Host speed: 15.1772 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 5.3
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       5.36 Processing object ID: 1
+  Position: (1753.745557, 9351.460601)
+  Distance: 52.296774 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       5.36 
+      vehA       5.46 Total objects detected: 1
+      vehA       5.46 Processing object ID: 1
+  Position: (1755.656844, 9349.112449)
+  Distance: 50.810145 m
+  Object external ID: vehB
+      vehA       5.46 Calculating TTC:
+  Host position: (1790.35, 9311.99)
+  Host speed: 15.3411 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 5.4
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       5.46 Processing object ID: 1
+  Position: (1755.656844, 9349.112449)
+  Distance: 50.810145 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       5.46 
+      vehA       5.56 Total objects detected: 1
+      vehA       5.56 Processing object ID: 1
+  Position: (1757.577698, 9346.752542)
+  Distance: 49.326264 m
+  Object external ID: vehB
+      vehA       5.56 Calculating TTC:
+  Host position: (1791.38, 9310.83)
+  Host speed: 15.5141 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 5.5
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       5.56 Processing object ID: 1
+  Position: (1757.577698, 9346.752542)
+  Distance: 49.326264 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       5.56 
+      vehA       5.66 Total objects detected: 1
+      vehA       5.66 Processing object ID: 1
+  Position: (1759.509556, 9344.379116)
+  Distance: 47.843327 m
+  Object external ID: vehB
+      vehA       5.66 Calculating TTC:
+  Host position: (1792.42, 9309.66)
+  Host speed: 15.6911 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 5.6
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       5.66 Processing object ID: 1
+  Position: (1759.509556, 9344.379116)
+  Distance: 47.843327 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       5.66 
+      vehA       5.76 Total objects detected: 1
+      vehA       5.76 Processing object ID: 1
+  Position: (1761.451781, 9341.992955)
+  Distance: 46.364492 m
+  Object external ID: vehB
+      vehA       5.76 Calculating TTC:
+  Host position: (1793.48, 9308.47)
+  Host speed: 15.8889 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 5.7
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       5.76 Processing object ID: 1
+  Position: (1761.451781, 9341.992955)
+  Distance: 46.364492 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       5.76 
+      vehA       5.86 Total objects detected: 1
+      vehA       5.86 Processing object ID: 1
+  Position: (1763.408340, 9339.589182)
+  Distance: 44.883714 m
+  Object external ID: vehB
+      vehA       5.86 Calculating TTC:
+  Host position: (1794.55, 9307.27)
+  Host speed: 16.0881 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 5.8
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       5.86 Processing object ID: 1
+  Position: (1763.408340, 9339.589182)
+  Distance: 44.883714 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       5.86 
+      vehA       5.96 Total objects detected: 1
+      vehA       5.96 Processing object ID: 1
+  Position: (1765.376906, 9337.170658)
+  Distance: 43.402301 m
+  Object external ID: vehB
+      vehA       5.96 Calculating TTC:
+  Host position: (1795.63, 9306.05)
+  Host speed: 16.2628 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 5.9
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       5.96 Processing object ID: 1
+  Position: (1765.376906, 9337.170658)
+  Distance: 43.402301 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       5.96 
+      vehA       6.06 Total objects detected: 1
+      vehA       6.06 Processing object ID: 1
+  Position: (1767.361864, 9334.731995)
+  Distance: 41.909237 m
+  Object external ID: vehB
+      vehA       6.06 Calculating TTC:
+  Host position: (1796.73, 9304.83)
+  Host speed: 16.3953 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 6
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       6.06 Processing object ID: 1
+  Position: (1767.361864, 9334.731995)
+  Distance: 41.909237 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       6.06 
+      vehA       6.16 Total objects detected: 1
+      vehA       6.16 Processing object ID: 1
+  Position: (1769.363116, 9332.273314)
+  Distance: 40.414979 m
+  Object external ID: vehB
+      vehA       6.16 Calculating TTC:
+  Host position: (1797.83, 9303.59)
+  Host speed: 16.6297 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 6.1
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       6.16 Processing object ID: 1
+  Position: (1769.363116, 9332.273314)
+  Distance: 40.414979 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       6.16 
+      vehA       6.26 Total objects detected: 1
+      vehA       6.26 Processing object ID: 1
+  Position: (1771.378574, 9329.797181)
+  Distance: 38.923796 m
+  Object external ID: vehB
+      vehA       6.26 Calculating TTC:
+  Host position: (1798.95, 9302.33)
+  Host speed: 16.8724 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 6.2
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       6.26 Processing object ID: 1
+  Position: (1771.378574, 9329.797181)
+  Distance: 38.923796 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       6.26 
+      vehA       6.36 Total objects detected: 1
+      vehA       6.36 Processing object ID: 1
+  Position: (1773.407763, 9327.304177)
+  Distance: 37.425829 m
+  Object external ID: vehB
+      vehA       6.36 Calculating TTC:
+  Host position: (1800.09, 9301.06)
+  Host speed: 17.0072 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 6.3
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       6.36 Processing object ID: 1
+  Position: (1773.407763, 9327.304177)
+  Distance: 37.425829 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       6.36 
+      vehA       6.46 Total objects detected: 1
+      vehA       6.46 Processing object ID: 1
+  Position: (1775.445533, 9324.800631)
+  Distance: 35.935995 m
+  Object external ID: vehB
+      vehA       6.46 Calculating TTC:
+  Host position: (1801.23, 9299.77)
+  Host speed: 17.2083 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 6.4
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       6.46 Processing object ID: 1
+  Position: (1775.445533, 9324.800631)
+  Distance: 35.935995 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       6.46 
+      vehA       6.56 Total objects detected: 1
+      vehA       6.56 Processing object ID: 1
+  Position: (1777.496069, 9322.281400)
+  Distance: 34.449189 m
+  Object external ID: vehB
+      vehA       6.56 Calculating TTC:
+  Host position: (1802.39, 9298.47)
+  Host speed: 17.4222 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 6.5
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       6.56 Processing object ID: 1
+  Position: (1777.496069, 9322.281400)
+  Distance: 34.449189 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       6.56 
+      vehA       6.66 Total objects detected: 1
+      vehA       6.66 Processing object ID: 1
+  Position: (1779.562181, 9319.743035)
+  Distance: 32.957878 m
+  Object external ID: vehB
+      vehA       6.66 Calculating TTC:
+  Host position: (1803.56, 9297.15)
+  Host speed: 17.602 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 6.6
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       6.66 Processing object ID: 1
+  Position: (1779.562181, 9319.743035)
+  Distance: 32.957878 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       6.66 
+      vehA       6.76 Total objects detected: 1
+      vehA       6.76 Processing object ID: 1
+  Position: (1781.640152, 9317.190099)
+  Distance: 31.464843 m
+  Object external ID: vehB
+      vehA       6.76 Calculating TTC:
+  Host position: (1804.74, 9295.83)
+  Host speed: 17.748 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 6.7
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       6.76 Processing object ID: 1
+  Position: (1781.640152, 9317.190099)
+  Distance: 31.464843 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       6.76 
+      vehA       6.86 Total objects detected: 1
+      vehA       6.86 Processing object ID: 1
+  Position: (1783.762165, 9314.649742)
+  Distance: 29.975776 m
+  Object external ID: vehB
+      vehA       6.86 Calculating TTC:
+  Host position: (1805.94, 9294.48)
+  Host speed: 18.0033 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 6.8
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       6.86 Processing object ID: 1
+  Position: (1783.762165, 9314.649742)
+  Distance: 29.975776 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       6.86 
+      vehA       6.96 Total objects detected: 1
+      vehA       6.96 Processing object ID: 1
+  Position: (1785.928818, 9312.130462)
+  Distance: 28.484724 m
+  Object external ID: vehB
+      vehA       6.96 Calculating TTC:
+  Host position: (1807.15, 9293.13)
+  Host speed: 18.1536 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 6.9
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       6.96 Processing object ID: 1
+  Position: (1785.928818, 9312.130462)
+  Distance: 28.484724 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       6.96 
+      vehA       7.06 Total objects detected: 1
+      vehA       7.06 Processing object ID: 1
+  Position: (1788.140747, 9309.648091)
+  Distance: 27.000133 m
+  Object external ID: vehB
+      vehA       7.06 Calculating TTC:
+  Host position: (1808.37, 9291.76)
+  Host speed: 18.2963 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 7
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       7.06 Processing object ID: 1
+  Position: (1788.140747, 9309.648091)
+  Distance: 27.000133 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       7.06 
+      vehA       7.16 Total objects detected: 1
+      vehA       7.16 Processing object ID: 1
+  Position: (1790.353448, 9307.164852)
+  Distance: 25.533548 m
+  Object external ID: vehB
+      vehA       7.16 Calculating TTC:
+  Host position: (1809.6, 9290.38)
+  Host speed: 18.4776 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 7.1
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       7.16 Processing object ID: 1
+  Position: (1790.353448, 9307.164852)
+  Distance: 25.533548 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       7.16 
+      vehA       7.26 Total objects detected: 1
+      vehA       7.26 Processing object ID: 1
+  Position: (1792.565487, 9304.682356)
+  Distance: 24.082344 m
+  Object external ID: vehB
+      vehA       7.26 Calculating TTC:
+  Host position: (1810.83, 9288.99)
+  Host speed: 18.6092 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 7.2
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       7.26 Processing object ID: 1
+  Position: (1792.565487, 9304.682356)
+  Distance: 24.082344 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       7.26 
+      vehA       7.36 Total objects detected: 1
+      vehA       7.36 Processing object ID: 1
+  Position: (1794.775911, 9302.201672)
+  Distance: 22.651607 m
+  Object external ID: vehB
+      vehA       7.36 Calculating TTC:
+  Host position: (1812.08, 9287.59)
+  Host speed: 18.7758 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 7.3
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       7.36 Processing object ID: 1
+  Position: (1794.775911, 9302.201672)
+  Distance: 22.651607 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       7.36 
+      vehA       7.46 Total objects detected: 1
+      vehA       7.46 Processing object ID: 1
+  Position: (1796.987047, 9299.720191)
+  Distance: 21.241736 m
+  Object external ID: vehB
+      vehA       7.46 Calculating TTC:
+  Host position: (1813.35, 9286.17)
+  Host speed: 18.9788 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 7.4
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       7.46 Processing object ID: 1
+  Position: (1796.987047, 9299.720191)
+  Distance: 21.241736 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       7.46 
+      vehA       7.56 Total objects detected: 1
+      vehA       7.56 Processing object ID: 1
+  Position: (1799.197140, 9297.239878)
+  Distance: 19.852864 m
+  Object external ID: vehB
+      vehA       7.56 Calculating TTC:
+  Host position: (1814.62, 9284.74)
+  Host speed: 19.1539 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 7.5
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       7.56 Processing object ID: 1
+  Position: (1799.197140, 9297.239878)
+  Distance: 19.852864 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       7.56 
+      vehA       7.66 Total objects detected: 1
+      vehA       7.66 Processing object ID: 1
+  Position: (1801.410775, 9294.755591)
+  Distance: 18.484902 m
+  Object external ID: vehB
+      vehA       7.66 Calculating TTC:
+  Host position: (1815.91, 9283.29)
+  Host speed: 19.393 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 7.6
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       7.66 Processing object ID: 1
+  Position: (1801.410775, 9294.755591)
+  Distance: 18.484902 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       7.66 
+      vehA       7.76 Total objects detected: 1
+      vehA       7.76 Processing object ID: 1
+  Position: (1803.626481, 9292.268981)
+  Distance: 17.130120 m
+  Object external ID: vehB
+      vehA       7.76 Calculating TTC:
+  Host position: (1817.21, 9281.83)
+  Host speed: 19.5264 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 7.7
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       7.76 Processing object ID: 1
+  Position: (1803.626481, 9292.268981)
+  Distance: 17.130120 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       7.76 
+      vehA       7.86 Total objects detected: 1
+      vehA       7.86 Processing object ID: 1
+  Position: (1805.840847, 9289.783873)
+  Distance: 15.803217 m
+  Object external ID: vehB
+      vehA       7.86 Calculating TTC:
+  Host position: (1818.52, 9280.36)
+  Host speed: 19.7512 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 7.8
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       7.86 Processing object ID: 1
+  Position: (1805.840847, 9289.783873)
+  Distance: 15.803217 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       7.86 
+      vehA       7.96 Total objects detected: 1
+      vehA       7.96 Processing object ID: 1
+  Position: (1808.055552, 9287.298385)
+  Distance: 14.493427 m
+  Object external ID: vehB
+      vehA       7.96 Calculating TTC:
+  Host position: (1819.85, 9278.87)
+  Host speed: 19.8829 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 7.9
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       7.96 Processing object ID: 1
+  Position: (1808.055552, 9287.298385)
+  Distance: 14.493427 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       7.96 
+      vehA       8.06 Total objects detected: 1
+      vehA       8.06 Processing object ID: 1
+  Position: (1810.267757, 9284.815703)
+  Distance: 13.209234 m
+  Object external ID: vehB
+      vehA       8.06 Calculating TTC:
+  Host position: (1821.18, 9277.37)
+  Host speed: 20.0465 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 8
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       8.06 Processing object ID: 1
+  Position: (1810.267757, 9284.815703)
+  Distance: 13.209234 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       8.06 
+      vehA       8.16 Total objects detected: 1
+      vehA       8.16 Processing object ID: 1
+  Position: (1812.483810, 9282.328702)
+  Distance: 11.949462 m
+  Object external ID: vehB
+      vehA       8.16 Calculating TTC:
+  Host position: (1822.55, 9275.89)
+  Host speed: 20.1956 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 8.1
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       8.16 Processing object ID: 1
+  Position: (1812.483810, 9282.328702)
+  Distance: 11.949462 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       8.16 
+      vehA       8.26 Total objects detected: 1
+      vehA       8.26 Processing object ID: 1
+  Position: (1814.696179, 9279.845836)
+  Distance: 10.744509 m
+  Object external ID: vehB
+      vehA       8.26 Calculating TTC:
+  Host position: (1823.97, 9274.41)
+  Host speed: 20.448 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 8.2
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       8.26 Processing object ID: 1
+  Position: (1814.696179, 9279.845836)
+  Distance: 10.744509 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       8.26 
+      vehA       8.36 Total objects detected: 1
+      vehA       8.36 Processing object ID: 1
+  Position: (1816.909717, 9277.361658)
+  Distance: 9.577586 m
+  Object external ID: vehB
+      vehA       8.36 Calculating TTC:
+  Host position: (1825.4, 9272.92)
+  Host speed: 20.6502 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 8.3
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       8.36 Processing object ID: 1
+  Position: (1816.909717, 9277.361658)
+  Distance: 9.577586 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       8.36 
+      vehA       8.46 Total objects detected: 1
+      vehA       8.46 Processing object ID: 1
+  Position: (1819.141877, 9274.898412)
+  Distance: 8.449977 m
+  Object external ID: vehB
+      vehA       8.46 Calculating TTC:
+  Host position: (1826.84, 9271.42)
+  Host speed: 20.8584 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 8.4
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       8.46 Processing object ID: 1
+  Position: (1819.141877, 9274.898412)
+  Distance: 8.449977 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       8.46 
+      vehA       8.56 Total objects detected: 1
+      vehA       8.56 Processing object ID: 1
+  Position: (1821.400691, 9272.464941)
+  Distance: 7.358307 m
+  Object external ID: vehB
+      vehA       8.56 Calculating TTC:
+  Host position: (1828.3, 9269.9)
+  Host speed: 21.019 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 8.5
+  Number of detected objects: 1
+    Object ID: vehB
+  Detected object not found. Returning infinity.
+
+      vehA       8.56 Processing object ID: 1
+  Position: (1821.400691, 9272.464941)
+  Distance: 7.358307 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       8.56 
+      vehA       8.66 Total objects detected: 1
+      vehA       8.66 Processing object ID: 1
+  Position: (1823.705155, 9270.064233)
+  Distance: 6.300027 m
+  Object external ID: vehB
+      vehA       8.66 Calculating TTC:
+  Host position: (1829.77, 9268.36)
+  Host speed: 21.277 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 8.5
+  Number of detected objects: 0
+  Detected object not found. Returning infinity.
+
+      vehA       8.66 Processing object ID: 1
+  Position: (1823.705155, 9270.064233)
+  Distance: 6.300027 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       8.66 
+      vehA       8.76 Total objects detected: 1
+      vehA       8.76 Processing object ID: 1
+  Position: (1826.010851, 9267.662242)
+  Distance: 5.315133 m
+  Object external ID: vehB
+      vehA       8.76 Calculating TTC:
+  Host position: (1831.26, 9266.82)
+  Host speed: 21.4579 m/s
+  Sensor type: Radar
+  Tracking time: 5.2 to 8.5
+  Number of detected objects: 0
+  Detected object not found. Returning infinity.
+
+      vehA       8.76 Processing object ID: 1
+  Position: (1826.010851, 9267.662242)
+  Distance: 5.315133 m
+  Object external ID: vehB
+  Calculated TTC: infs
+  Decision: No significant risk detected
+      vehA       8.76 
+      vehA       8.86 Total objects detected: 0
+      vehA       8.96 Total objects detected: 0
+      vehA       9.06 Total objects detected: 0
+      vehA       9.16 Total objects detected: 0
+      vehA       9.26 Total objects detected: 0
+      vehA       9.36 Total objects detected: 0
+      vehA       9.46 Total objects detected: 0
+      vehA       9.56 Total objects detected: 0
+      vehA       9.66 Total objects detected: 0
+      vehA       9.76 Total objects detected: 0
+      vehA       9.86 Total objects detected: 0
+      vehA       9.96 Total objects detected: 0
+      vehA      10.06 Total objects detected: 0
+      vehA      10.16 Total objects detected: 0
+      vehA      10.26 Total objects detected: 0
+      vehA      10.36 Total objects detected: 0
+      vehA      10.46 Total objects detected: 0
+      vehA      10.56 Total objects detected: 0
+      vehA      10.66 Total objects detected: 0
+      vehA      10.76 Total objects detected: 0
+      vehA      10.86 Total objects detected: 0
+      vehA      10.96 Total objects detected: 0
+      vehA      11.06 Total objects detected: 0
+      vehA      11.16 Total objects detected: 0
+      vehA      11.26 Total objects detected: 0
+      vehA      11.36 Total objects detected: 0
+      vehA      11.46 Total objects detected: 0
+      vehA      11.56 Total objects detected: 0
+      vehA      11.66 Total objects detected: 0
+      vehA      11.76 Total objects detected: 0
+      vehA      11.86 Total objects detected: 0
+      vehA      11.96 Total objects detected: 0
+      vehA      12.06 Total objects detected: 0
+      vehA      12.16 Total objects detected: 0
+      vehA      12.26 Total objects detected: 0
+      vehA      12.36 Total objects detected: 0
+      vehA      12.46 Total objects detected: 0
+      vehA      12.56 Total objects detected: 0
+      vehA      12.66 Total objects detected: 0
+      vehA      12.76 Total objects detected: 0
+      vehA      12.86 Total objects detected: 0
+      vehA      12.96 Total objects detected: 0
+      vehA      13.06 Total objects detected: 0
+      vehA      13.16 Total objects detected: 0
+      vehA      13.26 Total objects detected: 0
+      vehA      13.36 Total objects detected: 0
+      vehA      13.46 Total objects detected: 0
+      vehA      13.56 Total objects detected: 0
+      vehA      13.66 Total objects detected: 0
+      vehA      13.76 Total objects detected: 0
+      vehA      13.86 Total objects detected: 0
+      vehA      13.96 Total objects detected: 0
+      vehA      14.06 Total objects detected: 0
+      vehA      14.16 Total objects detected: 0
+      vehA      14.26 Total objects detected: 0
+      vehA      14.36 Total objects detected: 0
+      vehA      14.46 Total objects detected: 0
+      vehA      14.56 Total objects detected: 0
+      vehA      14.66 Total objects detected: 0
+      vehA      14.76 Total objects detected: 0
+      vehA      14.86 Total objects detected: 0
+      vehA      14.96 Total objects detected: 0
+      vehA      15.06 Total objects detected: 0
+      vehA      15.16 Total objects detected: 0
+      vehA      15.26 Total objects detected: 0
+      vehA      15.36 Total objects detected: 0
+      vehA      15.46 Total objects detected: 0
+      vehA      15.56 Total objects detected: 0
+      vehA      15.66 Total objects detected: 0
+      vehA      15.76 Total objects detected: 0
+      vehA      15.86 Total objects detected: 0
+      vehA      15.96 Total objects detected: 0
+      vehA      16.06 Total objects detected: 0
+      vehA      16.16 Total objects detected: 0
+      vehA      16.26 Total objects detected: 0
+      vehA      16.36 Total objects detected: 0
+      vehA      16.46 Total objects detected: 0
+      vehA      16.56 Total objects detected: 0
+      vehA      16.66 Total objects detected: 0
+      vehA      16.76 Total objects detected: 0
+      vehA      16.86 Total objects detected: 0
+      vehA      16.96 Total objects detected: 0
+      vehA      17.06 Total objects detected: 0
+      vehA      17.16 Total objects detected: 0
+      vehA      17.26 Total objects detected: 0
+      vehA      17.36 Total objects detected: 0
+      vehA      17.46 Total objects detected: 0

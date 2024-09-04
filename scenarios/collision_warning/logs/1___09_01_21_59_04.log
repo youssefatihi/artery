@@ -1,0 +1,1043 @@
+      vehA       0.10 VehicleController found in Facilities
+      vehA       0.10 LocalEnvironmentModel found in Facilities
+      vehA       0.10 CollisionWarningService initialized
+      vehA       0.26 Total objects detected: 0
+      vehA       0.36 Total objects detected: 0
+      vehA       0.46 Total objects detected: 0
+      vehA       0.56 Total objects detected: 0
+      vehA       0.66 Total objects detected: 0
+      vehA       0.76 Total objects detected: 0
+      vehA       0.86 Total objects detected: 0
+      vehA       0.96 Total objects detected: 0
+      vehA       1.06 Total objects detected: 0
+      vehA       1.16 Total objects detected: 0
+      vehA       1.26 Total objects detected: 0
+      vehA       1.36 Total objects detected: 0
+      vehA       1.46 Total objects detected: 0
+      vehA       1.56 Total objects detected: 0
+      vehA       1.66 Total objects detected: 0
+      vehA       1.76 Total objects detected: 0
+      vehA       1.86 Total objects detected: 0
+      vehA       1.96 Total objects detected: 0
+      vehA       2.06 Total objects detected: 0
+      vehA       2.16 Total objects detected: 0
+      vehA       2.26 Total objects detected: 0
+      vehA       2.36 Total objects detected: 0
+      vehA       2.46 Total objects detected: 0
+      vehA       2.56 Total objects detected: 0
+      vehA       2.66 Total objects detected: 0
+      vehA       2.76 Total objects detected: 0
+      vehA       2.86 Total objects detected: 0
+      vehA       2.96 Total objects detected: 0
+      vehA       3.06 Total objects detected: 0
+      vehA       3.16 Total objects detected: 0
+      vehA       3.26 Total objects detected: 0
+      vehA       3.36 Total objects detected: 0
+      vehA       3.46 Total objects detected: 0
+      vehA       3.56 Total objects detected: 0
+      vehA       3.66 Total objects detected: 0
+      vehA       3.76 Total objects detected: 0
+      vehA       3.86 Total objects detected: 0
+      vehA       3.96 Total objects detected: 0
+      vehA       4.06 Total objects detected: 0
+      vehA       4.16 Total objects detected: 0
+      vehA       4.26 Total objects detected: 0
+      vehA       4.36 Total objects detected: 0
+      vehA       4.46 Total objects detected: 0
+      vehA       4.56 Total objects detected: 0
+      vehA       4.66 Total objects detected: 0
+      vehA       4.76 Total objects detected: 0
+      vehA       4.86 Total objects detected: 0
+      vehA       4.96 Total objects detected: 0
+      vehA       5.06 Total objects detected: 0
+      vehA       5.16 Total objects detected: 0
+      vehA       5.26 Total objects detected: 1
+      vehA       5.26 Processing object ID: 1
+  Position: (1751.84, 9353.8)
+  Distance: 53.7857 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       5.26 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1788.32, 9314.27)
+  Host speed: 15.0143 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 5.2
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1751.84, 9353.8)
+  Object position: (1751.84, 9353.8)
+  Relative distance: 53.7857 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 907.249 m/s
+  Relative speed: 892.234 m/s
+  Calculated TTC: 0.0602821 s
+
+      vehA       5.26 TTC calculation results:
+  Calculated TTC: 0.0602821s
+  Decision: Critical risk detected
+
+      vehA       5.26 Sending critical collision warning message (Danger Level 2)
+      vehA       5.26 Sending collision warning: TTC = 0.060282s, Danger Level = 2
+      vehA       5.26 
+      vehA       5.36 Total objects detected: 1
+      vehA       5.36 Processing object ID: 1
+  Position: (1753.75, 9351.46)
+  Distance: 52.2968 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       5.36 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1789.33, 9313.13)
+  Host speed: 15.1772 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 5.3
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1753.75, 9351.46)
+  Object position: (1753.75, 9351.46)
+  Relative distance: 52.2968 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 882.133 m/s
+  Relative speed: 866.956 m/s
+  Calculated TTC: 0.0603223 s
+
+      vehA       5.36 TTC calculation results:
+  Calculated TTC: 0.0603223s
+  Decision: Critical risk detected
+
+      vehA       5.36 Sending critical collision warning message (Danger Level 2)
+      vehA       5.36 Sending collision warning: TTC = 0.060322s, Danger Level = 2
+      vehA       5.36 
+      vehA       5.46 Total objects detected: 1
+      vehA       5.46 Processing object ID: 1
+  Position: (1755.66, 9349.11)
+  Distance: 50.8101 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       5.46 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1790.35, 9311.99)
+  Host speed: 15.3411 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 5.4
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1755.66, 9349.11)
+  Object position: (1755.66, 9349.11)
+  Relative distance: 50.8101 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 857.057 m/s
+  Relative speed: 841.716 m/s
+  Calculated TTC: 0.060365 s
+
+      vehA       5.46 TTC calculation results:
+  Calculated TTC: 0.060365s
+  Decision: Critical risk detected
+
+      vehA       5.46 Sending critical collision warning message (Danger Level 2)
+      vehA       5.46 Sending collision warning: TTC = 0.060365s, Danger Level = 2
+      vehA       5.46 
+      vehA       5.56 Total objects detected: 1
+      vehA       5.56 Processing object ID: 1
+  Position: (1757.58, 9346.75)
+  Distance: 49.3263 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       5.56 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1791.38, 9310.83)
+  Host speed: 15.5141 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 5.5
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1757.58, 9346.75)
+  Object position: (1757.58, 9346.75)
+  Relative distance: 49.3263 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 832.027 m/s
+  Relative speed: 816.513 m/s
+  Calculated TTC: 0.0604109 s
+
+      vehA       5.56 TTC calculation results:
+  Calculated TTC: 0.0604109s
+  Decision: Critical risk detected
+
+      vehA       5.56 Sending critical collision warning message (Danger Level 2)
+      vehA       5.56 Sending collision warning: TTC = 0.060411s, Danger Level = 2
+      vehA       5.56 
+      vehA       5.66 Total objects detected: 1
+      vehA       5.66 Processing object ID: 1
+  Position: (1759.51, 9344.38)
+  Distance: 47.8433 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       5.66 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1792.42, 9309.66)
+  Host speed: 15.6911 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 5.6
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1759.51, 9344.38)
+  Object position: (1759.51, 9344.38)
+  Relative distance: 47.8433 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 807.013 m/s
+  Relative speed: 791.322 m/s
+  Calculated TTC: 0.06046 s
+
+      vehA       5.66 TTC calculation results:
+  Calculated TTC: 0.06046s
+  Decision: Critical risk detected
+
+      vehA       5.66 Sending critical collision warning message (Danger Level 2)
+      vehA       5.66 Sending collision warning: TTC = 0.060460s, Danger Level = 2
+      vehA       5.66 
+      vehA       5.76 Total objects detected: 1
+      vehA       5.76 Processing object ID: 1
+  Position: (1761.45, 9341.99)
+  Distance: 46.3645 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       5.76 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1793.48, 9308.47)
+  Host speed: 15.8889 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 5.7
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1761.45, 9341.99)
+  Object position: (1761.45, 9341.99)
+  Relative distance: 46.3645 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 782.068 m/s
+  Relative speed: 766.179 m/s
+  Calculated TTC: 0.0605139 s
+
+      vehA       5.76 TTC calculation results:
+  Calculated TTC: 0.0605139s
+  Decision: Critical risk detected
+
+      vehA       5.76 Sending critical collision warning message (Danger Level 2)
+      vehA       5.76 Sending collision warning: TTC = 0.060514s, Danger Level = 2
+      vehA       5.76 
+      vehA       5.86 Total objects detected: 1
+      vehA       5.86 Processing object ID: 1
+  Position: (1763.41, 9339.59)
+  Distance: 44.8837 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       5.86 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1794.55, 9307.27)
+  Host speed: 16.0881 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 5.8
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1763.41, 9339.59)
+  Object position: (1763.41, 9339.59)
+  Relative distance: 44.8837 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 757.091 m/s
+  Relative speed: 741.003 m/s
+  Calculated TTC: 0.0605716 s
+
+      vehA       5.86 TTC calculation results:
+  Calculated TTC: 0.0605716s
+  Decision: Critical risk detected
+
+      vehA       5.86 Sending critical collision warning message (Danger Level 2)
+      vehA       5.86 Sending collision warning: TTC = 0.060572s, Danger Level = 2
+      vehA       5.86 
+      vehA       5.96 Total objects detected: 1
+      vehA       5.96 Processing object ID: 1
+  Position: (1765.38, 9337.17)
+  Distance: 43.4023 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       5.96 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1795.63, 9306.05)
+  Host speed: 16.2628 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 5.9
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1765.38, 9337.17)
+  Object position: (1765.38, 9337.17)
+  Relative distance: 43.4023 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 732.102 m/s
+  Relative speed: 715.84 m/s
+  Calculated TTC: 0.0606313 s
+
+      vehA       5.96 TTC calculation results:
+  Calculated TTC: 0.0606313s
+  Decision: Critical risk detected
+
+      vehA       5.96 Sending critical collision warning message (Danger Level 2)
+      vehA       5.96 Sending collision warning: TTC = 0.060631s, Danger Level = 2
+      vehA       5.96 
+      vehA       6.06 Total objects detected: 1
+      vehA       6.06 Processing object ID: 1
+  Position: (1767.36, 9334.73)
+  Distance: 41.9092 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       6.06 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1796.73, 9304.83)
+  Host speed: 16.3953 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 6
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1767.36, 9334.73)
+  Object position: (1767.36, 9334.73)
+  Relative distance: 41.9092 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 706.918 m/s
+  Relative speed: 690.522 m/s
+  Calculated TTC: 0.0606921 s
+
+      vehA       6.06 TTC calculation results:
+  Calculated TTC: 0.0606921s
+  Decision: Critical risk detected
+
+      vehA       6.06 Sending critical collision warning message (Danger Level 2)
+      vehA       6.06 Sending collision warning: TTC = 0.060692s, Danger Level = 2
+      vehA       6.06 
+      vehA       6.16 Total objects detected: 1
+      vehA       6.16 Processing object ID: 1
+  Position: (1769.36, 9332.27)
+  Distance: 40.415 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       6.16 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1797.83, 9303.59)
+  Host speed: 16.6297 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 6.1
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1769.36, 9332.27)
+  Object position: (1769.36, 9332.27)
+  Relative distance: 40.415 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 681.713 m/s
+  Relative speed: 665.083 m/s
+  Calculated TTC: 0.0607668 s
+
+      vehA       6.16 TTC calculation results:
+  Calculated TTC: 0.0607668s
+  Decision: Critical risk detected
+
+      vehA       6.16 Sending critical collision warning message (Danger Level 2)
+      vehA       6.16 Sending collision warning: TTC = 0.060767s, Danger Level = 2
+      vehA       6.16 
+      vehA       6.26 Total objects detected: 1
+      vehA       6.26 Processing object ID: 1
+  Position: (1771.38, 9329.8)
+  Distance: 38.9238 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       6.26 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1798.95, 9302.33)
+  Host speed: 16.8724 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 6.2
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1771.38, 9329.8)
+  Object position: (1771.38, 9329.8)
+  Relative distance: 38.9238 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 656.56 m/s
+  Relative speed: 639.687 m/s
+  Calculated TTC: 0.0608481 s
+
+      vehA       6.26 TTC calculation results:
+  Calculated TTC: 0.0608481s
+  Decision: Critical risk detected
+
+      vehA       6.26 Sending critical collision warning message (Danger Level 2)
+      vehA       6.26 Sending collision warning: TTC = 0.060848s, Danger Level = 2
+      vehA       6.26 
+      vehA       6.36 Total objects detected: 1
+      vehA       6.36 Processing object ID: 1
+  Position: (1773.41, 9327.3)
+  Distance: 37.4258 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       6.36 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1800.09, 9301.06)
+  Host speed: 17.0072 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 6.3
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1773.41, 9327.3)
+  Object position: (1773.41, 9327.3)
+  Relative distance: 37.4258 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 631.292 m/s
+  Relative speed: 614.285 m/s
+  Calculated TTC: 0.0609258 s
+
+      vehA       6.36 TTC calculation results:
+  Calculated TTC: 0.0609258s
+  Decision: Critical risk detected
+
+      vehA       6.36 Sending critical collision warning message (Danger Level 2)
+      vehA       6.36 Sending collision warning: TTC = 0.060926s, Danger Level = 2
+      vehA       6.36 
+      vehA       6.46 Total objects detected: 1
+      vehA       6.46 Processing object ID: 1
+  Position: (1775.45, 9324.8)
+  Distance: 35.936 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       6.46 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1801.23, 9299.77)
+  Host speed: 17.2083 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 6.4
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1775.45, 9324.8)
+  Object position: (1775.45, 9324.8)
+  Relative distance: 35.936 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 606.162 m/s
+  Relative speed: 588.954 m/s
+  Calculated TTC: 0.0610167 s
+
+      vehA       6.46 TTC calculation results:
+  Calculated TTC: 0.0610167s
+  Decision: Critical risk detected
+
+      vehA       6.46 Sending critical collision warning message (Danger Level 2)
+      vehA       6.46 Sending collision warning: TTC = 0.061017s, Danger Level = 2
+      vehA       6.46 
+      vehA       6.56 Total objects detected: 1
+      vehA       6.56 Processing object ID: 1
+  Position: (1777.5, 9322.28)
+  Distance: 34.4492 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       6.56 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1802.39, 9298.47)
+  Host speed: 17.4222 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 6.5
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1777.5, 9322.28)
+  Object position: (1777.5, 9322.28)
+  Relative distance: 34.4492 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 581.083 m/s
+  Relative speed: 563.661 m/s
+  Calculated TTC: 0.0611169 s
+
+      vehA       6.56 TTC calculation results:
+  Calculated TTC: 0.0611169s
+  Decision: Critical risk detected
+
+      vehA       6.56 Sending critical collision warning message (Danger Level 2)
+      vehA       6.56 Sending collision warning: TTC = 0.061117s, Danger Level = 2
+      vehA       6.56 
+      vehA       6.66 Total objects detected: 1
+      vehA       6.66 Processing object ID: 1
+  Position: (1779.56, 9319.74)
+  Distance: 32.9579 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       6.66 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1803.56, 9297.15)
+  Host speed: 17.602 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 6.6
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1779.56, 9319.74)
+  Object position: (1779.56, 9319.74)
+  Relative distance: 32.9579 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 555.928 m/s
+  Relative speed: 538.326 m/s
+  Calculated TTC: 0.0612229 s
+
+      vehA       6.66 TTC calculation results:
+  Calculated TTC: 0.0612229s
+  Decision: Critical risk detected
+
+      vehA       6.66 Sending critical collision warning message (Danger Level 2)
+      vehA       6.66 Sending collision warning: TTC = 0.061223s, Danger Level = 2
+      vehA       6.66 
+      vehA       6.76 Total objects detected: 1
+      vehA       6.76 Processing object ID: 1
+  Position: (1781.64, 9317.19)
+  Distance: 31.4648 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       6.76 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1804.74, 9295.83)
+  Host speed: 17.748 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 6.7
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1781.64, 9317.19)
+  Object position: (1781.64, 9317.19)
+  Relative distance: 31.4648 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 530.744 m/s
+  Relative speed: 512.996 m/s
+  Calculated TTC: 0.0613355 s
+
+      vehA       6.76 TTC calculation results:
+  Calculated TTC: 0.0613355s
+  Decision: Critical risk detected
+
+      vehA       6.76 Sending critical collision warning message (Danger Level 2)
+      vehA       6.76 Sending collision warning: TTC = 0.061336s, Danger Level = 2
+      vehA       6.76 
+      vehA       6.86 Total objects detected: 1
+      vehA       6.86 Processing object ID: 1
+  Position: (1783.76, 9314.65)
+  Distance: 29.9758 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       6.86 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1805.94, 9294.48)
+  Host speed: 18.0033 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 6.8
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1783.76, 9314.65)
+  Object position: (1783.76, 9314.65)
+  Relative distance: 29.9758 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 505.626 m/s
+  Relative speed: 487.623 m/s
+  Calculated TTC: 0.0614733 s
+
+      vehA       6.86 TTC calculation results:
+  Calculated TTC: 0.0614733s
+  Decision: Critical risk detected
+
+      vehA       6.86 Sending critical collision warning message (Danger Level 2)
+      vehA       6.86 Sending collision warning: TTC = 0.061473s, Danger Level = 2
+      vehA       6.86 
+      vehA       6.96 Total objects detected: 1
+      vehA       6.96 Processing object ID: 1
+  Position: (1785.93, 9312.13)
+  Distance: 28.4847 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       6.96 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1807.15, 9293.13)
+  Host speed: 18.1536 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 6.9
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1785.93, 9312.13)
+  Object position: (1785.93, 9312.13)
+  Relative distance: 28.4847 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 480.475 m/s
+  Relative speed: 462.322 m/s
+  Calculated TTC: 0.0616123 s
+
+      vehA       6.96 TTC calculation results:
+  Calculated TTC: 0.0616123s
+  Decision: Critical risk detected
+
+      vehA       6.96 Sending critical collision warning message (Danger Level 2)
+      vehA       6.96 Sending collision warning: TTC = 0.061612s, Danger Level = 2
+      vehA       6.96 
+      vehA       7.06 Total objects detected: 1
+      vehA       7.06 Processing object ID: 1
+  Position: (1788.14, 9309.65)
+  Distance: 27.0001 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       7.06 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1808.37, 9291.76)
+  Host speed: 18.2963 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 7
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1788.14, 9309.65)
+  Object position: (1788.14, 9309.65)
+  Relative distance: 27.0001 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 455.434 m/s
+  Relative speed: 437.137 m/s
+  Calculated TTC: 0.0617658 s
+
+      vehA       7.06 TTC calculation results:
+  Calculated TTC: 0.0617658s
+  Decision: Critical risk detected
+
+      vehA       7.06 Sending critical collision warning message (Danger Level 2)
+      vehA       7.06 Sending collision warning: TTC = 0.061766s, Danger Level = 2
+      vehA       7.06 
+      vehA       7.16 Total objects detected: 1
+      vehA       7.16 Processing object ID: 1
+  Position: (1790.35, 9307.16)
+  Distance: 25.5335 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       7.16 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1809.6, 9290.38)
+  Host speed: 18.4776 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 7.1
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1790.35, 9307.16)
+  Object position: (1790.35, 9307.16)
+  Relative distance: 25.5335 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 430.695 m/s
+  Relative speed: 412.218 m/s
+  Calculated TTC: 0.0619419 s
+
+      vehA       7.16 TTC calculation results:
+  Calculated TTC: 0.0619419s
+  Decision: Critical risk detected
+
+      vehA       7.16 Sending critical collision warning message (Danger Level 2)
+      vehA       7.16 Sending collision warning: TTC = 0.061942s, Danger Level = 2
+      vehA       7.16 
+      vehA       7.26 Total objects detected: 1
+      vehA       7.26 Processing object ID: 1
+  Position: (1792.57, 9304.68)
+  Distance: 24.0823 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       7.26 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1810.83, 9288.99)
+  Host speed: 18.6092 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 7.2
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1792.57, 9304.68)
+  Object position: (1792.57, 9304.68)
+  Relative distance: 24.0823 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 406.217 m/s
+  Relative speed: 387.608 m/s
+  Calculated TTC: 0.0621307 s
+
+      vehA       7.26 TTC calculation results:
+  Calculated TTC: 0.0621307s
+  Decision: Critical risk detected
+
+      vehA       7.26 Sending critical collision warning message (Danger Level 2)
+      vehA       7.26 Sending collision warning: TTC = 0.062131s, Danger Level = 2
+      vehA       7.26 
+      vehA       7.36 Total objects detected: 1
+      vehA       7.36 Processing object ID: 1
+  Position: (1794.78, 9302.2)
+  Distance: 22.6516 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       7.36 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1812.08, 9287.59)
+  Host speed: 18.7758 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 7.3
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1794.78, 9302.2)
+  Object position: (1794.78, 9302.2)
+  Relative distance: 22.6516 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 382.083 m/s
+  Relative speed: 363.308 m/s
+  Calculated TTC: 0.0623483 s
+
+      vehA       7.36 TTC calculation results:
+  Calculated TTC: 0.0623483s
+  Decision: Critical risk detected
+
+      vehA       7.36 Sending critical collision warning message (Danger Level 2)
+      vehA       7.36 Sending collision warning: TTC = 0.062348s, Danger Level = 2
+      vehA       7.36 
+      vehA       7.46 Total objects detected: 1
+      vehA       7.46 Processing object ID: 1
+  Position: (1796.99, 9299.72)
+  Distance: 21.2417 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       7.46 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1813.35, 9286.17)
+  Host speed: 18.9788 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 7.4
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1796.99, 9299.72)
+  Object position: (1796.99, 9299.72)
+  Relative distance: 21.2417 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 358.302 m/s
+  Relative speed: 339.323 m/s
+  Calculated TTC: 0.0626003 s
+
+      vehA       7.46 TTC calculation results:
+  Calculated TTC: 0.0626003s
+  Decision: Critical risk detected
+
+      vehA       7.46 Sending critical collision warning message (Danger Level 2)
+      vehA       7.46 Sending collision warning: TTC = 0.062600s, Danger Level = 2
+      vehA       7.46 
+      vehA       7.56 Total objects detected: 1
+      vehA       7.56 Processing object ID: 1
+  Position: (1799.2, 9297.24)
+  Distance: 19.8529 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       7.56 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1814.62, 9284.74)
+  Host speed: 19.1539 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 7.5
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1799.2, 9297.24)
+  Object position: (1799.2, 9297.24)
+  Relative distance: 19.8529 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 334.875 m/s
+  Relative speed: 315.721 m/s
+  Calculated TTC: 0.0628811 s
+
+      vehA       7.56 TTC calculation results:
+  Calculated TTC: 0.0628811s
+  Decision: Critical risk detected
+
+      vehA       7.56 Sending critical collision warning message (Danger Level 2)
+      vehA       7.56 Sending collision warning: TTC = 0.062881s, Danger Level = 2
+      vehA       7.56 
+      vehA       7.66 Total objects detected: 1
+      vehA       7.66 Processing object ID: 1
+  Position: (1801.41, 9294.76)
+  Distance: 18.4849 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       7.66 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1815.91, 9283.29)
+  Host speed: 19.393 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 7.6
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1801.41, 9294.76)
+  Object position: (1801.41, 9294.76)
+  Relative distance: 18.4849 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 311.8 m/s
+  Relative speed: 292.407 m/s
+  Calculated TTC: 0.0632163 s
+
+      vehA       7.66 TTC calculation results:
+  Calculated TTC: 0.0632163s
+  Decision: Critical risk detected
+
+      vehA       7.66 Sending critical collision warning message (Danger Level 2)
+      vehA       7.66 Sending collision warning: TTC = 0.063216s, Danger Level = 2
+      vehA       7.66 
+      vehA       7.76 Total objects detected: 1
+      vehA       7.76 Processing object ID: 1
+  Position: (1803.63, 9292.27)
+  Distance: 17.1301 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       7.76 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1817.21, 9281.83)
+  Host speed: 19.5264 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 7.7
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1803.63, 9292.27)
+  Object position: (1803.63, 9292.27)
+  Relative distance: 17.1301 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 288.948 m/s
+  Relative speed: 269.422 m/s
+  Calculated TTC: 0.0635811 s
+
+      vehA       7.76 TTC calculation results:
+  Calculated TTC: 0.0635811s
+  Decision: Critical risk detected
+
+      vehA       7.76 Sending critical collision warning message (Danger Level 2)
+      vehA       7.76 Sending collision warning: TTC = 0.063581s, Danger Level = 2
+      vehA       7.76 
+      vehA       7.86 Total objects detected: 1
+      vehA       7.86 Processing object ID: 1
+  Position: (1805.84, 9289.78)
+  Distance: 15.8032 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       7.86 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1818.52, 9280.36)
+  Host speed: 19.7512 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 7.8
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1805.84, 9289.78)
+  Object position: (1805.84, 9289.78)
+  Relative distance: 15.8032 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 266.566 m/s
+  Relative speed: 246.815 m/s
+  Calculated TTC: 0.0640287 s
+
+      vehA       7.86 TTC calculation results:
+  Calculated TTC: 0.0640287s
+  Decision: Critical risk detected
+
+      vehA       7.86 Sending critical collision warning message (Danger Level 2)
+      vehA       7.86 Sending collision warning: TTC = 0.064029s, Danger Level = 2
+      vehA       7.86 
+      vehA       7.96 Total objects detected: 1
+      vehA       7.96 Processing object ID: 1
+  Position: (1808.06, 9287.3)
+  Distance: 14.4934 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       7.96 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1819.85, 9278.87)
+  Host speed: 19.8829 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 7.9
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1808.06, 9287.3)
+  Object position: (1808.06, 9287.3)
+  Relative distance: 14.4934 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 244.473 m/s
+  Relative speed: 224.59 m/s
+  Calculated TTC: 0.0645329 s
+
+      vehA       7.96 TTC calculation results:
+  Calculated TTC: 0.0645329s
+  Decision: Critical risk detected
+
+      vehA       7.96 Sending critical collision warning message (Danger Level 2)
+      vehA       7.96 Sending collision warning: TTC = 0.064533s, Danger Level = 2
+      vehA       7.96 
+      vehA       8.06 Total objects detected: 1
+      vehA       8.06 Processing object ID: 1
+  Position: (1810.27, 9284.82)
+  Distance: 13.2092 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       8.06 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1821.18, 9277.37)
+  Host speed: 20.0465 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 8
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1810.27, 9284.82)
+  Object position: (1810.27, 9284.82)
+  Relative distance: 13.2092 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 222.811 m/s
+  Relative speed: 202.765 m/s
+  Calculated TTC: 0.0651457 s
+
+      vehA       8.06 TTC calculation results:
+  Calculated TTC: 0.0651457s
+  Decision: Critical risk detected
+
+      vehA       8.06 Sending critical collision warning message (Danger Level 2)
+      vehA       8.06 Sending collision warning: TTC = 0.065146s, Danger Level = 2
+      vehA       8.06 
+      vehA       8.16 Total objects detected: 1
+      vehA       8.16 Processing object ID: 1
+  Position: (1812.48, 9282.33)
+  Distance: 11.9495 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       8.16 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1822.55, 9275.89)
+  Host speed: 20.1956 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 8.1
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1812.48, 9282.33)
+  Object position: (1812.48, 9282.33)
+  Relative distance: 11.9495 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 201.561 m/s
+  Relative speed: 181.366 m/s
+  Calculated TTC: 0.065886 s
+
+      vehA       8.16 TTC calculation results:
+  Calculated TTC: 0.065886s
+  Decision: Critical risk detected
+
+      vehA       8.16 Sending critical collision warning message (Danger Level 2)
+      vehA       8.16 Sending collision warning: TTC = 0.065886s, Danger Level = 2
+      vehA       8.16 

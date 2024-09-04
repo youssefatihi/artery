@@ -1,0 +1,91 @@
+      vehB       5.20 CollisionAlertReceiverService initialized
+      vehB       5.26 Received a packet in CollisionAlertReceiverService
+      vehB       5.26 Packet is a CollisionWarningMessage
+      vehB       5.26 Processing collision warning from vehA: TTC = 0.060282s, Danger Level = 2
+      vehB       5.26 Received relevant collision warning from vehA: TTC = 0.060282s, Danger Level = 2
+      vehB       5.26 Emergency braking initiated due to critical danger
+      vehB       5.36 Received a packet in CollisionAlertReceiverService
+      vehB       5.36 Packet is a CollisionWarningMessage      vehB       5.46 Received a packet in CollisionAlertReceiverService
+      vehB       5.46 Packet is a CollisionWarningMessage
+      vehB       5.46 Processing collision warning from vehA: TTC = 0.0603
+      vehB       5.36 Processing collision warning from vehA: TTC = 0.060321s, Danger Level = 2
+      vehB       5.36 Received relevant collision warning from vehA: TTC = 0.060321s, Danger Level = 2
+      vehB       5.36 Emergency braking initiated due to critical danger
+61s, Danger Level = 2
+      vehB       5.46 Received relevant collision warning from vehA: TTC = 0.060361s, Danger Level = 2
+      vehB       5.46 Emergency braking initiated due to critical danger
+      vehB       5.56 Received a packet in CollisionAlertReceiverService
+      vehB       5.56 Packet is a CollisionWarningMessage
+      vehB       5.56 Processing collision warning from vehA: TTC = 0.060403s, Danger Level = 2
+      vehB       5.56 Received relevant collision warning from vehA: TTC = 0.060403s, Danger Level = 2
+      vehB       5.56 Emergency braking initiated due to critical danger
+      vehB       5.66 Received a packet in CollisionAlertReceiverService
+      vehB       5.66 Packet is a CollisionWarningMessage
+      vehB       5.66 Processing collision warning from vehA: TTC = 0.060445s, Danger Level = 2
+      vehB       5.66 Received relevant collision warning from vehA: TTC = 0.060445s, Danger Level = 2
+      vehB       5.66 Emergency braking initiated due to critical danger
+      vehB       5.76 Received a packet in CollisionAlertReceiverService
+      vehB       5.76 Packet is a CollisionWarningMessage
+      vehB       5.76 Processing collision warning from vehA: TTC = 0.060490s, Danger Level = 2
+      vehB       5.76 Received relevant collision warning from vehA: TTC = 0.060490s, Danger Level = 2
+      vehB       5.76 Emergency braking initiated due to critical danger
+      vehB       5.86 Received a packet in CollisionAlertReceiverService
+      vehB       5.86 Packet is a CollisionWarningMessage
+      vehB       5.86 Processing collision warning from vehA: TTC = 0.060536s, Danger Level = 2
+      vehB       5.86 Received relevant collision warning from vehA: TTC = 0.060536s, Danger Level = 2
+      vehB       5.86 Emergency braking initiated due to critical danger
+      vehB       5.96 Received a packet in CollisionAlertReceiverService
+      vehB       5.96 Packet is a CollisionWarningMessage
+      vehB       5.96 Processing collision warning from vehA: TTC = 0.060580s, Danger Level = 2
+      vehB       5.96 Received relevant collision warning from vehA: TTC = 0.060580s, Danger Level = 2
+      vehB       5.96 Emergency braking initiated due to critical danger
+      vehB       6.06 Received a packet in CollisionAlertReceiverService
+      vehB       6.06 Packet is a CollisionWarningMessage
+      vehB       6.06 Processing collision warning from vehA: TTC = 0.060620s, Danger Level = 2
+      vehB       6.06 Received relevant collision warning from vehA: TTC = 0.060620s, Danger Level = 2
+      vehB       6.06 Emergency braking initiated due to critical danger
+      vehB       6.16 Received a packet in CollisionAlertReceiverService
+      vehB       6.16 Packet is a CollisionWarningMessage
+      vehB       6.16 Processing collision warning from vehA: TTC = 0.060670s, Danger Level = 2
+      vehB       6.16 Received relevant collision warning from vehA: TTC = 0.060670s, Danger Level = 2
+      vehB       6.16 Emergency braking initiated due to critical danger
+      vehB       6.26 Received a packet in CollisionAlertReceiverService
+      vehB       6.26 Packet is a CollisionWarningMessage
+      vehB       6.26 Processing collision warning from vehA: TTC = 0.060719s, Danger Level = 2
+      vehB       6.26 Received relevant collision warning from vehA: TTC = 0.060719s, Danger Level = 2
+      vehB       6.26 Emergency braking initiated due to critical danger
+      vehB       6.36 Received a packet in CollisionAlertReceiverService
+      vehB       6.36 Packet is a CollisionWarningMessage
+      vehB       6.36 Processing collision warning from vehA: TTC = 0.060759s, Danger Level = 2
+      vehB       6.36 Received relevant collision warning from vehA: TTC = 0.060759s, Danger Level = 2
+      vehB       6.36 Emergency braking initiated due to critical danger
+      vehB       6.46 Received a packet in CollisionAlertReceiverService
+      vehB       6.46 Packet is a CollisionWarningMessage
+      vehB       6.46 Processing collision warning from vehA: TTC = 0.060805s, Danger Level = 2
+      vehB       6.46 Received relevant collision warning from vehA: TTC = 0.060805s, Danger Level = 2
+      vehB       6.46 Emergency braking initiated due to critical danger
+      vehB       6.56 Received a packet in CollisionAlertReceiverService
+      vehB       6.56 Packet is a CollisionWarningMessage
+      vehB       6.56 Processing collision warning from vehA: TTC = 0.060850s, Danger Level = 2
+      vehB       6.56 Received relevant collision warning from vehA: TTC = 0.060850s, Danger Level = 2
+      vehB       6.56 Emergency braking initiated due to critical danger
+      vehB       6.66 Received a packet in CollisionAlertReceiverService
+      vehB       6.66 Packet is a CollisionWarningMessage
+      vehB       6.66 Processing collision warning from vehA: TTC = 0.060891s, Danger Level = 2
+      vehB       6.66 Received relevant collision warning from vehA: TTC = 0.060891s, Danger Level = 2
+      vehB       6.66 Emergency braking initiated due to critical danger
+      vehB       6.76 Received a packet in CollisionAlertReceiverService
+      vehB       6.76 Packet is a CollisionWarningMessage
+      vehB       6.76 Processing collision warning from vehA: TTC = 0.060928s, Danger Level = 2
+      vehB       6.76 Received relevant collision warning from vehA: TTC = 0.060928s, Danger Level = 2
+      vehB       6.76 Emergency braking initiated due to critical danger
+      vehB       6.86 Received a packet in CollisionAlertReceiverService
+      vehB       6.86 Packet is a CollisionWarningMessage
+      vehB       6.86 Processing collision warning from vehA: TTC = 0.060973s, Danger Level = 2
+      vehB       6.86 Received relevant collision warning from vehA: TTC = 0.060973s, Danger Level = 2
+      vehB       6.86 Emergency braking initiated due to critical danger
+      vehB       6.96 Received a packet in CollisionAlertReceiverService
+      vehB       6.96 Packet is a CollisionWarningMessage
+      vehB       6.96 Processing collision warning from vehA: TTC = 0.061006s, Danger Level = 2
+      vehB       6.96 Received relevant collision warning from vehA: TTC = 0.061006s, Danger Level = 2
+      vehB       6.96 Emergency braking initiated due to critical danger

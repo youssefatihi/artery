@@ -1,0 +1,201 @@
+      vehA       0.10 VehicleController found in Facilities
+      vehA       0.10 LocalEnvironmentModel found in Facilities
+      vehA       0.10 CollisionWarningService initialized
+      vehA       0.26 Total objects detected: 0
+      vehA       0.36 Total objects detected: 0
+      vehA       0.46 Total objects detected: 0
+      vehA       0.56 Total objects detected: 0
+      vehA       0.66 Total objects detected: 0
+      vehA       0.76 Total objects detected: 0
+      vehA       0.86 Total objects detected: 0
+      vehA       0.96 Total objects detected: 0
+      vehA       1.06 Total objects detected: 0
+      vehA       1.16 Total objects detected: 0
+      vehA       1.26 Total objects detected: 0
+      vehA       1.36 Total objects detected: 0
+      vehA       1.46 Total objects detected: 0
+      vehA       1.56 Total objects detected: 0
+      vehA       1.66 Total objects detected: 0
+      vehA       1.76 Total objects detected: 0
+      vehA       1.86 Total objects detected: 0
+      vehA       1.96 Total objects detected: 0
+      vehA       2.06 Total objects detected: 0
+      vehA       2.16 Total objects detected: 0
+      vehA       2.26 Total objects detected: 0
+      vehA       2.36 Total objects detected: 0
+      vehA       2.46 Total objects detected: 0
+      vehA       2.56 Total objects detected: 0
+      vehA       2.66 Total objects detected: 0
+      vehA       2.76 Total objects detected: 0
+      vehA       2.86 Total objects detected: 0
+      vehA       2.96 Total objects detected: 0
+      vehA       3.06 Total objects detected: 0
+      vehA       3.16 Total objects detected: 0
+      vehA       3.26 Total objects detected: 0
+      vehA       3.36 Total objects detected: 0
+      vehA       3.46 Total objects detected: 0
+      vehA       3.56 Total objects detected: 0
+      vehA       3.66 Total objects detected: 0
+      vehA       3.76 Total objects detected: 0
+      vehA       3.86 Total objects detected: 0
+      vehA       3.96 Total objects detected: 0
+      vehA       4.06 Total objects detected: 0
+      vehA       4.16 Total objects detected: 0
+      vehA       4.26 Total objects detected: 0
+      vehA       4.36 Total objects detected: 0
+      vehA       4.46 Total objects detected: 0
+      vehA       4.56 Total objects detected: 0
+      vehA       4.66 Total objects detected: 0
+      vehA       4.76 Total objects detected: 0
+      vehA       4.86 Total objects detected: 0
+      vehA       4.96 Total objects detected: 0
+      vehA       5.06 Total objects detected: 0
+      vehA       5.16 Total objects detected: 0
+      vehB       5.20 CollisionAlertReceiverService initialized
+      vehA       5.26 Total objects detected: 1
+      vehA       5.26 Processing object ID: 1
+  Position: (1751.84, 9353.8)
+  Distance: 53.7857 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       5.26 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1788.32, 9314.27)
+  Host speed: 15.0143 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 5.2
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1751.84, 9353.8)
+  Object position: (1751.84, 9353.8)
+  Relative distance: 53.7857 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 907.249 m/s
+  Relative speed: 892.234 m/s
+  Calculated TTC: 0.0602821 s
+
+      vehA       5.26 TTC calculation results:
+  Calculated TTC: 0.0602821s
+  Decision: Critical risk detected
+
+      vehA       5.26 Sending critical collision warning message (Danger Level 2)
+      vehA       5.26 Sending collision warning: TTC = 0.060282s, Danger Level = 2
+      vehA       5.26 
+      vehB       5.26 Received a packet in CollisionAlertReceiverService
+      vehB       5.26 Packet is a CollisionWarningMessage
+      vehB       5.26 Processing collision warning from vehA: TTC = 0.060282s, Danger Level = 2
+      vehB       5.26 Received relevant collision warning from vehA: TTC = 0.060282s, Danger Level = 2
+      vehB       5.26 Emergency braking initiated due to critical danger
+      vehA       5.36 Total objects detected: 1
+      vehA       5.36 Processing object ID: 1
+  Position: (1753.71, 9351.51)
+  Distance: 52.3547 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       5.36 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1789.33, 9313.13)
+  Host speed: 15.1772 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 5.3
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1753.71, 9351.51)
+  Object position: (1753.71, 9351.51)
+  Relative distance: 52.3547 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 883.11 m/s
+  Relative speed: 867.933 m/s
+  Calculated TTC: 0.0603211 s
+
+      vehA       5.36 TTC calculation results:
+  Calculated TTC: 0.0603211s
+  Decision: Critical risk detected
+
+      vehA       5.36 Sending critical collision warning message (Danger Level 2)
+      vehA       5.36 Sending collision warning: TTC = 0.060321s, Danger Level = 2
+      vehA       5.36 
+      vehB       5.36 Received a packet in CollisionAlertReceiverService
+      vehB       5.36 Packet is a CollisionWarningMessage
+      vehB       5.36 Processing collision warning from vehA: TTC = 0.060321s, Danger Level = 2
+      vehB       5.36 Received relevant collision warning from vehA: TTC = 0.060321s, Danger Level = 2
+      vehB       5.36 Emergency braking initiated due to critical danger
+      vehA       5.46 Total objects detected: 1
+      vehA       5.46 Processing object ID: 1
+  Position: (1755.55, 9349.25)
+  Distance: 50.9855 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       5.46 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1790.35, 9311.99)
+  Host speed: 15.3411 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 5.4
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1755.55, 9349.25)
+  Object position: (1755.55, 9349.25)
+  Relative distance: 50.9855 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 860.014 m/s
+  Relative speed: 844.673 m/s
+  Calculated TTC: 0.0603612 s
+
+      vehA       5.46 TTC calculation results:
+  Calculated TTC: 0.0603612s
+  Decision: Critical risk detected
+
+      vehA       5.46 Sending critical collision warning message (Danger Level 2)
+      vehA       5.46 Sending collision warning: TTC = 0.060361s, Danger Level = 2
+      vehA       5.46 
+      vehB       5.46 Received a packet in CollisionAlertReceiverService
+      vehB       5.46 Packet is a CollisionWarningMessage
+      vehB       5.46 Processing collision warning from vehA: TTC = 0.060361s, Danger Level = 2
+      vehB       5.46 Received relevant collision warning from vehA: TTC = 0.060361s, Danger Level = 2
+      vehB       5.46 Emergency braking initiated due to critical danger
+      vehA       5.56 Total objects detected: 1
+      vehA       5.56 Processing object ID: 1
+  Position: (1757.35, 9347.03)
+  Distance: 49.6789 m
+  Object external ID: vehB
+  Number of sensors detecting this object: 1
+    Sensor type: Radar
+
+      vehA       5.56 -------------------Calculating ------------------:
+Calculating TTC:
+  Host position: (1791.38, 9310.83)
+  Host speed: 15.5141 m/s
+  Tracking ID: 1
+  Number of sensors: 1
+  Sensor type: Radar
+  Tracking time: 5.2 to 5.5
+  Number of detected objects: 1
+    Object ID: vehB
+    Object Position: (1757.35, 9347.03)
+  Object position: (1757.35, 9347.03)
+  Relative distance: 49.6789 m
+  Time since last update: 0.0592845 s
+  Estimated object speed: 837.976 m/s
+  Relative speed: 822.462 m/s
+  Calculated TTC: 0.0604027 s
+
+      vehA       5.56 TTC calculation results:
+  Calculated TTC: 0.0604027s
+  Decision: Critical risk detected
+
+      vehA       5.56 Sending critical collision warning message (Danger Level 2)
+      vehA       5.56 Sending collision warning: TTC = 0.060403s, Danger Level = 2
+      vehA       5.56 

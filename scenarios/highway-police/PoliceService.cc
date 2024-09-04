@@ -5,15 +5,29 @@
 #include <vanetza/dcc/profile.hpp>
 #include <vanetza/geonet/interface.hpp>
 
+#include <boost/units/systems/si.hpp>
+#include <boost/units/io.hpp>
+#include <fstream>
+#include <iomanip>
+#include <ctime>
+#include <sstream>
+#include <filesystem>
+#include <sys/stat.h>
+#include <unistd.h>
+#include "Utils.h"
 using namespace omnetpp;
 using namespace vanetza;
 
 Define_Module(PoliceService)
 
+
+
 void PoliceService::initialize()
 {
     ItsG5BaseService::initialize();
     mVehicleController = &getFacilities().get_const<traci::VehicleController>();
+    logToFile(mVehicleController->getVehicleId(), " PoliceService initialized");
+
 }
 
 void PoliceService::trigger()
@@ -32,5 +46,7 @@ void PoliceService::trigger()
     packet->setEdgeName(vehicle_api.getRoadID(id).c_str());
     packet->setLaneIndex(vehicle_api.getLaneIndex(id));
     packet->setByteLength(40);
+        logToFile(mVehicleController->getVehicleId(), "Sending clear lane request");
+
     request(req, packet);
 }

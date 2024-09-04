@@ -109,3 +109,5 @@ option(VSCODE_LAUNCH_INTEGRATION "Generate VS Code configuration for debugging A
 if(EXISTS ${PROJECT_SOURCE_DIR}/scenarios)
     add_subdirectory(scenarios)
 endif()
+
+add_subdirectory(scenarios/collision_warning)

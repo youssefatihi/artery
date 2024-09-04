@@ -1,7 +1,7 @@
 #include "ClearLaneService.h"
 #include "police_msgs/PoliceClearLane_m.h"
 #include "artery/traci/VehicleController.h"
-
+#include "Utils.h"
 using namespace omnetpp;
 using namespace vanetza;
 
@@ -11,12 +11,15 @@ void ClearLaneService::initialize()
 {
     ItsG5BaseService::initialize();
     mVehicleController = &getFacilities().get_mutable<traci::VehicleController>();
+        logToFile(mVehicleController->getVehicleId(), "ClearLaneService initialized");
+
 }
 
 void ClearLaneService::indicate(const vanetza::btp::DataIndication& ind, omnetpp::cPacket* packet)
 {
     Enter_Method("ClearLaneService indicate");
     auto clearLaneMessage = check_and_cast<const PoliceClearLane*>(packet);
+    logToFile(mVehicleController->getVehicleId(), "Received clear lane message");
 
     const std::string id = mVehicleController->getVehicleId();
     auto& vehicle_api = mVehicleController->getTraCI()->vehicle;

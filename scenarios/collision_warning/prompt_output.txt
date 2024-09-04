@@ -1,0 +1,776 @@
+Résumé des actions : 1. Nous avons créé un scénario de simulation pour un système d'alerte de collision arrière en utilisant le framework Artery. 2. Nous avons développé deux services principaux : CollisionWarningService et CollisionAlertReceiverService. 3. Nous avons configuré l'environnement de simulation, y compris l'intégration avec SUMO pour la simulation de trafic. 4. Nous avons travaillé sur l'intégration du LocalEnvironmentModel pour la détection des objets environnants. 5. Nous avons résolu plusieurs problèmes de compilation et de configuration liés à l'utilisation d'Artery et OMNeT++. Présentation du projet : Nous sommes en train de développer une simulation de véhicules connectés utilisant la communication V2X (Vehicle-to-Everything) pour améliorer la sécurité routière. Le scénario spécifique que nous simulons est un système d'alerte de collision arrière. Modules principaux : 1. CollisionWarningService : Ce service est responsable de la détection des risques de collision et de l'émission des alertes. 2. CollisionAlertReceiverService : Ce service reçoit les alertes de collision et réagit en conséquence, par exemple en réduisant la vitesse du véhicule. 3. LocalEnvironmentModel : Ce module gère la perception de l'environnement local autour de chaque véhicule, y compris la détection des autres véhicules à proximité. 4. SUMO Integration : Nous utilisons SUMO (Simulation of Urban MObility) pour simuler le trafic routier réaliste sur lequel notre système V2X opère. 5. Artery Framework : Nous utilisons Artery comme base pour notre simulation, qui fournit une plateforme pour la simulation de communications V2X basée sur OMNeT++. Le but de ce projet est de démontrer comment la communication V2X peut être utilisée pour prévenir les collisions arrière en alertant les conducteurs des dangers potentiels et en permettant aux véhicules de réagir automatiquement aux situations dangereuses. Voici le code . sensors.xml : "<?xml version="1.0" encoding="UTF-8"?>
+<sensors>
+    <sensor type="artery.envmod.sensor.RearRadar">
+        <visualization>
+            <showObjectsInSensorRange value="true" />
+            <showObstaclesInSensorRange value="false" />
+            <showSensorCone value="true" />
+            <showLineOfSight value="true" />
+        </visualization>
+        
+    </sensor>
+</sensors>"
+
+CollisionWarningService.cc : "#include "CollisionWarningService.h"
+#include "artery/application/DenmObject.h"
+#include <vanetza/asn1/denm.hpp>
+#include <vanetza/btp/data_request.hpp>
+#include <vanetza/btp/ports.hpp>
+#include <vanetza/dcc/profile.hpp>
+#include <vanetza/geonet/interface.hpp>
+#include "artery/envmod/sensor/Sensor.h"
+#include <vanetza/units/velocity.hpp>
+#include <vanetza/units/length.hpp>
+#include <vanetza/units/angle.hpp>
+#include <vanetza/asn1/its/ItsPduHeader.h>
+#include <vanetza/asn1/its/TimestampIts.h>
+#include <vanetza/common/clock.hpp>
+#include <vanetza/asn1/its/ReferencePosition.h>
+#include <vanetza/asn1/its/DENM.h>
+#include <chrono>
+#include <vanetza/asn1/its/SituationContainer.h>
+#include <vanetza/asn1/its/AlacarteContainer.h>
+#include "Utils.h"
+#include <boost/units/cmath.hpp>
+
+
+using namespace omnetpp;
+using namespace vanetza;
+
+namespace artery
+{
+
+Define_Module(CollisionWarningService)
+
+template<typename T, typename U>
+long round(const boost::units::quantity<T>& q, const U& u)
+{
+    boost::units::quantity<U> v { q };
+    return std::round(v.value());
+}
+void CollisionWarningService::initialize()
+{
+
+    DenService::initialize();
+    mVdp = &getFacilities().get_const<VehicleDataProvider>();
+    mService = this;
+
+    
+    try {
+        mVehicleController = &getFacilities().get_const<traci::VehicleController>();
+        logToFile(mVehicleController->getVehicleId(), "VehicleController found in Facilities");
+    } catch (const std::out_of_range& e) {
+        logToFile(mVehicleController->getVehicleId(), "VehicleController not found in Facilities: " + std::string(e.what()));
+    }
+    
+    try {
+        mLocalEnvironmentModel = &getFacilities().get_const<artery::LocalEnvironmentModel>();
+        logToFile(mVehicleController->getVehicleId(), "LocalEnvironmentModel found in Facilities");
+    } catch (const std::out_of_range& e) {
+        logToFile(mVehicleController->getVehicleId(), "LocalEnvironmentModel not found in Facilities: " + std::string(e.what()));
+    }
+    
+    logToFile(mVehicleController->getVehicleId(), "CollisionWarningService initialized");
+}
+
+void CollisionWarningService::trigger()
+{
+    Enter_Method("CollisionWarningService trigger");
+    checkCollisionRisk();
+}
+double CollisionWarningService::calculateTimeToCollision(const artery::LocalEnvironmentModel::Tracking& tracking)
+{
+    const auto& hostPosition = mVehicleController->getPosition();
+    const auto& hostSpeed = mVehicleController->getSpeed();
+
+    std::stringstream debugInfo;
+    debugInfo << "-------------------Calculating TTC------------------:\n";
+    
+    debugInfo << "  Host position: (" << hostPosition.x.value() << ", " << hostPosition.y.value() << ")\n";
+    debugInfo << "  Host speed: " << hostSpeed.value() << " m/s\n";
+    debugInfo << "  Tracking ID: " << tracking.id() << "\n";
+
+    const auto& sensors = tracking.sensors();
+    debugInfo << "  Number of sensors: " << sensors.size() << "\n";
+    
+    if (sensors.empty()) {
+        debugInfo << "  No sensors detected the object. Returning infinity.\n";
+        logToFile(mVehicleController->getVehicleId(), debugInfo.str());
+        return std::numeric_limits<double>::infinity();
+    }
+
+    const auto& sensor = sensors.begin()->first;
+    const auto& trackingTime = sensors.begin()->second;
+
+    debugInfo << "  Sensor type: " << sensor->getSensorCategory() << "\n";
+    debugInfo << "  Tracking time: " << trackingTime.first().dbl() << " to " << trackingTime.last().dbl() << "\n";
+
+    const auto& detectedObjects = sensor->detectObjects();
+    
+    debugInfo << "  Number of detected objects: " << detectedObjects.objects.size() << "\n";
+
+    const artery::EnvironmentModelObject* detectedObject = nullptr;
+    for (const auto& obj : detectedObjects.objects) {
+        debugInfo << "    Object ID: " << obj->getExternalId() << "\n";
+        debugInfo << "    Object Position: (" << obj->getCentrePoint().x.value() << ", " << obj->getCentrePoint().y.value() << ")\n";
+        detectedObject = obj.get();
+        break;
+    }
+    if (!detectedObject) {
+        debugInfo << "  Detected object not found. Returning infinity.\n";
+        logToFile(mVehicleController->getVehicleId(), debugInfo.str());
+        return std::numeric_limits<double>::infinity();
+    }
+
+    const auto& objectPosition = detectedObject->getCentrePoint();
+    
+    double dx = objectPosition.x.value() - hostPosition.x.value();
+    double dy = objectPosition.y.value() - hostPosition.y.value();
+    double relativeDistance = std::sqrt(dx*dx + dy*dy);
+
+    debugInfo << "  Object position: (" << objectPosition.x.value() << ", " << objectPosition.y.value() << ")\n";
+    debugInfo << "  Relative distance: " << relativeDistance << " m\n";
+
+    auto timeSinceLastUpdate = (omnetpp::simTime() - trackingTime.last()).dbl();
+    debugInfo << "  Time since last update: " << timeSinceLastUpdate << " s\n";
+
+    double estimatedSpeed = 0;
+    if (timeSinceLastUpdate > 0) {
+        estimatedSpeed = relativeDistance / timeSinceLastUpdate;
+        debugInfo << "  Estimated object speed: " << estimatedSpeed << " m/s\n";
+    } else {
+        debugInfo << "  Unable to estimate object speed (time since last update is 0)\n";
+    }
+
+    double relativeSpeed = std::abs(estimatedSpeed - hostSpeed.value());
+    debugInfo << "  Relative speed: " << relativeSpeed << " m/s\n";
+
+    double ttc;
+    if (relativeSpeed > 0) {
+        ttc = relativeDistance / relativeSpeed;
+        debugInfo << "  Calculated TTC: " << ttc << " s\n";
+    } else {
+        ttc = std::numeric_limits<double>::infinity();
+        debugInfo << "  Relative speed is 0. TTC is infinity.\n";
+    }
+
+    logToFile(mVehicleController->getVehicleId(), debugInfo.str());
+    return ttc;
+}
+
+void CollisionWarningService::checkCollisionRisk()
+{
+    const auto& objects = mLocalEnvironmentModel->allObjects();
+    
+    logToFile(mVehicleController->getVehicleId(), "Total objects detected: " + std::to_string(objects.size()));
+
+    for (const auto& pair : objects) {
+        const auto& objectPtr = pair.first;
+        const auto& tracking = pair.second;
+        if (auto object = objectPtr.lock()) {
+            std::stringstream objectDetails;
+            objectDetails << "Processing object ID: " << tracking.id() << "\n";
+            
+            const auto& objectPosition = object->getCentrePoint();
+            const auto& hostPosition = mVehicleController->getPosition();
+            
+            double dx = objectPosition.x.value() - hostPosition.x.value();
+            double dy = objectPosition.y.value() - hostPosition.y.value();
+            double distance = std::sqrt(dx*dx + dy*dy);
+            
+            objectDetails << "  Position: (" << objectPosition.x.value() << ", " << objectPosition.y.value() << ")\n"
+                          << "  Distance: " << distance << " m\n"
+                          << "  Object external ID: " << object->getExternalId() << "\n";
+
+            const auto& sensors = tracking.sensors();
+            objectDetails << "  Number of sensors detecting this object: " << sensors.size() << "\n";
+            for (const auto& sensorPair : sensors) {
+                const auto& sensor = sensorPair.first;
+                objectDetails << "    Sensor type: " << sensor->getSensorCategory() << "\n";
+            }
+
+            logToFile(mVehicleController->getVehicleId(), objectDetails.str());
+            double ttc = calculateTimeToCollision(tracking);
+
+            std::stringstream decisionInfo;
+            decisionInfo << "TTC calculation results:\n";
+            decisionInfo << "  Calculated TTC: " << ttc << "s\n";
+
+            if (ttc < mCriticalThreshold) {
+                decisionInfo << "  Decision: Critical risk detected\n";
+                logToFile(mVehicleController->getVehicleId(), decisionInfo.str());
+                
+                logToFile(mVehicleController->getVehicleId(), "Sending critical collision warning message (Danger Level 2)");
+                sendCollisionWarning(ttc, 2, object.get());
+            } 
+            else if (ttc < mWarningThreshold) {
+                decisionInfo << "  Decision: Warning risk detected\n";
+                logToFile(mVehicleController->getVehicleId(), decisionInfo.str());
+                
+                logToFile(mVehicleController->getVehicleId(), "Sending collision warning message (Danger Level 1)");
+                sendCollisionWarning(ttc, 1, object.get());
+            }
+            else {
+                decisionInfo << "  Decision: No significant risk detected\n";
+                logToFile(mVehicleController->getVehicleId(), decisionInfo.str());
+            }
+
+            logToFile(mVehicleController->getVehicleId(), "");
+        }
+    }
+}void CollisionWarningService::sendCollisionWarning(double ttc, int dangerLevel, const artery::EnvironmentModelObject* approachingVehicle)
+{
+    auto denm = createCollisionWarningMessage(ttc, dangerLevel, approachingVehicle);
+    auto request = createCollisionWarningRequest();
+    sendDenm(std::move(denm), request);
+
+    // Log
+    std::stringstream logMessage;
+    logMessage << "Sending DENM collision warning: TTC = " << ttc << "s, Danger Level = " << dangerLevel;
+    if (approachingVehicle) {
+        logMessage << ", Approaching Vehicle ID = " << approachingVehicle->getExternalId();
+    }
+    logToFile(mVehicleController->getVehicleId(), logMessage.str());
+}vanetza::asn1::Denm CollisionWarningService::createCollisionWarningMessage(double ttc, int dangerLevel, const artery::EnvironmentModelObject* approachingVehicle)
+{
+    vanetza::asn1::Denm message;
+    
+    // Set header
+    message->header.protocolVersion = 1;
+    message->header.messageID = ItsPduHeader__messageID_denm;
+    message->header.stationID = mVdp->station_id();
+
+    // Set ManagementContainer
+    auto& management = message->denm.management;
+    auto action_id = mService->requestActionID();
+    management.actionID.originatingStationID = action_id.originatingStationID;
+    management.actionID.sequenceNumber = action_id.sequenceNumber;
+
+    auto now = std::chrono::system_clock::now();
+    auto milliseconds = std::chrono::duration_cast<std::chrono::milliseconds>(now.time_since_epoch()).count();
+    int ret = 0;
+    ret += asn_long2INTEGER(&management.detectionTime, milliseconds);
+    ret += asn_long2INTEGER(&management.referenceTime, milliseconds);
+    assert(ret == 0);
+
+    management.eventPosition.altitude.altitudeValue = AltitudeValue_unavailable;
+    management.eventPosition.altitude.altitudeConfidence = AltitudeConfidence_unavailable;
+    management.eventPosition.longitude = round(mVdp->longitude(), microdegree) * Longitude_oneMicrodegreeEast;
+    management.eventPosition.latitude = round(mVdp->latitude(), microdegree) * Latitude_oneMicrodegreeNorth;
+    management.eventPosition.positionConfidenceEllipse.semiMajorOrientation = HeadingValue_unavailable;
+    management.eventPosition.positionConfidenceEllipse.semiMajorConfidence = SemiAxisLength_unavailable;
+    management.eventPosition.positionConfidenceEllipse.semiMinorConfidence = SemiAxisLength_unavailable;
+
+    management.relevanceDistance = vanetza::asn1::allocate<RelevanceDistance_t>();
+    *management.relevanceDistance = RelevanceDistance_lessThan1000m;
+    management.relevanceTrafficDirection = vanetza::asn1::allocate<RelevanceTrafficDirection_t>();
+    *management.relevanceTrafficDirection = RelevanceTrafficDirection_allTrafficDirections;
+    management.validityDuration = vanetza::asn1::allocate<ValidityDuration_t>();
+    *management.validityDuration = 20;
+    management.stationType = StationType_passengerCar; // Adjust as needed
+
+    // Set SituationContainer
+    message->denm.situation = vanetza::asn1::allocate<SituationContainer_t>();
+    auto& situation = *message->denm.situation;
+    situation.informationQuality = 7;
+    situation.eventType.causeCode = (dangerLevel == 2) ? 
+        CauseCodeType_dangerousEndOfQueue : 
+        CauseCodeType_collisionRisk;
+    situation.eventType.subCauseCode = 0;
+
+    // Set LocationContainer
+    message->denm.location = vanetza::asn1::allocate<LocationContainer_t>();
+    message->denm.location->eventSpeed = vanetza::asn1::allocate<Speed>();
+    message->denm.location->eventSpeed->speedValue = std::abs(round(mVdp->speed(), centimeter_per_second)) * SpeedValue_oneCentimeterPerSec;
+    message->denm.location->eventSpeed->speedConfidence = SpeedConfidence_equalOrWithinOneCentimeterPerSec * 3;
+    message->denm.location->eventPositionHeading = vanetza::asn1::allocate<Heading>();
+    message->denm.location->eventPositionHeading->headingValue = round(mVdp->heading(), decidegree);
+    message->denm.location->eventPositionHeading->headingConfidence = HeadingConfidence_equalOrWithinOneDegree;
+
+    // Set AlacarteContainer (optional)
+    message->denm.alacarte = vanetza::asn1::allocate<AlacarteContainer_t>();
+    // You can add more fields to the AlacarteContainer if needed
+
+    return message;
+}
+vanetza::btp::DataRequestB CollisionWarningService::createCollisionWarningRequest()
+{
+    namespace geonet = vanetza::geonet;
+    using vanetza::units::si::seconds;
+    using vanetza::units::si::meter;
+
+    vanetza::btp::DataRequestB request;
+    request.destination_port = vanetza::btp::ports::DENM;
+    request.gn.traffic_class.tc_id(1);
+
+    geonet::DataRequest::Repetition repetition;
+    repetition.interval = 0.5 * seconds;
+    repetition.maximum = 20.0 * seconds;
+    request.gn.repetition = repetition;
+
+    geonet::Area destination;
+    geonet::Circle destination_shape;
+    destination_shape.r = 1000.0 * meter;
+    destination.shape = destination_shape;
+    destination.position.latitude = mVehicleController->getGeoPosition().latitude;
+    destination.position.longitude = mVehicleController->getGeoPosition().longitude;
+    request.gn.destination = destination;
+
+    return request;
+}
+    } // namespace artery"
+
+CollisionWarningMessage.msg : "packet CollisionWarningMessage
+{
+    string senderId;
+    double senderPosX;
+    double senderPosY;
+    double senderSpeed;
+    double senderHeading;
+    double timeToCollision;
+    int dangerLevel;
+}"
+
+Utils.h : "// Utils.h
+#pragma once
+
+#include <string>
+#include <boost/units/systems/si.hpp>
+#include <boost/units/io.hpp>
+#include <fstream>
+#include <iomanip>
+#include <ctime>
+#include <sstream>
+#include <filesystem>
+#include <sys/stat.h>
+#include <unistd.h>
+
+std::string getCurrentDateTime();
+void createDirectory(const std::string& path);
+void logToFile(const std::string& vehicleId, const std::string& message);"
+
+Utils.cc : "// Utils.cc
+#include "Utils.h"
+#include <chrono>
+#include <iomanip>
+#include <sstream>
+#include <fstream>
+#include <sys/stat.h>
+#include <unistd.h>
+std::string getCurrentDateTime() {
+    auto now = std::chrono::system_clock::now();
+    auto in_time_t = std::chrono::system_clock::to_time_t(now);
+    std::stringstream ss;
+    ss << std::put_time(std::localtime(&in_time_t), "%m_%d_%H_%M_%S");
+    return ss.str();
+}
+
+void createDirectory(const std::string& path) {
+    mkdir(path.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
+}
+
+void logToFile(const std::string& vehicleId, const std::string& message)
+{
+    static int fileNum = 1;
+    static std::string currentLogFile;
+    static std::ofstream logFile;
+
+    if (!logFile.is_open()) {
+        std::string logDir = "/home/yelfatihi/artery/scenarios/collision_warning/logs";
+        createDirectory(logDir);
+
+        std::string dateTime = getCurrentDateTime();
+        currentLogFile = logDir + "/" + std::to_string(fileNum) + "_" + dateTime + ".log";
+        logFile.open(currentLogFile, std::ios::app);
+
+        if (logFile.is_open()) {
+            fileNum++;
+            // Ouvrir le fichier dans VSCode
+            std::string command = "code " + currentLogFile;
+            system(command.c_str());
+        }
+    }
+
+    if (logFile.is_open()) {
+        auto now = omnetpp::simTime();
+        logFile << std::setw(10) << vehicleId << " " 
+                << std::setw(10) << std::fixed << std::setprecision(2) << now.dbl() << " " 
+                << message << std::endl;
+    }
+}
+"
+
+.qtenvrc : "[General]
+last-configname=sumo-gui
+last-runnumber=0
+
+[RunModeProfiles]
+fast-max-animation-speed=nan
+fast-max-playback-speed=1e+06
+fast-min-animation-speed=nan
+fast-min-playback-speed=1
+fast-playback-speed=1000
+run-max-animation-speed=nan
+run-max-playback-speed=100
+run-min-animation-speed=nan
+run-min-playback-speed=0.01
+run-playback-speed=1
+"
+
+run.sh : "#!/bin/bash
+
+# Assurez-vous que ce script est exécutable (chmod +x run.sh)
+
+# Chemin vers le répertoire de construction d'Artery
+ARTERY_BUILD_DIR="~/artery/build"
+
+# Nom de la cible de simulation
+TARGET="collision_warning_scenario"
+
+# Exécuter la simulation
+cd "$ARTERY_BUILD_DIR" && make run_$TARGET"
+
+usecases.xml : "<?xml version="1.0" encoding="UTF-8"?>
+<usecases>
+    <usecase>SuspendableUseCase</usecase>
+</usecases>"
+
+omnetpp.ini : "[General]
+network = artery.envmod.World
+sim-time-limit = 1000s
+*.traci.mapper.vehicleType = "artery.envmod.Car"
+*.traci.core.version = -1
+*.traci.launcher.typename = "PosixLauncher"
+*.traci.launcher.sumocfg = "highway.sumocfg"
+*.node[*].middleware.updateInterval = 0.1s
+*.node[*].middleware.datetime = "2023-06-01 12:00:00"
+*.node[*].middleware.services = xmldoc("services.xml")
+*.node[*].middleware.CollisionWarningService.useCases = xmldoc("usecases.xml")
+*.node[*].environmentModel.sensors = xmldoc("sensors.xml")
+
+*.node[1].environmentModel.RearRadar.fovRange = 200.0 m
+*.node[1].environmentModel.ReatRadar.fovAngle = 20.0
+
+
+*.node[*].nic.mac1609_4.txPower = 126mW
+*.node[*].nic.phy80211p.sensitivity = -89dBm
+
+*.node[*].middleware.CollisionWarningService.warningThreshold = 3s
+*.node[*].middleware.CollisionWarningService.criticalThreshold = 1.5s
+
+[Config sumo-gui]
+*.traci.launcher.sumo = "sumo-gui"
+# Visualization settings
+*.visualizer.obstacleLossVisualizer.displayIntersections = true
+*.visualizer.obstacleLossVisualizer.displayFaceNormalVectors = true
+*.visualizer.obstacleLossVisualizer.intersectionLineColor = "yellow"
+*.visualizer.obstacleLossVisualizer.faceNormalLineColor = "red""
+
+CollisionWarningService.ned : "
+import artery.application.DenService;
+
+simple CollisionWarningService extends DenService
+{
+    parameters:
+        @class(artery::CollisionWarningService);
+        double warningThreshold @unit(s) = default(3s);
+        double criticalThreshold @unit(s) = default(1.5s);
+}"
+
+services.xml : "<?xml version="1.0" encoding="UTF-8"?>
+<services>
+    <service type="CollisionWarningService">
+        <listener port="2003" />  <!-- Port standard pour les DENM -->
+        <filters>
+            <name pattern="vehA" />
+        </filters>
+    </service>
+    <service type="CollisionAlertReceiverService">
+        <listener port="2003" />  
+        <filters>
+            <name pattern="veh*" />
+            <name pattern="vehA" match="inverse" />
+        </filters>
+    </service>
+</services>"
+
+CMakeLists.txt : "if(NOT TARGET OmnetPP::sim)
+    find_package(OmnetPP REQUIRED GLOBAL)
+endif()
+
+add_artery_feature(collision_warning 
+    CollisionWarningService.cc 
+    CollisionAlertReceiverService.cc
+)
+set(CMAKE_NED_FOLDERS ${CMAKE_CURRENT_SOURCE_DIR})
+
+add_opp_run(collision_warning_scenario 
+    WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+    CONFIG omnetpp.ini
+    NED_FOLDERS ${CMAKE_CURRENT_SOURCE_DIR}
+)
+
+target_include_directories(collision_warning PUBLIC 
+    ${CMAKE_CURRENT_SOURCE_DIR}
+    ${CMAKE_CURRENT_BINARY_DIR}
+)
+
+target_link_libraries(collision_warning PUBLIC artery)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)"
+
+highway.rou.xml : "<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    
+    <!-- Définition des types de véhicules -->
+    <vType id="car" vClass="passenger" length="4.5" minGap="2.5" maxSpeed="33.33" accel="2.6" decel="4.5" sigma="0.5" color="1,1,0"/>
+    <vType id="truck" vClass="truck" length="12.0" minGap="2.5" maxSpeed="25.0" accel="1.3" decel="4.0" sigma="0.5" color="0,0,1"/>
+    <vType id="emergency" vClass="emergency" length="5.0" minGap="2.5" maxSpeed="41.67" accel="3.0" decel="5.0" sigma="0.5" color="1,0,0"/>
+
+    <!-- Définition des routes -->
+    <route id="route_A" edges="B1 B2 B3 B4"/>
+    <route id="route_B" edges="A3 218941312#1 A2 A1"/>
+
+    <!-- Véhicules -->
+    <!-- Véhicule A (celui qui détecte le risque de collision) -->
+    <vehicle id="vehA" type="car" route="route_A" depart="0" departLane="1" departSpeed="5">
+        <param key="has.ssm.device" value="true"/>
+        <param key="device.ssm.measures" value="TTC DRAC PET"/>
+        <param key="device.ssm.range" value="50"/>
+        <param key="device.ssm.trajectories" value="true"/>
+        <param key="device.ssm.write-positions" value="true"/>
+    </vehicle>
+
+    <!-- Véhicule B (celui qui approche rapidement) -->
+    <vehicle id="vehB" type="car" route="route_A" depart="1" departLane="1" departSpeed="30">
+        <param key="has.ssm.device" value="true"/>
+    </vehicle>
+
+    <!-- Autres véhicules sur la route -->
+    <flow id="cars_A" type="car" route="route_A" begin="0" end="3600" probability="0.3"/>
+    <flow id="trucks_A" type="truck" route="route_A" begin="0" end="3600" probability="0.1"/>
+    
+    <flow id="cars_B" type="car" route="route_B" begin="0" end="3600" probability="0.3"/>
+    <flow id="trucks_B" type="truck" route="route_B" begin="0" end="3600" probability="0.1"/>
+
+    <!-- Véhicule d'urgence occasionnel -->
+    <vehicle id="emergency1" type="emergency" route="route_A" depart="300" departLane="0" departSpeed="max"/>
+
+</routes>"
+
+CollisionAlertReceiverService.cc : "#include "CollisionAlertReceiverService.h"
+#include "artery/application/DenService.h"
+#include "artery/traci/VehicleController.h"
+#include "artery/utility/IdentityRegistry.h"
+#include "artery/utility/PointerCheck.h"
+#include <omnetpp.h>
+#include <boost/units/systems/si.hpp>
+#include <boost/units/io.hpp>
+#include <vanetza/asn1/denm.hpp>
+#include <vanetza/btp/data_indication.hpp>
+#include <vanetza/asn1/packet_visitor.hpp>
+#include <boost/variant/apply_visitor.hpp>
+
+using namespace omnetpp;
+using namespace vanetza;
+
+namespace artery {
+
+Define_Module(CollisionAlertReceiverService)
+
+void CollisionAlertReceiverService::initialize()
+{
+    DenService::initialize();
+    mCollisionWarningSignal = registerSignal("CollisionWarning");
+    mVehicleController = &getFacilities().get_mutable<traci::VehicleController>();
+    EV_INFO << "CollisionAlertReceiverService initialized for vehicle " << mVehicleController->getVehicleId() << std::endl;
+}
+void CollisionAlertReceiverService::indicate(const vanetza::btp::DataIndication& indication, std::unique_ptr<vanetza::UpPacket> packet)
+{
+    EV_INFO << "Received a packet in CollisionAlertReceiverService for vehicle " << mVehicleController->getVehicleId() << std::endl;
+
+    vanetza::asn1::PacketVisitor<vanetza::asn1::Denm> visitor;
+    std::shared_ptr<const vanetza::asn1::Denm> denm = boost::apply_visitor(visitor, *packet);
+
+    if (denm) {
+        processCollisionWarning(*denm);
+    } else {
+        EV_WARN << "Failed to parse DENM from packet for vehicle " << mVehicleController->getVehicleId() << std::endl;
+    }
+}
+void CollisionAlertReceiverService::processCollisionWarning(const vanetza::asn1::Denm& denm)
+{   
+    if (!denm->denm.situation) {
+        EV_WARN << "DENM does not contain a situation container for vehicle " << mVehicleController->getVehicleId() << std::endl;
+        return;
+    }
+
+    const auto& situation = denm->denm.situation;
+    
+    int dangerLevel = (situation->eventType.causeCode == CauseCodeType_dangerousEndOfQueue) ? 2 : 1;
+
+    // Assuming TTC is stored in the AlacarteContainer
+    double ttc = 0.0;
+    if (denm->denm.alacarte && denm->denm.alacarte->impactReduction) {
+        // You might need to adjust this depending on where you store the TTC in your DENM
+        ttc = denm->denm.alacarte->impactReduction->heightLonCarrLeft / 100.0; // Assuming it's stored in centimeters
+    }
+
+    EV_INFO << "Processing collision warning for vehicle " << mVehicleController->getVehicleId() 
+            << ": TTC = " << ttc << "s, Danger Level = " << dangerLevel << std::endl;
+
+    if (isWarningRelevant(denm)) {
+        EV_INFO << "Received relevant collision warning for vehicle " << mVehicleController->getVehicleId() 
+                << ": TTC = " << ttc << "s, Danger Level = " << dangerLevel << std::endl;
+        
+        emit(mCollisionWarningSignal, dangerLevel);
+        
+        if (dangerLevel == 2) {
+            // Critical danger: emergency braking
+            mVehicleController->setSpeed(0);
+            EV_INFO << "Emergency braking initiated for vehicle " << mVehicleController->getVehicleId() << " due to critical danger" << std::endl;
+        } else if (dangerLevel == 1) {
+            // Warning: speed reduction
+            auto currentSpeed = mVehicleController->getSpeed();
+            auto newSpeed = currentSpeed * 0.7;
+            mVehicleController->setSpeed(newSpeed);
+            EV_INFO << "Reducing speed of vehicle " << mVehicleController->getVehicleId() 
+                    << " to " << newSpeed << " m/s due to collision warning" << std::endl;
+        }
+    } else {
+        EV_INFO << "Received irrelevant collision warning for vehicle " << mVehicleController->getVehicleId() << std::endl;
+    }
+}
+
+bool CollisionAlertReceiverService::isWarningRelevant(const vanetza::asn1::Denm& denm)
+{
+    const auto& eventPosition = denm->denm.management.eventPosition;
+    const auto& position = mVehicleController->getPosition();
+    double eventLat = eventPosition.latitude / Latitude_oneMicrodegreeNorth;
+    double eventLon = eventPosition.longitude / Longitude_oneMicrodegreeEast;
+    double distance = std::sqrt(std::pow(eventLon - position.x.value(), 2) +
+                                std::pow(eventLat - position.y.value(), 2));
+    
+    // Consider the alert relevant if it's within 200 meters
+    return distance < 200.0;
+}
+
+} // namespace artery"
+
+CollisionAlertReceiverService.ned : "
+import artery.application.DenService;
+
+simple CollisionAlertReceiverService extends DenService
+{
+    parameters:
+        @class(CollisionAlertReceiverService);
+        @signal[CollisionWarning](type=long);
+        @statistic[collisionWarnings](title="Collision Warnings Received"; source="CollisionWarning"; record=count,vector);
+}"
+
+CollisionWarningService.h : "#ifndef COLLISIONWARNINGSERVICE_H_
+#define COLLISIONWARNINGSERVICE_H_
+
+#include "artery/application/DenService.h"
+#include "artery/envmod/LocalEnvironmentModel.h"
+#include "artery/envmod/EnvironmentModelObject.h"
+#include "artery/traci/VehicleController.h"
+#include <boost/units/systems/si/prefixes.hpp>
+#include "artery/application/VehicleDataProvider.h"
+#include "artery/application/Facilities.h"
+
+namespace artery
+{
+
+static const auto microdegree = vanetza::units::degree * boost::units::si::micro;
+static const auto decidegree = vanetza::units::degree * boost::units::si::deci;
+static const auto centimeter_per_second = vanetza::units::si::meter_per_second * boost::units::si::centi;
+
+class CollisionWarningService : public DenService
+{
+    public:
+        void initialize() override;
+        void trigger() override;
+
+    protected:
+        void checkCollisionRisk();
+        double calculateTimeToCollision(const artery::LocalEnvironmentModel::Tracking& tracking);
+        void sendCollisionWarning(double ttc, int dangerLevel, const artery::EnvironmentModelObject* approachingVehicle);
+
+        vanetza::asn1::Denm createCollisionWarningMessage(double ttc, int dangerLevel, const artery::EnvironmentModelObject* approachingVehicle);
+        vanetza::btp::DataRequestB createCollisionWarningRequest();
+    private:
+        const traci::VehicleController* mVehicleController = nullptr;
+        const VehicleDataProvider* mVdp = nullptr;
+        DenService* mService = nullptr;
+        const artery::LocalEnvironmentModel* mLocalEnvironmentModel = nullptr;
+        double mWarningThreshold = 5.0; // seconds
+        double mCriticalThreshold = 3.0; // seconds
+};
+
+} // namespace artery
+
+#endif /* COLLISIONWARNINGSERVICE_H_ */"
+
+CollisionAlertReceiverService.h : "#ifndef COLLISIONALERTRECEIVERSERVICE_H
+#define COLLISIONALERTRECEIVERSERVICE_H
+
+#include "artery/application/DenService.h"
+#include <vanetza/asn1/denm.hpp>
+#include <omnetpp.h>
+#include "artery/traci/VehicleController.h"
+
+
+
+namespace artery
+{
+
+class VehicleController;
+
+class CollisionAlertReceiverService : public DenService
+{
+    public:
+        void initialize() override;
+        void indicate(const vanetza::btp::DataIndication&, std::unique_ptr<vanetza::UpPacket>) override;
+
+    protected:
+        void processCollisionWarning(const vanetza::asn1::Denm& denm);
+        bool isWarningRelevant(const vanetza::asn1::Denm& denm);
+
+    private:
+        traci::VehicleController* mVehicleController = nullptr;
+        omnetpp::simsignal_t mCollisionWarningSignal;
+};
+
+} // namespace artery
+
+#endif // COLLISIONALERTRECEIVERSERVICE_H"
+
+highway.sumocfg : "<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="highway.net.xml"/>
+        <route-files value="highway.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+        <step-length value="0.1"/>
+    </time>
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+    <output>
+        <fcd-output value="highway_fcd.xml"/>
+    </output>
+</configuration>
+"
+
+.vscode/settings.json : "{
+    "files.associations": {
+        "limits": "cpp"
+    }
+}"
+
