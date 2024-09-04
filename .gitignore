@@ -23,3 +23,5 @@ venv/
 
 # CMake default directories
 build/
+scenarios/highway-police/logs/
+scenarios/collision_warning/logs/
