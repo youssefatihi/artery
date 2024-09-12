@@ -7,32 +7,36 @@
     <vType id="emergency" vClass="emergency" length="5.0" minGap="2.5" maxSpeed="41.67" accel="3.0" decel="5.0" sigma="0.5" color="1,0,0"/>
 
     <!-- Définition des routes -->
-    <route id="route_A" edges="B1 B2 B3 B4"/>
-    <route id="route_B" edges="A3 218941312#1 A2 A1"/>
+    <route id="route_B" edges="B1.2102 B2"/>
 
     <!-- Véhicules -->
     <!-- Véhicule A (celui qui détecte le risque de collision) -->
-    <vehicle id="vehA" type="car" route="route_A" depart="0" departLane="1" departSpeed="5">
+    <vehicle id="vehA" type="car" route="route_B" depart="0" departLane="1" departSpeed="5">
         <param key="has.ssm.device" value="true"/>
         <param key="device.ssm.measures" value="TTC DRAC PET"/>
         <param key="device.ssm.range" value="50"/>
         <param key="device.ssm.trajectories" value="true"/>
         <param key="device.ssm.write-positions" value="true"/>
+        <stop busStop="toll_B2" duration="1"/>
     </vehicle>
 
     <!-- Véhicule B (celui qui approche rapidement) -->
-    <vehicle id="vehB" type="car" route="route_A" depart="1" departLane="1" departSpeed="30">
+    <vehicle id="vehB" type="car" route="route_B" depart="1" departLane="1" departSpeed="30">
         <param key="has.ssm.device" value="true"/>
+        <stop busStop="toll_B2" duration="1"/>
     </vehicle>
 
     <!-- Autres véhicules sur la route -->
-    <flow id="cars_A" type="car" route="route_A" begin="0" end="3600" probability="0.3"/>
-    <flow id="trucks_A" type="truck" route="route_A" begin="0" end="3600" probability="0.1"/>
-    
-    <flow id="cars_B" type="car" route="route_B" begin="0" end="3600" probability="0.3"/>
-    <flow id="trucks_B" type="truck" route="route_B" begin="0" end="3600" probability="0.1"/>
+    <flow id="cars_B" type="car" route="route_B" begin="0" end="3600" probability="0.3">
+        <stop busStop="toll_B2" duration="1"/>
+    </flow>
+    <flow id="trucks_B" type="truck" route="route_B" begin="0" end="3600" probability="0.1">
+        <stop busStop="toll_B2" duration="2"/>
+    </flow>
 
     <!-- Véhicule d'urgence occasionnel -->
-    <vehicle id="emergency1" type="emergency" route="route_A" depart="300" departLane="0" departSpeed="max"/>
+    <vehicle id="emergency1" type="emergency" route="route_B" depart="300" departLane="0" departSpeed="max">
+        <stop busStop="toll_B2" duration="0.5"/>
+    </vehicle>
 
 </routes>

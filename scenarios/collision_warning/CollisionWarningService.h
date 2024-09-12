@@ -4,6 +4,7 @@
 #include "artery/application/ItsG5Service.h"
 #include "artery/envmod/LocalEnvironmentModel.h"
 #include <vanetza/units/velocity.hpp>
+
 namespace traci { class VehicleController; }
 
 class CollisionWarningService : public artery::ItsG5Service
@@ -22,10 +23,9 @@ class CollisionWarningService : public artery::ItsG5Service
         double mCriticalThreshold = 1.5; // seconds
 
         void checkCollisionRisk();
-
         double calculateTimeToCollision(const artery::LocalEnvironmentModel::Tracking& object);
-        void sendCollisionWarning(double ttc, int dangerLevel);
-        
-};
+        void sendDENM(double ttc, int subCauseCode);
+        void sendDENMtoRSU(double ttc, int subCauseCode);
 
+};
 #endif /* COLLISIONWARNINGSERVICE_H_ */

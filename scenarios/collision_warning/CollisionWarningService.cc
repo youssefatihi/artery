@@ -1,5 +1,5 @@
 #include "CollisionWarningService.h"
-#include "collision_msgs/CollisionWarningMessage_m.h"
+#include "collision_msgs/DENMMessage_m.h"
 #include "artery/traci/VehicleController.h"
 #include "artery/utility/IdentityRegistry.h"
 #include "artery/utility/Geometry.h"
@@ -11,8 +11,10 @@
 #include "artery/envmod/LocalEnvironmentModel.h"
 #include "artery/envmod/EnvironmentModelObject.h"
 #include "artery/envmod/sensor/Sensor.h"
+#include <vanetza/units/angle.hpp>
+#include <boost/units/systems/si/plane_angle.hpp>
+#include <boost/units/systems/angle/degrees.hpp>
 #include <stdexcept>
-#include "artery/traci/VehicleController.h"
 #include <limits>
 #include <cmath>
 #include "Utils.h"
@@ -21,8 +23,6 @@ using namespace omnetpp;
 using namespace vanetza;
 
 Define_Module(CollisionWarningService)
-
-
 
 void CollisionWarningService::initialize()
 {
@@ -48,9 +48,12 @@ void CollisionWarningService::initialize()
 void CollisionWarningService::trigger()
 {
     Enter_Method("CollisionWarningService trigger");
-    checkCollisionRisk(); }
+    checkCollisionRisk();
+}
+
 double CollisionWarningService::calculateTimeToCollision(const artery::LocalEnvironmentModel::Tracking& tracking)
 {
+
     const auto& hostPosition = mVehicleController->getPosition();
     const auto& hostSpeed = mVehicleController->getSpeed();
 
@@ -106,7 +109,6 @@ double CollisionWarningService::calculateTimeToCollision(const artery::LocalEnvi
     double relativeDistance = std::sqrt(dx*dx + dy*dy);
 
     debugInfo << "  Object position: (" << objectPosition.x.value() << ", " << objectPosition.y.value() << ")\n";
-    debugInfo << "  Relative distance: " << relativeDistance << " m\n";
 
     auto timeSinceLastUpdate = (omnetpp::simTime() - trackingTime.last()).dbl();
     debugInfo << "  Time since last update: " << timeSinceLastUpdate << " s\n";
@@ -132,8 +134,7 @@ double CollisionWarningService::calculateTimeToCollision(const artery::LocalEnvi
     }
 
     logToFile(mVehicleController->getVehicleId(), debugInfo.str());
-    return ttc;
-}
+    return ttc;}
 
 void CollisionWarningService::checkCollisionRisk()
 {
@@ -179,15 +180,15 @@ void CollisionWarningService::checkCollisionRisk()
                 decisionInfo << "  Decision: Critical risk detected\n";
                 logToFile(mVehicleController->getVehicleId(), decisionInfo.str());
                 
-                logToFile(mVehicleController->getVehicleId(), "Sending critical collision warning message (Danger Level 2)");
-                sendCollisionWarning(ttc, 2); // Critical danger
+                logToFile(mVehicleController->getVehicleId(), "Sending critical DENM (SubCauseCode 2)");
+                sendDENM(ttc, 2); // Critical danger
             } 
             else if (ttc < mWarningThreshold) {
                 decisionInfo << "  Decision: Warning risk detected\n";
                 logToFile(mVehicleController->getVehicleId(), decisionInfo.str());
                 
-                logToFile(mVehicleController->getVehicleId(), "Sending collision warning message (Danger Level 1)");
-                sendCollisionWarning(ttc, 1); // Warning
+                logToFile(mVehicleController->getVehicleId(), "Sending warning DENM (SubCauseCode 1)");
+                sendDENM(ttc, 1); // Warning
             }
             else {
                 decisionInfo << "  Decision: No significant risk detected\n";
@@ -198,9 +199,10 @@ void CollisionWarningService::checkCollisionRisk()
         }
     }
 }
-void CollisionWarningService::sendCollisionWarning(double ttc, int dangerLevel)
+
+void CollisionWarningService::sendDENM(double ttc, int subCauseCode)
 {
-    Enter_Method("CollisionWarningService sendCollisionWarning");
+    Enter_Method("CollisionWarningService sendDENM");
 
     btp::DataRequestB req;
     req.destination_port = host_cast<port_type>(getPortNumber());
@@ -208,17 +210,99 @@ void CollisionWarningService::sendCollisionWarning(double ttc, int dangerLevel)
     req.gn.traffic_class.tc_id(static_cast<unsigned>(dcc::Profile::DP2));
     req.gn.communication_profile = geonet::CommunicationProfile::ITS_G5;
 
-    auto message = new CollisionWarningMessage();
-    message->setSenderId(mVehicleController->getVehicleId().c_str());
-    message->setSenderPosX(mVehicleController->getPosition().x.value());
-    message->setSenderPosY(mVehicleController->getPosition().y.value());
-    message->setSenderSpeed(mVehicleController->getSpeed().value());
-    message->setSenderHeading(mVehicleController->getHeading().degree());
+    auto message = new DENMMessage();
+    
+    // Header
+    message->setProtocolVersion(1);
+    message->setMessageID(1); // DENM messageID
+    message->setStationID(mVehicleController->getVehicleId().c_str());
+    
+    // Management Container
+    message->setDetectionTime(simTime());
+    message->setReferenceTime(simTime());
+    message->setTermination(0); // 0 for new DENM
+    
+    // Situation Container
+    message->setInformationQuality(7); // Highest quality
+    message->setCauseCode(97); // Collision Risk
+    message->setSubCauseCode(subCauseCode);
+    
+    // Location Container
+    message->setEventPosition_latitude(mVehicleController->getPosition().x.value());
+    message->setEventPosition_longitude(mVehicleController->getPosition().y.value());
+    message->setEventSpeed(mVehicleController->getSpeed().value());
+    message->setEventHeading(mVehicleController->getHeading().degree());
+    
+    // Alacarte Container
     message->setTimeToCollision(ttc);
-    message->setDangerLevel(dangerLevel);
-    message->setByteLength(64);
 
-    logToFile(mVehicleController->getVehicleId(), "Sending collision warning: TTC = " + std::to_string(ttc) + "s, Danger Level = " + std::to_string(dangerLevel));
+    message->setByteLength(128); // Adjust as needed
+
+    logToFile(mVehicleController->getVehicleId(), "Sending DENM: TTC = " + std::to_string(ttc) + "s, SubCauseCode = " + std::to_string(subCauseCode));
 
     request(req, message);
+}
+//DENM to RSU (pas encore implémenté)
+void CollisionWarningService::sendDENMtoRSU(double ttc, int subCauseCode)
+{
+    Enter_Method("CollisionWarningService sendDENMtoRSU");
+
+    auto message = new DENMMessage();
+    
+    // Header
+    message->setProtocolVersion(1);
+    message->setMessageID(1); // DENM messageID
+    message->setStationID(mVehicleController->getVehicleId().c_str());
+    
+    // Management Container
+    message->setDetectionTime(simTime());
+    message->setReferenceTime(simTime());
+    message->setTermination(0); // 0 for new DENM
+    
+    // Situation Container
+    message->setInformationQuality(7); // Highest quality
+    message->setCauseCode(97); // Collision Risk
+    message->setSubCauseCode(subCauseCode);
+    
+    // Location Container
+    message->setEventPosition_latitude(mVehicleController->getPosition().x.value());
+    message->setEventPosition_longitude(mVehicleController->getPosition().y.value());
+    message->setEventSpeed(mVehicleController->getSpeed().value());
+    message->setEventHeading(mVehicleController->getHeading().degree());
+    
+    // Alacarte Container
+    message->setTimeToCollision(ttc);
+
+    message->setByteLength(128); // Adjust as needed    // ... (le reste du code pour remplir le message reste inchangé)
+
+    
+    vanetza::geonet::Area destination;
+    vanetza::geonet::Circle circle;
+    circle.r = vanetza::units::Length(1000 * vanetza::units::si::meters);
+    destination.shape = circle;
+    
+    auto position = mVehicleController->getPosition();
+    
+    // Utilisez les valeurs numériques directementauto position = mVehicleController->getPosition();
+
+// Convertir les mètres en degrés (approximation)
+const double metersPerDegree = 111319.9; // Approximation à l'équateur
+double latitudeDegrees = position.x.value() / metersPerDegree;
+double longitudeDegrees = position.y.value() / metersPerDegree;
+
+// Convertir les degrés en GeoAngle
+destination.position.latitude = vanetza::units::GeoAngle(latitudeDegrees * vanetza::units::degree);
+destination.position.longitude = vanetza::units::GeoAngle(longitudeDegrees * vanetza::units::degree);
+
+    vanetza::btp::DataRequestB request;
+    request.destination_port = host_cast<port_type>(getPortNumber());
+    request.gn.transport_type = vanetza::geonet::TransportType::GBC;
+    request.gn.destination = destination;
+    request.gn.traffic_class.tc_id(static_cast<unsigned>(vanetza::dcc::Profile::DP2));
+    request.gn.communication_profile = vanetza::geonet::CommunicationProfile::ITS_G5;
+
+    // Utilisez la méthode request du service ItsG5 directement
+    this->request(request, std::move(message));
+
+    EV_INFO << "Sending DENM to RSU: TTC = " << ttc << "s, SubCauseCode = " << subCauseCode << "\n";
 }

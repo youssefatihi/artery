@@ -7,7 +7,7 @@
 #include <omnetpp.h>
 #include <vanetza/btp/data_indication.hpp>
 
-class CollisionWarningMessage;
+class DENMMessage;
 
 namespace artery {
 
@@ -18,8 +18,8 @@ public:
     void indicate(const vanetza::btp::DataIndication&, omnetpp::cPacket*) override;
 
 protected:
-    void processCollisionWarning(const CollisionWarningMessage* warning);
-    bool isWarningRelevant(const CollisionWarningMessage* warning);
+    void processDENM(const DENMMessage* denm);
+    bool isDENMRelevant(const DENMMessage* denm);
 
 private:
     omnetpp::simsignal_t mCollisionWarningSignal;
