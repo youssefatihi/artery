@@ -26,3 +26,5 @@ venv/
 build/
 scenarios/highway-police/logs/
 scenarios/collision_warning/logs/
+scenarios/collision_warning/ssm_vehA.xml
+scenarios/collision_warning/ssm_vehB.xml
