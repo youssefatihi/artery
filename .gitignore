@@ -4,6 +4,7 @@ scenarios/*/results/*
 scenarios/*/.cmdenv-log
 scenarios/*/.qtenvrc
 scenarios/*/.tkenvrc
+scenarios/*/ssm_veh*.xml
 src/artery/messages/*_m.cc
 src/artery/messages/*_m.h
 .vagrant/
