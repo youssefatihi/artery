@@ -13,4 +13,7 @@
             <name pattern="vehA" match="inverse" />
         </filters>
     </service>
+    <service type="artery.application.CaService">
+    <listener port="2001" />
+    </service>
 </services>
