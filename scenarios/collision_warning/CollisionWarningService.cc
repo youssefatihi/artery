@@ -24,6 +24,13 @@ using namespace vanetza;
 
 Define_Module(CollisionWarningService)
 
+struct ObjectHistory {
+    std::deque<std::pair<omnetpp::simtime_t, artery::Position>> positions;
+    double lastEstimatedSpeed = 0.0;
+};
+std::map<int, ObjectHistory> mObjectHistories;
+
+
 void CollisionWarningService::initialize()
 {
     ItsG5Service::initialize();
@@ -50,10 +57,8 @@ void CollisionWarningService::trigger()
     Enter_Method("CollisionWarningService trigger");
     checkCollisionRisk();
 }
-
 double CollisionWarningService::calculateTimeToCollision(const artery::LocalEnvironmentModel::Tracking& tracking)
 {
-
     const auto& hostPosition = mVehicleController->getPosition();
     const auto& hostSpeed = mVehicleController->getSpeed();
 
@@ -84,16 +89,12 @@ double CollisionWarningService::calculateTimeToCollision(const artery::LocalEnvi
     
     debugInfo << "  Number of detected objects: " << detection.objects.size() << "\n";
 
+    const artery::EnvironmentModelObject* detectedObject = nullptr;
     for (const auto& obj : detection.objects) {
         debugInfo << "    Object ID: " << obj->getExternalId() << "\n";
         debugInfo << "    Object Position: (" << obj->getCentrePoint().x.value() << ", " << obj->getCentrePoint().y.value() << ")\n";
-    }
-
-    const artery::EnvironmentModelObject* detectedObject = nullptr;
-    for (const auto& obj : detection.objects) {
-        
-            detectedObject = obj.get();
-            break;
+        detectedObject = obj.get();
+        break;
     }
 
     if (!detectedObject) {
@@ -110,16 +111,44 @@ double CollisionWarningService::calculateTimeToCollision(const artery::LocalEnvi
 
     debugInfo << "  Object position: (" << objectPosition.x.value() << ", " << objectPosition.y.value() << ")\n";
 
-    auto timeSinceLastUpdate = (omnetpp::simTime() - trackingTime.last()).dbl();
-    debugInfo << "  Time since last update: " << timeSinceLastUpdate << " s\n";
+    // Mise à jour de l'historique de l'objet
+    auto& history = mObjectHistories[tracking.id()];
+    history.positions.emplace_back(omnetpp::simTime(), objectPosition);
+    
+    // Garder seulement les 10 dernières positions
+    if (history.positions.size() > 10) {
+        history.positions.pop_front();
+    }
 
     double estimatedSpeed = 0;
-    if (timeSinceLastUpdate > 0) {
-        estimatedSpeed = relativeDistance / timeSinceLastUpdate;
-        debugInfo << "  Estimated object speed: " << estimatedSpeed << " m/s\n";
-    } else {
-        debugInfo << "  Unable to estimate object speed (time since last update is 0)\n";
+    if (history.positions.size() > 1) {
+        const auto& oldestPosition = history.positions.front();
+        const auto& newestPosition = history.positions.back();
+        
+        double totalDistance = std::sqrt(
+            std::pow(newestPosition.second.x.value() - oldestPosition.second.x.value(), 2) +
+            std::pow(newestPosition.second.y.value() - oldestPosition.second.y.value(), 2)
+        );
+        double totalTime = (newestPosition.first - oldestPosition.first).dbl();
+        
+        if (totalTime > 0) {
+            estimatedSpeed = totalDistance / totalTime;
+        }
     }
+
+    // Appliquer un filtre passe-bas pour lisser l'estimation de la vitesse
+    const double ALPHA = 0.2;  // Facteur de lissage
+    history.lastEstimatedSpeed = ALPHA * estimatedSpeed + (1 - ALPHA) * history.lastEstimatedSpeed;
+    estimatedSpeed = history.lastEstimatedSpeed;
+
+    // Vérification de cohérence
+    const double MAX_REASONABLE_SPEED = 60.0; // m/s, environ 216 km/h
+    if (estimatedSpeed > MAX_REASONABLE_SPEED) {
+        debugInfo << "  Warning: Estimated speed exceeds maximum reasonable speed. Capping at " << MAX_REASONABLE_SPEED << " m/s\n";
+        estimatedSpeed = MAX_REASONABLE_SPEED;
+    }
+
+    debugInfo << "  Estimated object speed: " << estimatedSpeed << " m/s\n";
 
     double relativeSpeed = std::abs(estimatedSpeed - hostSpeed.value());
     debugInfo << "  Relative speed: " << relativeSpeed << " m/s\n";
@@ -134,7 +163,8 @@ double CollisionWarningService::calculateTimeToCollision(const artery::LocalEnvi
     }
 
     logToFile(mVehicleController->getVehicleId(), debugInfo.str());
-    return ttc;}
+    return ttc;
+}
 
 void CollisionWarningService::checkCollisionRisk()
 {
@@ -236,12 +266,13 @@ void CollisionWarningService::sendDENM(double ttc, int subCauseCode)
     // Alacarte Container
     message->setTimeToCollision(ttc);
 
-    message->setByteLength(128); // Adjust as needed
+    message->setByteLength(128); // 128 bytes 
 
     logToFile(mVehicleController->getVehicleId(), "Sending DENM: TTC = " + std::to_string(ttc) + "s, SubCauseCode = " + std::to_string(subCauseCode));
 
     request(req, message);
 }
+
 //DENM to RSU (pas encore implémenté)
 void CollisionWarningService::sendDENMtoRSU(double ttc, int subCauseCode)
 {
@@ -273,8 +304,7 @@ void CollisionWarningService::sendDENMtoRSU(double ttc, int subCauseCode)
     // Alacarte Container
     message->setTimeToCollision(ttc);
 
-    message->setByteLength(128); // Adjust as needed    // ... (le reste du code pour remplir le message reste inchangé)
-
+    message->setByteLength(128);
     
     vanetza::geonet::Area destination;
     vanetza::geonet::Circle circle;
@@ -283,7 +313,6 @@ void CollisionWarningService::sendDENMtoRSU(double ttc, int subCauseCode)
     
     auto position = mVehicleController->getPosition();
     
-    // Utilisez les valeurs numériques directementauto position = mVehicleController->getPosition();
 
 // Convertir les mètres en degrés (approximation)
 const double metersPerDegree = 111319.9; // Approximation à l'équateur

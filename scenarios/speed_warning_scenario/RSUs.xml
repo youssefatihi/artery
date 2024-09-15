@@ -1,0 +1,14 @@
+<RSUs>
+  <rsu id="RSU1" positionX="2784.89" positionY="2332.10">
+    <antenna direction="0"/>
+  </rsu>
+  <rsu id="RSU2" positionX="2869.20" positionY="2535.26">
+    <antenna direction="0"/>
+  </rsu>
+  <rsu id="RSU3" positionX="2953.50" positionY="2738.41">
+    <antenna direction="0"/>
+  </rsu>
+  <rsu id="RSU4" positionX="3173.08" positionY="3188.55">
+    <antenna direction="0"/>
+  </rsu>
+</RSUs>

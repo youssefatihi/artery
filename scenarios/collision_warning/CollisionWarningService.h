@@ -26,6 +26,7 @@ class CollisionWarningService : public artery::ItsG5Service
         double calculateTimeToCollision(const artery::LocalEnvironmentModel::Tracking& object);
         void sendDENM(double ttc, int subCauseCode);
         void sendDENMtoRSU(double ttc, int subCauseCode);
+        
 
 };
 #endif /* COLLISIONWARNINGSERVICE_H_ */

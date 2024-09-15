@@ -4,11 +4,9 @@ if(NOT TARGET OmnetPP::sim)
     find_package(OmnetPP REQUIRED GLOBAL)
 endif()
 
-# Fusionnez les features en une seule
 add_artery_feature(collision_warning
     CollisionWarningService.cc
     CollisionAlertReceiverService.cc
-    RSU.cc
 )
 
 generate_opp_message(DENMMessage.msg TARGET collision_warning DIRECTORY collision_msgs)

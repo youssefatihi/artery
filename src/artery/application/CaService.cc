@@ -43,11 +43,11 @@ void logToFile(const std::string& vehicleId, const std::string& message)
     static std::ofstream logFile;
 
     if (!logFile.is_open()) {
-        std::string logDir = "/home/yelfatihi/artery/scenarios/collision_warning/logs";
+        std::string logDir = "/home/yelfatihi/artery/scenarios/collision_warning/CAlogs";
         createDirectory(logDir);
 
         std::string dateTime = getCurrentDateTime();
-        currentLogFile = logDir + "/" + std::to_string(fileNum) + "_" + dateTime + ".log";
+        currentLogFile = logDir + "/" + "Ca" + std::to_string(fileNum) + "_" + dateTime + ".log";
         logFile.open(currentLogFile, std::ios::app);
 
         if (logFile.is_open()) {
@@ -117,7 +117,7 @@ CaService::CaService() :
 
 void CaService::initialize()
 {
-	logToFile("CaService", "Initializing CaService...");
+	// logToFile("CaService", "Initializing CaService...");
 
 	ItsG5BaseService::initialize();
 	mNetworkInterfaceTable = &getFacilities().get_const<NetworkInterfaceTable>();
@@ -154,7 +154,7 @@ void CaService::initialize()
 void CaService::trigger()
 {
 	Enter_Method("trigger");
-	logToFile("CaService", "Triggering CaService...");
+	// logToFile("CaService", "Triggering CaService...");
 	checkTriggeringConditions(simTime());
 }
 
@@ -213,7 +213,7 @@ bool CaService::checkSpeedDelta() const
 
 void CaService::sendCam(const SimTime& T_now)
 {
-	logToFile("CaService", "Sending CAM message...");
+	// logToFile("CaService", "Sending CAM message...");
 	uint16_t genDeltaTimeMod = countTaiMilliseconds(mTimer->getTimeFor(mVehicleDataProvider->updated()));
 	auto cam = createCooperativeAwarenessMessage(*mVehicleDataProvider, genDeltaTimeMod);
 

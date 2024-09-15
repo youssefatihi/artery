@@ -111,3 +111,4 @@ if(EXISTS ${PROJECT_SOURCE_DIR}/scenarios)
 endif()
 
 add_subdirectory(scenarios/collision_warning)
+add_subdirectory(scenarios/speed_warning_scenario)
