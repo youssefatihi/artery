@@ -1,3 +1,4 @@
+import artery.application.ItsG5Service;
 
 simple SpeedWarningService like artery.application.ItsG5Service
 {

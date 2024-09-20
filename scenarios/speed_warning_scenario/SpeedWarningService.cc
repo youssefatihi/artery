@@ -1,19 +1,17 @@
 #include "SpeedWarningService.h"
-#include "artery/traci/VehicleController.h"
+#include <omnetpp.h>
 #include "artery/application/Middleware.h"
 #include "artery/application/StoryboardSignal.h"
 #include "artery/utility/InitStages.h"
 #include "collision_msgs/DENMMessage_m.h"
-
+#include "artery/traci/VehicleController.h"
+#include "Utils.h"
 #include <vanetza/btp/data_request.hpp>
 #include <vanetza/dcc/profile.hpp>
 #include <vanetza/geonet/interface.hpp>
 
-#include <fstream>
-#include <iomanip>
-#include "Utils.h"
-
 using namespace omnetpp;
+using namespace vanetza;
 
 Define_Module(SpeedWarningService)
 
@@ -32,7 +30,7 @@ void SpeedWarningService::trigger()
 void SpeedWarningService::checkSpeedLimit()
 {
     auto currentSpeed = mVehicleController->getSpeed().value() * 3.6; // Convert to km/h
-    auto speedLimit = mVehicleController->getMaxSpeed().value() * 3.6; // Convert to km/h
+    auto speedLimit = 120; // Convert to km/h
     
     double speedExcess = currentSpeed - speedLimit;
 
@@ -66,7 +64,7 @@ void SpeedWarningService::sendDENM(double speedExcess, int subCauseCode)
 {
     Enter_Method("SpeedWarningService sendDENM");
 
-    btp::DataRequestB req;
+    vanetza::btp::DataRequestB req;
     req.destination_port = host_cast<port_type>(getPortNumber());
     req.gn.transport_type = geonet::TransportType::SHB;
     req.gn.traffic_class.tc_id(static_cast<unsigned>(dcc::Profile::DP2));
@@ -86,7 +84,7 @@ void SpeedWarningService::sendDENM(double speedExcess, int subCauseCode)
     
     // Situation Container
     message->setInformationQuality(7); // Highest quality
-    message->setCauseCode(99); // Dangerous Situation
+    message->setCauseCode(94); // Dangerous Situation
     message->setSubCauseCode(subCauseCode);
     
     // Location Container
@@ -96,7 +94,7 @@ void SpeedWarningService::sendDENM(double speedExcess, int subCauseCode)
     message->setEventHeading(mVehicleController->getHeading().degree());
     
     // Alacarte Container
-    message->setSpeedExcess(speedExcess);
+    message->setRelevanceDistance(speedExcess);
 
     message->setByteLength(128); // Adjust as needed
 

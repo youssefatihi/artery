@@ -1,0 +1,36 @@
+ CaService       0.10 CaService initialized  successfully
+      vehA       0.29 Speed check results:
+  Current speed: 119.67 km/h
+  Speed limit: 119.99 km/h
+  Speed excess: -0.32 km/h
+  Decision: No speed violation detected
+
+      vehA       0.29 
+      vehA       0.39 Speed check results:
+  Current speed: 119.84 km/h
+  Speed limit: 119.99 km/h
+  Speed excess: -0.15 km/h
+  Decision: No speed violation detected
+
+      vehA       0.39 
+      vehA       0.49 Speed check results:
+  Current speed: 119.57 km/h
+  Speed limit: 119.99 km/h
+  Speed excess: -0.41 km/h
+  Decision: No speed violation detected
+
+      vehA       0.49 
+      vehA       0.59 Speed check results:
+  Current speed: 119.56 km/h
+  Speed limit: 119.99 km/h
+  Speed excess: -0.43 km/h
+  Decision: No speed violation detected
+
+      vehA       0.59 
+      vehA       0.69 Speed check results:
+  Current speed: 119.98 km/h
+  Speed limit: 119.99 km/h
+  Speed excess: -0.01 km/h
+  Decision: No speed violation detected
+
+      vehA       0.69 

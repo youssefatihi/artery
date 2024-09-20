@@ -3,10 +3,10 @@
 #include "artery/traci/VehicleController.h"
 #include "artery/utility/IdentityRegistry.h"
 #include "artery/utility/PointerCheck.h"
+#include "Utils.h"
 #include <omnetpp.h>
 #include <boost/units/systems/si.hpp>
 #include <boost/units/io.hpp>
-#include "Utils.h"
 
 using namespace omnetpp;
 
@@ -36,30 +36,30 @@ void SpeedAlertReceiverService::indicate(const vanetza::btp::DataIndication& ind
 void SpeedAlertReceiverService::processDENM(const DENMMessage* denm) {
     logToFile(mVehicleController->getVehicleId(),
               "Processing DENM from " + std::string(denm->getStationID()) +
-              ": Speed Excess = " + std::to_string(denm->getSpeedExcess()) +
+              ": Speed Excess = " + std::to_string(denm->getRelevanceDistance()) +
               " km/h, CauseCode = " + std::to_string(denm->getCauseCode()) +
               ", SubCauseCode = " + std::to_string(denm->getSubCauseCode()));
 
     if (isDENMRelevant(denm)) {
         logToFile(mVehicleController->getVehicleId(),
                   "Received relevant DENM from " + std::string(denm->getStationID()) +
-                  ": Speed Excess = " + std::to_string(denm->getSpeedExcess()) +
+                  ": Speed Excess = " + std::to_string(denm->getRelevanceDistance()) +
                   " km/h, SubCauseCode = " + std::to_string(denm->getSubCauseCode()));
         
         emit(mSpeedWarningSignal, denm->getSubCauseCode());
         
         if (denm->getSubCauseCode() == 2) {
-            // Critical danger: reduce speed significantly
+            // Critical danger: emergency speed reduction
             auto newSpeed = mVehicleController->getSpeed() * 0.5;
             mVehicleController->setSpeed(newSpeed);
             logToFile(mVehicleController->getVehicleId(),
-                      "Reducing speed to " + std::to_string(newSpeed.value()) + " m/s due to critical speed warning");
+                      "Emergency speed reduction to " + std::to_string(newSpeed.value()) + " m/s due to critical speed violation");
         } else if (denm->getSubCauseCode() == 1) {
-            // Warning: slight speed reduction
+            // Warning: moderate speed reduction
             auto newSpeed = mVehicleController->getSpeed() * 0.8;
             mVehicleController->setSpeed(newSpeed);
             logToFile(mVehicleController->getVehicleId(),
-                      "Reducing speed to " + std::to_string(newSpeed.value()) + " m/s due to speed warning");
+                      "Reducing speed to " + std::to_string(newSpeed.value()) + " m/s due to speed violation warning");
         }
     } else {
         logToFile(mVehicleController->getVehicleId(),
@@ -72,7 +72,7 @@ bool SpeedAlertReceiverService::isDENMRelevant(const DENMMessage* denm) {
     double distance = std::sqrt(std::pow(denm->getEventPosition_latitude() - position.x.value(), 2) +
                                 std::pow(denm->getEventPosition_longitude() - position.y.value(), 2));
     
-    // Consider the alert relevant if it's within 500 meters and it's a speed warning message
+    // Consider the alert relevant if it's within 500 meters and if it's a speed violation message
     return distance < 500.0 && denm->getCauseCode() == 94;
 }
 

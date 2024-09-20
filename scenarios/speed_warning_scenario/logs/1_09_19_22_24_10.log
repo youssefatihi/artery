@@ -1,0 +1,856 @@
+ CaService       0.10 CaService initialized  successfully
+      vehA       0.29 Speed check results:
+  Current speed: 36.71 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -113.30 km/h
+  Decision: No speed violation detected
+
+      vehA       0.29 
+      vehA       0.39 Speed check results:
+  Current speed: 37.62 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -112.39 km/h
+  Decision: No speed violation detected
+
+      vehA       0.39 
+      vehA       0.49 Speed check results:
+  Current speed: 38.23 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -111.79 km/h
+  Decision: No speed violation detected
+
+      vehA       0.49 
+      vehA       0.59 Speed check results:
+  Current speed: 38.81 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -111.20 km/h
+  Decision: No speed violation detected
+
+      vehA       0.59 
+      vehA       0.69 Speed check results:
+  Current speed: 39.88 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -110.13 km/h
+  Decision: No speed violation detected
+
+      vehA       0.69 
+      vehA       0.79 Speed check results:
+  Current speed: 40.93 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -109.08 km/h
+  Decision: No speed violation detected
+
+      vehA       0.79 
+      vehA       0.89 Speed check results:
+  Current speed: 41.53 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -108.48 km/h
+  Decision: No speed violation detected
+
+      vehA       0.89 
+      vehA       0.99 Speed check results:
+  Current speed: 42.22 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -107.80 km/h
+  Decision: No speed violation detected
+
+      vehA       0.99 
+      vehA       1.09 Speed check results:
+  Current speed: 43.13 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -106.88 km/h
+  Decision: No speed violation detected
+
+      vehA       1.09 
+normal_cars.0       1.10 SpeedAlertReceiverService initialized
+ CaService       1.10 CaService initialized  successfully
+      vehA       1.19 Speed check results:
+  Current speed: 43.85 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -106.16 km/h
+  Decision: No speed violation detected
+
+      vehA       1.19 
+      vehA       1.29 Speed check results:
+  Current speed: 44.46 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -105.55 km/h
+  Decision: No speed violation detected
+
+      vehA       1.29 
+      vehA       1.39 Speed check results:
+  Current speed: 45.41 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -104.60 km/h
+  Decision: No speed violation detected
+
+      vehA       1.39 
+      vehA       1.49 Speed check results:
+  Current speed: 46.44 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -103.57 km/h
+  Decision: No speed violation detected
+
+      vehA       1.49 
+      vehA       1.59 Speed check results:
+  Current speed: 47.45 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -102.56 km/h
+  Decision: No speed violation detected
+
+      vehA       1.59 
+      vehA       1.69 Speed check results:
+  Current speed: 48.44 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -101.57 km/h
+  Decision: No speed violation detected
+
+      vehA       1.69 
+      vehA       1.79 Speed check results:
+  Current speed: 49.44 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -100.57 km/h
+  Decision: No speed violation detected
+
+      vehA       1.79 
+      vehA       1.89 Speed check results:
+  Current speed: 50.15 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -99.86 km/h
+  Decision: No speed violation detected
+
+      vehA       1.89 
+      vehA       1.99 Speed check results:
+  Current speed: 50.91 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -99.10 km/h
+  Decision: No speed violation detected
+
+      vehA       1.99 
+      vehA       2.09 Speed check results:
+  Current speed: 51.78 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -98.23 km/h
+  Decision: No speed violation detected
+
+      vehA       2.09 
+      vehA       2.19 Speed check results:
+  Current speed: 52.33 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -97.68 km/h
+  Decision: No speed violation detected
+
+      vehA       2.19 
+      vehA       2.29 Speed check results:
+  Current speed: 53.01 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -97.00 km/h
+  Decision: No speed violation detected
+
+      vehA       2.29 
+      vehA       2.39 Speed check results:
+  Current speed: 53.95 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -96.06 km/h
+  Decision: No speed violation detected
+
+      vehA       2.39 
+      vehA       2.49 Speed check results:
+  Current speed: 54.55 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -95.46 km/h
+  Decision: No speed violation detected
+
+      vehA       2.49 
+      vehA       2.59 Speed check results:
+  Current speed: 55.29 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -94.73 km/h
+  Decision: No speed violation detected
+
+      vehA       2.59 
+      vehA       2.69 Speed check results:
+  Current speed: 56.09 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -93.92 km/h
+  Decision: No speed violation detected
+
+      vehA       2.69 
+      vehA       2.79 Speed check results:
+  Current speed: 56.74 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -93.27 km/h
+  Decision: No speed violation detected
+
+      vehA       2.79 
+      vehA       2.89 Speed check results:
+  Current speed: 57.50 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -92.51 km/h
+  Decision: No speed violation detected
+
+      vehA       2.89 
+      vehA       2.99 Speed check results:
+  Current speed: 58.30 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -91.71 km/h
+  Decision: No speed violation detected
+
+      vehA       2.99 
+      vehA       3.09 Speed check results:
+  Current speed: 59.35 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -90.66 km/h
+  Decision: No speed violation detected
+
+      vehA       3.09 
+      vehA       3.19 Speed check results:
+  Current speed: 60.18 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -89.83 km/h
+  Decision: No speed violation detected
+
+      vehA       3.19 
+      vehA       3.29 Speed check results:
+  Current speed: 60.94 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -89.08 km/h
+  Decision: No speed violation detected
+
+      vehA       3.29 
+      vehA       3.39 Speed check results:
+  Current speed: 61.59 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -88.42 km/h
+  Decision: No speed violation detected
+
+      vehA       3.39 
+      vehA       3.49 Speed check results:
+  Current speed: 62.25 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -87.76 km/h
+  Decision: No speed violation detected
+
+      vehA       3.49 
+      vehA       3.59 Speed check results:
+  Current speed: 62.86 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -87.15 km/h
+  Decision: No speed violation detected
+
+      vehA       3.59 
+normal_cars.1       3.60 SpeedAlertReceiverService initialized
+ CaService       3.60 CaService initialized  successfully
+      vehA       3.69 Speed check results:
+  Current speed: 63.73 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -86.28 km/h
+  Decision: No speed violation detected
+
+      vehA       3.69 
+      vehA       3.79 Speed check results:
+  Current speed: 64.60 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -85.41 km/h
+  Decision: No speed violation detected
+
+      vehA       3.79 
+      vehA       3.89 Speed check results:
+  Current speed: 65.24 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -84.77 km/h
+  Decision: No speed violation detected
+
+      vehA       3.89 
+      vehA       3.99 Speed check results:
+  Current speed: 66.28 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -83.74 km/h
+  Decision: No speed violation detected
+
+      vehA       3.99 
+      vehA       4.09 Speed check results:
+  Current speed: 67.21 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -82.80 km/h
+  Decision: No speed violation detected
+
+      vehA       4.09 
+      vehA       4.19 Speed check results:
+  Current speed: 68.24 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -81.77 km/h
+  Decision: No speed violation detected
+
+      vehA       4.19 
+      vehA       4.29 Speed check results:
+  Current speed: 69.21 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -80.80 km/h
+  Decision: No speed violation detected
+
+      vehA       4.29 
+      vehA       4.39 Speed check results:
+  Current speed: 69.88 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -80.13 km/h
+  Decision: No speed violation detected
+
+      vehA       4.39 
+      vehA       4.49 Speed check results:
+  Current speed: 70.60 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -79.41 km/h
+  Decision: No speed violation detected
+
+      vehA       4.49 
+      vehA       4.59 Speed check results:
+  Current speed: 71.19 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -78.82 km/h
+  Decision: No speed violation detected
+
+      vehA       4.59 
+      vehA       4.69 Speed check results:
+  Current speed: 72.23 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -77.78 km/h
+  Decision: No speed violation detected
+
+      vehA       4.69 
+      vehA       4.79 Speed check results:
+  Current speed: 72.97 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -77.04 km/h
+  Decision: No speed violation detected
+
+      vehA       4.79 
+      vehA       4.89 Speed check results:
+  Current speed: 74.03 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -75.98 km/h
+  Decision: No speed violation detected
+
+      vehA       4.89 
+      vehA       4.99 Speed check results:
+  Current speed: 74.99 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -75.02 km/h
+  Decision: No speed violation detected
+
+      vehA       4.99 
+      vehA       5.09 Speed check results:
+  Current speed: 75.76 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -74.25 km/h
+  Decision: No speed violation detected
+
+      vehA       5.09 
+      vehA       5.19 Speed check results:
+  Current speed: 76.35 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -73.66 km/h
+  Decision: No speed violation detected
+
+      vehA       5.19 
+      vehA       5.29 Speed check results:
+  Current speed: 77.34 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -72.67 km/h
+  Decision: No speed violation detected
+
+      vehA       5.29 
+      vehA       5.39 Speed check results:
+  Current speed: 78.29 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -71.72 km/h
+  Decision: No speed violation detected
+
+      vehA       5.39 
+      vehA       5.49 Speed check results:
+  Current speed: 78.95 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -71.06 km/h
+  Decision: No speed violation detected
+
+      vehA       5.49 
+      vehA       5.59 Speed check results:
+  Current speed: 79.80 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -70.22 km/h
+  Decision: No speed violation detected
+
+      vehA       5.59 
+      vehA       5.69 Speed check results:
+  Current speed: 80.57 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -69.44 km/h
+  Decision: No speed violation detected
+
+      vehA       5.69 
+      vehA       5.79 Speed check results:
+  Current speed: 81.56 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -68.45 km/h
+  Decision: No speed violation detected
+
+      vehA       5.79 
+      vehA       5.89 Speed check results:
+  Current speed: 82.55 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -67.46 km/h
+  Decision: No speed violation detected
+
+      vehA       5.89 
+      vehA       5.99 Speed check results:
+  Current speed: 83.36 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -66.65 km/h
+  Decision: No speed violation detected
+
+      vehA       5.99 
+      vehA       6.09 Speed check results:
+  Current speed: 84.09 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -65.92 km/h
+  Decision: No speed violation detected
+
+      vehA       6.09 
+      vehA       6.19 Speed check results:
+  Current speed: 84.74 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -65.28 km/h
+  Decision: No speed violation detected
+
+      vehA       6.19 
+      vehA       6.29 Speed check results:
+  Current speed: 85.32 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -64.69 km/h
+  Decision: No speed violation detected
+
+      vehA       6.29 
+      vehA       6.39 Speed check results:
+  Current speed: 86.10 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -63.91 km/h
+  Decision: No speed violation detected
+
+      vehA       6.39 
+normal_cars.2       6.40 SpeedAlertReceiverService initialized
+ CaService       6.40 CaService initialized  successfully
+      vehA       6.49 Speed check results:
+  Current speed: 87.03 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -62.98 km/h
+  Decision: No speed violation detected
+
+      vehA       6.49 
+      vehA       6.59 Speed check results:
+  Current speed: 88.02 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -62.00 km/h
+  Decision: No speed violation detected
+
+      vehA       6.59 
+      vehA       6.69 Speed check results:
+  Current speed: 88.90 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -61.11 km/h
+  Decision: No speed violation detected
+
+      vehA       6.69 
+      vehA       6.79 Speed check results:
+  Current speed: 89.70 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -60.31 km/h
+  Decision: No speed violation detected
+
+      vehA       6.79 
+      vehA       6.89 Speed check results:
+  Current speed: 90.52 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -59.50 km/h
+  Decision: No speed violation detected
+
+      vehA       6.89 
+      vehA       6.99 Speed check results:
+  Current speed: 91.21 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -58.80 km/h
+  Decision: No speed violation detected
+
+      vehA       6.99 
+      vehA       7.09 Speed check results:
+  Current speed: 92.29 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -57.72 km/h
+  Decision: No speed violation detected
+
+      vehA       7.09 
+      vehA       7.19 Speed check results:
+  Current speed: 93.03 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -56.98 km/h
+  Decision: No speed violation detected
+
+      vehA       7.19 
+      vehA       7.29 Speed check results:
+  Current speed: 93.97 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -56.04 km/h
+  Decision: No speed violation detected
+
+      vehA       7.29 
+      vehA       7.39 Speed check results:
+  Current speed: 94.91 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -55.10 km/h
+  Decision: No speed violation detected
+
+      vehA       7.39 
+      vehA       7.49 Speed check results:
+  Current speed: 95.75 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -54.26 km/h
+  Decision: No speed violation detected
+
+      vehA       7.49 
+      vehA       7.59 Speed check results:
+  Current speed: 96.61 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -53.40 km/h
+  Decision: No speed violation detected
+
+      vehA       7.59 
+      vehA       7.69 Speed check results:
+  Current speed: 97.39 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -52.62 km/h
+  Decision: No speed violation detected
+
+      vehA       7.69 
+      vehA       7.79 Speed check results:
+  Current speed: 97.96 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -52.05 km/h
+  Decision: No speed violation detected
+
+      vehA       7.79 
+      vehA       7.89 Speed check results:
+  Current speed: 98.84 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -51.18 km/h
+  Decision: No speed violation detected
+
+      vehA       7.89 
+      vehA       7.99 Speed check results:
+  Current speed: 99.80 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -50.22 km/h
+  Decision: No speed violation detected
+
+      vehA       7.99 
+      vehA       8.09 Speed check results:
+  Current speed: 100.74 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -49.27 km/h
+  Decision: No speed violation detected
+
+      vehA       8.09 
+      vehA       8.19 Speed check results:
+  Current speed: 101.40 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -48.61 km/h
+  Decision: No speed violation detected
+
+      vehA       8.19 
+      vehA       8.29 Speed check results:
+  Current speed: 102.33 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -47.68 km/h
+  Decision: No speed violation detected
+
+      vehA       8.29 
+      vehA       8.39 Speed check results:
+  Current speed: 103.10 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -46.91 km/h
+  Decision: No speed violation detected
+
+      vehA       8.39 
+      vehA       8.49 Speed check results:
+  Current speed: 103.86 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -46.15 km/h
+  Decision: No speed violation detected
+
+      vehA       8.49 
+      vehA       8.59 Speed check results:
+  Current speed: 104.54 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -45.47 km/h
+  Decision: No speed violation detected
+
+      vehA       8.59 
+      vehA       8.69 Speed check results:
+  Current speed: 105.49 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -44.52 km/h
+  Decision: No speed violation detected
+
+      vehA       8.69 
+      vehA       8.79 Speed check results:
+  Current speed: 106.19 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -43.82 km/h
+  Decision: No speed violation detected
+
+      vehA       8.79 
+      vehA       8.89 Speed check results:
+  Current speed: 106.94 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -43.07 km/h
+  Decision: No speed violation detected
+
+      vehA       8.89 
+      vehA       8.99 Speed check results:
+  Current speed: 107.79 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -42.22 km/h
+  Decision: No speed violation detected
+
+      vehA       8.99 
+      vehA       9.09 Speed check results:
+  Current speed: 108.78 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -41.23 km/h
+  Decision: No speed violation detected
+
+      vehA       9.09 
+      vehA       9.19 Speed check results:
+  Current speed: 109.74 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -40.27 km/h
+  Decision: No speed violation detected
+
+      vehA       9.19 
+      vehA       9.29 Speed check results:
+  Current speed: 110.61 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -39.40 km/h
+  Decision: No speed violation detected
+
+      vehA       9.29 
+normal_cars.3       9.30 SpeedAlertReceiverService initialized
+ CaService       9.30 CaService initialized  successfully
+      vehA       9.39 Speed check results:
+  Current speed: 111.48 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -38.53 km/h
+  Decision: No speed violation detected
+
+      vehA       9.39 
+      vehA       9.49 Speed check results:
+  Current speed: 112.16 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -37.85 km/h
+  Decision: No speed violation detected
+
+      vehA       9.49 
+      vehA       9.59 Speed check results:
+  Current speed: 112.90 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -37.12 km/h
+  Decision: No speed violation detected
+
+      vehA       9.59 
+      vehA       9.69 Speed check results:
+  Current speed: 113.62 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -36.39 km/h
+  Decision: No speed violation detected
+
+      vehA       9.69 
+      vehA       9.79 Speed check results:
+  Current speed: 114.33 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -35.68 km/h
+  Decision: No speed violation detected
+
+      vehA       9.79 
+      vehA       9.89 Speed check results:
+  Current speed: 115.07 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -34.94 km/h
+  Decision: No speed violation detected
+
+      vehA       9.89 
+      vehA       9.99 Speed check results:
+  Current speed: 115.63 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -34.39 km/h
+  Decision: No speed violation detected
+
+      vehA       9.99 
+      vehA      10.09 Speed check results:
+  Current speed: 116.30 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -33.71 km/h
+  Decision: No speed violation detected
+
+      vehA      10.09 
+      vehA      10.19 Speed check results:
+  Current speed: 117.29 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -32.73 km/h
+  Decision: No speed violation detected
+
+      vehA      10.19 
+      vehA      10.29 Speed check results:
+  Current speed: 118.26 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -31.75 km/h
+  Decision: No speed violation detected
+
+      vehA      10.29 
+      vehA      10.39 Speed check results:
+  Current speed: 118.94 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -31.07 km/h
+  Decision: No speed violation detected
+
+      vehA      10.39 
+      vehA      10.49 Speed check results:
+  Current speed: 119.73 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -30.28 km/h
+  Decision: No speed violation detected
+
+      vehA      10.49 
+      vehA      10.59 Speed check results:
+  Current speed: 120.60 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -29.41 km/h
+  Decision: No speed violation detected
+
+      vehA      10.59 
+      vehA      10.69 Speed check results:
+  Current speed: 121.35 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -28.66 km/h
+  Decision: No speed violation detected
+
+      vehA      10.69 
+      vehA      10.79 Speed check results:
+  Current speed: 122.30 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -27.71 km/h
+  Decision: No speed violation detected
+
+      vehA      10.79 
+      vehA      10.89 Speed check results:
+  Current speed: 123.35 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -26.66 km/h
+  Decision: No speed violation detected
+
+      vehA      10.89 
+      vehA      10.99 Speed check results:
+  Current speed: 124.11 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -25.90 km/h
+  Decision: No speed violation detected
+
+      vehA      10.99 
+      vehA      11.09 Speed check results:
+  Current speed: 124.78 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -25.23 km/h
+  Decision: No speed violation detected
+
+      vehA      11.09 
+      vehA      11.19 Speed check results:
+  Current speed: 125.57 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -24.45 km/h
+  Decision: No speed violation detected
+
+      vehA      11.19 
+      vehA      11.29 Speed check results:
+  Current speed: 126.49 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -23.53 km/h
+  Decision: No speed violation detected
+
+      vehA      11.29 
+      vehA      11.39 Speed check results:
+  Current speed: 127.22 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -22.80 km/h
+  Decision: No speed violation detected
+
+      vehA      11.39 
+      vehA      11.49 Speed check results:
+  Current speed: 128.03 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -21.98 km/h
+  Decision: No speed violation detected
+
+      vehA      11.49 
+      vehA      11.59 Speed check results:
+  Current speed: 129.03 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -20.98 km/h
+  Decision: No speed violation detected
+
+      vehA      11.59 
+      vehA      11.69 Speed check results:
+  Current speed: 129.82 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -20.19 km/h
+  Decision: No speed violation detected
+
+      vehA      11.69 
+      vehA      11.79 Speed check results:
+  Current speed: 130.83 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -19.18 km/h
+  Decision: No speed violation detected
+
+      vehA      11.79 
+      vehA      11.89 Speed check results:
+  Current speed: 131.68 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -18.33 km/h
+  Decision: No speed violation detected
+
+      vehA      11.89 
+      vehA      11.99 Speed check results:
+  Current speed: 132.64 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -17.37 km/h
+  Decision: No speed violation detected
+
+      vehA      11.99 
+      vehA      12.09 Speed check results:
+  Current speed: 133.57 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -16.44 km/h
+  Decision: No speed violation detected
+
+      vehA      12.09 
+      vehA      12.19 Speed check results:
+  Current speed: 134.16 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -15.85 km/h
+  Decision: No speed violation detected
+
+      vehA      12.19 
+      vehA      12.29 Speed check results:
+  Current speed: 134.87 km/h
+  Speed limit: 150.01 km/h
+  Speed excess: -15.14 km/h
+  Decision: No speed violation detected
+
+      vehA      12.29 

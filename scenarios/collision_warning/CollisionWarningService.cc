@@ -17,6 +17,8 @@
 #include <stdexcept>
 #include <limits>
 #include <cmath>
+#include <fstream>
+#include <iomanip> 
 #include "Utils.h"
 
 using namespace omnetpp;
@@ -29,7 +31,6 @@ struct ObjectHistory {
     double lastEstimatedSpeed = 0.0;
 };
 std::map<int, ObjectHistory> mObjectHistories;
-
 
 void CollisionWarningService::initialize()
 {
@@ -49,13 +50,57 @@ void CollisionWarningService::initialize()
         logToFile(mVehicleController->getVehicleId(), "LocalEnvironmentModel not found in Facilities: " + std::string(e.what()));
     }
     
+    // Créer le répertoire de données s'il n'existe pas
+    std::string dataDir = "/home/yelfatihi/artery/scenarios/collision_warning/data";
+    int status = system(("mkdir -p " + dataDir).c_str());
+    if (status == -1) {
+        throw omnetpp::cRuntimeError("Failed to create data directory");
+    }
+
+    // Ouvrir le fichier CSV pour l'enregistrement des données
+    std::string filename = dataDir + "/collision_data_" + mVehicleController->getVehicleId() + ".csv";
+    mDataFile.open(filename.c_str(), std::ios::out | std::ios::trunc);
+    if (!mDataFile.is_open()) {
+        throw omnetpp::cRuntimeError("Failed to open data file for writing: %s", filename.c_str());
+    }
+    mDataFile << "Time,VehicleID,Speed,PositionX,PositionY,DetectedObjects,TTC,SubCauseCode,DangerVehicleID" << std::endl;
+    
     logToFile(mVehicleController->getVehicleId(), "CollisionWarningService initialized");
+}
+void CollisionWarningService::finish()
+{
+    ItsG5Service::finish();
+    if (mDataFile.is_open()) {
+        mDataFile.close();
+    }
 }
 
 void CollisionWarningService::trigger()
 {
     Enter_Method("CollisionWarningService trigger");
     checkCollisionRisk();
+}
+
+void CollisionWarningService::recordData(double ttc, int subCauseCode, const std::string& dangerVehicleId)
+{
+    if (mDataFile.is_open()) {
+        auto position = mVehicleController->getPosition();
+        auto speed = mVehicleController->getSpeed();
+        auto heading = mVehicleController->getHeading();
+        const auto& objects = mLocalEnvironmentModel->allObjects();
+        int detectedObjectsCount = objects.size();
+
+        mDataFile << std::fixed << std::setprecision(3)
+                  << simTime().dbl() << ","
+                  << mVehicleController->getVehicleId() << ","
+                  << speed.value() << ","
+                  << position.x.value() << ","
+                  << position.y.value() << ","
+                  << detectedObjectsCount << ","
+                  << (ttc < std::numeric_limits<double>::infinity() ? std::to_string(ttc) : "N/A") << ","
+                  << subCauseCode << ","
+                  << (dangerVehicleId.empty() ? "N/A" : dangerVehicleId) << std::endl;
+    }
 }
 double CollisionWarningService::calculateTimeToCollision(const artery::LocalEnvironmentModel::Tracking& tracking)
 {
@@ -169,6 +214,9 @@ double CollisionWarningService::calculateTimeToCollision(const artery::LocalEnvi
 void CollisionWarningService::checkCollisionRisk()
 {
     const auto& objects = mLocalEnvironmentModel->allObjects();
+    double minTTC = std::numeric_limits<double>::infinity();
+    int subCauseCode = 0;
+    std::string dangerVehicleId;
     
     logToFile(mVehicleController->getVehicleId(), "Total objects detected: " + std::to_string(objects.size()));
 
@@ -201,7 +249,10 @@ void CollisionWarningService::checkCollisionRisk()
             logToFile(mVehicleController->getVehicleId(), objectDetails.str());
 
             double ttc = calculateTimeToCollision(tracking);
-
+            if (ttc < minTTC) {
+                minTTC = ttc;
+                dangerVehicleId = object->getExternalId();
+            }
             std::stringstream decisionInfo;
             decisionInfo << "TTC calculation results:\n";
             decisionInfo << "  Calculated TTC: " << ttc << "s\n";
@@ -211,6 +262,7 @@ void CollisionWarningService::checkCollisionRisk()
                 logToFile(mVehicleController->getVehicleId(), decisionInfo.str());
                 
                 logToFile(mVehicleController->getVehicleId(), "Sending critical DENM (SubCauseCode 2)");
+                subCauseCode = 2;
                 sendDENM(ttc, 2); // Critical danger
             } 
             else if (ttc < mWarningThreshold) {
@@ -218,16 +270,21 @@ void CollisionWarningService::checkCollisionRisk()
                 logToFile(mVehicleController->getVehicleId(), decisionInfo.str());
                 
                 logToFile(mVehicleController->getVehicleId(), "Sending warning DENM (SubCauseCode 1)");
+                subCauseCode = 1;
                 sendDENM(ttc, 1); // Warning
             }
             else {
                 decisionInfo << "  Decision: No significant risk detected\n";
+
                 logToFile(mVehicleController->getVehicleId(), decisionInfo.str());
             }
 
             logToFile(mVehicleController->getVehicleId(), "");
         }
     }
+    
+     recordData(minTTC, subCauseCode, dangerVehicleId);
+
 }
 
 void CollisionWarningService::sendDENM(double ttc, int subCauseCode)

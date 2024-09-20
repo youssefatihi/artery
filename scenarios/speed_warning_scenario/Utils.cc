@@ -6,6 +6,7 @@
 #include <fstream>
 #include <sys/stat.h>
 #include <unistd.h>
+#include <omnetpp.h>
 std::string getCurrentDateTime() {
     auto now = std::chrono::system_clock::now();
     auto in_time_t = std::chrono::system_clock::to_time_t(now);

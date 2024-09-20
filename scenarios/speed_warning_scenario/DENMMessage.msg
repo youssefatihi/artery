@@ -22,5 +22,5 @@ packet DENMMessage
     double eventHeading;
     
     // Alacarte Container (optional)
-    double timeToCollision;
+    double RelevanceDistance ;
 }

@@ -11,7 +11,7 @@
     
     <!-- Véhicules -->
     <!-- Véhicule A (celui qui détecte les excès de vitesse) -->
-    <vehicle id="vehA" type="car_normal" route="route_B" depart="0" departLane="1" departSpeed="max">
+    <vehicle id="vehA" type="car_speeding" route="route_B" depart="0" departLane="1" departSpeed="10">
         <param key="has.ssm.device" value="true"/>
         <param key="device.ssm.measures" value="TTC DRAC PET"/>
         <param key="device.ssm.range" value="100"/>
