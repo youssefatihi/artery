@@ -1,0 +1,3044 @@
+ CaService       0.10 CaService initialized  successfully
+      vehA       0.29 Speed check results:
+  Current speed: 36.71 km/h
+  Speed limit: 120 km/h
+  Speed excess: -83.29 km/h
+  Decision: No speed violation detected
+
+      vehA       0.29 
+      vehA       0.39 Speed check results:
+  Current speed: 37.62 km/h
+  Speed limit: 120 km/h
+  Speed excess: -82.38 km/h
+  Decision: No speed violation detected
+
+      vehA       0.39 
+      vehA       0.49 Speed check results:
+  Current speed: 38.23 km/h
+  Speed limit: 120 km/h
+  Speed excess: -81.77 km/h
+  Decision: No speed violation detected
+
+      vehA       0.49 
+      vehA       0.59 Speed check results:
+  Current speed: 38.81 km/h
+  Speed limit: 120 km/h
+  Speed excess: -81.19 km/h
+  Decision: No speed violation detected
+
+      vehA       0.59 
+      vehA       0.69 Speed check results:
+  Current speed: 39.88 km/h
+  Speed limit: 120 km/h
+  Speed excess: -80.12 km/h
+  Decision: No speed violation detected
+
+      vehA       0.69 
+      vehA       0.79 Speed check results:
+  Current speed: 40.93 km/h
+  Speed limit: 120 km/h
+  Speed excess: -79.07 km/h
+  Decision: No speed violation detected
+
+      vehA       0.79 
+      vehA       0.89 Speed check results:
+  Current speed: 41.53 km/h
+  Speed limit: 120 km/h
+  Speed excess: -78.47 km/h
+  Decision: No speed violation detected
+
+      vehA       0.89 
+      vehA       0.99 Speed check results:
+  Current speed: 42.22 km/h
+  Speed limit: 120 km/h
+  Speed excess: -77.78 km/h
+  Decision: No speed violation detected
+
+      vehA       0.99 
+      vehA       1.09 Speed check results:
+  Current speed: 43.13 km/h
+  Speed limit: 120 km/h
+  Speed excess: -76.87 km/h
+  Decision: No speed violation detected
+
+      vehA       1.09 
+normal_cars.0       1.10 SpeedAlertReceiverService initialized
+ CaService       1.10 CaService initialized  successfully
+      vehA       1.19 Speed check results:
+  Current speed: 43.85 km/h
+  Speed limit: 120 km/h
+  Speed excess: -76.15 km/h
+  Decision: No speed violation detected
+
+      vehA       1.19 
+       375       1.19 Received CAM from station 18 with speed 12.18 m/s
+      vehA       1.29 Speed check results:
+  Current speed: 44.46 km/h
+  Speed limit: 120 km/h
+  Speed excess: -75.54 km/h
+  Decision: No speed violation detected
+
+      vehA       1.29 
+        18       1.35 Received CAM from station 375 with speed 32.75 m/s
+      vehA       1.39 Speed check results:
+  Current speed: 45.41 km/h
+  Speed limit: 120 km/h
+  Speed excess: -74.59 km/h
+  Decision: No speed violation detected
+
+      vehA       1.39 
+       375       1.39 Received CAM from station 18 with speed 12.61 m/s
+      vehA       1.49 Speed check results:
+  Current speed: 46.44 km/h
+  Speed limit: 120 km/h
+  Speed excess: -73.56 km/h
+  Decision: No speed violation detected
+
+      vehA       1.49 
+        18       1.55 Received CAM from station 375 with speed 31.85 m/s
+      vehA       1.59 Speed check results:
+  Current speed: 47.45 km/h
+  Speed limit: 120 km/h
+  Speed excess: -72.55 km/h
+  Decision: No speed violation detected
+
+      vehA       1.59 
+       375       1.59 Received CAM from station 18 with speed 13.18 m/s
+      vehA       1.69 Speed check results:
+  Current speed: 48.44 km/h
+  Speed limit: 120 km/h
+  Speed excess: -71.56 km/h
+  Decision: No speed violation detected
+
+      vehA       1.69 
+        18       1.75 Received CAM from station 375 with speed 30.95 m/s
+      vehA       1.79 Speed check results:
+  Current speed: 49.44 km/h
+  Speed limit: 120 km/h
+  Speed excess: -70.56 km/h
+  Decision: No speed violation detected
+
+      vehA       1.79 
+       375       1.79 Received CAM from station 18 with speed 13.73 m/s
+      vehA       1.89 Speed check results:
+  Current speed: 50.15 km/h
+  Speed limit: 120 km/h
+  Speed excess: -69.85 km/h
+  Decision: No speed violation detected
+
+      vehA       1.89 
+        18       1.95 Received CAM from station 375 with speed 31.32 m/s
+      vehA       1.99 Speed check results:
+  Current speed: 50.91 km/h
+  Speed limit: 120 km/h
+  Speed excess: -69.09 km/h
+  Decision: No speed violation detected
+
+      vehA       1.99 
+       375       1.99 Received CAM from station 18 with speed 14.14 m/s
+      vehA       2.09 Speed check results:
+  Current speed: 51.78 km/h
+  Speed limit: 120 km/h
+  Speed excess: -68.22 km/h
+  Decision: No speed violation detected
+
+      vehA       2.09 
+        18       2.15 Received CAM from station 375 with speed 31.76 m/s
+      vehA       2.19 Speed check results:
+  Current speed: 52.33 km/h
+  Speed limit: 120 km/h
+  Speed excess: -67.67 km/h
+  Decision: No speed violation detected
+
+      vehA       2.19 
+       375       2.19 Received CAM from station 18 with speed 14.54 m/s
+      vehA       2.29 Speed check results:
+  Current speed: 53.01 km/h
+  Speed limit: 120 km/h
+  Speed excess: -66.99 km/h
+  Decision: No speed violation detected
+
+      vehA       2.29 
+        18       2.35 Received CAM from station 375 with speed 32.17 m/s
+      vehA       2.39 Speed check results:
+  Current speed: 53.95 km/h
+  Speed limit: 120 km/h
+  Speed excess: -66.05 km/h
+  Decision: No speed violation detected
+
+      vehA       2.39 
+       375       2.39 Received CAM from station 18 with speed 14.99 m/s
+      vehA       2.49 Speed check results:
+  Current speed: 54.55 km/h
+  Speed limit: 120 km/h
+  Speed excess: -65.45 km/h
+  Decision: No speed violation detected
+
+      vehA       2.49 
+        18       2.55 Received CAM from station 375 with speed 32.44 m/s
+      vehA       2.59 Speed check results:
+  Current speed: 55.29 km/h
+  Speed limit: 120 km/h
+  Speed excess: -64.71 km/h
+  Decision: No speed violation detected
+
+      vehA       2.59 
+       375       2.59 Received CAM from station 18 with speed 15.36 m/s
+      vehA       2.69 Speed check results:
+  Current speed: 56.09 km/h
+  Speed limit: 120 km/h
+  Speed excess: -63.91 km/h
+  Decision: No speed violation detected
+
+      vehA       2.69 
+        18       2.75 Received CAM from station 375 with speed 32.89 m/s
+      vehA       2.79 Speed check results:
+  Current speed: 56.74 km/h
+  Speed limit: 120 km/h
+  Speed excess: -63.26 km/h
+  Decision: No speed violation detected
+
+      vehA       2.79 
+       375       2.79 Received CAM from station 18 with speed 15.76 m/s
+      vehA       2.89 Speed check results:
+  Current speed: 57.50 km/h
+  Speed limit: 120 km/h
+  Speed excess: -62.50 km/h
+  Decision: No speed violation detected
+
+      vehA       2.89 
+        18       2.95 Received CAM from station 375 with speed 33.21 m/s
+      vehA       2.99 Speed check results:
+  Current speed: 58.30 km/h
+  Speed limit: 120 km/h
+  Speed excess: -61.70 km/h
+  Decision: No speed violation detected
+
+      vehA       2.99 
+       375       2.99 Received CAM from station 18 with speed 16.20 m/s
+      vehA       3.09 Speed check results:
+  Current speed: 59.35 km/h
+  Speed limit: 120 km/h
+  Speed excess: -60.65 km/h
+  Decision: No speed violation detected
+
+      vehA       3.09 
+        18       3.15 Received CAM from station 375 with speed 33.25 m/s
+      vehA       3.19 Speed check results:
+  Current speed: 60.18 km/h
+  Speed limit: 120 km/h
+  Speed excess: -59.82 km/h
+  Decision: No speed violation detected
+
+      vehA       3.19 
+       375       3.19 Received CAM from station 18 with speed 16.72 m/s
+      vehA       3.29 Speed check results:
+  Current speed: 60.94 km/h
+  Speed limit: 120 km/h
+  Speed excess: -59.06 km/h
+  Decision: No speed violation detected
+
+      vehA       3.29 
+        18       3.35 Received CAM from station 375 with speed 33.25 m/s
+      vehA       3.39 Speed check results:
+  Current speed: 61.59 km/h
+  Speed limit: 120 km/h
+  Speed excess: -58.41 km/h
+  Decision: No speed violation detected
+
+      vehA       3.39 
+       375       3.39 Received CAM from station 18 with speed 17.11 m/s
+      vehA       3.49 Speed check results:
+  Current speed: 62.25 km/h
+  Speed limit: 120 km/h
+  Speed excess: -57.75 km/h
+  Decision: No speed violation detected
+
+      vehA       3.49 
+        18       3.55 Received CAM from station 375 with speed 33.28 m/s
+      vehA       3.59 Speed check results:
+  Current speed: 62.86 km/h
+  Speed limit: 120 km/h
+  Speed excess: -57.14 km/h
+  Decision: No speed violation detected
+
+      vehA       3.59 
+       375       3.59 Received CAM from station 18 with speed 17.46 m/s
+normal_cars.1       3.60 SpeedAlertReceiverService initialized
+ CaService       3.60 CaService initialized  successfully
+      vehA       3.69 Speed check results:
+  Current speed: 63.73 km/h
+  Speed limit: 120 km/h
+  Speed excess: -56.27 km/h
+  Decision: No speed violation detected
+
+      vehA       3.69 
+        18       3.75 Received CAM from station 375 with speed 33.32 m/s
+       448       3.75 Received CAM from station 375 with speed 33.32 m/s
+      vehA       3.79 Speed check results:
+  Current speed: 64.60 km/h
+  Speed limit: 120 km/h
+  Speed excess: -55.40 km/h
+  Decision: No speed violation detected
+
+      vehA       3.79 
+       375       3.79 Received CAM from station 18 with speed 17.95 m/s
+       448       3.79 Received CAM from station 18 with speed 17.95 m/s
+        18       3.86 Received CAM from station 448 with speed 32.79 m/s
+       375       3.86 Received CAM from station 448 with speed 32.79 m/s
+      vehA       3.89 Speed check results:
+  Current speed: 65.24 km/h
+  Speed limit: 120 km/h
+  Speed excess: -54.76 km/h
+  Decision: No speed violation detected
+
+      vehA       3.89 
+        18       3.95 Received CAM from station 375 with speed 33.32 m/s
+       448       3.95 Received CAM from station 375 with speed 33.32 m/s
+      vehA       3.99 Speed check results:
+  Current speed: 66.28 km/h
+  Speed limit: 120 km/h
+  Speed excess: -53.72 km/h
+  Decision: No speed violation detected
+
+      vehA       3.99 
+       375       3.99 Received CAM from station 18 with speed 18.41 m/s
+       448       3.99 Received CAM from station 18 with speed 18.41 m/s
+        18       4.06 Received CAM from station 448 with speed 31.89 m/s
+       375       4.06 Received CAM from station 448 with speed 31.89 m/s
+      vehA       4.09 Speed check results:
+  Current speed: 67.21 km/h
+  Speed limit: 120 km/h
+  Speed excess: -52.79 km/h
+  Decision: No speed violation detected
+
+      vehA       4.09 
+        18       4.15 Received CAM from station 375 with speed 33.33 m/s
+       448       4.15 Received CAM from station 375 with speed 33.33 m/s
+      vehA       4.19 Speed check results:
+  Current speed: 68.24 km/h
+  Speed limit: 120 km/h
+  Speed excess: -51.76 km/h
+  Decision: No speed violation detected
+
+      vehA       4.19 
+       375       4.19 Received CAM from station 18 with speed 18.96 m/s
+       448       4.19 Received CAM from station 18 with speed 18.96 m/s
+        18       4.26 Received CAM from station 448 with speed 30.99 m/s
+       375       4.26 Received CAM from station 448 with speed 30.99 m/s
+      vehA       4.29 Speed check results:
+  Current speed: 69.21 km/h
+  Speed limit: 120 km/h
+  Speed excess: -50.79 km/h
+  Decision: No speed violation detected
+
+      vehA       4.29 
+        18       4.35 Received CAM from station 375 with speed 33.31 m/s
+       448       4.35 Received CAM from station 375 with speed 33.31 m/s
+      vehA       4.39 Speed check results:
+  Current speed: 69.88 km/h
+  Speed limit: 120 km/h
+  Speed excess: -50.12 km/h
+  Decision: No speed violation detected
+
+      vehA       4.39 
+       448       4.39 Received CAM from station 18 with speed 19.41 m/s
+       375       4.39 Received CAM from station 18 with speed 19.41 m/s
+        18       4.46 Received CAM from station 448 with speed 30.09 m/s
+       375       4.46 Received CAM from station 448 with speed 30.09 m/s
+      vehA       4.49 Speed check results:
+  Current speed: 70.60 km/h
+  Speed limit: 120 km/h
+  Speed excess: -49.40 km/h
+  Decision: No speed violation detected
+
+      vehA       4.49 
+        18       4.55 Received CAM from station 375 with speed 33.25 m/s
+       448       4.55 Received CAM from station 375 with speed 33.25 m/s
+      vehA       4.59 Speed check results:
+  Current speed: 71.19 km/h
+  Speed limit: 120 km/h
+  Speed excess: -48.81 km/h
+  Decision: No speed violation detected
+
+      vehA       4.59 
+       448       4.59 Received CAM from station 18 with speed 19.78 m/s
+       375       4.59 Received CAM from station 18 with speed 19.78 m/s
+        18       4.66 Received CAM from station 448 with speed 29.19 m/s
+       375       4.66 Received CAM from station 448 with speed 29.19 m/s
+      vehA       4.69 Speed check results:
+  Current speed: 72.23 km/h
+  Speed limit: 120 km/h
+  Speed excess: -47.77 km/h
+  Decision: No speed violation detected
+
+      vehA       4.69 
+        18       4.75 Received CAM from station 375 with speed 33.32 m/s
+       448       4.75 Received CAM from station 375 with speed 33.32 m/s
+      vehA       4.79 Speed check results:
+  Current speed: 72.97 km/h
+  Speed limit: 120 km/h
+  Speed excess: -47.03 km/h
+  Decision: No speed violation detected
+
+      vehA       4.79 
+       448       4.79 Received CAM from station 18 with speed 20.27 m/s
+       375       4.79 Received CAM from station 18 with speed 20.27 m/s
+        18       4.86 Received CAM from station 448 with speed 28.29 m/s
+       375       4.86 Received CAM from station 448 with speed 28.29 m/s
+      vehA       4.89 Speed check results:
+  Current speed: 74.03 km/h
+  Speed limit: 120 km/h
+  Speed excess: -45.97 km/h
+  Decision: No speed violation detected
+
+      vehA       4.89 
+        18       4.95 Received CAM from station 375 with speed 33.28 m/s
+       448       4.95 Received CAM from station 375 with speed 33.28 m/s
+      vehA       4.99 Speed check results:
+  Current speed: 74.99 km/h
+  Speed limit: 120 km/h
+  Speed excess: -45.01 km/h
+  Decision: No speed violation detected
+
+      vehA       4.99 
+       448       4.99 Received CAM from station 18 with speed 20.83 m/s
+       375       4.99 Received CAM from station 18 with speed 20.83 m/s
+        18       5.06 Received CAM from station 448 with speed 27.39 m/s
+       375       5.06 Received CAM from station 448 with speed 27.39 m/s
+      vehA       5.09 Speed check results:
+  Current speed: 75.76 km/h
+  Speed limit: 120 km/h
+  Speed excess: -44.24 km/h
+  Decision: No speed violation detected
+
+      vehA       5.09 
+        18       5.15 Received CAM from station 375 with speed 33.33 m/s
+       448       5.15 Received CAM from station 375 with speed 33.33 m/s
+      vehA       5.19 Speed check results:
+  Current speed: 76.35 km/h
+  Speed limit: 120 km/h
+  Speed excess: -43.65 km/h
+  Decision: No speed violation detected
+
+      vehA       5.19 
+       448       5.19 Received CAM from station 18 with speed 21.21 m/s
+       375       5.19 Received CAM from station 18 with speed 21.21 m/s
+        18       5.26 Received CAM from station 448 with speed 26.49 m/s
+       375       5.26 Received CAM from station 448 with speed 26.49 m/s
+      vehA       5.29 Speed check results:
+  Current speed: 77.34 km/h
+  Speed limit: 120 km/h
+  Speed excess: -42.66 km/h
+  Decision: No speed violation detected
+
+      vehA       5.29 
+        18       5.35 Received CAM from station 375 with speed 33.21 m/s
+       448       5.35 Received CAM from station 375 with speed 33.21 m/s
+      vehA       5.39 Speed check results:
+  Current speed: 78.29 km/h
+  Speed limit: 120 km/h
+  Speed excess: -41.71 km/h
+  Decision: No speed violation detected
+
+      vehA       5.39 
+       448       5.39 Received CAM from station 18 with speed 21.75 m/s
+       375       5.39 Received CAM from station 18 with speed 21.75 m/s
+        18       5.46 Received CAM from station 448 with speed 25.52 m/s
+       375       5.46 Received CAM from station 448 with speed 25.52 m/s
+      vehA       5.49 Speed check results:
+  Current speed: 78.95 km/h
+  Speed limit: 120 km/h
+  Speed excess: -41.05 km/h
+  Decision: No speed violation detected
+
+      vehA       5.49 
+        18       5.55 Received CAM from station 375 with speed 33.24 m/s
+       448       5.55 Received CAM from station 375 with speed 33.24 m/s
+      vehA       5.59 Speed check results:
+  Current speed: 79.80 km/h
+  Speed limit: 120 km/h
+  Speed excess: -40.20 km/h
+  Decision: No speed violation detected
+
+      vehA       5.59 
+       448       5.59 Received CAM from station 18 with speed 22.17 m/s
+       375       5.59 Received CAM from station 18 with speed 22.17 m/s
+        18       5.66 Received CAM from station 448 with speed 24.55 m/s
+       375       5.66 Received CAM from station 448 with speed 24.55 m/s
+      vehA       5.69 Speed check results:
+  Current speed: 80.57 km/h
+  Speed limit: 120 km/h
+  Speed excess: -39.43 km/h
+  Decision: No speed violation detected
+
+      vehA       5.69 
+        18       5.75 Received CAM from station 375 with speed 33.23 m/s
+       448       5.75 Received CAM from station 375 with speed 33.23 m/s
+      vehA       5.79 Speed check results:
+  Current speed: 81.56 km/h
+  Speed limit: 120 km/h
+  Speed excess: -38.44 km/h
+  Decision: No speed violation detected
+
+      vehA       5.79 
+       448       5.79 Received CAM from station 18 with speed 22.66 m/s
+       375       5.79 Received CAM from station 18 with speed 22.66 m/s
+        18       5.86 Received CAM from station 448 with speed 23.65 m/s
+       375       5.86 Received CAM from station 448 with speed 23.65 m/s
+      vehA       5.89 Speed check results:
+  Current speed: 82.55 km/h
+  Speed limit: 120 km/h
+  Speed excess: -37.45 km/h
+  Decision: No speed violation detected
+
+      vehA       5.89 
+        18       5.95 Received CAM from station 375 with speed 33.31 m/s
+       448       5.95 Received CAM from station 375 with speed 33.31 m/s
+      vehA       5.99 Speed check results:
+  Current speed: 83.36 km/h
+  Speed limit: 120 km/h
+  Speed excess: -36.64 km/h
+  Decision: No speed violation detected
+
+      vehA       5.99 
+       448       5.99 Received CAM from station 18 with speed 23.16 m/s
+       375       5.99 Received CAM from station 18 with speed 23.16 m/s
+        18       6.06 Received CAM from station 448 with speed 23.30 m/s
+       375       6.06 Received CAM from station 448 with speed 23.30 m/s
+      vehA       6.09 Speed check results:
+  Current speed: 84.09 km/h
+  Speed limit: 120 km/h
+  Speed excess: -35.91 km/h
+  Decision: No speed violation detected
+
+      vehA       6.09 
+        18       6.15 Received CAM from station 375 with speed 33.23 m/s
+       448       6.15 Received CAM from station 375 with speed 33.23 m/s
+      vehA       6.19 Speed check results:
+  Current speed: 84.74 km/h
+  Speed limit: 120 km/h
+  Speed excess: -35.26 km/h
+  Decision: No speed violation detected
+
+      vehA       6.19 
+       448       6.19 Received CAM from station 18 with speed 23.54 m/s
+       375       6.19 Received CAM from station 18 with speed 23.54 m/s
+        18       6.26 Received CAM from station 448 with speed 23.57 m/s
+       375       6.26 Received CAM from station 448 with speed 23.57 m/s
+      vehA       6.29 Speed check results:
+  Current speed: 85.32 km/h
+  Speed limit: 120 km/h
+  Speed excess: -34.68 km/h
+  Decision: No speed violation detected
+
+      vehA       6.29 
+        18       6.35 Received CAM from station 375 with speed 33.26 m/s
+       448       6.35 Received CAM from station 375 with speed 33.26 m/s
+      vehA       6.39 Speed check results:
+  Current speed: 86.10 km/h
+  Speed limit: 120 km/h
+  Speed excess: -33.90 km/h
+  Decision: No speed violation detected
+
+      vehA       6.39 
+       448       6.39 Received CAM from station 18 with speed 23.92 m/s
+       375       6.39 Received CAM from station 18 with speed 23.92 m/s
+normal_cars.2       6.40 SpeedAlertReceiverService initialized
+ CaService       6.40 CaService initialized  successfully
+        18       6.46 Received CAM from station 448 with speed 23.93 m/s
+       521       6.46 Received CAM from station 448 with speed 23.93 m/s
+       375       6.46 Received CAM from station 448 with speed 23.93 m/s
+      vehA       6.49 Speed check results:
+  Current speed: 87.03 km/h
+  Speed limit: 120 km/h
+  Speed excess: -32.97 km/h
+  Decision: No speed violation detected
+
+      vehA       6.49 
+        18       6.55 Received CAM from station 375 with speed 33.26 m/s
+       448       6.55 Received CAM from station 375 with speed 33.26 m/s
+       521       6.55 Received CAM from station 375 with speed 33.26 m/s
+      vehA       6.59 Speed check results:
+  Current speed: 88.02 km/h
+  Speed limit: 120 km/h
+  Speed excess: -31.98 km/h
+  Decision: No speed violation detected
+
+      vehA       6.59 
+       448       6.59 Received CAM from station 18 with speed 24.45 m/s
+       375       6.59 Received CAM from station 18 with speed 24.45 m/s
+       521       6.59 Received CAM from station 18 with speed 24.45 m/s
+       448       6.64 Received CAM from station 521 with speed 32.82 m/s
+        18       6.64 Received CAM from station 521 with speed 32.82 m/s
+       375       6.64 Received CAM from station 521 with speed 32.82 m/s
+        18       6.66 Received CAM from station 448 with speed 24.39 m/s
+       521       6.66 Received CAM from station 448 with speed 24.39 m/s
+       375       6.66 Received CAM from station 448 with speed 24.39 m/s
+      vehA       6.69 Speed check results:
+  Current speed: 88.90 km/h
+  Speed limit: 120 km/h
+  Speed excess: -31.10 km/h
+  Decision: No speed violation detected
+
+      vehA       6.69 
+        18       6.75 Received CAM from station 375 with speed 33.32 m/s
+       448       6.75 Received CAM from station 375 with speed 33.32 m/s
+       521       6.75 Received CAM from station 375 with speed 33.32 m/s
+      vehA       6.79 Speed check results:
+  Current speed: 89.70 km/h
+  Speed limit: 120 km/h
+  Speed excess: -30.30 km/h
+  Decision: No speed violation detected
+
+      vehA       6.79 
+       448       6.79 Received CAM from station 18 with speed 24.92 m/s
+       375       6.79 Received CAM from station 18 with speed 24.92 m/s
+       521       6.79 Received CAM from station 18 with speed 24.92 m/s
+       448       6.84 Received CAM from station 521 with speed 31.92 m/s
+        18       6.84 Received CAM from station 521 with speed 31.92 m/s
+       375       6.84 Received CAM from station 521 with speed 31.92 m/s
+        18       6.86 Received CAM from station 448 with speed 24.82 m/s
+       521       6.86 Received CAM from station 448 with speed 24.82 m/s
+       375       6.86 Received CAM from station 448 with speed 24.82 m/s
+      vehA       6.89 Speed check results:
+  Current speed: 90.52 km/h
+  Speed limit: 120 km/h
+  Speed excess: -29.48 km/h
+  Decision: No speed violation detected
+
+      vehA       6.89 
+        18       6.95 Received CAM from station 375 with speed 33.23 m/s
+       448       6.95 Received CAM from station 375 with speed 33.23 m/s
+       521       6.95 Received CAM from station 375 with speed 33.23 m/s
+      vehA       6.99 Speed check results:
+  Current speed: 91.21 km/h
+  Speed limit: 120 km/h
+  Speed excess: -28.79 km/h
+  Decision: No speed violation detected
+
+      vehA       6.99 
+       448       6.99 Received CAM from station 18 with speed 25.34 m/s
+       375       6.99 Received CAM from station 18 with speed 25.34 m/s
+       521       6.99 Received CAM from station 18 with speed 25.34 m/s
+       448       7.04 Received CAM from station 521 with speed 31.02 m/s
+        18       7.04 Received CAM from station 521 with speed 31.02 m/s
+       375       7.04 Received CAM from station 521 with speed 31.02 m/s
+        18       7.06 Received CAM from station 448 with speed 25.11 m/s
+       521       7.06 Received CAM from station 448 with speed 25.11 m/s
+       375       7.06 Received CAM from station 448 with speed 25.11 m/s
+      vehA       7.09 Speed check results:
+  Current speed: 92.29 km/h
+  Speed limit: 120 km/h
+  Speed excess: -27.71 km/h
+  Decision: No speed violation detected
+
+      vehA       7.09 
+        18       7.15 Received CAM from station 375 with speed 33.31 m/s
+       448       7.15 Received CAM from station 375 with speed 33.31 m/s
+       521       7.15 Received CAM from station 375 with speed 33.31 m/s
+      vehA       7.19 Speed check results:
+  Current speed: 93.03 km/h
+  Speed limit: 120 km/h
+  Speed excess: -26.97 km/h
+  Decision: No speed violation detected
+
+      vehA       7.19 
+       448       7.19 Received CAM from station 18 with speed 25.84 m/s
+       375       7.19 Received CAM from station 18 with speed 25.84 m/s
+       521       7.19 Received CAM from station 18 with speed 25.84 m/s
+       448       7.24 Received CAM from station 521 with speed 30.79 m/s
+        18       7.24 Received CAM from station 521 with speed 30.79 m/s
+       375       7.24 Received CAM from station 521 with speed 30.79 m/s
+        18       7.26 Received CAM from station 448 with speed 25.50 m/s
+       521       7.26 Received CAM from station 448 with speed 25.50 m/s
+       375       7.26 Received CAM from station 448 with speed 25.50 m/s
+      vehA       7.29 Speed check results:
+  Current speed: 93.97 km/h
+  Speed limit: 120 km/h
+  Speed excess: -26.03 km/h
+  Decision: No speed violation detected
+
+      vehA       7.29 
+        18       7.35 Received CAM from station 375 with speed 33.29 m/s
+       448       7.35 Received CAM from station 375 with speed 33.29 m/s
+       521       7.35 Received CAM from station 375 with speed 33.29 m/s
+      vehA       7.39 Speed check results:
+  Current speed: 94.91 km/h
+  Speed limit: 120 km/h
+  Speed excess: -25.09 km/h
+  Decision: No speed violation detected
+
+      vehA       7.39 
+       448       7.39 Received CAM from station 18 with speed 26.36 m/s
+       375       7.39 Received CAM from station 18 with speed 26.36 m/s
+       521       7.39 Received CAM from station 18 with speed 26.36 m/s
+       448       7.44 Received CAM from station 521 with speed 30.94 m/s
+        18       7.44 Received CAM from station 521 with speed 30.94 m/s
+       375       7.44 Received CAM from station 521 with speed 30.94 m/s
+        18       7.46 Received CAM from station 448 with speed 25.88 m/s
+       521       7.46 Received CAM from station 448 with speed 25.88 m/s
+       375       7.46 Received CAM from station 448 with speed 25.88 m/s
+      vehA       7.49 Speed check results:
+  Current speed: 95.75 km/h
+  Speed limit: 120 km/h
+  Speed excess: -24.25 km/h
+  Decision: No speed violation detected
+
+      vehA       7.49 
+        18       7.55 Received CAM from station 375 with speed 33.33 m/s
+       448       7.55 Received CAM from station 375 with speed 33.33 m/s
+       521       7.55 Received CAM from station 375 with speed 33.33 m/s
+      vehA       7.59 Speed check results:
+  Current speed: 96.61 km/h
+  Speed limit: 120 km/h
+  Speed excess: -23.39 km/h
+  Decision: No speed violation detected
+
+      vehA       7.59 
+       448       7.59 Received CAM from station 18 with speed 26.84 m/s
+       375       7.59 Received CAM from station 18 with speed 26.84 m/s
+       521       7.59 Received CAM from station 18 with speed 26.84 m/s
+       448       7.64 Received CAM from station 521 with speed 31.14 m/s
+        18       7.64 Received CAM from station 521 with speed 31.14 m/s
+       375       7.64 Received CAM from station 521 with speed 31.14 m/s
+        18       7.66 Received CAM from station 448 with speed 26.27 m/s
+       521       7.66 Received CAM from station 448 with speed 26.27 m/s
+       375       7.66 Received CAM from station 448 with speed 26.27 m/s
+      vehA       7.69 Speed check results:
+  Current speed: 97.39 km/h
+  Speed limit: 120 km/h
+  Speed excess: -22.61 km/h
+  Decision: No speed violation detected
+
+      vehA       7.69 
+        18       7.75 Received CAM from station 375 with speed 33.20 m/s
+       448       7.75 Received CAM from station 375 with speed 33.20 m/s
+       521       7.75 Received CAM from station 375 with speed 33.20 m/s
+      vehA       7.79 Speed check results:
+  Current speed: 97.96 km/h
+  Speed limit: 120 km/h
+  Speed excess: -22.04 km/h
+  Decision: No speed violation detected
+
+      vehA       7.79 
+       448       7.79 Received CAM from station 18 with speed 27.21 m/s
+       375       7.79 Received CAM from station 18 with speed 27.21 m/s
+       521       7.79 Received CAM from station 18 with speed 27.21 m/s
+       448       7.84 Received CAM from station 521 with speed 31.27 m/s
+        18       7.84 Received CAM from station 521 with speed 31.27 m/s
+       375       7.84 Received CAM from station 521 with speed 31.27 m/s
+        18       7.86 Received CAM from station 448 with speed 26.69 m/s
+       521       7.86 Received CAM from station 448 with speed 26.69 m/s
+       375       7.86 Received CAM from station 448 with speed 26.69 m/s
+      vehA       7.89 Speed check results:
+  Current speed: 98.84 km/h
+  Speed limit: 120 km/h
+  Speed excess: -21.16 km/h
+  Decision: No speed violation detected
+
+      vehA       7.89 
+        18       7.95 Received CAM from station 375 with speed 33.32 m/s
+       448       7.95 Received CAM from station 375 with speed 33.32 m/s
+       521       7.95 Received CAM from station 375 with speed 33.32 m/s
+      vehA       7.99 Speed check results:
+  Current speed: 99.80 km/h
+  Speed limit: 120 km/h
+  Speed excess: -20.20 km/h
+  Decision: No speed violation detected
+
+      vehA       7.99 
+       448       7.99 Received CAM from station 18 with speed 27.72 m/s
+       375       7.99 Received CAM from station 18 with speed 27.72 m/s
+       521       7.99 Received CAM from station 18 with speed 27.72 m/s
+       448       8.04 Received CAM from station 521 with speed 31.37 m/s
+        18       8.04 Received CAM from station 521 with speed 31.37 m/s
+       375       8.04 Received CAM from station 521 with speed 31.37 m/s
+        18       8.06 Received CAM from station 448 with speed 27.08 m/s
+       521       8.06 Received CAM from station 448 with speed 27.08 m/s
+       375       8.06 Received CAM from station 448 with speed 27.08 m/s
+      vehA       8.09 Speed check results:
+  Current speed: 100.74 km/h
+  Speed limit: 120 km/h
+  Speed excess: -19.26 km/h
+  Decision: No speed violation detected
+
+      vehA       8.09 
+        18       8.15 Received CAM from station 375 with speed 33.30 m/s
+       448       8.15 Received CAM from station 375 with speed 33.30 m/s
+       521       8.15 Received CAM from station 375 with speed 33.30 m/s
+      vehA       8.19 Speed check results:
+  Current speed: 101.40 km/h
+  Speed limit: 120 km/h
+  Speed excess: -18.60 km/h
+  Decision: No speed violation detected
+
+      vehA       8.19 
+       448       8.19 Received CAM from station 18 with speed 28.17 m/s
+       375       8.19 Received CAM from station 18 with speed 28.17 m/s
+       521       8.19 Received CAM from station 18 with speed 28.17 m/s
+       448       8.24 Received CAM from station 521 with speed 31.59 m/s
+        18       8.24 Received CAM from station 521 with speed 31.59 m/s
+       375       8.24 Received CAM from station 521 with speed 31.59 m/s
+        18       8.26 Received CAM from station 448 with speed 27.42 m/s
+       521       8.26 Received CAM from station 448 with speed 27.42 m/s
+       375       8.26 Received CAM from station 448 with speed 27.42 m/s
+      vehA       8.29 Speed check results:
+  Current speed: 102.33 km/h
+  Speed limit: 120 km/h
+  Speed excess: -17.67 km/h
+  Decision: No speed violation detected
+
+      vehA       8.29 
+        18       8.35 Received CAM from station 375 with speed 33.25 m/s
+       448       8.35 Received CAM from station 375 with speed 33.25 m/s
+       521       8.35 Received CAM from station 375 with speed 33.25 m/s
+      vehA       8.39 Speed check results:
+  Current speed: 103.10 km/h
+  Speed limit: 120 km/h
+  Speed excess: -16.90 km/h
+  Decision: No speed violation detected
+
+      vehA       8.39 
+       448       8.39 Received CAM from station 18 with speed 28.64 m/s
+       375       8.39 Received CAM from station 18 with speed 28.64 m/s
+       521       8.39 Received CAM from station 18 with speed 28.64 m/s
+       448       8.44 Received CAM from station 521 with speed 31.76 m/s
+        18       8.44 Received CAM from station 521 with speed 31.76 m/s
+       375       8.44 Received CAM from station 521 with speed 31.76 m/s
+        18       8.46 Received CAM from station 448 with speed 27.81 m/s
+       521       8.46 Received CAM from station 448 with speed 27.81 m/s
+       375       8.46 Received CAM from station 448 with speed 27.81 m/s
+      vehA       8.49 Speed check results:
+  Current speed: 103.86 km/h
+  Speed limit: 120 km/h
+  Speed excess: -16.14 km/h
+  Decision: No speed violation detected
+
+      vehA       8.49 
+        18       8.55 Received CAM from station 375 with speed 33.24 m/s
+       448       8.55 Received CAM from station 375 with speed 33.24 m/s
+       521       8.55 Received CAM from station 375 with speed 33.24 m/s
+      vehA       8.59 Speed check results:
+  Current speed: 104.54 km/h
+  Speed limit: 120 km/h
+  Speed excess: -15.46 km/h
+  Decision: No speed violation detected
+
+      vehA       8.59 
+       448       8.59 Received CAM from station 18 with speed 29.04 m/s
+       375       8.59 Received CAM from station 18 with speed 29.04 m/s
+       521       8.59 Received CAM from station 18 with speed 29.04 m/s
+       448       8.64 Received CAM from station 521 with speed 31.96 m/s
+        18       8.64 Received CAM from station 521 with speed 31.96 m/s
+       375       8.64 Received CAM from station 521 with speed 31.96 m/s
+        18       8.66 Received CAM from station 448 with speed 28.20 m/s
+       521       8.66 Received CAM from station 448 with speed 28.20 m/s
+       375       8.66 Received CAM from station 448 with speed 28.20 m/s
+      vehA       8.69 Speed check results:
+  Current speed: 105.49 km/h
+  Speed limit: 120 km/h
+  Speed excess: -14.51 km/h
+  Decision: No speed violation detected
+
+      vehA       8.69 
+        18       8.75 Received CAM from station 375 with speed 33.26 m/s
+       448       8.75 Received CAM from station 375 with speed 33.26 m/s
+       521       8.75 Received CAM from station 375 with speed 33.26 m/s
+      vehA       8.79 Speed check results:
+  Current speed: 106.19 km/h
+  Speed limit: 120 km/h
+  Speed excess: -13.81 km/h
+  Decision: No speed violation detected
+
+      vehA       8.79 
+       448       8.79 Received CAM from station 18 with speed 29.50 m/s
+       375       8.79 Received CAM from station 18 with speed 29.50 m/s
+       521       8.79 Received CAM from station 18 with speed 29.50 m/s
+       448       8.84 Received CAM from station 521 with speed 32.17 m/s
+        18       8.84 Received CAM from station 521 with speed 32.17 m/s
+       375       8.84 Received CAM from station 521 with speed 32.17 m/s
+        18       8.86 Received CAM from station 448 with speed 28.49 m/s
+       521       8.86 Received CAM from station 448 with speed 28.49 m/s
+       375       8.86 Received CAM from station 448 with speed 28.49 m/s
+      vehA       8.89 Speed check results:
+  Current speed: 106.94 km/h
+  Speed limit: 120 km/h
+  Speed excess: -13.06 km/h
+  Decision: No speed violation detected
+
+      vehA       8.89 
+        18       8.95 Received CAM from station 375 with speed 33.30 m/s
+       448       8.95 Received CAM from station 375 with speed 33.30 m/s
+       521       8.95 Received CAM from station 375 with speed 33.30 m/s
+      vehA       8.99 Speed check results:
+  Current speed: 107.79 km/h
+  Speed limit: 120 km/h
+  Speed excess: -12.21 km/h
+  Decision: No speed violation detected
+
+      vehA       8.99 
+       448       8.99 Received CAM from station 18 with speed 29.94 m/s
+       375       8.99 Received CAM from station 18 with speed 29.94 m/s
+       521       8.99 Received CAM from station 18 with speed 29.94 m/s
+       448       9.04 Received CAM from station 521 with speed 32.31 m/s
+        18       9.04 Received CAM from station 521 with speed 32.31 m/s
+       375       9.04 Received CAM from station 521 with speed 32.31 m/s
+        18       9.06 Received CAM from station 448 with speed 28.80 m/s
+       521       9.06 Received CAM from station 448 with speed 28.80 m/s
+       375       9.06 Received CAM from station 448 with speed 28.80 m/s
+      vehA       9.09 Speed check results:
+  Current speed: 108.78 km/h
+  Speed limit: 120 km/h
+  Speed excess: -11.22 km/h
+  Decision: No speed violation detected
+
+      vehA       9.09 
+        18       9.15 Received CAM from station 375 with speed 33.21 m/s
+       448       9.15 Received CAM from station 375 with speed 33.21 m/s
+       521       9.15 Received CAM from station 375 with speed 33.21 m/s
+      vehA       9.19 Speed check results:
+  Current speed: 109.74 km/h
+  Speed limit: 120 km/h
+  Speed excess: -10.26 km/h
+  Decision: No speed violation detected
+
+      vehA       9.19 
+       448       9.19 Received CAM from station 18 with speed 30.48 m/s
+       375       9.19 Received CAM from station 18 with speed 30.48 m/s
+       521       9.19 Received CAM from station 18 with speed 30.48 m/s
+       448       9.24 Received CAM from station 521 with speed 32.40 m/s
+        18       9.24 Received CAM from station 521 with speed 32.40 m/s
+       375       9.24 Received CAM from station 521 with speed 32.40 m/s
+        18       9.26 Received CAM from station 448 with speed 29.22 m/s
+       521       9.26 Received CAM from station 448 with speed 29.22 m/s
+       375       9.26 Received CAM from station 448 with speed 29.22 m/s
+      vehA       9.29 Speed check results:
+  Current speed: 110.61 km/h
+  Speed limit: 120 km/h
+  Speed excess: -9.39 km/h
+  Decision: No speed violation detected
+
+      vehA       9.29 
+normal_cars.3       9.30 SpeedAlertReceiverService initialized
+ CaService       9.30 CaService initialized  successfully
+        18       9.35 Received CAM from station 375 with speed 33.20 m/s
+       448       9.35 Received CAM from station 375 with speed 33.20 m/s
+       521       9.35 Received CAM from station 375 with speed 33.20 m/s
+       594       9.35 Received CAM from station 375 with speed 33.20 m/s
+      vehA       9.39 Speed check results:
+  Current speed: 111.48 km/h
+  Speed limit: 120 km/h
+  Speed excess: -8.52 km/h
+  Decision: No speed violation detected
+
+      vehA       9.39 
+       448       9.39 Received CAM from station 18 with speed 30.97 m/s
+       375       9.39 Received CAM from station 18 with speed 30.97 m/s
+       521       9.39 Received CAM from station 18 with speed 30.97 m/s
+       594       9.39 Received CAM from station 18 with speed 30.97 m/s
+       448       9.44 Received CAM from station 521 with speed 32.76 m/s
+       594       9.44 Received CAM from station 521 with speed 32.76 m/s
+        18       9.44 Received CAM from station 521 with speed 32.76 m/s
+       375       9.44 Received CAM from station 521 with speed 32.76 m/s
+        18       9.46 Received CAM from station 448 with speed 29.71 m/s
+       521       9.46 Received CAM from station 448 with speed 29.71 m/s
+       375       9.46 Received CAM from station 448 with speed 29.71 m/s
+       594       9.46 Received CAM from station 448 with speed 29.71 m/s
+      vehA       9.49 Speed check results:
+  Current speed: 112.16 km/h
+  Speed limit: 120 km/h
+  Speed excess: -7.84 km/h
+  Decision: No speed violation detected
+
+      vehA       9.49 
+        18       9.55 Received CAM from station 375 with speed 33.24 m/s
+       448       9.55 Received CAM from station 375 with speed 33.24 m/s
+       521       9.55 Received CAM from station 375 with speed 33.24 m/s
+       594       9.55 Received CAM from station 375 with speed 33.24 m/s
+       521       9.55 Received CAM from station 594 with speed 33.33 m/s
+       448       9.55 Received CAM from station 594 with speed 33.33 m/s
+        18       9.55 Received CAM from station 594 with speed 33.33 m/s
+       375       9.55 Received CAM from station 594 with speed 33.33 m/s
+      vehA       9.59 Speed check results:
+  Current speed: 112.90 km/h
+  Speed limit: 120 km/h
+  Speed excess: -7.10 km/h
+  Decision: No speed violation detected
+
+      vehA       9.59 
+       448       9.59 Received CAM from station 18 with speed 31.36 m/s
+       375       9.59 Received CAM from station 18 with speed 31.36 m/s
+       521       9.59 Received CAM from station 18 with speed 31.36 m/s
+       594       9.59 Received CAM from station 18 with speed 31.36 m/s
+       448       9.64 Received CAM from station 521 with speed 33.08 m/s
+       594       9.64 Received CAM from station 521 with speed 33.08 m/s
+        18       9.64 Received CAM from station 521 with speed 33.08 m/s
+       375       9.64 Received CAM from station 521 with speed 33.08 m/s
+        18       9.66 Received CAM from station 448 with speed 30.16 m/s
+       521       9.66 Received CAM from station 448 with speed 30.16 m/s
+       375       9.66 Received CAM from station 448 with speed 30.16 m/s
+       594       9.66 Received CAM from station 448 with speed 30.16 m/s
+      vehA       9.69 Speed check results:
+  Current speed: 113.62 km/h
+  Speed limit: 120 km/h
+  Speed excess: -6.38 km/h
+  Decision: No speed violation detected
+
+      vehA       9.69 
+        18       9.75 Received CAM from station 375 with speed 33.26 m/s
+       448       9.75 Received CAM from station 375 with speed 33.26 m/s
+       521       9.75 Received CAM from station 375 with speed 33.26 m/s
+       594       9.75 Received CAM from station 375 with speed 33.26 m/s
+       521       9.75 Received CAM from station 594 with speed 33.21 m/s
+       448       9.75 Received CAM from station 594 with speed 33.21 m/s
+        18       9.75 Received CAM from station 594 with speed 33.21 m/s
+       375       9.75 Received CAM from station 594 with speed 33.21 m/s
+      vehA       9.79 Speed check results:
+  Current speed: 114.33 km/h
+  Speed limit: 120 km/h
+  Speed excess: -5.67 km/h
+  Decision: No speed violation detected
+
+      vehA       9.79 
+       448       9.79 Received CAM from station 18 with speed 31.76 m/s
+       375       9.79 Received CAM from station 18 with speed 31.76 m/s
+       521       9.79 Received CAM from station 18 with speed 31.76 m/s
+       594       9.79 Received CAM from station 18 with speed 31.76 m/s
+       448       9.84 Received CAM from station 521 with speed 33.30 m/s
+       594       9.84 Received CAM from station 521 with speed 33.30 m/s
+        18       9.84 Received CAM from station 521 with speed 33.30 m/s
+       375       9.84 Received CAM from station 521 with speed 33.30 m/s
+        18       9.86 Received CAM from station 448 with speed 30.47 m/s
+       521       9.86 Received CAM from station 448 with speed 30.47 m/s
+       375       9.86 Received CAM from station 448 with speed 30.47 m/s
+       594       9.86 Received CAM from station 448 with speed 30.47 m/s
+      vehA       9.89 Speed check results:
+  Current speed: 115.07 km/h
+  Speed limit: 120 km/h
+  Speed excess: -4.93 km/h
+  Decision: No speed violation detected
+
+      vehA       9.89 
+        18       9.95 Received CAM from station 375 with speed 33.21 m/s
+       448       9.95 Received CAM from station 375 with speed 33.21 m/s
+       521       9.95 Received CAM from station 375 with speed 33.21 m/s
+       594       9.95 Received CAM from station 375 with speed 33.21 m/s
+       521       9.95 Received CAM from station 594 with speed 33.31 m/s
+       448       9.95 Received CAM from station 594 with speed 33.31 m/s
+        18       9.95 Received CAM from station 594 with speed 33.31 m/s
+       375       9.95 Received CAM from station 594 with speed 33.31 m/s
+      vehA       9.99 Speed check results:
+  Current speed: 115.63 km/h
+  Speed limit: 120 km/h
+  Speed excess: -4.37 km/h
+  Decision: No speed violation detected
+
+      vehA       9.99 
+       448       9.99 Received CAM from station 18 with speed 32.12 m/s
+       375       9.99 Received CAM from station 18 with speed 32.12 m/s
+       521       9.99 Received CAM from station 18 with speed 32.12 m/s
+       594       9.99 Received CAM from station 18 with speed 32.12 m/s
+       448      10.04 Received CAM from station 521 with speed 33.30 m/s
+       594      10.04 Received CAM from station 521 with speed 33.30 m/s
+        18      10.04 Received CAM from station 521 with speed 33.30 m/s
+       375      10.04 Received CAM from station 521 with speed 33.30 m/s
+        18      10.06 Received CAM from station 448 with speed 30.84 m/s
+       521      10.06 Received CAM from station 448 with speed 30.84 m/s
+       375      10.06 Received CAM from station 448 with speed 30.84 m/s
+       594      10.06 Received CAM from station 448 with speed 30.84 m/s
+      vehA      10.09 Speed check results:
+  Current speed: 116.30 km/h
+  Speed limit: 120 km/h
+  Speed excess: -3.70 km/h
+  Decision: No speed violation detected
+
+      vehA      10.09 
+        18      10.15 Received CAM from station 375 with speed 33.31 m/s
+       448      10.15 Received CAM from station 375 with speed 33.31 m/s
+       521      10.15 Received CAM from station 375 with speed 33.31 m/s
+       594      10.15 Received CAM from station 375 with speed 33.31 m/s
+       521      10.15 Received CAM from station 594 with speed 33.20 m/s
+       448      10.15 Received CAM from station 594 with speed 33.20 m/s
+        18      10.15 Received CAM from station 594 with speed 33.20 m/s
+       375      10.15 Received CAM from station 594 with speed 33.20 m/s
+      vehA      10.19 Speed check results:
+  Current speed: 117.29 km/h
+  Speed limit: 120 km/h
+  Speed excess: -2.71 km/h
+  Decision: No speed violation detected
+
+      vehA      10.19 
+       448      10.19 Received CAM from station 18 with speed 32.58 m/s
+       375      10.19 Received CAM from station 18 with speed 32.58 m/s
+       521      10.19 Received CAM from station 18 with speed 32.58 m/s
+       594      10.19 Received CAM from station 18 with speed 32.58 m/s
+       448      10.24 Received CAM from station 521 with speed 33.22 m/s
+       594      10.24 Received CAM from station 521 with speed 33.22 m/s
+        18      10.24 Received CAM from station 521 with speed 33.22 m/s
+       375      10.24 Received CAM from station 521 with speed 33.22 m/s
+        18      10.26 Received CAM from station 448 with speed 31.16 m/s
+       521      10.26 Received CAM from station 448 with speed 31.16 m/s
+       375      10.26 Received CAM from station 448 with speed 31.16 m/s
+       594      10.26 Received CAM from station 448 with speed 31.16 m/s
+      vehA      10.29 Speed check results:
+  Current speed: 118.26 km/h
+  Speed limit: 120 km/h
+  Speed excess: -1.74 km/h
+  Decision: No speed violation detected
+
+      vehA      10.29 
+        18      10.35 Received CAM from station 375 with speed 33.30 m/s
+       448      10.35 Received CAM from station 375 with speed 33.30 m/s
+       521      10.35 Received CAM from station 375 with speed 33.30 m/s
+       594      10.35 Received CAM from station 375 with speed 33.30 m/s
+       521      10.35 Received CAM from station 594 with speed 33.29 m/s
+       448      10.35 Received CAM from station 594 with speed 33.29 m/s
+        18      10.35 Received CAM from station 594 with speed 33.29 m/s
+       375      10.35 Received CAM from station 594 with speed 33.29 m/s
+      vehA      10.39 Speed check results:
+  Current speed: 118.94 km/h
+  Speed limit: 120 km/h
+  Speed excess: -1.06 km/h
+  Decision: No speed violation detected
+
+      vehA      10.39 
+       448      10.39 Received CAM from station 18 with speed 33.04 m/s
+       375      10.39 Received CAM from station 18 with speed 33.04 m/s
+       521      10.39 Received CAM from station 18 with speed 33.04 m/s
+       594      10.39 Received CAM from station 18 with speed 33.04 m/s
+       448      10.44 Received CAM from station 521 with speed 33.22 m/s
+       594      10.44 Received CAM from station 521 with speed 33.22 m/s
+        18      10.44 Received CAM from station 521 with speed 33.22 m/s
+       375      10.44 Received CAM from station 521 with speed 33.22 m/s
+        18      10.46 Received CAM from station 448 with speed 31.55 m/s
+       521      10.46 Received CAM from station 448 with speed 31.55 m/s
+       375      10.46 Received CAM from station 448 with speed 31.55 m/s
+       594      10.46 Received CAM from station 448 with speed 31.55 m/s
+      vehA      10.49 Speed check results:
+  Current speed: 119.73 km/h
+  Speed limit: 120 km/h
+  Speed excess: -0.27 km/h
+  Decision: No speed violation detected
+
+      vehA      10.49 
+        18      10.55 Received CAM from station 375 with speed 33.24 m/s
+       448      10.55 Received CAM from station 375 with speed 33.24 m/s
+       521      10.55 Received CAM from station 375 with speed 33.24 m/s
+       594      10.55 Received CAM from station 375 with speed 33.24 m/s
+       521      10.55 Received CAM from station 594 with speed 33.24 m/s
+       448      10.55 Received CAM from station 594 with speed 33.24 m/s
+        18      10.55 Received CAM from station 594 with speed 33.24 m/s
+       375      10.55 Received CAM from station 594 with speed 33.24 m/s
+      vehA      10.59 Speed check results:
+  Current speed: 120.60 km/h
+  Speed limit: 120 km/h
+  Speed excess: 0.60 km/h
+  Decision: No speed violation detected
+
+      vehA      10.59 
+       448      10.59 Received CAM from station 18 with speed 33.50 m/s
+       375      10.59 Received CAM from station 18 with speed 33.50 m/s
+       521      10.59 Received CAM from station 18 with speed 33.50 m/s
+       594      10.59 Received CAM from station 18 with speed 33.50 m/s
+       448      10.64 Received CAM from station 521 with speed 33.32 m/s
+       594      10.64 Received CAM from station 521 with speed 33.32 m/s
+        18      10.64 Received CAM from station 521 with speed 33.32 m/s
+       375      10.64 Received CAM from station 521 with speed 33.32 m/s
+        18      10.66 Received CAM from station 448 with speed 31.89 m/s
+       521      10.66 Received CAM from station 448 with speed 31.89 m/s
+       375      10.66 Received CAM from station 448 with speed 31.89 m/s
+       594      10.66 Received CAM from station 448 with speed 31.89 m/s
+      vehA      10.69 Speed check results:
+  Current speed: 121.35 km/h
+  Speed limit: 120 km/h
+  Speed excess: 1.35 km/h
+  Decision: No speed violation detected
+
+      vehA      10.69 
+        18      10.75 Received CAM from station 375 with speed 33.22 m/s
+       448      10.75 Received CAM from station 375 with speed 33.22 m/s
+       521      10.75 Received CAM from station 375 with speed 33.22 m/s
+       594      10.75 Received CAM from station 375 with speed 33.22 m/s
+       521      10.75 Received CAM from station 594 with speed 33.22 m/s
+       448      10.75 Received CAM from station 594 with speed 33.22 m/s
+        18      10.75 Received CAM from station 594 with speed 33.22 m/s
+       375      10.75 Received CAM from station 594 with speed 33.22 m/s
+      vehA      10.79 Speed check results:
+  Current speed: 122.30 km/h
+  Speed limit: 120 km/h
+  Speed excess: 2.30 km/h
+  Decision: No speed violation detected
+
+      vehA      10.79 
+       448      10.79 Received CAM from station 18 with speed 33.97 m/s
+       375      10.79 Received CAM from station 18 with speed 33.97 m/s
+       521      10.79 Received CAM from station 18 with speed 33.97 m/s
+       594      10.79 Received CAM from station 18 with speed 33.97 m/s
+       448      10.84 Received CAM from station 521 with speed 33.33 m/s
+       594      10.84 Received CAM from station 521 with speed 33.33 m/s
+        18      10.84 Received CAM from station 521 with speed 33.33 m/s
+       375      10.84 Received CAM from station 521 with speed 33.33 m/s
+        18      10.86 Received CAM from station 448 with speed 32.32 m/s
+       521      10.86 Received CAM from station 448 with speed 32.32 m/s
+       375      10.86 Received CAM from station 448 with speed 32.32 m/s
+       594      10.86 Received CAM from station 448 with speed 32.32 m/s
+      vehA      10.89 Speed check results:
+  Current speed: 123.35 km/h
+  Speed limit: 120 km/h
+  Speed excess: 3.35 km/h
+  Decision: No speed violation detected
+
+      vehA      10.89 
+        18      10.95 Received CAM from station 375 with speed 33.23 m/s
+       448      10.95 Received CAM from station 375 with speed 33.23 m/s
+       521      10.95 Received CAM from station 375 with speed 33.23 m/s
+       594      10.95 Received CAM from station 375 with speed 33.23 m/s
+       521      10.95 Received CAM from station 594 with speed 33.33 m/s
+       448      10.95 Received CAM from station 594 with speed 33.33 m/s
+        18      10.95 Received CAM from station 594 with speed 33.33 m/s
+       375      10.95 Received CAM from station 594 with speed 33.33 m/s
+      vehA      10.99 Speed check results:
+  Current speed: 124.11 km/h
+  Speed limit: 120 km/h
+  Speed excess: 4.11 km/h
+  Decision: No speed violation detected
+
+      vehA      10.99 
+       448      10.99 Received CAM from station 18 with speed 34.48 m/s
+       375      10.99 Received CAM from station 18 with speed 34.48 m/s
+       521      10.99 Received CAM from station 18 with speed 34.48 m/s
+       594      10.99 Received CAM from station 18 with speed 34.48 m/s
+       448      11.04 Received CAM from station 521 with speed 33.24 m/s
+       594      11.04 Received CAM from station 521 with speed 33.24 m/s
+        18      11.04 Received CAM from station 521 with speed 33.24 m/s
+       375      11.04 Received CAM from station 521 with speed 33.24 m/s
+        18      11.06 Received CAM from station 448 with speed 32.82 m/s
+       521      11.06 Received CAM from station 448 with speed 32.82 m/s
+       375      11.06 Received CAM from station 448 with speed 32.82 m/s
+       594      11.06 Received CAM from station 448 with speed 32.82 m/s
+      vehA      11.09 Speed check results:
+  Current speed: 124.78 km/h
+  Speed limit: 120 km/h
+  Speed excess: 4.78 km/h
+  Decision: No speed violation detected
+
+      vehA      11.09 
+        18      11.15 Received CAM from station 375 with speed 33.27 m/s
+       448      11.15 Received CAM from station 375 with speed 33.27 m/s
+       521      11.15 Received CAM from station 375 with speed 33.27 m/s
+       594      11.15 Received CAM from station 375 with speed 33.27 m/s
+       521      11.15 Received CAM from station 594 with speed 33.24 m/s
+       448      11.15 Received CAM from station 594 with speed 33.24 m/s
+        18      11.15 Received CAM from station 594 with speed 33.24 m/s
+       375      11.15 Received CAM from station 594 with speed 33.24 m/s
+      vehA      11.19 Speed check results:
+  Current speed: 125.57 km/h
+  Speed limit: 120 km/h
+  Speed excess: 5.57 km/h
+  Decision: No speed violation detected
+
+      vehA      11.19 
+       448      11.19 Received CAM from station 18 with speed 34.88 m/s
+       375      11.19 Received CAM from station 18 with speed 34.88 m/s
+       521      11.19 Received CAM from station 18 with speed 34.88 m/s
+       594      11.19 Received CAM from station 18 with speed 34.88 m/s
+       448      11.24 Received CAM from station 521 with speed 33.23 m/s
+       594      11.24 Received CAM from station 521 with speed 33.23 m/s
+        18      11.24 Received CAM from station 521 with speed 33.23 m/s
+       375      11.24 Received CAM from station 521 with speed 33.23 m/s
+        18      11.26 Received CAM from station 448 with speed 33.17 m/s
+       521      11.26 Received CAM from station 448 with speed 33.17 m/s
+       375      11.26 Received CAM from station 448 with speed 33.17 m/s
+       594      11.26 Received CAM from station 448 with speed 33.17 m/s
+      vehA      11.29 Speed check results:
+  Current speed: 126.49 km/h
+  Speed limit: 120 km/h
+  Speed excess: 6.49 km/h
+  Decision: No speed violation detected
+
+      vehA      11.29 
+        18      11.35 Received CAM from station 375 with speed 33.23 m/s
+       448      11.35 Received CAM from station 375 with speed 33.23 m/s
+       521      11.35 Received CAM from station 375 with speed 33.23 m/s
+       594      11.35 Received CAM from station 375 with speed 33.23 m/s
+       521      11.35 Received CAM from station 594 with speed 33.33 m/s
+       448      11.35 Received CAM from station 594 with speed 33.33 m/s
+        18      11.35 Received CAM from station 594 with speed 33.33 m/s
+       375      11.35 Received CAM from station 594 with speed 33.33 m/s
+      vehA      11.39 Speed check results:
+  Current speed: 127.22 km/h
+  Speed limit: 120 km/h
+  Speed excess: 7.22 km/h
+  Decision: No speed violation detected
+
+      vehA      11.39 
+       448      11.39 Received CAM from station 18 with speed 35.34 m/s
+       375      11.39 Received CAM from station 18 with speed 35.34 m/s
+       521      11.39 Received CAM from station 18 with speed 35.34 m/s
+       594      11.39 Received CAM from station 18 with speed 35.34 m/s
+       448      11.44 Received CAM from station 521 with speed 33.30 m/s
+       594      11.44 Received CAM from station 521 with speed 33.30 m/s
+        18      11.44 Received CAM from station 521 with speed 33.30 m/s
+       375      11.44 Received CAM from station 521 with speed 33.30 m/s
+        18      11.46 Received CAM from station 448 with speed 33.23 m/s
+       521      11.46 Received CAM from station 448 with speed 33.23 m/s
+       375      11.46 Received CAM from station 448 with speed 33.23 m/s
+       594      11.46 Received CAM from station 448 with speed 33.23 m/s
+      vehA      11.49 Speed check results:
+  Current speed: 128.03 km/h
+  Speed limit: 120 km/h
+  Speed excess: 8.03 km/h
+  Decision: No speed violation detected
+
+      vehA      11.49 
+        18      11.55 Received CAM from station 375 with speed 33.28 m/s
+       448      11.55 Received CAM from station 375 with speed 33.28 m/s
+       521      11.55 Received CAM from station 375 with speed 33.28 m/s
+       594      11.55 Received CAM from station 375 with speed 33.28 m/s
+       521      11.55 Received CAM from station 594 with speed 33.30 m/s
+       448      11.55 Received CAM from station 594 with speed 33.30 m/s
+        18      11.55 Received CAM from station 594 with speed 33.30 m/s
+       375      11.55 Received CAM from station 594 with speed 33.30 m/s
+      vehA      11.59 Speed check results:
+  Current speed: 129.03 km/h
+  Speed limit: 120 km/h
+  Speed excess: 9.03 km/h
+  Decision: No speed violation detected
+
+      vehA      11.59 
+       448      11.59 Received CAM from station 18 with speed 35.84 m/s
+       375      11.59 Received CAM from station 18 with speed 35.84 m/s
+       521      11.59 Received CAM from station 18 with speed 35.84 m/s
+       594      11.59 Received CAM from station 18 with speed 35.84 m/s
+       448      11.64 Received CAM from station 521 with speed 33.29 m/s
+       594      11.64 Received CAM from station 521 with speed 33.29 m/s
+        18      11.64 Received CAM from station 521 with speed 33.29 m/s
+       375      11.64 Received CAM from station 521 with speed 33.29 m/s
+        18      11.66 Received CAM from station 448 with speed 33.30 m/s
+       521      11.66 Received CAM from station 448 with speed 33.30 m/s
+       375      11.66 Received CAM from station 448 with speed 33.30 m/s
+       594      11.66 Received CAM from station 448 with speed 33.30 m/s
+      vehA      11.69 Speed check results:
+  Current speed: 129.82 km/h
+  Speed limit: 120 km/h
+  Speed excess: 9.82 km/h
+  Decision: No speed violation detected
+
+      vehA      11.69 
+        18      11.75 Received CAM from station 375 with speed 33.25 m/s
+       448      11.75 Received CAM from station 375 with speed 33.25 m/s
+       521      11.75 Received CAM from station 375 with speed 33.25 m/s
+       594      11.75 Received CAM from station 375 with speed 33.25 m/s
+       521      11.75 Received CAM from station 594 with speed 33.28 m/s
+       448      11.75 Received CAM from station 594 with speed 33.28 m/s
+        18      11.75 Received CAM from station 594 with speed 33.28 m/s
+       375      11.75 Received CAM from station 594 with speed 33.28 m/s
+      vehA      11.79 Speed check results:
+  Current speed: 130.83 km/h
+  Speed limit: 120 km/h
+  Speed excess: 10.83 km/h
+  Decision: Speed violation warning
+
+      vehA      11.79 Sending warning DENM (SubCauseCode 1)
+      vehA      11.79 Sending DENM: Speed Excess = 10.829231 km/h, SubCauseCode = 1
+      vehA      11.79 
+       448      11.79 Received CAM from station 18 with speed 36.34 m/s
+       375      11.79 Received CAM from station 18 with speed 36.34 m/s
+       521      11.79 Received CAM from station 18 with speed 36.34 m/s
+       594      11.79 Received CAM from station 18 with speed 36.34 m/s
+       448      11.84 Received CAM from station 521 with speed 33.31 m/s
+       594      11.84 Received CAM from station 521 with speed 33.31 m/s
+        18      11.84 Received CAM from station 521 with speed 33.31 m/s
+       375      11.84 Received CAM from station 521 with speed 33.31 m/s
+normal_cars.1      11.85 Received a packet in SpeedAlertReceiverService
+normal_cars.1      11.85 Packet is a DENMMessage
+normal_cars.1      11.85 Processing DENM from vehA: Speed Excess = 10.829231 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      11.85 Received relevant DENM from vehA: Speed Excess = 10.829231 km/h, SubCauseCode = 1
+normal_cars.1      11.85 Reducing speed to 26.662957 m/s due to speed violation warning
+normal_cars.0      11.85 Received a packet in SpeedAlertReceiverService
+normal_cars.0      11.85 Packet is a DENMMessage
+normal_cars.0      11.85 Processing DENM from vehA: Speed Excess = 10.829231 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      11.85 Received relevant DENM from vehA: Speed Excess = 10.829231 km/h, SubCauseCode = 1
+normal_cars.0      11.85 Reducing speed to 26.620448 m/s due to speed violation warning
+normal_cars.2      11.85 Received a packet in SpeedAlertReceiverService
+normal_cars.2      11.85 Packet is a DENMMessage
+normal_cars.2      11.85 Processing DENM from vehA: Speed Excess = 10.829231 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      11.85 Received relevant DENM from vehA: Speed Excess = 10.829231 km/h, SubCauseCode = 1
+normal_cars.2      11.85 Reducing speed to 26.650961 m/s due to speed violation warning
+normal_cars.3      11.85 Received a packet in SpeedAlertReceiverService
+normal_cars.3      11.85 Packet is a DENMMessage
+normal_cars.3      11.85 Processing DENM from vehA: Speed Excess = 10.829231 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      11.85 Received relevant DENM from vehA: Speed Excess = 10.829231 km/h, SubCauseCode = 1
+normal_cars.3      11.85 Reducing speed to 26.641849 m/s due to speed violation warning
+        18      11.86 Received CAM from station 448 with speed 33.33 m/s
+       521      11.86 Received CAM from station 448 with speed 33.33 m/s
+       375      11.86 Received CAM from station 448 with speed 33.33 m/s
+       594      11.86 Received CAM from station 448 with speed 33.33 m/s
+      vehA      11.89 Speed check results:
+  Current speed: 131.68 km/h
+  Speed limit: 120 km/h
+  Speed excess: 11.68 km/h
+  Decision: Speed violation warning
+
+      vehA      11.89 Sending warning DENM (SubCauseCode 1)
+      vehA      11.89 Sending DENM: Speed Excess = 11.682309 km/h, SubCauseCode = 1
+      vehA      11.89 
+normal_cars.1      11.91 Received a packet in SpeedAlertReceiverService
+normal_cars.1      11.91 Packet is a DENMMessage
+normal_cars.1      11.91 Processing DENM from vehA: Speed Excess = 11.682309 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      11.91 Received relevant DENM from vehA: Speed Excess = 11.682309 km/h, SubCauseCode = 1
+normal_cars.1      11.91 Reducing speed to 26.302957 m/s due to speed violation warning
+normal_cars.0      11.91 Received a packet in SpeedAlertReceiverService
+normal_cars.0      11.91 Packet is a DENMMessage
+normal_cars.0      11.91 Processing DENM from vehA: Speed Excess = 11.682309 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      11.91 Received relevant DENM from vehA: Speed Excess = 11.682309 km/h, SubCauseCode = 1
+normal_cars.0      11.91 Reducing speed to 26.260448 m/s due to speed violation warning
+normal_cars.2      11.91 Received a packet in SpeedAlertReceiverService
+normal_cars.2      11.91 Packet is a DENMMessage
+normal_cars.2      11.91 Processing DENM from vehA: Speed Excess = 11.682309 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      11.91 Received relevant DENM from vehA: Speed Excess = 11.682309 km/h, SubCauseCode = 1
+normal_cars.2      11.91 Reducing speed to 26.290961 m/s due to speed violation warning
+normal_cars.3      11.91 Received a packet in SpeedAlertReceiverService
+normal_cars.3      11.91 Packet is a DENMMessage
+normal_cars.3      11.91 Processing DENM from vehA: Speed Excess = 11.682309 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      11.91 Received relevant DENM from vehA: Speed Excess = 11.682309 km/h, SubCauseCode = 1
+normal_cars.3      11.91 Reducing speed to 26.281849 m/s due to speed violation warning
+        18      11.95 Received CAM from station 375 with speed 32.83 m/s
+       448      11.95 Received CAM from station 375 with speed 32.83 m/s
+       521      11.95 Received CAM from station 375 with speed 32.83 m/s
+       594      11.95 Received CAM from station 375 with speed 32.83 m/s
+       521      11.95 Received CAM from station 594 with speed 32.85 m/s
+       448      11.95 Received CAM from station 594 with speed 32.85 m/s
+        18      11.95 Received CAM from station 594 with speed 32.85 m/s
+       375      11.95 Received CAM from station 594 with speed 32.85 m/s
+      vehA      11.99 Speed check results:
+  Current speed: 132.64 km/h
+  Speed limit: 120 km/h
+  Speed excess: 12.64 km/h
+  Decision: Speed violation warning
+
+      vehA      11.99 Sending warning DENM (SubCauseCode 1)
+      vehA      11.99 Sending DENM: Speed Excess = 12.641321 km/h, SubCauseCode = 1
+      vehA      11.99 
+       448      11.99 Received CAM from station 18 with speed 36.84 m/s
+       375      11.99 Received CAM from station 18 with speed 36.84 m/s
+       521      11.99 Received CAM from station 18 with speed 36.84 m/s
+       594      11.99 Received CAM from station 18 with speed 36.84 m/s
+       448      12.04 Received CAM from station 521 with speed 32.41 m/s
+       594      12.04 Received CAM from station 521 with speed 32.41 m/s
+        18      12.04 Received CAM from station 521 with speed 32.41 m/s
+       375      12.04 Received CAM from station 521 with speed 32.41 m/s
+normal_cars.1      12.05 Received a packet in SpeedAlertReceiverService
+normal_cars.1      12.05 Packet is a DENMMessage
+normal_cars.1      12.05 Processing DENM from vehA: Speed Excess = 12.641321 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      12.05 Received relevant DENM from vehA: Speed Excess = 12.641321 km/h, SubCauseCode = 1
+normal_cars.1      12.05 Reducing speed to 25.942957 m/s due to speed violation warning
+normal_cars.0      12.05 Received a packet in SpeedAlertReceiverService
+normal_cars.0      12.05 Packet is a DENMMessage
+normal_cars.0      12.05 Processing DENM from vehA: Speed Excess = 12.641321 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      12.05 Received relevant DENM from vehA: Speed Excess = 12.641321 km/h, SubCauseCode = 1
+normal_cars.0      12.05 Reducing speed to 25.900448 m/s due to speed violation warning
+normal_cars.2      12.05 Received a packet in SpeedAlertReceiverService
+normal_cars.2      12.05 Packet is a DENMMessage
+normal_cars.2      12.05 Processing DENM from vehA: Speed Excess = 12.641321 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      12.05 Received relevant DENM from vehA: Speed Excess = 12.641321 km/h, SubCauseCode = 1
+normal_cars.2      12.05 Reducing speed to 25.930961 m/s due to speed violation warning
+normal_cars.3      12.05 Received a packet in SpeedAlertReceiverService
+normal_cars.3      12.05 Packet is a DENMMessage
+normal_cars.3      12.05 Processing DENM from vehA: Speed Excess = 12.641321 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      12.05 Received relevant DENM from vehA: Speed Excess = 12.641321 km/h, SubCauseCode = 1
+normal_cars.3      12.05 Reducing speed to 25.921849 m/s due to speed violation warning
+        18      12.06 Received CAM from station 448 with speed 32.43 m/s
+       521      12.06 Received CAM from station 448 with speed 32.43 m/s
+       375      12.06 Received CAM from station 448 with speed 32.43 m/s
+       594      12.06 Received CAM from station 448 with speed 32.43 m/s
+      vehA      12.09 Speed check results:
+  Current speed: 133.57 km/h
+  Speed limit: 120 km/h
+  Speed excess: 13.57 km/h
+  Decision: Speed violation warning
+
+      vehA      12.09 Sending warning DENM (SubCauseCode 1)
+      vehA      12.09 Sending DENM: Speed Excess = 13.574977 km/h, SubCauseCode = 1
+      vehA      12.09 
+normal_cars.1      12.11 Received a packet in SpeedAlertReceiverService
+normal_cars.1      12.11 Packet is a DENMMessage
+normal_cars.1      12.11 Processing DENM from vehA: Speed Excess = 13.574977 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      12.11 Received relevant DENM from vehA: Speed Excess = 13.574977 km/h, SubCauseCode = 1
+normal_cars.1      12.11 Reducing speed to 25.582957 m/s due to speed violation warning
+normal_cars.0      12.11 Received a packet in SpeedAlertReceiverService
+normal_cars.0      12.11 Packet is a DENMMessage
+normal_cars.0      12.11 Processing DENM from vehA: Speed Excess = 13.574977 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      12.11 Received relevant DENM from vehA: Speed Excess = 13.574977 km/h, SubCauseCode = 1
+normal_cars.0      12.11 Reducing speed to 25.540448 m/s due to speed violation warning
+normal_cars.2      12.11 Received a packet in SpeedAlertReceiverService
+normal_cars.2      12.11 Packet is a DENMMessage
+normal_cars.2      12.11 Processing DENM from vehA: Speed Excess = 13.574977 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      12.11 Received relevant DENM from vehA: Speed Excess = 13.574977 km/h, SubCauseCode = 1
+normal_cars.2      12.11 Reducing speed to 25.570961 m/s due to speed violation warning
+normal_cars.3      12.11 Received a packet in SpeedAlertReceiverService
+normal_cars.3      12.11 Packet is a DENMMessage
+normal_cars.3      12.11 Processing DENM from vehA: Speed Excess = 13.574977 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      12.11 Received relevant DENM from vehA: Speed Excess = 13.574977 km/h, SubCauseCode = 1
+normal_cars.3      12.11 Reducing speed to 25.561849 m/s due to speed violation warning
+        18      12.15 Received CAM from station 375 with speed 31.93 m/s
+       448      12.15 Received CAM from station 375 with speed 31.93 m/s
+       521      12.15 Received CAM from station 375 with speed 31.93 m/s
+       594      12.15 Received CAM from station 375 with speed 31.93 m/s
+       521      12.15 Received CAM from station 594 with speed 31.95 m/s
+       448      12.15 Received CAM from station 594 with speed 31.95 m/s
+        18      12.15 Received CAM from station 594 with speed 31.95 m/s
+       375      12.15 Received CAM from station 594 with speed 31.95 m/s
+      vehA      12.19 Speed check results:
+  Current speed: 134.16 km/h
+  Speed limit: 120 km/h
+  Speed excess: 14.16 km/h
+  Decision: Speed violation warning
+
+      vehA      12.19 Sending warning DENM (SubCauseCode 1)
+      vehA      12.19 Sending DENM: Speed Excess = 14.157566 km/h, SubCauseCode = 1
+      vehA      12.19 
+       448      12.19 Received CAM from station 18 with speed 37.27 m/s
+       375      12.19 Received CAM from station 18 with speed 37.27 m/s
+       521      12.19 Received CAM from station 18 with speed 37.27 m/s
+       594      12.19 Received CAM from station 18 with speed 37.27 m/s
+       448      12.24 Received CAM from station 521 with speed 31.51 m/s
+       594      12.24 Received CAM from station 521 with speed 31.51 m/s
+        18      12.24 Received CAM from station 521 with speed 31.51 m/s
+       375      12.24 Received CAM from station 521 with speed 31.51 m/s
+normal_cars.1      12.25 Received a packet in SpeedAlertReceiverService
+normal_cars.1      12.25 Packet is a DENMMessage
+normal_cars.1      12.25 Processing DENM from vehA: Speed Excess = 14.157566 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      12.25 Received relevant DENM from vehA: Speed Excess = 14.157566 km/h, SubCauseCode = 1
+normal_cars.1      12.25 Reducing speed to 25.222957 m/s due to speed violation warning
+normal_cars.0      12.25 Received a packet in SpeedAlertReceiverService
+normal_cars.0      12.25 Packet is a DENMMessage
+normal_cars.0      12.25 Processing DENM from vehA: Speed Excess = 14.157566 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      12.25 Received relevant DENM from vehA: Speed Excess = 14.157566 km/h, SubCauseCode = 1
+normal_cars.0      12.25 Reducing speed to 25.180448 m/s due to speed violation warning
+normal_cars.2      12.25 Received a packet in SpeedAlertReceiverService
+normal_cars.2      12.25 Packet is a DENMMessage
+normal_cars.2      12.25 Processing DENM from vehA: Speed Excess = 14.157566 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      12.25 Received relevant DENM from vehA: Speed Excess = 14.157566 km/h, SubCauseCode = 1
+normal_cars.2      12.25 Reducing speed to 25.210961 m/s due to speed violation warning
+normal_cars.3      12.25 Received a packet in SpeedAlertReceiverService
+normal_cars.3      12.25 Packet is a DENMMessage
+normal_cars.3      12.25 Processing DENM from vehA: Speed Excess = 14.157566 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      12.25 Received relevant DENM from vehA: Speed Excess = 14.157566 km/h, SubCauseCode = 1
+normal_cars.3      12.25 Reducing speed to 25.201849 m/s due to speed violation warning
+        18      12.26 Received CAM from station 448 with speed 31.53 m/s
+       521      12.26 Received CAM from station 448 with speed 31.53 m/s
+       375      12.26 Received CAM from station 448 with speed 31.53 m/s
+       594      12.26 Received CAM from station 448 with speed 31.53 m/s
+      vehA      12.29 Speed check results:
+  Current speed: 134.87 km/h
+  Speed limit: 120 km/h
+  Speed excess: 14.87 km/h
+  Decision: Speed violation warning
+
+      vehA      12.29 Sending warning DENM (SubCauseCode 1)
+      vehA      12.29 Sending DENM: Speed Excess = 14.870562 km/h, SubCauseCode = 1
+      vehA      12.29 
+normal_cars.1      12.31 Received a packet in SpeedAlertReceiverService
+normal_cars.1      12.31 Packet is a DENMMessage
+normal_cars.1      12.31 Processing DENM from vehA: Speed Excess = 14.870562 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      12.31 Received relevant DENM from vehA: Speed Excess = 14.870562 km/h, SubCauseCode = 1
+normal_cars.1      12.31 Reducing speed to 24.862957 m/s due to speed violation warning
+normal_cars.0      12.31 Received a packet in SpeedAlertReceiverService
+normal_cars.0      12.31 Packet is a DENMMessage
+normal_cars.0      12.31 Processing DENM from vehA: Speed Excess = 14.870562 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      12.31 Received relevant DENM from vehA: Speed Excess = 14.870562 km/h, SubCauseCode = 1
+normal_cars.0      12.31 Reducing speed to 24.820448 m/s due to speed violation warning
+normal_cars.2      12.31 Received a packet in SpeedAlertReceiverService
+normal_cars.2      12.31 Packet is a DENMMessage
+normal_cars.2      12.31 Processing DENM from vehA: Speed Excess = 14.870562 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      12.31 Received relevant DENM from vehA: Speed Excess = 14.870562 km/h, SubCauseCode = 1
+normal_cars.2      12.31 Reducing speed to 24.850961 m/s due to speed violation warning
+normal_cars.3      12.31 Received a packet in SpeedAlertReceiverService
+normal_cars.3      12.31 Packet is a DENMMessage
+normal_cars.3      12.31 Processing DENM from vehA: Speed Excess = 14.870562 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      12.31 Received relevant DENM from vehA: Speed Excess = 14.870562 km/h, SubCauseCode = 1
+normal_cars.3      12.31 Reducing speed to 24.841849 m/s due to speed violation warning
+        18      12.35 Received CAM from station 375 with speed 31.03 m/s
+       448      12.35 Received CAM from station 375 with speed 31.03 m/s
+       521      12.35 Received CAM from station 375 with speed 31.03 m/s
+       594      12.35 Received CAM from station 375 with speed 31.03 m/s
+       521      12.35 Received CAM from station 594 with speed 31.05 m/s
+       448      12.35 Received CAM from station 594 with speed 31.05 m/s
+        18      12.35 Received CAM from station 594 with speed 31.05 m/s
+       375      12.35 Received CAM from station 594 with speed 31.05 m/s
+      vehA      12.39 Speed check results:
+  Current speed: 135.52 km/h
+  Speed limit: 120 km/h
+  Speed excess: 15.52 km/h
+  Decision: Speed violation warning
+
+      vehA      12.39 Sending warning DENM (SubCauseCode 1)
+      vehA      12.39 Sending DENM: Speed Excess = 15.524255 km/h, SubCauseCode = 1
+      vehA      12.39 
+       448      12.39 Received CAM from station 18 with speed 37.65 m/s
+       375      12.39 Received CAM from station 18 with speed 37.65 m/s
+       521      12.39 Received CAM from station 18 with speed 37.65 m/s
+       594      12.39 Received CAM from station 18 with speed 37.65 m/s
+       448      12.44 Received CAM from station 521 with speed 30.61 m/s
+       594      12.44 Received CAM from station 521 with speed 30.61 m/s
+        18      12.44 Received CAM from station 521 with speed 30.61 m/s
+       375      12.44 Received CAM from station 521 with speed 30.61 m/s
+normal_cars.1      12.45 Received a packet in SpeedAlertReceiverService
+normal_cars.1      12.45 Packet is a DENMMessage
+normal_cars.1      12.45 Processing DENM from vehA: Speed Excess = 15.524255 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      12.45 Received relevant DENM from vehA: Speed Excess = 15.524255 km/h, SubCauseCode = 1
+normal_cars.1      12.45 Reducing speed to 24.502957 m/s due to speed violation warning
+normal_cars.0      12.45 Received a packet in SpeedAlertReceiverService
+normal_cars.0      12.45 Packet is a DENMMessage
+normal_cars.0      12.45 Processing DENM from vehA: Speed Excess = 15.524255 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      12.45 Received relevant DENM from vehA: Speed Excess = 15.524255 km/h, SubCauseCode = 1
+normal_cars.0      12.45 Reducing speed to 24.460448 m/s due to speed violation warning
+normal_cars.2      12.45 Received a packet in SpeedAlertReceiverService
+normal_cars.2      12.45 Packet is a DENMMessage
+normal_cars.2      12.45 Processing DENM from vehA: Speed Excess = 15.524255 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      12.45 Received relevant DENM from vehA: Speed Excess = 15.524255 km/h, SubCauseCode = 1
+normal_cars.2      12.45 Reducing speed to 24.490961 m/s due to speed violation warning
+normal_cars.3      12.45 Received a packet in SpeedAlertReceiverService
+normal_cars.3      12.45 Packet is a DENMMessage
+normal_cars.3      12.45 Processing DENM from vehA: Speed Excess = 15.524255 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      12.45 Received relevant DENM from vehA: Speed Excess = 15.524255 km/h, SubCauseCode = 1
+normal_cars.3      12.45 Reducing speed to 24.481849 m/s due to speed violation warning
+        18      12.46 Received CAM from station 448 with speed 30.63 m/s
+       521      12.46 Received CAM from station 448 with speed 30.63 m/s
+       375      12.46 Received CAM from station 448 with speed 30.63 m/s
+       594      12.46 Received CAM from station 448 with speed 30.63 m/s
+      vehA      12.49 Speed check results:
+  Current speed: 136.52 km/h
+  Speed limit: 120 km/h
+  Speed excess: 16.52 km/h
+  Decision: Speed violation warning
+
+      vehA      12.49 Sending warning DENM (SubCauseCode 1)
+      vehA      12.49 Sending DENM: Speed Excess = 16.523289 km/h, SubCauseCode = 1
+      vehA      12.49 
+normal_cars.1      12.51 Received a packet in SpeedAlertReceiverService
+normal_cars.1      12.51 Packet is a DENMMessage
+normal_cars.1      12.51 Processing DENM from vehA: Speed Excess = 16.523289 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      12.51 Received relevant DENM from vehA: Speed Excess = 16.523289 km/h, SubCauseCode = 1
+normal_cars.1      12.51 Reducing speed to 24.142957 m/s due to speed violation warning
+normal_cars.0      12.51 Received a packet in SpeedAlertReceiverService
+normal_cars.0      12.51 Packet is a DENMMessage
+normal_cars.0      12.51 Processing DENM from vehA: Speed Excess = 16.523289 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      12.51 Received relevant DENM from vehA: Speed Excess = 16.523289 km/h, SubCauseCode = 1
+normal_cars.0      12.51 Reducing speed to 24.100448 m/s due to speed violation warning
+normal_cars.2      12.51 Received a packet in SpeedAlertReceiverService
+normal_cars.2      12.51 Packet is a DENMMessage
+normal_cars.2      12.51 Processing DENM from vehA: Speed Excess = 16.523289 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      12.51 Received relevant DENM from vehA: Speed Excess = 16.523289 km/h, SubCauseCode = 1
+normal_cars.2      12.51 Reducing speed to 24.130961 m/s due to speed violation warning
+normal_cars.3      12.51 Received a packet in SpeedAlertReceiverService
+normal_cars.3      12.51 Packet is a DENMMessage
+normal_cars.3      12.51 Processing DENM from vehA: Speed Excess = 16.523289 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      12.51 Received relevant DENM from vehA: Speed Excess = 16.523289 km/h, SubCauseCode = 1
+normal_cars.3      12.51 Reducing speed to 24.121849 m/s due to speed violation warning
+        18      12.55 Received CAM from station 375 with speed 30.13 m/s
+       448      12.55 Received CAM from station 375 with speed 30.13 m/s
+       521      12.55 Received CAM from station 375 with speed 30.13 m/s
+       594      12.55 Received CAM from station 375 with speed 30.13 m/s
+       521      12.55 Received CAM from station 594 with speed 30.15 m/s
+       448      12.55 Received CAM from station 594 with speed 30.15 m/s
+        18      12.55 Received CAM from station 594 with speed 30.15 m/s
+       375      12.55 Received CAM from station 594 with speed 30.15 m/s
+      vehA      12.59 Speed check results:
+  Current speed: 137.16 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.16 km/h
+  Decision: Speed violation warning
+
+      vehA      12.59 Sending warning DENM (SubCauseCode 1)
+      vehA      12.59 Sending DENM: Speed Excess = 17.155092 km/h, SubCauseCode = 1
+      vehA      12.59 
+       448      12.59 Received CAM from station 18 with speed 38.10 m/s
+       375      12.59 Received CAM from station 18 with speed 38.10 m/s
+       521      12.59 Received CAM from station 18 with speed 38.10 m/s
+       594      12.59 Received CAM from station 18 with speed 38.10 m/s
+       448      12.64 Received CAM from station 521 with speed 29.71 m/s
+       594      12.64 Received CAM from station 521 with speed 29.71 m/s
+        18      12.64 Received CAM from station 521 with speed 29.71 m/s
+       375      12.64 Received CAM from station 521 with speed 29.71 m/s
+normal_cars.1      12.65 Received a packet in SpeedAlertReceiverService
+normal_cars.1      12.65 Packet is a DENMMessage
+normal_cars.1      12.65 Processing DENM from vehA: Speed Excess = 17.155092 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      12.65 Received relevant DENM from vehA: Speed Excess = 17.155092 km/h, SubCauseCode = 1
+normal_cars.1      12.65 Reducing speed to 23.782957 m/s due to speed violation warning
+normal_cars.0      12.65 Received a packet in SpeedAlertReceiverService
+normal_cars.0      12.65 Packet is a DENMMessage
+normal_cars.0      12.65 Processing DENM from vehA: Speed Excess = 17.155092 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      12.65 Received relevant DENM from vehA: Speed Excess = 17.155092 km/h, SubCauseCode = 1
+normal_cars.0      12.65 Reducing speed to 23.740448 m/s due to speed violation warning
+normal_cars.2      12.65 Received a packet in SpeedAlertReceiverService
+normal_cars.2      12.65 Packet is a DENMMessage
+normal_cars.2      12.65 Processing DENM from vehA: Speed Excess = 17.155092 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      12.65 Received relevant DENM from vehA: Speed Excess = 17.155092 km/h, SubCauseCode = 1
+normal_cars.2      12.65 Reducing speed to 23.770961 m/s due to speed violation warning
+normal_cars.3      12.65 Received a packet in SpeedAlertReceiverService
+normal_cars.3      12.65 Packet is a DENMMessage
+normal_cars.3      12.65 Processing DENM from vehA: Speed Excess = 17.155092 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      12.65 Received relevant DENM from vehA: Speed Excess = 17.155092 km/h, SubCauseCode = 1
+normal_cars.3      12.65 Reducing speed to 23.761849 m/s due to speed violation warning
+        18      12.66 Received CAM from station 448 with speed 29.73 m/s
+       521      12.66 Received CAM from station 448 with speed 29.73 m/s
+       375      12.66 Received CAM from station 448 with speed 29.73 m/s
+       594      12.66 Received CAM from station 448 with speed 29.73 m/s
+      vehA      12.69 Speed check results:
+  Current speed: 137.33 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.33 km/h
+  Decision: Speed violation warning
+
+      vehA      12.69 Sending warning DENM (SubCauseCode 1)
+      vehA      12.69 Sending DENM: Speed Excess = 17.333641 km/h, SubCauseCode = 1
+      vehA      12.69 
+speeding_cars.0      12.70 SpeedAlertReceiverService initialized
+ CaService      12.70 CaService initialized  successfully
+normal_cars.1      12.71 Received a packet in SpeedAlertReceiverService
+normal_cars.1      12.71 Packet is a DENMMessage
+normal_cars.1      12.71 Processing DENM from vehA: Speed Excess = 17.333641 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      12.71 Received relevant DENM from vehA: Speed Excess = 17.333641 km/h, SubCauseCode = 1
+normal_cars.1      12.71 Reducing speed to 23.422957 m/s due to speed violation warning
+normal_cars.0      12.71 Received a packet in SpeedAlertReceiverService
+normal_cars.0      12.71 Packet is a DENMMessage
+normal_cars.0      12.71 Processing DENM from vehA: Speed Excess = 17.333641 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      12.71 Received relevant DENM from vehA: Speed Excess = 17.333641 km/h, SubCauseCode = 1
+normal_cars.0      12.71 Reducing speed to 23.380448 m/s due to speed violation warning
+normal_cars.2      12.71 Received a packet in SpeedAlertReceiverService
+normal_cars.2      12.71 Packet is a DENMMessage
+normal_cars.2      12.71 Processing DENM from vehA: Speed Excess = 17.333641 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      12.71 Received relevant DENM from vehA: Speed Excess = 17.333641 km/h, SubCauseCode = 1
+normal_cars.2      12.71 Reducing speed to 23.410961 m/s due to speed violation warning
+normal_cars.3      12.71 Received a packet in SpeedAlertReceiverService
+normal_cars.3      12.71 Packet is a DENMMessage
+normal_cars.3      12.71 Processing DENM from vehA: Speed Excess = 17.333641 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      12.71 Received relevant DENM from vehA: Speed Excess = 17.333641 km/h, SubCauseCode = 1
+normal_cars.3      12.71 Reducing speed to 23.401849 m/s due to speed violation warning
+speeding_cars.0      12.71 Received a packet in SpeedAlertReceiverService
+speeding_cars.0      12.71 Packet is a DENMMessage
+speeding_cars.0      12.71 Processing DENM from vehA: Speed Excess = 17.333641 km/h, CauseCode = 94, SubCauseCode = 1
+speeding_cars.0      12.71 Received relevant DENM from vehA: Speed Excess = 17.333641 km/h, SubCauseCode = 1
+speeding_cars.0      12.71 Reducing speed to 25.594768 m/s due to speed violation warning
+        18      12.75 Received CAM from station 375 with speed 29.23 m/s
+       448      12.75 Received CAM from station 375 with speed 29.23 m/s
+       521      12.75 Received CAM from station 375 with speed 29.23 m/s
+       594      12.75 Received CAM from station 375 with speed 29.23 m/s
+       521      12.75 Received CAM from station 594 with speed 29.25 m/s
+       667      12.75 Received CAM from station 594 with speed 29.25 m/s
+       448      12.75 Received CAM from station 594 with speed 29.25 m/s
+        18      12.75 Received CAM from station 594 with speed 29.25 m/s
+       375      12.75 Received CAM from station 594 with speed 29.25 m/s
+      vehA      12.79 Speed check results:
+  Current speed: 137.37 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.37 km/h
+  Decision: Speed violation warning
+
+      vehA      12.79 Sending warning DENM (SubCauseCode 1)
+      vehA      12.79 Sending DENM: Speed Excess = 17.365597 km/h, SubCauseCode = 1
+      vehA      12.79 
+       448      12.79 Received CAM from station 18 with speed 38.16 m/s
+       375      12.79 Received CAM from station 18 with speed 38.16 m/s
+       521      12.79 Received CAM from station 18 with speed 38.16 m/s
+       594      12.79 Received CAM from station 18 with speed 38.16 m/s
+       667      12.79 Received CAM from station 18 with speed 38.16 m/s
+       448      12.84 Received CAM from station 521 with speed 28.81 m/s
+       594      12.84 Received CAM from station 521 with speed 28.81 m/s
+        18      12.84 Received CAM from station 521 with speed 28.81 m/s
+       375      12.84 Received CAM from station 521 with speed 28.81 m/s
+       667      12.84 Received CAM from station 521 with speed 28.81 m/s
+normal_cars.1      12.85 Received a packet in SpeedAlertReceiverService
+normal_cars.1      12.85 Packet is a DENMMessage
+normal_cars.1      12.85 Processing DENM from vehA: Speed Excess = 17.365597 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      12.85 Received relevant DENM from vehA: Speed Excess = 17.365597 km/h, SubCauseCode = 1
+normal_cars.1      12.85 Reducing speed to 23.062957 m/s due to speed violation warning
+normal_cars.0      12.85 Received a packet in SpeedAlertReceiverService
+normal_cars.0      12.85 Packet is a DENMMessage
+normal_cars.0      12.85 Processing DENM from vehA: Speed Excess = 17.365597 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      12.85 Received relevant DENM from vehA: Speed Excess = 17.365597 km/h, SubCauseCode = 1
+normal_cars.0      12.85 Reducing speed to 23.020448 m/s due to speed violation warning
+normal_cars.2      12.85 Received a packet in SpeedAlertReceiverService
+normal_cars.2      12.85 Packet is a DENMMessage
+normal_cars.2      12.85 Processing DENM from vehA: Speed Excess = 17.365597 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      12.85 Received relevant DENM from vehA: Speed Excess = 17.365597 km/h, SubCauseCode = 1
+normal_cars.2      12.85 Reducing speed to 23.050961 m/s due to speed violation warning
+normal_cars.3      12.85 Received a packet in SpeedAlertReceiverService
+normal_cars.3      12.85 Packet is a DENMMessage
+normal_cars.3      12.85 Processing DENM from vehA: Speed Excess = 17.365597 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      12.85 Received relevant DENM from vehA: Speed Excess = 17.365597 km/h, SubCauseCode = 1
+normal_cars.3      12.85 Reducing speed to 23.041849 m/s due to speed violation warning
+speeding_cars.0      12.85 Received a packet in SpeedAlertReceiverService
+speeding_cars.0      12.85 Packet is a DENMMessage
+speeding_cars.0      12.85 Processing DENM from vehA: Speed Excess = 17.365597 km/h, CauseCode = 94, SubCauseCode = 1
+speeding_cars.0      12.85 Received relevant DENM from vehA: Speed Excess = 17.365597 km/h, SubCauseCode = 1
+speeding_cars.0      12.85 Reducing speed to 25.234768 m/s due to speed violation warning
+        18      12.86 Received CAM from station 448 with speed 28.83 m/s
+       521      12.86 Received CAM from station 448 with speed 28.83 m/s
+       375      12.86 Received CAM from station 448 with speed 28.83 m/s
+       594      12.86 Received CAM from station 448 with speed 28.83 m/s
+       667      12.86 Received CAM from station 448 with speed 28.83 m/s
+      vehA      12.89 Speed check results:
+  Current speed: 137.42 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.42 km/h
+  Decision: Speed violation warning
+
+      vehA      12.89 Sending warning DENM (SubCauseCode 1)
+      vehA      12.89 Sending DENM: Speed Excess = 17.421883 km/h, SubCauseCode = 1
+      vehA      12.89 
+normal_cars.1      12.91 Received a packet in SpeedAlertReceiverService
+normal_cars.1      12.91 Packet is a DENMMessage
+normal_cars.1      12.91 Processing DENM from vehA: Speed Excess = 17.421883 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      12.91 Received relevant DENM from vehA: Speed Excess = 17.421883 km/h, SubCauseCode = 1
+normal_cars.1      12.91 Reducing speed to 22.702957 m/s due to speed violation warning
+normal_cars.0      12.91 Received a packet in SpeedAlertReceiverService
+normal_cars.0      12.91 Packet is a DENMMessage
+normal_cars.0      12.91 Processing DENM from vehA: Speed Excess = 17.421883 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      12.91 Received relevant DENM from vehA: Speed Excess = 17.421883 km/h, SubCauseCode = 1
+normal_cars.0      12.91 Reducing speed to 22.660448 m/s due to speed violation warning
+normal_cars.2      12.91 Received a packet in SpeedAlertReceiverService
+normal_cars.2      12.91 Packet is a DENMMessage
+normal_cars.2      12.91 Processing DENM from vehA: Speed Excess = 17.421883 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      12.91 Received relevant DENM from vehA: Speed Excess = 17.421883 km/h, SubCauseCode = 1
+normal_cars.2      12.91 Reducing speed to 22.690961 m/s due to speed violation warning
+normal_cars.3      12.91 Received a packet in SpeedAlertReceiverService
+normal_cars.3      12.91 Packet is a DENMMessage
+normal_cars.3      12.91 Processing DENM from vehA: Speed Excess = 17.421883 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      12.91 Received relevant DENM from vehA: Speed Excess = 17.421883 km/h, SubCauseCode = 1
+normal_cars.3      12.91 Reducing speed to 22.681849 m/s due to speed violation warning
+speeding_cars.0      12.91 Received a packet in SpeedAlertReceiverService
+speeding_cars.0      12.91 Packet is a DENMMessage
+speeding_cars.0      12.91 Processing DENM from vehA: Speed Excess = 17.421883 km/h, CauseCode = 94, SubCauseCode = 1
+speeding_cars.0      12.91 Received relevant DENM from vehA: Speed Excess = 17.421883 km/h, SubCauseCode = 1
+speeding_cars.0      12.91 Reducing speed to 24.874768 m/s due to speed violation warning
+       594      12.91 Received CAM from station 667 with speed 31.09 m/s
+       521      12.91 Received CAM from station 667 with speed 31.09 m/s
+       448      12.91 Received CAM from station 667 with speed 31.09 m/s
+        18      12.91 Received CAM from station 667 with speed 31.09 m/s
+        18      12.95 Received CAM from station 375 with speed 28.33 m/s
+       448      12.95 Received CAM from station 375 with speed 28.33 m/s
+       521      12.95 Received CAM from station 375 with speed 28.33 m/s
+       594      12.95 Received CAM from station 375 with speed 28.33 m/s
+       521      12.95 Received CAM from station 594 with speed 28.35 m/s
+       667      12.95 Received CAM from station 594 with speed 28.35 m/s
+       448      12.95 Received CAM from station 594 with speed 28.35 m/s
+        18      12.95 Received CAM from station 594 with speed 28.35 m/s
+       375      12.95 Received CAM from station 594 with speed 28.35 m/s
+      vehA      12.99 Speed check results:
+  Current speed: 137.38 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.38 km/h
+  Decision: Speed violation warning
+
+      vehA      12.99 Sending warning DENM (SubCauseCode 1)
+      vehA      12.99 Sending DENM: Speed Excess = 17.375142 km/h, SubCauseCode = 1
+      vehA      12.99 
+       448      12.99 Received CAM from station 18 with speed 38.16 m/s
+       375      12.99 Received CAM from station 18 with speed 38.16 m/s
+       521      12.99 Received CAM from station 18 with speed 38.16 m/s
+       594      12.99 Received CAM from station 18 with speed 38.16 m/s
+       667      12.99 Received CAM from station 18 with speed 38.16 m/s
+normal_cars.4      13.00 SpeedAlertReceiverService initialized
+ CaService      13.00 CaService initialized  successfully
+       448      13.04 Received CAM from station 521 with speed 27.91 m/s
+       594      13.04 Received CAM from station 521 with speed 27.91 m/s
+        18      13.04 Received CAM from station 521 with speed 27.91 m/s
+       375      13.04 Received CAM from station 521 with speed 27.91 m/s
+       667      13.04 Received CAM from station 521 with speed 27.91 m/s
+       740      13.04 Received CAM from station 521 with speed 27.91 m/s
+normal_cars.1      13.05 Received a packet in SpeedAlertReceiverService
+normal_cars.1      13.05 Packet is a DENMMessage
+normal_cars.1      13.05 Processing DENM from vehA: Speed Excess = 17.375142 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      13.05 Received relevant DENM from vehA: Speed Excess = 17.375142 km/h, SubCauseCode = 1
+normal_cars.1      13.05 Reducing speed to 22.342957 m/s due to speed violation warning
+normal_cars.0      13.05 Received a packet in SpeedAlertReceiverService
+normal_cars.0      13.05 Packet is a DENMMessage
+normal_cars.0      13.05 Processing DENM from vehA: Speed Excess = 17.375142 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      13.05 Received relevant DENM from vehA: Speed Excess = 17.375142 km/h, SubCauseCode = 1
+normal_cars.0      13.05 Reducing speed to 22.300448 m/s due to speed violation warning
+normal_cars.2      13.05 Received a packet in SpeedAlertReceiverService
+normal_cars.2      13.05 Packet is a DENMMessage
+normal_cars.2      13.05 Processing DENM from vehA: Speed Excess = 17.375142 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      13.05 Received relevant DENM from vehA: Speed Excess = 17.375142 km/h, SubCauseCode = 1
+normal_cars.2      13.05 Reducing speed to 22.330961 m/s due to speed violation warning
+normal_cars.3      13.05 Received a packet in SpeedAlertReceiverService
+normal_cars.3      13.05 Packet is a DENMMessage
+normal_cars.3      13.05 Processing DENM from vehA: Speed Excess = 17.375142 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      13.05 Received relevant DENM from vehA: Speed Excess = 17.375142 km/h, SubCauseCode = 1
+normal_cars.3      13.05 Reducing speed to 22.321849 m/s due to speed violation warning
+speeding_cars.0      13.05 Received a packet in SpeedAlertReceiverService
+speeding_cars.0      13.05 Packet is a DENMMessage
+speeding_cars.0      13.05 Processing DENM from vehA: Speed Excess = 17.375142 km/h, CauseCode = 94, SubCauseCode = 1
+speeding_cars.0      13.05 Received relevant DENM from vehA: Speed Excess = 17.375142 km/h, SubCauseCode = 1
+speeding_cars.0      13.05 Reducing speed to 24.514768 m/s due to speed violation warning
+normal_cars.4      13.05 Received a packet in SpeedAlertReceiverService
+normal_cars.4      13.05 Packet is a DENMMessage
+normal_cars.4      13.05 Processing DENM from vehA: Speed Excess = 17.375142 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.4      13.05 Received relevant DENM from vehA: Speed Excess = 17.375142 km/h, SubCauseCode = 1
+normal_cars.4      13.05 Reducing speed to 21.424066 m/s due to speed violation warning
+        18      13.06 Received CAM from station 448 with speed 27.93 m/s
+       521      13.06 Received CAM from station 448 with speed 27.93 m/s
+       375      13.06 Received CAM from station 448 with speed 27.93 m/s
+       594      13.06 Received CAM from station 448 with speed 27.93 m/s
+       667      13.06 Received CAM from station 448 with speed 27.93 m/s
+       740      13.06 Received CAM from station 448 with speed 27.93 m/s
+      vehA      13.09 Speed check results:
+  Current speed: 137.56 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.56 km/h
+  Decision: Speed violation warning
+
+      vehA      13.09 Sending warning DENM (SubCauseCode 1)
+      vehA      13.09 Sending DENM: Speed Excess = 17.557337 km/h, SubCauseCode = 1
+      vehA      13.09 
+normal_cars.1      13.11 Received a packet in SpeedAlertReceiverService
+normal_cars.1      13.11 Packet is a DENMMessage
+normal_cars.1      13.11 Processing DENM from vehA: Speed Excess = 17.557337 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      13.11 Received relevant DENM from vehA: Speed Excess = 17.557337 km/h, SubCauseCode = 1
+normal_cars.1      13.11 Reducing speed to 21.982957 m/s due to speed violation warning
+normal_cars.0      13.11 Received a packet in SpeedAlertReceiverService
+normal_cars.0      13.11 Packet is a DENMMessage
+normal_cars.0      13.11 Processing DENM from vehA: Speed Excess = 17.557337 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      13.11 Received relevant DENM from vehA: Speed Excess = 17.557337 km/h, SubCauseCode = 1
+normal_cars.0      13.11 Reducing speed to 21.940448 m/s due to speed violation warning
+normal_cars.2      13.11 Received a packet in SpeedAlertReceiverService
+normal_cars.2      13.11 Packet is a DENMMessage
+normal_cars.2      13.11 Processing DENM from vehA: Speed Excess = 17.557337 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      13.11 Received relevant DENM from vehA: Speed Excess = 17.557337 km/h, SubCauseCode = 1
+normal_cars.2      13.11 Reducing speed to 21.970961 m/s due to speed violation warning
+normal_cars.3      13.11 Received a packet in SpeedAlertReceiverService
+normal_cars.3      13.11 Packet is a DENMMessage
+normal_cars.3      13.11 Processing DENM from vehA: Speed Excess = 17.557337 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      13.11 Received relevant DENM from vehA: Speed Excess = 17.557337 km/h, SubCauseCode = 1
+normal_cars.3      13.11 Reducing speed to 21.961849 m/s due to speed violation warning
+speeding_cars.0      13.11 Received a packet in SpeedAlertReceiverService
+speeding_cars.0      13.11 Packet is a DENMMessage
+speeding_cars.0      13.11 Processing DENM from vehA: Speed Excess = 17.557337 km/h, CauseCode = 94, SubCauseCode = 1
+speeding_cars.0      13.11 Received relevant DENM from vehA: Speed Excess = 17.557337 km/h, SubCauseCode = 1
+speeding_cars.0      13.11 Reducing speed to 24.154768 m/s due to speed violation warning
+normal_cars.4      13.11 Received a packet in SpeedAlertReceiverService
+normal_cars.4      13.11 Packet is a DENMMessage
+normal_cars.4      13.11 Processing DENM from vehA: Speed Excess = 17.557337 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.4      13.11 Received relevant DENM from vehA: Speed Excess = 17.557337 km/h, SubCauseCode = 1
+normal_cars.4      13.11 Reducing speed to 21.064066 m/s due to speed violation warning
+       740      13.11 Received CAM from station 667 with speed 30.19 m/s
+       594      13.11 Received CAM from station 667 with speed 30.19 m/s
+       521      13.11 Received CAM from station 667 with speed 30.19 m/s
+       448      13.11 Received CAM from station 667 with speed 30.19 m/s
+        18      13.11 Received CAM from station 667 with speed 30.19 m/s
+        18      13.15 Received CAM from station 375 with speed 27.43 m/s
+       448      13.15 Received CAM from station 375 with speed 27.43 m/s
+       521      13.15 Received CAM from station 375 with speed 27.43 m/s
+       594      13.15 Received CAM from station 375 with speed 27.43 m/s
+       521      13.15 Received CAM from station 594 with speed 27.45 m/s
+       667      13.15 Received CAM from station 594 with speed 27.45 m/s
+       740      13.15 Received CAM from station 594 with speed 27.45 m/s
+       448      13.15 Received CAM from station 594 with speed 27.45 m/s
+        18      13.15 Received CAM from station 594 with speed 27.45 m/s
+       375      13.15 Received CAM from station 594 with speed 27.45 m/s
+      vehA      13.19 Speed check results:
+  Current speed: 137.73 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.73 km/h
+  Decision: Speed violation warning
+
+      vehA      13.19 Sending warning DENM (SubCauseCode 1)
+      vehA      13.19 Sending DENM: Speed Excess = 17.731513 km/h, SubCauseCode = 1
+      vehA      13.19 
+       448      13.19 Received CAM from station 18 with speed 38.26 m/s
+       375      13.19 Received CAM from station 18 with speed 38.26 m/s
+       521      13.19 Received CAM from station 18 with speed 38.26 m/s
+       594      13.19 Received CAM from station 18 with speed 38.26 m/s
+       667      13.19 Received CAM from station 18 with speed 38.26 m/s
+       740      13.19 Received CAM from station 18 with speed 38.26 m/s
+       667      13.22 Received CAM from station 740 with speed 25.88 m/s
+       594      13.22 Received CAM from station 740 with speed 25.88 m/s
+       521      13.22 Received CAM from station 740 with speed 25.88 m/s
+       448      13.22 Received CAM from station 740 with speed 25.88 m/s
+        18      13.22 Received CAM from station 740 with speed 25.88 m/s
+       448      13.24 Received CAM from station 521 with speed 27.01 m/s
+       594      13.24 Received CAM from station 521 with speed 27.01 m/s
+        18      13.24 Received CAM from station 521 with speed 27.01 m/s
+       375      13.24 Received CAM from station 521 with speed 27.01 m/s
+       667      13.24 Received CAM from station 521 with speed 27.01 m/s
+       740      13.24 Received CAM from station 521 with speed 27.01 m/s
+normal_cars.1      13.25 Received a packet in SpeedAlertReceiverService
+normal_cars.1      13.25 Packet is a DENMMessage
+normal_cars.1      13.25 Processing DENM from vehA: Speed Excess = 17.731513 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      13.25 Received relevant DENM from vehA: Speed Excess = 17.731513 km/h, SubCauseCode = 1
+normal_cars.1      13.25 Reducing speed to 21.622957 m/s due to speed violation warning
+normal_cars.0      13.25 Received a packet in SpeedAlertReceiverService
+normal_cars.0      13.25 Packet is a DENMMessage
+normal_cars.0      13.25 Processing DENM from vehA: Speed Excess = 17.731513 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      13.25 Received relevant DENM from vehA: Speed Excess = 17.731513 km/h, SubCauseCode = 1
+normal_cars.0      13.25 Reducing speed to 21.580448 m/s due to speed violation warning
+normal_cars.2      13.25 Received a packet in SpeedAlertReceiverService
+normal_cars.2      13.25 Packet is a DENMMessage
+normal_cars.2      13.25 Processing DENM from vehA: Speed Excess = 17.731513 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      13.25 Received relevant DENM from vehA: Speed Excess = 17.731513 km/h, SubCauseCode = 1
+normal_cars.2      13.25 Reducing speed to 21.610961 m/s due to speed violation warning
+normal_cars.3      13.25 Received a packet in SpeedAlertReceiverService
+normal_cars.3      13.25 Packet is a DENMMessage
+normal_cars.3      13.25 Processing DENM from vehA: Speed Excess = 17.731513 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      13.25 Received relevant DENM from vehA: Speed Excess = 17.731513 km/h, SubCauseCode = 1
+normal_cars.3      13.25 Reducing speed to 21.601849 m/s due to speed violation warning
+speeding_cars.0      13.25 Received a packet in SpeedAlertReceiverService
+speeding_cars.0      13.25 Packet is a DENMMessage
+speeding_cars.0      13.25 Processing DENM from vehA: Speed Excess = 17.731513 km/h, CauseCode = 94, SubCauseCode = 1
+speeding_cars.0      13.25 Received relevant DENM from vehA: Speed Excess = 17.731513 km/h, SubCauseCode = 1
+speeding_cars.0      13.25 Reducing speed to 23.794768 m/s due to speed violation warning
+normal_cars.4      13.25 Received a packet in SpeedAlertReceiverService
+normal_cars.4      13.25 Packet is a DENMMessage
+normal_cars.4      13.25 Processing DENM from vehA: Speed Excess = 17.731513 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.4      13.25 Received relevant DENM from vehA: Speed Excess = 17.731513 km/h, SubCauseCode = 1
+normal_cars.4      13.25 Reducing speed to 20.704066 m/s due to speed violation warning
+        18      13.26 Received CAM from station 448 with speed 27.03 m/s
+       521      13.26 Received CAM from station 448 with speed 27.03 m/s
+       375      13.26 Received CAM from station 448 with speed 27.03 m/s
+       594      13.26 Received CAM from station 448 with speed 27.03 m/s
+       667      13.26 Received CAM from station 448 with speed 27.03 m/s
+       740      13.26 Received CAM from station 448 with speed 27.03 m/s
+      vehA      13.29 Speed check results:
+  Current speed: 137.53 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.53 km/h
+  Decision: Speed violation warning
+
+      vehA      13.29 Sending warning DENM (SubCauseCode 1)
+      vehA      13.29 Sending DENM: Speed Excess = 17.531238 km/h, SubCauseCode = 1
+      vehA      13.29 
+normal_cars.1      13.31 Received a packet in SpeedAlertReceiverService
+normal_cars.1      13.31 Packet is a DENMMessage
+normal_cars.1      13.31 Processing DENM from vehA: Speed Excess = 17.531238 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      13.31 Received relevant DENM from vehA: Speed Excess = 17.531238 km/h, SubCauseCode = 1
+normal_cars.1      13.31 Reducing speed to 21.262957 m/s due to speed violation warning
+normal_cars.0      13.31 Received a packet in SpeedAlertReceiverService
+normal_cars.0      13.31 Packet is a DENMMessage
+normal_cars.0      13.31 Processing DENM from vehA: Speed Excess = 17.531238 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      13.31 Received relevant DENM from vehA: Speed Excess = 17.531238 km/h, SubCauseCode = 1
+normal_cars.0      13.31 Reducing speed to 21.220448 m/s due to speed violation warning
+normal_cars.2      13.31 Received a packet in SpeedAlertReceiverService
+normal_cars.2      13.31 Packet is a DENMMessage
+normal_cars.2      13.31 Processing DENM from vehA: Speed Excess = 17.531238 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      13.31 Received relevant DENM from vehA: Speed Excess = 17.531238 km/h, SubCauseCode = 1
+normal_cars.2      13.31 Reducing speed to 21.250961 m/s due to speed violation warning
+normal_cars.3      13.31 Received a packet in SpeedAlertReceiverService
+normal_cars.3      13.31 Packet is a DENMMessage
+normal_cars.3      13.31 Processing DENM from vehA: Speed Excess = 17.531238 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      13.31 Received relevant DENM from vehA: Speed Excess = 17.531238 km/h, SubCauseCode = 1
+normal_cars.3      13.31 Reducing speed to 21.241849 m/s due to speed violation warning
+speeding_cars.0      13.31 Received a packet in SpeedAlertReceiverService
+speeding_cars.0      13.31 Packet is a DENMMessage
+speeding_cars.0      13.31 Processing DENM from vehA: Speed Excess = 17.531238 km/h, CauseCode = 94, SubCauseCode = 1
+speeding_cars.0      13.31 Received relevant DENM from vehA: Speed Excess = 17.531238 km/h, SubCauseCode = 1
+speeding_cars.0      13.31 Reducing speed to 23.434768 m/s due to speed violation warning
+       740      13.31 Received CAM from station 667 with speed 29.29 m/s
+       594      13.31 Received CAM from station 667 with speed 29.29 m/s
+       521      13.31 Received CAM from station 667 with speed 29.29 m/s
+       448      13.31 Received CAM from station 667 with speed 29.29 m/s
+        18      13.31 Received CAM from station 667 with speed 29.29 m/s
+        18      13.35 Received CAM from station 375 with speed 26.53 m/s
+       448      13.35 Received CAM from station 375 with speed 26.53 m/s
+       521      13.35 Received CAM from station 375 with speed 26.53 m/s
+       594      13.35 Received CAM from station 375 with speed 26.53 m/s
+       521      13.35 Received CAM from station 594 with speed 26.55 m/s
+       667      13.35 Received CAM from station 594 with speed 26.55 m/s
+       740      13.35 Received CAM from station 594 with speed 26.55 m/s
+       448      13.35 Received CAM from station 594 with speed 26.55 m/s
+        18      13.35 Received CAM from station 594 with speed 26.55 m/s
+       375      13.35 Received CAM from station 594 with speed 26.55 m/s
+      vehA      13.39 Speed check results:
+  Current speed: 137.49 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.49 km/h
+  Decision: Speed violation warning
+
+      vehA      13.39 Sending warning DENM (SubCauseCode 1)
+      vehA      13.39 Sending DENM: Speed Excess = 17.490332 km/h, SubCauseCode = 1
+      vehA      13.39 
+       448      13.39 Received CAM from station 18 with speed 38.19 m/s
+       375      13.39 Received CAM from station 18 with speed 38.19 m/s
+       521      13.39 Received CAM from station 18 with speed 38.19 m/s
+       594      13.39 Received CAM from station 18 with speed 38.19 m/s
+       667      13.39 Received CAM from station 18 with speed 38.19 m/s
+       667      13.42 Received CAM from station 740 with speed 24.98 m/s
+       594      13.42 Received CAM from station 740 with speed 24.98 m/s
+       521      13.42 Received CAM from station 740 with speed 24.98 m/s
+       448      13.42 Received CAM from station 740 with speed 24.98 m/s
+       448      13.44 Received CAM from station 521 with speed 26.11 m/s
+       594      13.44 Received CAM from station 521 with speed 26.11 m/s
+        18      13.44 Received CAM from station 521 with speed 26.11 m/s
+       375      13.44 Received CAM from station 521 with speed 26.11 m/s
+       667      13.44 Received CAM from station 521 with speed 26.11 m/s
+       740      13.44 Received CAM from station 521 with speed 26.11 m/s
+normal_cars.1      13.45 Received a packet in SpeedAlertReceiverService
+normal_cars.1      13.45 Packet is a DENMMessage
+normal_cars.1      13.45 Processing DENM from vehA: Speed Excess = 17.490332 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      13.45 Received relevant DENM from vehA: Speed Excess = 17.490332 km/h, SubCauseCode = 1
+normal_cars.1      13.45 Reducing speed to 20.902957 m/s due to speed violation warning
+normal_cars.0      13.45 Received a packet in SpeedAlertReceiverService
+normal_cars.0      13.45 Packet is a DENMMessage
+normal_cars.0      13.45 Processing DENM from vehA: Speed Excess = 17.490332 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      13.45 Received relevant DENM from vehA: Speed Excess = 17.490332 km/h, SubCauseCode = 1
+normal_cars.0      13.45 Reducing speed to 20.860448 m/s due to speed violation warning
+normal_cars.2      13.45 Received a packet in SpeedAlertReceiverService
+normal_cars.2      13.45 Packet is a DENMMessage
+normal_cars.2      13.45 Processing DENM from vehA: Speed Excess = 17.490332 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      13.45 Received relevant DENM from vehA: Speed Excess = 17.490332 km/h, SubCauseCode = 1
+normal_cars.2      13.45 Reducing speed to 20.890961 m/s due to speed violation warning
+normal_cars.3      13.45 Received a packet in SpeedAlertReceiverService
+normal_cars.3      13.45 Packet is a DENMMessage
+normal_cars.3      13.45 Processing DENM from vehA: Speed Excess = 17.490332 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      13.45 Received relevant DENM from vehA: Speed Excess = 17.490332 km/h, SubCauseCode = 1
+normal_cars.3      13.45 Reducing speed to 20.881849 m/s due to speed violation warning
+speeding_cars.0      13.45 Received a packet in SpeedAlertReceiverService
+speeding_cars.0      13.45 Packet is a DENMMessage
+speeding_cars.0      13.45 Processing DENM from vehA: Speed Excess = 17.490332 km/h, CauseCode = 94, SubCauseCode = 1
+speeding_cars.0      13.45 Received relevant DENM from vehA: Speed Excess = 17.490332 km/h, SubCauseCode = 1
+speeding_cars.0      13.45 Reducing speed to 23.074768 m/s due to speed violation warning
+        18      13.46 Received CAM from station 448 with speed 26.13 m/s
+       521      13.46 Received CAM from station 448 with speed 26.13 m/s
+       375      13.46 Received CAM from station 448 with speed 26.13 m/s
+       594      13.46 Received CAM from station 448 with speed 26.13 m/s
+       667      13.46 Received CAM from station 448 with speed 26.13 m/s
+       740      13.46 Received CAM from station 448 with speed 26.13 m/s
+      vehA      13.49 Speed check results:
+  Current speed: 137.75 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.75 km/h
+  Decision: Speed violation warning
+
+      vehA      13.49 Sending warning DENM (SubCauseCode 1)
+      vehA      13.49 Sending DENM: Speed Excess = 17.745387 km/h, SubCauseCode = 1
+      vehA      13.49 
+normal_cars.1      13.51 Received a packet in SpeedAlertReceiverService
+normal_cars.1      13.51 Packet is a DENMMessage
+normal_cars.1      13.51 Processing DENM from vehA: Speed Excess = 17.745387 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      13.51 Received relevant DENM from vehA: Speed Excess = 17.745387 km/h, SubCauseCode = 1
+normal_cars.1      13.51 Reducing speed to 20.542957 m/s due to speed violation warning
+normal_cars.0      13.51 Received a packet in SpeedAlertReceiverService
+normal_cars.0      13.51 Packet is a DENMMessage
+normal_cars.0      13.51 Processing DENM from vehA: Speed Excess = 17.745387 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      13.51 Received relevant DENM from vehA: Speed Excess = 17.745387 km/h, SubCauseCode = 1
+normal_cars.0      13.51 Reducing speed to 20.500448 m/s due to speed violation warning
+normal_cars.2      13.51 Received a packet in SpeedAlertReceiverService
+normal_cars.2      13.51 Packet is a DENMMessage
+normal_cars.2      13.51 Processing DENM from vehA: Speed Excess = 17.745387 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      13.51 Received relevant DENM from vehA: Speed Excess = 17.745387 km/h, SubCauseCode = 1
+normal_cars.2      13.51 Reducing speed to 20.530961 m/s due to speed violation warning
+normal_cars.3      13.51 Received a packet in SpeedAlertReceiverService
+normal_cars.3      13.51 Packet is a DENMMessage
+normal_cars.3      13.51 Processing DENM from vehA: Speed Excess = 17.745387 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      13.51 Received relevant DENM from vehA: Speed Excess = 17.745387 km/h, SubCauseCode = 1
+normal_cars.3      13.51 Reducing speed to 20.521849 m/s due to speed violation warning
+speeding_cars.0      13.51 Received a packet in SpeedAlertReceiverService
+speeding_cars.0      13.51 Packet is a DENMMessage
+speeding_cars.0      13.51 Processing DENM from vehA: Speed Excess = 17.745387 km/h, CauseCode = 94, SubCauseCode = 1
+speeding_cars.0      13.51 Received relevant DENM from vehA: Speed Excess = 17.745387 km/h, SubCauseCode = 1
+speeding_cars.0      13.51 Reducing speed to 22.714768 m/s due to speed violation warning
+       740      13.51 Received CAM from station 667 with speed 28.39 m/s
+       594      13.51 Received CAM from station 667 with speed 28.39 m/s
+       521      13.51 Received CAM from station 667 with speed 28.39 m/s
+       448      13.51 Received CAM from station 667 with speed 28.39 m/s
+        18      13.51 Received CAM from station 667 with speed 28.39 m/s
+        18      13.55 Received CAM from station 375 with speed 25.63 m/s
+       448      13.55 Received CAM from station 375 with speed 25.63 m/s
+       521      13.55 Received CAM from station 375 with speed 25.63 m/s
+       594      13.55 Received CAM from station 375 with speed 25.63 m/s
+       521      13.55 Received CAM from station 594 with speed 25.65 m/s
+       667      13.55 Received CAM from station 594 with speed 25.65 m/s
+       740      13.55 Received CAM from station 594 with speed 25.65 m/s
+       448      13.55 Received CAM from station 594 with speed 25.65 m/s
+        18      13.55 Received CAM from station 594 with speed 25.65 m/s
+       375      13.55 Received CAM from station 594 with speed 25.65 m/s
+      vehA      13.59 Speed check results:
+  Current speed: 137.64 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.64 km/h
+  Decision: Speed violation warning
+
+      vehA      13.59 Sending warning DENM (SubCauseCode 1)
+      vehA      13.59 Sending DENM: Speed Excess = 17.643637 km/h, SubCauseCode = 1
+      vehA      13.59 
+       448      13.59 Received CAM from station 18 with speed 38.23 m/s
+       375      13.59 Received CAM from station 18 with speed 38.23 m/s
+       521      13.59 Received CAM from station 18 with speed 38.23 m/s
+       594      13.59 Received CAM from station 18 with speed 38.23 m/s
+       667      13.59 Received CAM from station 18 with speed 38.23 m/s
+       667      13.62 Received CAM from station 740 with speed 24.08 m/s
+       594      13.62 Received CAM from station 740 with speed 24.08 m/s
+       521      13.62 Received CAM from station 740 with speed 24.08 m/s
+       448      13.62 Received CAM from station 740 with speed 24.08 m/s
+       448      13.64 Received CAM from station 521 with speed 25.21 m/s
+       594      13.64 Received CAM from station 521 with speed 25.21 m/s
+        18      13.64 Received CAM from station 521 with speed 25.21 m/s
+       375      13.64 Received CAM from station 521 with speed 25.21 m/s
+       667      13.64 Received CAM from station 521 with speed 25.21 m/s
+       740      13.64 Received CAM from station 521 with speed 25.21 m/s
+normal_cars.1      13.65 Received a packet in SpeedAlertReceiverService
+normal_cars.1      13.65 Packet is a DENMMessage
+normal_cars.1      13.65 Processing DENM from vehA: Speed Excess = 17.643637 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      13.65 Received relevant DENM from vehA: Speed Excess = 17.643637 km/h, SubCauseCode = 1
+normal_cars.1      13.65 Reducing speed to 20.182957 m/s due to speed violation warning
+normal_cars.0      13.65 Received a packet in SpeedAlertReceiverService
+normal_cars.0      13.65 Packet is a DENMMessage
+normal_cars.0      13.65 Processing DENM from vehA: Speed Excess = 17.643637 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      13.65 Received relevant DENM from vehA: Speed Excess = 17.643637 km/h, SubCauseCode = 1
+normal_cars.0      13.65 Reducing speed to 20.140448 m/s due to speed violation warning
+normal_cars.2      13.65 Received a packet in SpeedAlertReceiverService
+normal_cars.2      13.65 Packet is a DENMMessage
+normal_cars.2      13.65 Processing DENM from vehA: Speed Excess = 17.643637 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      13.65 Received relevant DENM from vehA: Speed Excess = 17.643637 km/h, SubCauseCode = 1
+normal_cars.2      13.65 Reducing speed to 20.170961 m/s due to speed violation warning
+normal_cars.3      13.65 Received a packet in SpeedAlertReceiverService
+normal_cars.3      13.65 Packet is a DENMMessage
+normal_cars.3      13.65 Processing DENM from vehA: Speed Excess = 17.643637 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      13.65 Received relevant DENM from vehA: Speed Excess = 17.643637 km/h, SubCauseCode = 1
+normal_cars.3      13.65 Reducing speed to 20.161849 m/s due to speed violation warning
+speeding_cars.0      13.65 Received a packet in SpeedAlertReceiverService
+speeding_cars.0      13.65 Packet is a DENMMessage
+speeding_cars.0      13.65 Processing DENM from vehA: Speed Excess = 17.643637 km/h, CauseCode = 94, SubCauseCode = 1
+speeding_cars.0      13.65 Received relevant DENM from vehA: Speed Excess = 17.643637 km/h, SubCauseCode = 1
+speeding_cars.0      13.65 Reducing speed to 22.354768 m/s due to speed violation warning
+        18      13.66 Received CAM from station 448 with speed 25.23 m/s
+       521      13.66 Received CAM from station 448 with speed 25.23 m/s
+       375      13.66 Received CAM from station 448 with speed 25.23 m/s
+       594      13.66 Received CAM from station 448 with speed 25.23 m/s
+       667      13.66 Received CAM from station 448 with speed 25.23 m/s
+       740      13.66 Received CAM from station 448 with speed 25.23 m/s
+      vehA      13.69 Speed check results:
+  Current speed: 137.45 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.45 km/h
+  Decision: Speed violation warning
+
+      vehA      13.69 Sending warning DENM (SubCauseCode 1)
+      vehA      13.69 Sending DENM: Speed Excess = 17.454120 km/h, SubCauseCode = 1
+      vehA      13.69 
+normal_cars.1      13.71 Received a packet in SpeedAlertReceiverService
+normal_cars.1      13.71 Packet is a DENMMessage
+normal_cars.1      13.71 Processing DENM from vehA: Speed Excess = 17.454120 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      13.71 Received relevant DENM from vehA: Speed Excess = 17.454120 km/h, SubCauseCode = 1
+normal_cars.1      13.71 Reducing speed to 19.822957 m/s due to speed violation warning
+normal_cars.0      13.71 Received a packet in SpeedAlertReceiverService
+normal_cars.0      13.71 Packet is a DENMMessage
+normal_cars.0      13.71 Processing DENM from vehA: Speed Excess = 17.454120 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      13.71 Received relevant DENM from vehA: Speed Excess = 17.454120 km/h, SubCauseCode = 1
+normal_cars.0      13.71 Reducing speed to 19.780448 m/s due to speed violation warning
+normal_cars.2      13.71 Received a packet in SpeedAlertReceiverService
+normal_cars.2      13.71 Packet is a DENMMessage
+normal_cars.2      13.71 Processing DENM from vehA: Speed Excess = 17.454120 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      13.71 Received relevant DENM from vehA: Speed Excess = 17.454120 km/h, SubCauseCode = 1
+normal_cars.2      13.71 Reducing speed to 19.810961 m/s due to speed violation warning
+normal_cars.3      13.71 Received a packet in SpeedAlertReceiverService
+normal_cars.3      13.71 Packet is a DENMMessage
+normal_cars.3      13.71 Processing DENM from vehA: Speed Excess = 17.454120 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      13.71 Received relevant DENM from vehA: Speed Excess = 17.454120 km/h, SubCauseCode = 1
+normal_cars.3      13.71 Reducing speed to 19.801849 m/s due to speed violation warning
+speeding_cars.0      13.71 Received a packet in SpeedAlertReceiverService
+speeding_cars.0      13.71 Packet is a DENMMessage
+speeding_cars.0      13.71 Processing DENM from vehA: Speed Excess = 17.454120 km/h, CauseCode = 94, SubCauseCode = 1
+speeding_cars.0      13.71 Received relevant DENM from vehA: Speed Excess = 17.454120 km/h, SubCauseCode = 1
+speeding_cars.0      13.71 Reducing speed to 21.994768 m/s due to speed violation warning
+       740      13.71 Received CAM from station 667 with speed 27.49 m/s
+       594      13.71 Received CAM from station 667 with speed 27.49 m/s
+       521      13.71 Received CAM from station 667 with speed 27.49 m/s
+       448      13.71 Received CAM from station 667 with speed 27.49 m/s
+        18      13.71 Received CAM from station 667 with speed 27.49 m/s
+        18      13.75 Received CAM from station 375 with speed 24.73 m/s
+       448      13.75 Received CAM from station 375 with speed 24.73 m/s
+       521      13.75 Received CAM from station 375 with speed 24.73 m/s
+       594      13.75 Received CAM from station 375 with speed 24.73 m/s
+       521      13.75 Received CAM from station 594 with speed 24.75 m/s
+       667      13.75 Received CAM from station 594 with speed 24.75 m/s
+       740      13.75 Received CAM from station 594 with speed 24.75 m/s
+       448      13.75 Received CAM from station 594 with speed 24.75 m/s
+        18      13.75 Received CAM from station 594 with speed 24.75 m/s
+       375      13.75 Received CAM from station 594 with speed 24.75 m/s
+      vehA      13.79 Speed check results:
+  Current speed: 137.72 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.72 km/h
+  Decision: Speed violation warning
+
+      vehA      13.79 Sending warning DENM (SubCauseCode 1)
+      vehA      13.79 Sending DENM: Speed Excess = 17.716051 km/h, SubCauseCode = 1
+      vehA      13.79 
+       448      13.79 Received CAM from station 18 with speed 38.25 m/s
+       375      13.79 Received CAM from station 18 with speed 38.25 m/s
+       521      13.79 Received CAM from station 18 with speed 38.25 m/s
+       594      13.79 Received CAM from station 18 with speed 38.25 m/s
+       667      13.79 Received CAM from station 18 with speed 38.25 m/s
+       667      13.82 Received CAM from station 740 with speed 23.18 m/s
+       594      13.82 Received CAM from station 740 with speed 23.18 m/s
+       521      13.82 Received CAM from station 740 with speed 23.18 m/s
+       448      13.82 Received CAM from station 740 with speed 23.18 m/s
+       448      13.84 Received CAM from station 521 with speed 24.31 m/s
+       594      13.84 Received CAM from station 521 with speed 24.31 m/s
+        18      13.84 Received CAM from station 521 with speed 24.31 m/s
+       375      13.84 Received CAM from station 521 with speed 24.31 m/s
+       667      13.84 Received CAM from station 521 with speed 24.31 m/s
+       740      13.84 Received CAM from station 521 with speed 24.31 m/s
+normal_cars.1      13.85 Received a packet in SpeedAlertReceiverService
+normal_cars.1      13.85 Packet is a DENMMessage
+normal_cars.1      13.85 Processing DENM from vehA: Speed Excess = 17.716051 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      13.85 Received relevant DENM from vehA: Speed Excess = 17.716051 km/h, SubCauseCode = 1
+normal_cars.1      13.85 Reducing speed to 19.462957 m/s due to speed violation warning
+normal_cars.0      13.85 Received a packet in SpeedAlertReceiverService
+normal_cars.0      13.85 Packet is a DENMMessage
+normal_cars.0      13.85 Processing DENM from vehA: Speed Excess = 17.716051 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      13.85 Received relevant DENM from vehA: Speed Excess = 17.716051 km/h, SubCauseCode = 1
+normal_cars.0      13.85 Reducing speed to 19.420448 m/s due to speed violation warning
+normal_cars.2      13.85 Received a packet in SpeedAlertReceiverService
+normal_cars.2      13.85 Packet is a DENMMessage
+normal_cars.2      13.85 Processing DENM from vehA: Speed Excess = 17.716051 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      13.85 Received relevant DENM from vehA: Speed Excess = 17.716051 km/h, SubCauseCode = 1
+normal_cars.2      13.85 Reducing speed to 19.450961 m/s due to speed violation warning
+normal_cars.3      13.85 Received a packet in SpeedAlertReceiverService
+normal_cars.3      13.85 Packet is a DENMMessage
+normal_cars.3      13.85 Processing DENM from vehA: Speed Excess = 17.716051 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      13.85 Received relevant DENM from vehA: Speed Excess = 17.716051 km/h, SubCauseCode = 1
+normal_cars.3      13.85 Reducing speed to 19.441849 m/s due to speed violation warning
+speeding_cars.0      13.85 Received a packet in SpeedAlertReceiverService
+speeding_cars.0      13.85 Packet is a DENMMessage
+speeding_cars.0      13.85 Processing DENM from vehA: Speed Excess = 17.716051 km/h, CauseCode = 94, SubCauseCode = 1
+speeding_cars.0      13.85 Received relevant DENM from vehA: Speed Excess = 17.716051 km/h, SubCauseCode = 1
+speeding_cars.0      13.85 Reducing speed to 21.634768 m/s due to speed violation warning
+        18      13.86 Received CAM from station 448 with speed 24.33 m/s
+       521      13.86 Received CAM from station 448 with speed 24.33 m/s
+       375      13.86 Received CAM from station 448 with speed 24.33 m/s
+       594      13.86 Received CAM from station 448 with speed 24.33 m/s
+       667      13.86 Received CAM from station 448 with speed 24.33 m/s
+       740      13.86 Received CAM from station 448 with speed 24.33 m/s
+      vehA      13.89 Speed check results:
+  Current speed: 137.36 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.36 km/h
+  Decision: Speed violation warning
+
+      vehA      13.89 Sending warning DENM (SubCauseCode 1)
+      vehA      13.89 Sending DENM: Speed Excess = 17.364151 km/h, SubCauseCode = 1
+      vehA      13.89 
+normal_cars.1      13.91 Received a packet in SpeedAlertReceiverService
+normal_cars.1      13.91 Packet is a DENMMessage
+normal_cars.1      13.91 Processing DENM from vehA: Speed Excess = 17.364151 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      13.91 Received relevant DENM from vehA: Speed Excess = 17.364151 km/h, SubCauseCode = 1
+normal_cars.1      13.91 Reducing speed to 19.102957 m/s due to speed violation warning
+normal_cars.0      13.91 Received a packet in SpeedAlertReceiverService
+normal_cars.0      13.91 Packet is a DENMMessage
+normal_cars.0      13.91 Processing DENM from vehA: Speed Excess = 17.364151 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      13.91 Received relevant DENM from vehA: Speed Excess = 17.364151 km/h, SubCauseCode = 1
+normal_cars.0      13.91 Reducing speed to 19.060448 m/s due to speed violation warning
+normal_cars.2      13.91 Received a packet in SpeedAlertReceiverService
+normal_cars.2      13.91 Packet is a DENMMessage
+normal_cars.2      13.91 Processing DENM from vehA: Speed Excess = 17.364151 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      13.91 Received relevant DENM from vehA: Speed Excess = 17.364151 km/h, SubCauseCode = 1
+normal_cars.2      13.91 Reducing speed to 19.090961 m/s due to speed violation warning
+normal_cars.3      13.91 Received a packet in SpeedAlertReceiverService
+normal_cars.3      13.91 Packet is a DENMMessage
+normal_cars.3      13.91 Processing DENM from vehA: Speed Excess = 17.364151 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      13.91 Received relevant DENM from vehA: Speed Excess = 17.364151 km/h, SubCauseCode = 1
+normal_cars.3      13.91 Reducing speed to 19.081849 m/s due to speed violation warning
+speeding_cars.0      13.91 Received a packet in SpeedAlertReceiverService
+speeding_cars.0      13.91 Packet is a DENMMessage
+speeding_cars.0      13.91 Processing DENM from vehA: Speed Excess = 17.364151 km/h, CauseCode = 94, SubCauseCode = 1
+speeding_cars.0      13.91 Received relevant DENM from vehA: Speed Excess = 17.364151 km/h, SubCauseCode = 1
+speeding_cars.0      13.91 Reducing speed to 21.274768 m/s due to speed violation warning
+       740      13.91 Received CAM from station 667 with speed 26.59 m/s
+       594      13.91 Received CAM from station 667 with speed 26.59 m/s
+       521      13.91 Received CAM from station 667 with speed 26.59 m/s
+       448      13.91 Received CAM from station 667 with speed 26.59 m/s
+        18      13.91 Received CAM from station 667 with speed 26.59 m/s
+        18      13.95 Received CAM from station 375 with speed 23.83 m/s
+       448      13.95 Received CAM from station 375 with speed 23.83 m/s
+       521      13.95 Received CAM from station 375 with speed 23.83 m/s
+       594      13.95 Received CAM from station 375 with speed 23.83 m/s
+       521      13.95 Received CAM from station 594 with speed 23.85 m/s
+       667      13.95 Received CAM from station 594 with speed 23.85 m/s
+       740      13.95 Received CAM from station 594 with speed 23.85 m/s
+       448      13.95 Received CAM from station 594 with speed 23.85 m/s
+        18      13.95 Received CAM from station 594 with speed 23.85 m/s
+       375      13.95 Received CAM from station 594 with speed 23.85 m/s
+      vehA      13.99 Speed check results:
+  Current speed: 137.63 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.63 km/h
+  Decision: Speed violation warning
+
+      vehA      13.99 Sending warning DENM (SubCauseCode 1)
+      vehA      13.99 Sending DENM: Speed Excess = 17.629150 km/h, SubCauseCode = 1
+      vehA      13.99 
+       448      13.99 Received CAM from station 18 with speed 38.23 m/s
+       375      13.99 Received CAM from station 18 with speed 38.23 m/s
+       521      13.99 Received CAM from station 18 with speed 38.23 m/s
+       594      13.99 Received CAM from station 18 with speed 38.23 m/s
+       667      13.99 Received CAM from station 18 with speed 38.23 m/s
+       667      14.02 Received CAM from station 740 with speed 22.28 m/s
+       594      14.02 Received CAM from station 740 with speed 22.28 m/s
+       521      14.02 Received CAM from station 740 with speed 22.28 m/s
+       448      14.02 Received CAM from station 740 with speed 22.28 m/s
+       448      14.04 Received CAM from station 521 with speed 23.41 m/s
+       594      14.04 Received CAM from station 521 with speed 23.41 m/s
+        18      14.04 Received CAM from station 521 with speed 23.41 m/s
+       375      14.04 Received CAM from station 521 with speed 23.41 m/s
+       667      14.04 Received CAM from station 521 with speed 23.41 m/s
+       740      14.04 Received CAM from station 521 with speed 23.41 m/s
+normal_cars.0      14.05 Received a packet in SpeedAlertReceiverService
+normal_cars.0      14.05 Packet is a DENMMessage
+normal_cars.0      14.05 Processing DENM from vehA: Speed Excess = 17.629150 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      14.05 Received relevant DENM from vehA: Speed Excess = 17.629150 km/h, SubCauseCode = 1
+normal_cars.0      14.05 Reducing speed to 18.700448 m/s due to speed violation warning
+normal_cars.1      14.05 Received a packet in SpeedAlertReceiverService
+normal_cars.1      14.05 Packet is a DENMMessage
+normal_cars.1      14.05 Processing DENM from vehA: Speed Excess = 17.629150 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      14.05 Received relevant DENM from vehA: Speed Excess = 17.629150 km/h, SubCauseCode = 1
+normal_cars.1      14.05 Reducing speed to 18.742957 m/s due to speed violation warning
+normal_cars.2      14.05 Received a packet in SpeedAlertReceiverService
+normal_cars.2      14.05 Packet is a DENMMessage
+normal_cars.2      14.05 Processing DENM from vehA: Speed Excess = 17.629150 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      14.05 Received relevant DENM from vehA: Speed Excess = 17.629150 km/h, SubCauseCode = 1
+normal_cars.2      14.05 Reducing speed to 18.730961 m/s due to speed violation warning
+normal_cars.3      14.05 Received a packet in SpeedAlertReceiverService
+normal_cars.3      14.05 Packet is a DENMMessage
+normal_cars.3      14.05 Processing DENM from vehA: Speed Excess = 17.629150 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      14.05 Received relevant DENM from vehA: Speed Excess = 17.629150 km/h, SubCauseCode = 1
+normal_cars.3      14.05 Reducing speed to 18.721849 m/s due to speed violation warning
+speeding_cars.0      14.05 Received a packet in SpeedAlertReceiverService
+speeding_cars.0      14.05 Packet is a DENMMessage
+speeding_cars.0      14.05 Processing DENM from vehA: Speed Excess = 17.629150 km/h, CauseCode = 94, SubCauseCode = 1
+speeding_cars.0      14.05 Received relevant DENM from vehA: Speed Excess = 17.629150 km/h, SubCauseCode = 1
+speeding_cars.0      14.05 Reducing speed to 20.914768 m/s due to speed violation warning
+       521      14.06 Received CAM from station 448 with speed 23.43 m/s
+        18      14.06 Received CAM from station 448 with speed 23.43 m/s
+       375      14.06 Received CAM from station 448 with speed 23.43 m/s
+       594      14.06 Received CAM from station 448 with speed 23.43 m/s
+       667      14.06 Received CAM from station 448 with speed 23.43 m/s
+       740      14.06 Received CAM from station 448 with speed 23.43 m/s
+      vehA      14.09 Speed check results:
+  Current speed: 137.69 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.69 km/h
+  Decision: Speed violation warning
+
+      vehA      14.09 Sending warning DENM (SubCauseCode 1)
+      vehA      14.09 Sending DENM: Speed Excess = 17.690906 km/h, SubCauseCode = 1
+      vehA      14.09 
+normal_cars.0      14.11 Received a packet in SpeedAlertReceiverService
+normal_cars.0      14.11 Packet is a DENMMessage
+normal_cars.0      14.11 Processing DENM from vehA: Speed Excess = 17.690906 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      14.11 Received relevant DENM from vehA: Speed Excess = 17.690906 km/h, SubCauseCode = 1
+normal_cars.0      14.11 Reducing speed to 18.340448 m/s due to speed violation warning
+normal_cars.1      14.11 Received a packet in SpeedAlertReceiverService
+normal_cars.1      14.11 Packet is a DENMMessage
+normal_cars.1      14.11 Processing DENM from vehA: Speed Excess = 17.690906 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      14.11 Received relevant DENM from vehA: Speed Excess = 17.690906 km/h, SubCauseCode = 1
+normal_cars.1      14.11 Reducing speed to 18.382957 m/s due to speed violation warning
+normal_cars.2      14.11 Received a packet in SpeedAlertReceiverService
+normal_cars.2      14.11 Packet is a DENMMessage
+normal_cars.2      14.11 Processing DENM from vehA: Speed Excess = 17.690906 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      14.11 Received relevant DENM from vehA: Speed Excess = 17.690906 km/h, SubCauseCode = 1
+normal_cars.2      14.11 Reducing speed to 18.370961 m/s due to speed violation warning
+normal_cars.3      14.11 Received a packet in SpeedAlertReceiverService
+normal_cars.3      14.11 Packet is a DENMMessage
+normal_cars.3      14.11 Processing DENM from vehA: Speed Excess = 17.690906 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      14.11 Received relevant DENM from vehA: Speed Excess = 17.690906 km/h, SubCauseCode = 1
+normal_cars.3      14.11 Reducing speed to 18.361849 m/s due to speed violation warning
+speeding_cars.0      14.11 Received a packet in SpeedAlertReceiverService
+speeding_cars.0      14.11 Packet is a DENMMessage
+speeding_cars.0      14.11 Processing DENM from vehA: Speed Excess = 17.690906 km/h, CauseCode = 94, SubCauseCode = 1
+speeding_cars.0      14.11 Received relevant DENM from vehA: Speed Excess = 17.690906 km/h, SubCauseCode = 1
+speeding_cars.0      14.11 Reducing speed to 20.554768 m/s due to speed violation warning
+       740      14.11 Received CAM from station 667 with speed 25.69 m/s
+       594      14.11 Received CAM from station 667 with speed 25.69 m/s
+       521      14.11 Received CAM from station 667 with speed 25.69 m/s
+       448      14.11 Received CAM from station 667 with speed 25.69 m/s
+        18      14.11 Received CAM from station 667 with speed 25.69 m/s
+        18      14.15 Received CAM from station 375 with speed 22.93 m/s
+       448      14.15 Received CAM from station 375 with speed 22.93 m/s
+       521      14.15 Received CAM from station 375 with speed 22.93 m/s
+       594      14.15 Received CAM from station 375 with speed 22.93 m/s
+       521      14.15 Received CAM from station 594 with speed 22.95 m/s
+       667      14.15 Received CAM from station 594 with speed 22.95 m/s
+       740      14.15 Received CAM from station 594 with speed 22.95 m/s
+       448      14.15 Received CAM from station 594 with speed 22.95 m/s
+        18      14.15 Received CAM from station 594 with speed 22.95 m/s
+       375      14.15 Received CAM from station 594 with speed 22.95 m/s
+      vehA      14.19 Speed check results:
+  Current speed: 137.69 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.69 km/h
+  Decision: Speed violation warning
+
+      vehA      14.19 Sending warning DENM (SubCauseCode 1)
+      vehA      14.19 Sending DENM: Speed Excess = 17.694291 km/h, SubCauseCode = 1
+      vehA      14.19 
+       375      14.19 Received CAM from station 18 with speed 38.25 m/s
+       448      14.19 Received CAM from station 18 with speed 38.25 m/s
+       521      14.19 Received CAM from station 18 with speed 38.25 m/s
+       594      14.19 Received CAM from station 18 with speed 38.25 m/s
+       667      14.19 Received CAM from station 18 with speed 38.25 m/s
+       667      14.22 Received CAM from station 740 with speed 21.38 m/s
+       594      14.22 Received CAM from station 740 with speed 21.38 m/s
+       521      14.22 Received CAM from station 740 with speed 21.38 m/s
+       448      14.22 Received CAM from station 740 with speed 21.38 m/s
+       448      14.24 Received CAM from station 521 with speed 22.51 m/s
+       594      14.24 Received CAM from station 521 with speed 22.51 m/s
+        18      14.24 Received CAM from station 521 with speed 22.51 m/s
+       375      14.24 Received CAM from station 521 with speed 22.51 m/s
+       667      14.24 Received CAM from station 521 with speed 22.51 m/s
+       740      14.24 Received CAM from station 521 with speed 22.51 m/s
+normal_cars.0      14.25 Received a packet in SpeedAlertReceiverService
+normal_cars.0      14.25 Packet is a DENMMessage
+normal_cars.0      14.25 Processing DENM from vehA: Speed Excess = 17.694291 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      14.25 Received relevant DENM from vehA: Speed Excess = 17.694291 km/h, SubCauseCode = 1
+normal_cars.0      14.25 Reducing speed to 17.980448 m/s due to speed violation warning
+normal_cars.1      14.25 Received a packet in SpeedAlertReceiverService
+normal_cars.1      14.25 Packet is a DENMMessage
+normal_cars.1      14.25 Processing DENM from vehA: Speed Excess = 17.694291 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      14.25 Received relevant DENM from vehA: Speed Excess = 17.694291 km/h, SubCauseCode = 1
+normal_cars.1      14.25 Reducing speed to 18.022957 m/s due to speed violation warning
+normal_cars.2      14.25 Received a packet in SpeedAlertReceiverService
+normal_cars.2      14.25 Packet is a DENMMessage
+normal_cars.2      14.25 Processing DENM from vehA: Speed Excess = 17.694291 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      14.25 Received relevant DENM from vehA: Speed Excess = 17.694291 km/h, SubCauseCode = 1
+normal_cars.2      14.25 Reducing speed to 18.010961 m/s due to speed violation warning
+normal_cars.3      14.25 Received a packet in SpeedAlertReceiverService
+normal_cars.3      14.25 Packet is a DENMMessage
+normal_cars.3      14.25 Processing DENM from vehA: Speed Excess = 17.694291 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      14.25 Received relevant DENM from vehA: Speed Excess = 17.694291 km/h, SubCauseCode = 1
+normal_cars.3      14.25 Reducing speed to 18.001849 m/s due to speed violation warning
+speeding_cars.0      14.25 Received a packet in SpeedAlertReceiverService
+speeding_cars.0      14.25 Packet is a DENMMessage
+speeding_cars.0      14.25 Processing DENM from vehA: Speed Excess = 17.694291 km/h, CauseCode = 94, SubCauseCode = 1
+speeding_cars.0      14.25 Received relevant DENM from vehA: Speed Excess = 17.694291 km/h, SubCauseCode = 1
+speeding_cars.0      14.25 Reducing speed to 20.194768 m/s due to speed violation warning
+       521      14.26 Received CAM from station 448 with speed 22.53 m/s
+        18      14.26 Received CAM from station 448 with speed 22.53 m/s
+       375      14.26 Received CAM from station 448 with speed 22.53 m/s
+       594      14.26 Received CAM from station 448 with speed 22.53 m/s
+       667      14.26 Received CAM from station 448 with speed 22.53 m/s
+       740      14.26 Received CAM from station 448 with speed 22.53 m/s
+      vehA      14.29 Speed check results:
+  Current speed: 137.30 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.30 km/h
+  Decision: Speed violation warning
+
+      vehA      14.29 Sending warning DENM (SubCauseCode 1)
+      vehA      14.29 Sending DENM: Speed Excess = 17.301216 km/h, SubCauseCode = 1
+      vehA      14.29 
+normal_cars.0      14.31 Received a packet in SpeedAlertReceiverService
+normal_cars.0      14.31 Packet is a DENMMessage
+normal_cars.0      14.31 Processing DENM from vehA: Speed Excess = 17.301216 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      14.31 Received relevant DENM from vehA: Speed Excess = 17.301216 km/h, SubCauseCode = 1
+normal_cars.0      14.31 Reducing speed to 17.620448 m/s due to speed violation warning
+normal_cars.1      14.31 Received a packet in SpeedAlertReceiverService
+normal_cars.1      14.31 Packet is a DENMMessage
+normal_cars.1      14.31 Processing DENM from vehA: Speed Excess = 17.301216 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      14.31 Received relevant DENM from vehA: Speed Excess = 17.301216 km/h, SubCauseCode = 1
+normal_cars.1      14.31 Reducing speed to 17.662957 m/s due to speed violation warning
+normal_cars.2      14.31 Received a packet in SpeedAlertReceiverService
+normal_cars.2      14.31 Packet is a DENMMessage
+normal_cars.2      14.31 Processing DENM from vehA: Speed Excess = 17.301216 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      14.31 Received relevant DENM from vehA: Speed Excess = 17.301216 km/h, SubCauseCode = 1
+normal_cars.2      14.31 Reducing speed to 17.650961 m/s due to speed violation warning
+normal_cars.3      14.31 Received a packet in SpeedAlertReceiverService
+normal_cars.3      14.31 Packet is a DENMMessage
+normal_cars.3      14.31 Processing DENM from vehA: Speed Excess = 17.301216 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      14.31 Received relevant DENM from vehA: Speed Excess = 17.301216 km/h, SubCauseCode = 1
+normal_cars.3      14.31 Reducing speed to 17.641849 m/s due to speed violation warning
+       740      14.31 Received CAM from station 667 with speed 24.79 m/s
+       594      14.31 Received CAM from station 667 with speed 24.79 m/s
+       521      14.31 Received CAM from station 667 with speed 24.79 m/s
+       448      14.31 Received CAM from station 667 with speed 24.79 m/s
+        18      14.35 Received CAM from station 375 with speed 22.03 m/s
+       448      14.35 Received CAM from station 375 with speed 22.03 m/s
+       521      14.35 Received CAM from station 375 with speed 22.03 m/s
+       594      14.35 Received CAM from station 375 with speed 22.03 m/s
+       521      14.35 Received CAM from station 594 with speed 22.05 m/s
+       667      14.35 Received CAM from station 594 with speed 22.05 m/s
+       740      14.35 Received CAM from station 594 with speed 22.05 m/s
+       448      14.35 Received CAM from station 594 with speed 22.05 m/s
+        18      14.35 Received CAM from station 594 with speed 22.05 m/s
+       375      14.35 Received CAM from station 594 with speed 22.05 m/s
+      vehA      14.39 Speed check results:
+  Current speed: 137.31 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.31 km/h
+  Decision: Speed violation warning
+
+      vehA      14.39 Sending warning DENM (SubCauseCode 1)
+      vehA      14.39 Sending DENM: Speed Excess = 17.305156 km/h, SubCauseCode = 1
+      vehA      14.39 
+       375      14.39 Received CAM from station 18 with speed 38.14 m/s
+       448      14.39 Received CAM from station 18 with speed 38.14 m/s
+       521      14.39 Received CAM from station 18 with speed 38.14 m/s
+       594      14.39 Received CAM from station 18 with speed 38.14 m/s
+       667      14.42 Received CAM from station 740 with speed 20.70 m/s
+       594      14.42 Received CAM from station 740 with speed 20.70 m/s
+       521      14.42 Received CAM from station 740 with speed 20.70 m/s
+       448      14.42 Received CAM from station 740 with speed 20.70 m/s
+       448      14.44 Received CAM from station 521 with speed 21.61 m/s
+       594      14.44 Received CAM from station 521 with speed 21.61 m/s
+        18      14.44 Received CAM from station 521 with speed 21.61 m/s
+       375      14.44 Received CAM from station 521 with speed 21.61 m/s
+       667      14.44 Received CAM from station 521 with speed 21.61 m/s
+       740      14.44 Received CAM from station 521 with speed 21.61 m/s
+normal_cars.0      14.45 Received a packet in SpeedAlertReceiverService
+normal_cars.0      14.45 Packet is a DENMMessage
+normal_cars.0      14.45 Processing DENM from vehA: Speed Excess = 17.305156 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      14.45 Received relevant DENM from vehA: Speed Excess = 17.305156 km/h, SubCauseCode = 1
+normal_cars.0      14.45 Reducing speed to 17.260448 m/s due to speed violation warning
+normal_cars.1      14.45 Received a packet in SpeedAlertReceiverService
+normal_cars.1      14.45 Packet is a DENMMessage
+normal_cars.1      14.45 Processing DENM from vehA: Speed Excess = 17.305156 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      14.45 Received relevant DENM from vehA: Speed Excess = 17.305156 km/h, SubCauseCode = 1
+normal_cars.1      14.45 Reducing speed to 17.302957 m/s due to speed violation warning
+normal_cars.2      14.45 Received a packet in SpeedAlertReceiverService
+normal_cars.2      14.45 Packet is a DENMMessage
+normal_cars.2      14.45 Processing DENM from vehA: Speed Excess = 17.305156 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      14.45 Received relevant DENM from vehA: Speed Excess = 17.305156 km/h, SubCauseCode = 1
+normal_cars.2      14.45 Reducing speed to 17.290961 m/s due to speed violation warning
+normal_cars.3      14.45 Received a packet in SpeedAlertReceiverService
+normal_cars.3      14.45 Packet is a DENMMessage
+normal_cars.3      14.45 Processing DENM from vehA: Speed Excess = 17.305156 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      14.45 Received relevant DENM from vehA: Speed Excess = 17.305156 km/h, SubCauseCode = 1
+normal_cars.3      14.45 Reducing speed to 17.281849 m/s due to speed violation warning
+       521      14.46 Received CAM from station 448 with speed 21.63 m/s
+        18      14.46 Received CAM from station 448 with speed 21.63 m/s
+       375      14.46 Received CAM from station 448 with speed 21.63 m/s
+       594      14.46 Received CAM from station 448 with speed 21.63 m/s
+       667      14.46 Received CAM from station 448 with speed 21.63 m/s
+       740      14.46 Received CAM from station 448 with speed 21.63 m/s
+      vehA      14.49 Speed check results:
+  Current speed: 137.70 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.70 km/h
+  Decision: Speed violation warning
+
+      vehA      14.49 Sending warning DENM (SubCauseCode 1)
+      vehA      14.49 Sending DENM: Speed Excess = 17.695548 km/h, SubCauseCode = 1
+      vehA      14.49 
+normal_cars.0      14.51 Received a packet in SpeedAlertReceiverService
+normal_cars.0      14.51 Packet is a DENMMessage
+normal_cars.0      14.51 Processing DENM from vehA: Speed Excess = 17.695548 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      14.51 Received relevant DENM from vehA: Speed Excess = 17.695548 km/h, SubCauseCode = 1
+normal_cars.0      14.51 Reducing speed to 16.900448 m/s due to speed violation warning
+normal_cars.1      14.51 Received a packet in SpeedAlertReceiverService
+normal_cars.1      14.51 Packet is a DENMMessage
+normal_cars.1      14.51 Processing DENM from vehA: Speed Excess = 17.695548 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      14.51 Received relevant DENM from vehA: Speed Excess = 17.695548 km/h, SubCauseCode = 1
+normal_cars.1      14.51 Reducing speed to 16.942957 m/s due to speed violation warning
+normal_cars.2      14.51 Received a packet in SpeedAlertReceiverService
+normal_cars.2      14.51 Packet is a DENMMessage
+normal_cars.2      14.51 Processing DENM from vehA: Speed Excess = 17.695548 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      14.51 Received relevant DENM from vehA: Speed Excess = 17.695548 km/h, SubCauseCode = 1
+normal_cars.2      14.51 Reducing speed to 16.930961 m/s due to speed violation warning
+normal_cars.3      14.51 Received a packet in SpeedAlertReceiverService
+normal_cars.3      14.51 Packet is a DENMMessage
+normal_cars.3      14.51 Processing DENM from vehA: Speed Excess = 17.695548 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      14.51 Received relevant DENM from vehA: Speed Excess = 17.695548 km/h, SubCauseCode = 1
+normal_cars.3      14.51 Reducing speed to 16.921849 m/s due to speed violation warning
+       740      14.51 Received CAM from station 667 with speed 23.89 m/s
+       594      14.51 Received CAM from station 667 with speed 23.89 m/s
+       521      14.51 Received CAM from station 667 with speed 23.89 m/s
+       448      14.51 Received CAM from station 667 with speed 23.89 m/s
+        18      14.55 Received CAM from station 375 with speed 21.13 m/s
+       448      14.55 Received CAM from station 375 with speed 21.13 m/s
+       521      14.55 Received CAM from station 375 with speed 21.13 m/s
+       594      14.55 Received CAM from station 375 with speed 21.13 m/s
+       521      14.55 Received CAM from station 594 with speed 21.15 m/s
+       667      14.55 Received CAM from station 594 with speed 21.15 m/s
+       740      14.55 Received CAM from station 594 with speed 21.15 m/s
+       448      14.55 Received CAM from station 594 with speed 21.15 m/s
+        18      14.55 Received CAM from station 594 with speed 21.15 m/s
+       375      14.55 Received CAM from station 594 with speed 21.15 m/s
+      vehA      14.59 Speed check results:
+  Current speed: 137.78 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.78 km/h
+  Decision: Speed violation warning
+
+      vehA      14.59 Sending warning DENM (SubCauseCode 1)
+      vehA      14.59 Sending DENM: Speed Excess = 17.784784 km/h, SubCauseCode = 1
+      vehA      14.59 
+       375      14.59 Received CAM from station 18 with speed 38.27 m/s
+       448      14.59 Received CAM from station 18 with speed 38.27 m/s
+       521      14.59 Received CAM from station 18 with speed 38.27 m/s
+       594      14.59 Received CAM from station 18 with speed 38.27 m/s
+       667      14.62 Received CAM from station 740 with speed 20.70 m/s
+       594      14.62 Received CAM from station 740 with speed 20.70 m/s
+       521      14.62 Received CAM from station 740 with speed 20.70 m/s
+       448      14.62 Received CAM from station 740 with speed 20.70 m/s
+       448      14.64 Received CAM from station 521 with speed 20.71 m/s
+       594      14.64 Received CAM from station 521 with speed 20.71 m/s
+        18      14.64 Received CAM from station 521 with speed 20.71 m/s
+       375      14.64 Received CAM from station 521 with speed 20.71 m/s
+       667      14.64 Received CAM from station 521 with speed 20.71 m/s
+       740      14.64 Received CAM from station 521 with speed 20.71 m/s
+normal_cars.0      14.65 Received a packet in SpeedAlertReceiverService
+normal_cars.0      14.65 Packet is a DENMMessage
+normal_cars.0      14.65 Processing DENM from vehA: Speed Excess = 17.784784 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      14.65 Received relevant DENM from vehA: Speed Excess = 17.784784 km/h, SubCauseCode = 1
+normal_cars.0      14.65 Reducing speed to 16.540448 m/s due to speed violation warning
+normal_cars.1      14.65 Received a packet in SpeedAlertReceiverService
+normal_cars.1      14.65 Packet is a DENMMessage
+normal_cars.1      14.65 Processing DENM from vehA: Speed Excess = 17.784784 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      14.65 Received relevant DENM from vehA: Speed Excess = 17.784784 km/h, SubCauseCode = 1
+normal_cars.1      14.65 Reducing speed to 16.582957 m/s due to speed violation warning
+normal_cars.2      14.65 Received a packet in SpeedAlertReceiverService
+normal_cars.2      14.65 Packet is a DENMMessage
+normal_cars.2      14.65 Processing DENM from vehA: Speed Excess = 17.784784 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      14.65 Received relevant DENM from vehA: Speed Excess = 17.784784 km/h, SubCauseCode = 1
+normal_cars.2      14.65 Reducing speed to 16.570961 m/s due to speed violation warning
+normal_cars.3      14.65 Received a packet in SpeedAlertReceiverService
+normal_cars.3      14.65 Packet is a DENMMessage
+normal_cars.3      14.65 Processing DENM from vehA: Speed Excess = 17.784784 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      14.65 Received relevant DENM from vehA: Speed Excess = 17.784784 km/h, SubCauseCode = 1
+normal_cars.3      14.65 Reducing speed to 16.561849 m/s due to speed violation warning
+       521      14.66 Received CAM from station 448 with speed 20.73 m/s
+        18      14.66 Received CAM from station 448 with speed 20.73 m/s
+       375      14.66 Received CAM from station 448 with speed 20.73 m/s
+       594      14.66 Received CAM from station 448 with speed 20.73 m/s
+       667      14.66 Received CAM from station 448 with speed 20.73 m/s
+       740      14.66 Received CAM from station 448 with speed 20.73 m/s
+      vehA      14.69 Speed check results:
+  Current speed: 137.29 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.29 km/h
+  Decision: Speed violation warning
+
+      vehA      14.69 Sending warning DENM (SubCauseCode 1)
+      vehA      14.69 Sending DENM: Speed Excess = 17.294497 km/h, SubCauseCode = 1
+      vehA      14.69 
+normal_cars.0      14.71 Received a packet in SpeedAlertReceiverService
+normal_cars.0      14.71 Packet is a DENMMessage
+normal_cars.0      14.71 Processing DENM from vehA: Speed Excess = 17.294497 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      14.71 Received relevant DENM from vehA: Speed Excess = 17.294497 km/h, SubCauseCode = 1
+normal_cars.0      14.71 Reducing speed to 16.180448 m/s due to speed violation warning
+normal_cars.1      14.71 Received a packet in SpeedAlertReceiverService
+normal_cars.1      14.71 Packet is a DENMMessage
+normal_cars.1      14.71 Processing DENM from vehA: Speed Excess = 17.294497 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      14.71 Received relevant DENM from vehA: Speed Excess = 17.294497 km/h, SubCauseCode = 1
+normal_cars.1      14.71 Reducing speed to 16.222957 m/s due to speed violation warning
+normal_cars.2      14.71 Received a packet in SpeedAlertReceiverService
+normal_cars.2      14.71 Packet is a DENMMessage
+normal_cars.2      14.71 Processing DENM from vehA: Speed Excess = 17.294497 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      14.71 Received relevant DENM from vehA: Speed Excess = 17.294497 km/h, SubCauseCode = 1
+normal_cars.2      14.71 Reducing speed to 16.210961 m/s due to speed violation warning
+normal_cars.3      14.71 Received a packet in SpeedAlertReceiverService
+normal_cars.3      14.71 Packet is a DENMMessage
+normal_cars.3      14.71 Processing DENM from vehA: Speed Excess = 17.294497 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      14.71 Received relevant DENM from vehA: Speed Excess = 17.294497 km/h, SubCauseCode = 1
+normal_cars.3      14.71 Reducing speed to 16.201849 m/s due to speed violation warning
+       740      14.71 Received CAM from station 667 with speed 22.99 m/s
+       594      14.71 Received CAM from station 667 with speed 22.99 m/s
+       521      14.71 Received CAM from station 667 with speed 22.99 m/s
+       448      14.71 Received CAM from station 667 with speed 22.99 m/s
+        18      14.75 Received CAM from station 375 with speed 20.23 m/s
+       448      14.75 Received CAM from station 375 with speed 20.23 m/s
+       521      14.75 Received CAM from station 375 with speed 20.23 m/s
+       594      14.75 Received CAM from station 375 with speed 20.23 m/s
+       521      14.75 Received CAM from station 594 with speed 20.25 m/s
+       667      14.75 Received CAM from station 594 with speed 20.25 m/s
+       740      14.75 Received CAM from station 594 with speed 20.25 m/s
+       448      14.75 Received CAM from station 594 with speed 20.25 m/s
+        18      14.75 Received CAM from station 594 with speed 20.25 m/s
+       375      14.75 Received CAM from station 594 with speed 20.25 m/s
+      vehA      14.79 Speed check results:
+  Current speed: 137.41 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.41 km/h
+  Decision: Speed violation warning
+
+      vehA      14.79 Sending warning DENM (SubCauseCode 1)
+      vehA      14.79 Sending DENM: Speed Excess = 17.414104 km/h, SubCauseCode = 1
+      vehA      14.79 
+       375      14.79 Received CAM from station 18 with speed 38.17 m/s
+       448      14.79 Received CAM from station 18 with speed 38.17 m/s
+       521      14.79 Received CAM from station 18 with speed 38.17 m/s
+       594      14.79 Received CAM from station 18 with speed 38.17 m/s
+       667      14.82 Received CAM from station 740 with speed 20.49 m/s
+       594      14.82 Received CAM from station 740 with speed 20.49 m/s
+       521      14.82 Received CAM from station 740 with speed 20.49 m/s
+       448      14.82 Received CAM from station 740 with speed 20.49 m/s
+       448      14.84 Received CAM from station 521 with speed 19.81 m/s
+       594      14.84 Received CAM from station 521 with speed 19.81 m/s
+        18      14.84 Received CAM from station 521 with speed 19.81 m/s
+       375      14.84 Received CAM from station 521 with speed 19.81 m/s
+       667      14.84 Received CAM from station 521 with speed 19.81 m/s
+       740      14.84 Received CAM from station 521 with speed 19.81 m/s
+normal_cars.0      14.85 Received a packet in SpeedAlertReceiverService
+normal_cars.0      14.85 Packet is a DENMMessage
+normal_cars.0      14.85 Processing DENM from vehA: Speed Excess = 17.414104 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      14.85 Received relevant DENM from vehA: Speed Excess = 17.414104 km/h, SubCauseCode = 1
+normal_cars.0      14.85 Reducing speed to 15.820448 m/s due to speed violation warning
+normal_cars.1      14.85 Received a packet in SpeedAlertReceiverService
+normal_cars.1      14.85 Packet is a DENMMessage
+normal_cars.1      14.85 Processing DENM from vehA: Speed Excess = 17.414104 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      14.85 Received relevant DENM from vehA: Speed Excess = 17.414104 km/h, SubCauseCode = 1
+normal_cars.1      14.85 Reducing speed to 15.862957 m/s due to speed violation warning
+normal_cars.2      14.85 Received a packet in SpeedAlertReceiverService
+normal_cars.2      14.85 Packet is a DENMMessage
+normal_cars.2      14.85 Processing DENM from vehA: Speed Excess = 17.414104 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      14.85 Received relevant DENM from vehA: Speed Excess = 17.414104 km/h, SubCauseCode = 1
+normal_cars.2      14.85 Reducing speed to 15.850961 m/s due to speed violation warning
+normal_cars.3      14.85 Received a packet in SpeedAlertReceiverService
+normal_cars.3      14.85 Packet is a DENMMessage
+normal_cars.3      14.85 Processing DENM from vehA: Speed Excess = 17.414104 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      14.85 Received relevant DENM from vehA: Speed Excess = 17.414104 km/h, SubCauseCode = 1
+normal_cars.3      14.85 Reducing speed to 15.841849 m/s due to speed violation warning
+       521      14.86 Received CAM from station 448 with speed 19.83 m/s
+        18      14.86 Received CAM from station 448 with speed 19.83 m/s
+       375      14.86 Received CAM from station 448 with speed 19.83 m/s
+       594      14.86 Received CAM from station 448 with speed 19.83 m/s
+       667      14.86 Received CAM from station 448 with speed 19.83 m/s
+       740      14.86 Received CAM from station 448 with speed 19.83 m/s
+      vehA      14.89 Speed check results:
+  Current speed: 137.29 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.29 km/h
+  Decision: Speed violation warning
+
+      vehA      14.89 Sending warning DENM (SubCauseCode 1)
+      vehA      14.89 Sending DENM: Speed Excess = 17.293627 km/h, SubCauseCode = 1
+      vehA      14.89 
+normal_cars.0      14.91 Received a packet in SpeedAlertReceiverService
+normal_cars.0      14.91 Packet is a DENMMessage
+normal_cars.0      14.91 Processing DENM from vehA: Speed Excess = 17.293627 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      14.91 Received relevant DENM from vehA: Speed Excess = 17.293627 km/h, SubCauseCode = 1
+normal_cars.0      14.91 Reducing speed to 15.460448 m/s due to speed violation warning
+normal_cars.1      14.91 Received a packet in SpeedAlertReceiverService
+normal_cars.1      14.91 Packet is a DENMMessage
+normal_cars.1      14.91 Processing DENM from vehA: Speed Excess = 17.293627 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      14.91 Received relevant DENM from vehA: Speed Excess = 17.293627 km/h, SubCauseCode = 1
+normal_cars.1      14.91 Reducing speed to 15.502957 m/s due to speed violation warning
+normal_cars.2      14.91 Received a packet in SpeedAlertReceiverService
+normal_cars.2      14.91 Packet is a DENMMessage
+normal_cars.2      14.91 Processing DENM from vehA: Speed Excess = 17.293627 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      14.91 Received relevant DENM from vehA: Speed Excess = 17.293627 km/h, SubCauseCode = 1
+normal_cars.2      14.91 Reducing speed to 15.490961 m/s due to speed violation warning
+normal_cars.3      14.91 Received a packet in SpeedAlertReceiverService
+normal_cars.3      14.91 Packet is a DENMMessage
+normal_cars.3      14.91 Processing DENM from vehA: Speed Excess = 17.293627 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      14.91 Received relevant DENM from vehA: Speed Excess = 17.293627 km/h, SubCauseCode = 1
+normal_cars.3      14.91 Reducing speed to 15.481849 m/s due to speed violation warning
+       740      14.91 Received CAM from station 667 with speed 22.09 m/s
+       594      14.91 Received CAM from station 667 with speed 22.09 m/s
+       521      14.91 Received CAM from station 667 with speed 22.09 m/s
+       448      14.91 Received CAM from station 667 with speed 22.09 m/s
+        18      14.95 Received CAM from station 375 with speed 19.33 m/s
+       448      14.95 Received CAM from station 375 with speed 19.33 m/s
+       521      14.95 Received CAM from station 375 with speed 19.33 m/s
+       594      14.95 Received CAM from station 375 with speed 19.33 m/s
+       521      14.95 Received CAM from station 594 with speed 19.35 m/s
+       667      14.95 Received CAM from station 594 with speed 19.35 m/s
+       740      14.95 Received CAM from station 594 with speed 19.35 m/s
+       448      14.95 Received CAM from station 594 with speed 19.35 m/s
+        18      14.95 Received CAM from station 594 with speed 19.35 m/s
+       375      14.95 Received CAM from station 594 with speed 19.35 m/s
+      vehA      14.99 Speed check results:
+  Current speed: 137.28 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.28 km/h
+  Decision: Speed violation warning
+
+      vehA      14.99 Sending warning DENM (SubCauseCode 1)
+      vehA      14.99 Sending DENM: Speed Excess = 17.282093 km/h, SubCauseCode = 1
+      vehA      14.99 
+       375      14.99 Received CAM from station 18 with speed 38.13 m/s
+       448      14.99 Received CAM from station 18 with speed 38.13 m/s
+       521      14.99 Received CAM from station 18 with speed 38.13 m/s
+       594      14.99 Received CAM from station 18 with speed 38.13 m/s
+       667      15.02 Received CAM from station 740 with speed 19.74 m/s
+       594      15.02 Received CAM from station 740 with speed 19.74 m/s
+       521      15.02 Received CAM from station 740 with speed 19.74 m/s
+       448      15.02 Received CAM from station 740 with speed 19.74 m/s
+       448      15.04 Received CAM from station 521 with speed 18.91 m/s
+       594      15.04 Received CAM from station 521 with speed 18.91 m/s
+        18      15.04 Received CAM from station 521 with speed 18.91 m/s
+       375      15.04 Received CAM from station 521 with speed 18.91 m/s
+       667      15.04 Received CAM from station 521 with speed 18.91 m/s
+       740      15.04 Received CAM from station 521 with speed 18.91 m/s
+normal_cars.0      15.05 Received a packet in SpeedAlertReceiverService
+normal_cars.0      15.05 Packet is a DENMMessage
+normal_cars.0      15.05 Processing DENM from vehA: Speed Excess = 17.282093 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      15.05 Received relevant DENM from vehA: Speed Excess = 17.282093 km/h, SubCauseCode = 1
+normal_cars.0      15.05 Reducing speed to 15.100448 m/s due to speed violation warning
+normal_cars.1      15.05 Received a packet in SpeedAlertReceiverService
+normal_cars.1      15.05 Packet is a DENMMessage
+normal_cars.1      15.05 Processing DENM from vehA: Speed Excess = 17.282093 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      15.05 Received relevant DENM from vehA: Speed Excess = 17.282093 km/h, SubCauseCode = 1
+normal_cars.1      15.05 Reducing speed to 15.142957 m/s due to speed violation warning
+normal_cars.2      15.05 Received a packet in SpeedAlertReceiverService
+normal_cars.2      15.05 Packet is a DENMMessage
+normal_cars.2      15.05 Processing DENM from vehA: Speed Excess = 17.282093 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      15.05 Received relevant DENM from vehA: Speed Excess = 17.282093 km/h, SubCauseCode = 1
+normal_cars.2      15.05 Reducing speed to 15.130961 m/s due to speed violation warning
+normal_cars.3      15.05 Received a packet in SpeedAlertReceiverService
+normal_cars.3      15.05 Packet is a DENMMessage
+normal_cars.3      15.05 Processing DENM from vehA: Speed Excess = 17.282093 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      15.05 Received relevant DENM from vehA: Speed Excess = 17.282093 km/h, SubCauseCode = 1
+normal_cars.3      15.05 Reducing speed to 15.121849 m/s due to speed violation warning
+       521      15.06 Received CAM from station 448 with speed 18.93 m/s
+        18      15.06 Received CAM from station 448 with speed 18.93 m/s
+       375      15.06 Received CAM from station 448 with speed 18.93 m/s
+       594      15.06 Received CAM from station 448 with speed 18.93 m/s
+       667      15.06 Received CAM from station 448 with speed 18.93 m/s
+       740      15.06 Received CAM from station 448 with speed 18.93 m/s
+      vehA      15.09 Speed check results:
+  Current speed: 137.79 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.79 km/h
+  Decision: Speed violation warning
+
+      vehA      15.09 Sending warning DENM (SubCauseCode 1)
+      vehA      15.09 Sending DENM: Speed Excess = 17.787811 km/h, SubCauseCode = 1
+      vehA      15.09 
+normal_cars.0      15.11 Received a packet in SpeedAlertReceiverService
+normal_cars.0      15.11 Packet is a DENMMessage
+normal_cars.0      15.11 Processing DENM from vehA: Speed Excess = 17.787811 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      15.11 Received relevant DENM from vehA: Speed Excess = 17.787811 km/h, SubCauseCode = 1
+normal_cars.0      15.11 Reducing speed to 14.740448 m/s due to speed violation warning
+normal_cars.1      15.11 Received a packet in SpeedAlertReceiverService
+normal_cars.1      15.11 Packet is a DENMMessage
+normal_cars.1      15.11 Processing DENM from vehA: Speed Excess = 17.787811 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      15.11 Received relevant DENM from vehA: Speed Excess = 17.787811 km/h, SubCauseCode = 1
+normal_cars.1      15.11 Reducing speed to 14.782957 m/s due to speed violation warning
+normal_cars.2      15.11 Received a packet in SpeedAlertReceiverService
+normal_cars.2      15.11 Packet is a DENMMessage
+normal_cars.2      15.11 Processing DENM from vehA: Speed Excess = 17.787811 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      15.11 Received relevant DENM from vehA: Speed Excess = 17.787811 km/h, SubCauseCode = 1
+normal_cars.2      15.11 Reducing speed to 14.770961 m/s due to speed violation warning
+normal_cars.3      15.11 Received a packet in SpeedAlertReceiverService
+normal_cars.3      15.11 Packet is a DENMMessage
+normal_cars.3      15.11 Processing DENM from vehA: Speed Excess = 17.787811 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      15.11 Received relevant DENM from vehA: Speed Excess = 17.787811 km/h, SubCauseCode = 1
+normal_cars.3      15.11 Reducing speed to 14.761849 m/s due to speed violation warning
+       740      15.11 Received CAM from station 667 with speed 21.19 m/s
+       594      15.11 Received CAM from station 667 with speed 21.19 m/s
+       521      15.11 Received CAM from station 667 with speed 21.19 m/s
+       448      15.11 Received CAM from station 667 with speed 21.19 m/s
+        18      15.15 Received CAM from station 375 with speed 18.43 m/s
+       448      15.15 Received CAM from station 375 with speed 18.43 m/s
+       521      15.15 Received CAM from station 375 with speed 18.43 m/s
+       594      15.15 Received CAM from station 375 with speed 18.43 m/s
+       521      15.15 Received CAM from station 594 with speed 18.45 m/s
+       667      15.15 Received CAM from station 594 with speed 18.45 m/s
+       740      15.15 Received CAM from station 594 with speed 18.45 m/s
+       448      15.15 Received CAM from station 594 with speed 18.45 m/s
+        18      15.15 Received CAM from station 594 with speed 18.45 m/s
+       375      15.15 Received CAM from station 594 with speed 18.45 m/s
+      vehA      15.19 Speed check results:
+  Current speed: 137.73 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.73 km/h
+  Decision: Speed violation warning
+
+      vehA      15.19 Sending warning DENM (SubCauseCode 1)
+      vehA      15.19 Sending DENM: Speed Excess = 17.730302 km/h, SubCauseCode = 1
+      vehA      15.19 
+       375      15.19 Received CAM from station 18 with speed 38.26 m/s
+       448      15.19 Received CAM from station 18 with speed 38.26 m/s
+       521      15.19 Received CAM from station 18 with speed 38.26 m/s
+       594      15.19 Received CAM from station 18 with speed 38.26 m/s
+       667      15.22 Received CAM from station 740 with speed 19.00 m/s
+       594      15.22 Received CAM from station 740 with speed 19.00 m/s
+       521      15.22 Received CAM from station 740 with speed 19.00 m/s
+       448      15.22 Received CAM from station 740 with speed 19.00 m/s
+       448      15.24 Received CAM from station 521 with speed 18.01 m/s
+       594      15.24 Received CAM from station 521 with speed 18.01 m/s
+        18      15.24 Received CAM from station 521 with speed 18.01 m/s
+       375      15.24 Received CAM from station 521 with speed 18.01 m/s
+       667      15.24 Received CAM from station 521 with speed 18.01 m/s
+       740      15.24 Received CAM from station 521 with speed 18.01 m/s
+normal_cars.0      15.25 Received a packet in SpeedAlertReceiverService
+normal_cars.0      15.25 Packet is a DENMMessage
+normal_cars.0      15.25 Processing DENM from vehA: Speed Excess = 17.730302 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      15.25 Received relevant DENM from vehA: Speed Excess = 17.730302 km/h, SubCauseCode = 1
+normal_cars.0      15.25 Reducing speed to 14.380448 m/s due to speed violation warning
+normal_cars.1      15.25 Received a packet in SpeedAlertReceiverService
+normal_cars.1      15.25 Packet is a DENMMessage
+normal_cars.1      15.25 Processing DENM from vehA: Speed Excess = 17.730302 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      15.25 Received relevant DENM from vehA: Speed Excess = 17.730302 km/h, SubCauseCode = 1
+normal_cars.1      15.25 Reducing speed to 14.422957 m/s due to speed violation warning
+normal_cars.2      15.25 Received a packet in SpeedAlertReceiverService
+normal_cars.2      15.25 Packet is a DENMMessage
+normal_cars.2      15.25 Processing DENM from vehA: Speed Excess = 17.730302 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      15.25 Received relevant DENM from vehA: Speed Excess = 17.730302 km/h, SubCauseCode = 1
+normal_cars.2      15.25 Reducing speed to 14.410961 m/s due to speed violation warning
+normal_cars.3      15.25 Received a packet in SpeedAlertReceiverService
+normal_cars.3      15.25 Packet is a DENMMessage
+normal_cars.3      15.25 Processing DENM from vehA: Speed Excess = 17.730302 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      15.25 Received relevant DENM from vehA: Speed Excess = 17.730302 km/h, SubCauseCode = 1
+normal_cars.3      15.25 Reducing speed to 14.401849 m/s due to speed violation warning
+       521      15.26 Received CAM from station 448 with speed 18.03 m/s
+        18      15.26 Received CAM from station 448 with speed 18.03 m/s
+       375      15.26 Received CAM from station 448 with speed 18.03 m/s
+       594      15.26 Received CAM from station 448 with speed 18.03 m/s
+       667      15.26 Received CAM from station 448 with speed 18.03 m/s
+       740      15.26 Received CAM from station 448 with speed 18.03 m/s
+      vehA      15.29 Speed check results:
+  Current speed: 137.29 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.29 km/h
+  Decision: Speed violation warning
+
+      vehA      15.29 Sending warning DENM (SubCauseCode 1)
+      vehA      15.29 Sending DENM: Speed Excess = 17.289792 km/h, SubCauseCode = 1
+      vehA      15.29 
+normal_cars.0      15.31 Received a packet in SpeedAlertReceiverService
+normal_cars.0      15.31 Packet is a DENMMessage
+normal_cars.0      15.31 Processing DENM from vehA: Speed Excess = 17.289792 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.0      15.31 Received relevant DENM from vehA: Speed Excess = 17.289792 km/h, SubCauseCode = 1
+normal_cars.0      15.31 Reducing speed to 14.020448 m/s due to speed violation warning
+normal_cars.1      15.31 Received a packet in SpeedAlertReceiverService
+normal_cars.1      15.31 Packet is a DENMMessage
+normal_cars.1      15.31 Processing DENM from vehA: Speed Excess = 17.289792 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.1      15.31 Received relevant DENM from vehA: Speed Excess = 17.289792 km/h, SubCauseCode = 1
+normal_cars.1      15.31 Reducing speed to 14.062957 m/s due to speed violation warning
+normal_cars.2      15.31 Received a packet in SpeedAlertReceiverService
+normal_cars.2      15.31 Packet is a DENMMessage
+normal_cars.2      15.31 Processing DENM from vehA: Speed Excess = 17.289792 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.2      15.31 Received relevant DENM from vehA: Speed Excess = 17.289792 km/h, SubCauseCode = 1
+normal_cars.2      15.31 Reducing speed to 14.050961 m/s due to speed violation warning
+normal_cars.3      15.31 Received a packet in SpeedAlertReceiverService
+normal_cars.3      15.31 Packet is a DENMMessage
+normal_cars.3      15.31 Processing DENM from vehA: Speed Excess = 17.289792 km/h, CauseCode = 94, SubCauseCode = 1
+normal_cars.3      15.31 Received relevant DENM from vehA: Speed Excess = 17.289792 km/h, SubCauseCode = 1
+normal_cars.3      15.31 Reducing speed to 14.041849 m/s due to speed violation warning
+       740      15.31 Received CAM from station 667 with speed 20.29 m/s
+       594      15.31 Received CAM from station 667 with speed 20.29 m/s
+       521      15.31 Received CAM from station 667 with speed 20.29 m/s
+       448      15.31 Received CAM from station 667 with speed 20.29 m/s
+        18      15.35 Received CAM from station 375 with speed 17.53 m/s
+       448      15.35 Received CAM from station 375 with speed 17.53 m/s
+       521      15.35 Received CAM from station 375 with speed 17.53 m/s
+       594      15.35 Received CAM from station 375 with speed 17.53 m/s
+       521      15.35 Received CAM from station 594 with speed 17.55 m/s
+       667      15.35 Received CAM from station 594 with speed 17.55 m/s
+       740      15.35 Received CAM from station 594 with speed 17.55 m/s
+       448      15.35 Received CAM from station 594 with speed 17.55 m/s
+        18      15.35 Received CAM from station 594 with speed 17.55 m/s
+       375      15.35 Received CAM from station 594 with speed 17.55 m/s
+      vehA      15.39 Speed check results:
+  Current speed: 137.71 km/h
+  Speed limit: 120 km/h
+  Speed excess: 17.71 km/h
+  Decision: Speed violation warning
+
+      vehA      15.39 Sending warning DENM (SubCauseCode 1)
+      vehA      15.39 Sending DENM: Speed Excess = 17.711542 km/h, SubCauseCode = 1
+      vehA      15.39 
+       375      15.39 Received CAM from station 18 with speed 38.25 m/s
+       448      15.39 Received CAM from station 18 with speed 38.25 m/s
+       521      15.39 Received CAM from station 18 with speed 38.25 m/s
+       594      15.39 Received CAM from station 18 with speed 38.25 m/s
+       667      15.42 Received CAM from station 740 with speed 18.26 m/s
+       594      15.42 Received CAM from station 740 with speed 18.26 m/s
+       521      15.42 Received CAM from station 740 with speed 18.26 m/s
+       448      15.42 Received CAM from station 740 with speed 18.26 m/s

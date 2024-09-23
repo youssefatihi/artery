@@ -22,5 +22,10 @@ packet DENMMessage
     double eventHeading;
     
     // Alacarte Container (optional)
-    double RelevanceDistance ;
+    double relevanceDistance;
+    
+    // New fields for speed monitoring
+    string offendingVehicleId;
+    double currentSpeed;
+    double speedLimit;
 }

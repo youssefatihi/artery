@@ -24,6 +24,8 @@
 #include <fstream>
 #include <sys/stat.h>
 #include <unistd.h>
+#include <errno.h>
+#include <string.h>
 std::string getCurrentDateTime() {
     auto now = std::chrono::system_clock::now();
     auto in_time_t = std::chrono::system_clock::to_time_t(now);
@@ -106,6 +108,8 @@ SpeedValue_t buildSpeedValue(const vanetza::units::Velocity& v)
 
 Define_Module(CaService)
 
+
+
 CaService::CaService() :
 		mGenCamMin { 100, SIMTIME_MS },
 		mGenCamMax { 1000, SIMTIME_MS },
@@ -115,62 +119,128 @@ CaService::CaService() :
 {
 }
 
-void CaService::initialize()
+
+
+bool CaService::isMonitoringEnabled()
 {
-	// logToFile("CaService", "Initializing CaService...");
-
-	ItsG5BaseService::initialize();
-	mNetworkInterfaceTable = &getFacilities().get_const<NetworkInterfaceTable>();
-	mVehicleDataProvider = &getFacilities().get_const<VehicleDataProvider>();
-	mTimer = &getFacilities().get_const<Timer>();
-	mLocalDynamicMap = &getFacilities().get_mutable<artery::LocalDynamicMap>();
-
-	// avoid unreasonable high elapsed time values for newly inserted vehicles
-	mLastCamTimestamp = simTime();
-
-	// first generated CAM shall include the low frequency container
-	mLastLowCamTimestamp = mLastCamTimestamp - artery::simtime_cast(scLowFrequencyContainerInterval);
-
-	// generation rate boundaries
-	mGenCamMin = par("minInterval");
-	mGenCamMax = par("maxInterval");
-	mGenCam = mGenCamMax;
-
-	// vehicle dynamics thresholds
-	mHeadingDelta = vanetza::units::Angle { par("headingDelta").doubleValue() * vanetza::units::degree };
-	mPositionDelta = par("positionDelta").doubleValue() * vanetza::units::si::meter;
-	mSpeedDelta = par("speedDelta").doubleValue() * vanetza::units::si::meter_per_second;
-
-	mDccRestriction = par("withDccRestriction");
-	mFixedRate = par("fixedRate");
-
-	// look up primary channel for CA
-	mPrimaryChannel = getFacilities().get_const<MultiChannelPolicy>().primaryChannel(vanetza::aid::CA);
-	EV << "Initializing CaService..." << endl;
-	//write to log file with the vehicle id and the message
-	logToFile("CaService", "CaService initialized  successfully");
+    // Vérifiez si le monitoring est activé pour ce véhicule
+    // Cette méthode devrait lire la configuration depuis omnetpp.ini ou un fichier XML
+    return 	par("monitoringEnabled").boolValue();
+;
 }
 
+void CaService::writeToLogFile(const std::string& data)
+{
+    std::lock_guard<std::mutex> lock(mLogFileMutex);
+    std::ofstream logFile(mLogFilePath, std::ios::app);
+    if (logFile.is_open()) {
+        logFile << data << std::endl;
+        logFile.close();
+    } else {
+        EV_ERROR << "Unable to open log file: " << mLogFilePath << std::endl;
+    }
+}void CaService::initialize()
+{
+    ItsG5BaseService::initialize();
+    mNetworkInterfaceTable = &getFacilities().get_const<NetworkInterfaceTable>();
+    mVehicleDataProvider = &getFacilities().get_const<VehicleDataProvider>();
+    mTimer = &getFacilities().get_const<Timer>();
+    mLocalDynamicMap = &getFacilities().get_mutable<artery::LocalDynamicMap>();
+
+    // avoid unreasonable high elapsed time values for newly inserted vehicles
+    mLastCamTimestamp = simTime();
+
+    // first generated CAM shall include the low frequency container
+    mLastLowCamTimestamp = mLastCamTimestamp - artery::simtime_cast(scLowFrequencyContainerInterval);
+
+    // generation rate boundaries
+    mGenCamMin = par("minInterval");
+    mGenCamMax = par("maxInterval");
+    mGenCam = mGenCamMax;
+
+    // vehicle dynamics thresholds
+    mHeadingDelta = vanetza::units::Angle { par("headingDelta").doubleValue() * vanetza::units::degree };
+    mPositionDelta = par("positionDelta").doubleValue() * vanetza::units::si::meter;
+    mSpeedDelta = par("speedDelta").doubleValue() * vanetza::units::si::meter_per_second;
+
+    mDccRestriction = par("withDccRestriction");
+    mFixedRate = par("fixedRate");
+
+    // look up primary channel for CA
+    mPrimaryChannel = getFacilities().get_const<MultiChannelPolicy>().primaryChannel(vanetza::aid::CA);
+    
+        mMonitoringEnabled = isMonitoringEnabled();
+    logToFile("CaService", "Monitoring enabled: " + std::to_string(mMonitoringEnabled));
+
+    if (mMonitoringEnabled) {
+        // Créez un nom de fichier unique pour ce véhicule
+        std::string vehicleId = std::to_string(mVehicleDataProvider->station_id());
+        mLogFilePath = "logs/vehicle_" + vehicleId + "_data.txt";
+
+        // Créez le répertoire de logs s'il n'existe pas
+        const char* logDir = "logs";
+        struct stat st = {0};
+        if (stat(logDir, &st) == -1) {
+            if (mkdir(logDir, 0700) == -1) {
+                logToFile("CaService", "Failed to create log directory: " + std::string(strerror(errno)));
+            }
+        }
+
+        // Créez ou réinitialisez le fichier de log
+        std::ofstream logFile(mLogFilePath, std::ios::trunc);
+        if (logFile.is_open()) {
+            logFile << "timestamp,vehicleId,speed,heading,longitude,latitude" << std::endl;
+            logFile.close();
+            logToFile("CaService", "Log file created: " + mLogFilePath);
+        } else {
+            logToFile("CaService", "Failed to create log file: " + mLogFilePath);
+        }
+    }
+
+    EV << "Initializing CaService..." << endl;
+    logToFile("CaService", "CaService initialized successfully");
+}
 void CaService::trigger()
 {
 	Enter_Method("trigger");
 	// logToFile("CaService", "Triggering CaService...");
 	checkTriggeringConditions(simTime());
 }
-
 void CaService::indicate(const vanetza::btp::DataIndication& ind, std::unique_ptr<vanetza::UpPacket> packet)
 {
-	Enter_Method("indicate");
+    Enter_Method("indicate");
 
-	Asn1PacketVisitor<vanetza::asn1::Cam> visitor;
-	const vanetza::asn1::Cam* cam = boost::apply_visitor(visitor, *packet);
-	if (cam && cam->validate()) {
-		CaObject obj = visitor.shared_wrapper;
-		emit(scSignalCamReceived, &obj);
-		mLocalDynamicMap->updateAwareness(obj);
-	}
+    Asn1PacketVisitor<vanetza::asn1::Cam> visitor;
+    const vanetza::asn1::Cam* cam = boost::apply_visitor(visitor, *packet);
+    if (cam && cam->validate()) {
+        CaObject obj = visitor.shared_wrapper;
+        emit(scSignalCamReceived, &obj);
+        mLocalDynamicMap->updateAwareness(obj);
+
+        const auto& asn1Cam = obj.asn1();
+        if (asn1Cam->cam.camParameters.highFrequencyContainer.present == 
+            HighFrequencyContainer_PR_basicVehicleContainerHighFrequency) {
+            const auto& bvc = asn1Cam->cam.camParameters.highFrequencyContainer.choice.basicVehicleContainerHighFrequency;
+            double speed = bvc.speed.speedValue * 0.01; // Convert centimeters/second to meters/second
+            
+            std::stringstream ss;
+            ss << simTime().dbl() << "," 
+               << asn1Cam->header.stationID << ","
+               << speed << ","
+               << bvc.heading.headingValue * 0.1 << ","
+               << asn1Cam->cam.camParameters.basicContainer.referencePosition.longitude << ","
+               << asn1Cam->cam.camParameters.basicContainer.referencePosition.latitude;
+
+            if (mMonitoringEnabled) {
+                writeToLogFile(ss.str());
+            }
+
+            std::string logMessage = "Received CAM from station " + std::to_string(asn1Cam->header.stationID) +
+                                     " with speed " + std::to_string(speed) + " m/s";
+            logToFile(std::to_string(mVehicleDataProvider->station_id()), logMessage);
+        }
+    }
 }
-
 void CaService::checkTriggeringConditions(const SimTime& T_now)
 {
 	// provide variables named like in EN 302 637-2 V1.3.2 (section 6.1.3)

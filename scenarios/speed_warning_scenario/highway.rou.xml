@@ -1,36 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-    
-    <!-- Définition des types de véhicules -->
     <vType id="car_normal" vClass="passenger" length="4.5" minGap="2.5" maxSpeed="33.33" accel="2.6" decel="4.5" sigma="0.5" color="1,1,0"/>
-    <vType id="car_speeding" vClass="passenger" length="4.5" minGap="2.5" maxSpeed="41.67" accel="3.0" decel="4.5" sigma="0.5" color="1,0,0"/>
-    <vType id="truck" vClass="truck" length="12.0" minGap="2.5" maxSpeed="25.0" accel="1.3" decel="4.0" sigma="0.5" color="0,0,1"/>
+    <vType id="car_speeding" vClass="passenger" length="4.5" minGap="2.5" maxSpeed="50" accel="3.0" decel="4.5" sigma="0.5" color="1,0,0"/>
     
-    <!-- Définition des routes -->
-    <route id="route_B" edges="B1.2102 B2"/>
+    <route id="route_main" edges="B1.2102 B2"/>
     
-    <!-- Véhicules -->
-    <!-- Véhicule A (celui qui détecte les excès de vitesse) -->
-    <vehicle id="vehA" type="car_speeding" route="route_B" depart="0" departLane="1" departSpeed="10">
-        <param key="has.ssm.device" value="true"/>
-        <param key="device.ssm.measures" value="TTC DRAC PET"/>
-        <param key="device.ssm.range" value="100"/>
-        <param key="device.ssm.trajectories" value="true"/>
-        <param key="device.ssm.write-positions" value="true"/>
-    </vehicle>
-    
-    <!-- Flux de voitures respectant la vitesse -->
-    <flow id="normal_cars" type="car_normal" route="route_B" departSpeed="max" begin="0" end="3600" probability="0.3"/>
-    
-    <!-- Flux de voitures en excès de vitesse -->
-    <flow id="speeding_cars" type="car_speeding" route="route_B" departSpeed="max" begin="10" end="3600" probability="0.1"/>
-    
-    <!-- Flux de camions -->
-    <flow id="trucks" type="truck" route="route_B" begin="5" end="3600" probability="0.05"/>
-    
-    <!-- Véhicules individuels en excès de vitesse -->
-    <vehicle id="speeder1" type="car_speeding" route="route_B" depart="100" departLane="0" departSpeed="max"/>
-    <vehicle id="speeder2" type="car_speeding" route="route_B" depart="300" departLane="1" departSpeed="max"/>
-    <vehicle id="speeder3" type="car_speeding" route="route_B" depart="500" departLane="2" departSpeed="max"/>
-
+    <vehicle id="veh0" type="car_normal" route="route_main" depart="5" departLane="1" departSpeed="20"/>
+    <vehicle id="veh1" type="car_speeding" route="route_main" depart="0" departLane="0" departSpeed="max"/>
+    <vehicle id="veh2" type="car_normal" route="route_main" depart="10" departLane="2" departSpeed="max"/>
+    <vehicle id="veh3" type="car_speeding" route="route_main" depart="15" departLane="1" departSpeed="max"/>
 </routes>

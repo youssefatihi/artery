@@ -1,0 +1,7 @@
+      veh0       0.10 SpeedMonitoringService initialized
+        18       0.10 SpeedAlertReceiverService initialized
+ CaService       0.10 CaService initialized  successfully
+      veh1       5.10 SpeedMonitoringService initialized
+       376       5.10 SpeedAlertReceiverService initialized
+ CaService       5.10 CaService initialized  successfully
+       376       5.19 Received CAM from station 18 with speed 19.72 m/s

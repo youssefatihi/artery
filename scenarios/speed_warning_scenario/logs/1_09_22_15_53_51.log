@@ -1,0 +1,287 @@
+      veh0       0.10 SpeedMonitoringService initialized. Monitoring log file: vehicle_veh0_data.txt
+        18       0.10 SpeedAlertReceiverService initialized
+ CaService       0.10 Monitoring enabled: 0
+ CaService       0.10 CaService initialized successfully
+      veh0       0.29 Unable to open log file: vehicle_veh0_data.txt
+      veh0       0.39 Unable to open log file: vehicle_veh0_data.txt
+      veh0       0.49 Unable to open log file: vehicle_veh0_data.txt
+      veh0       0.59 Unable to open log file: vehicle_veh0_data.txt
+      veh0       0.69 Unable to open log file: vehicle_veh0_data.txt
+      veh0       0.79 Unable to open log file: vehicle_veh0_data.txt
+      veh0       0.89 Unable to open log file: vehicle_veh0_data.txt
+      veh0       0.99 Unable to open log file: vehicle_veh0_data.txt
+      veh0       1.09 Unable to open log file: vehicle_veh0_data.txt
+      veh0       1.19 Unable to open log file: vehicle_veh0_data.txt
+      veh0       1.29 Unable to open log file: vehicle_veh0_data.txt
+      veh0       1.39 Unable to open log file: vehicle_veh0_data.txt
+      veh0       1.49 Unable to open log file: vehicle_veh0_data.txt
+      veh0       1.59 Unable to open log file: vehicle_veh0_data.txt
+      veh0       1.69 Unable to open log file: vehicle_veh0_data.txt
+      veh0       1.79 Unable to open log file: vehicle_veh0_data.txt
+      veh0       1.89 Unable to open log file: vehicle_veh0_data.txt
+      veh0       1.99 Unable to open log file: vehicle_veh0_data.txt
+      veh0       2.09 Unable to open log file: vehicle_veh0_data.txt
+      veh0       2.19 Unable to open log file: vehicle_veh0_data.txt
+      veh0       2.29 Unable to open log file: vehicle_veh0_data.txt
+      veh0       2.39 Unable to open log file: vehicle_veh0_data.txt
+      veh0       2.49 Unable to open log file: vehicle_veh0_data.txt
+      veh0       2.59 Unable to open log file: vehicle_veh0_data.txt
+      veh0       2.69 Unable to open log file: vehicle_veh0_data.txt
+      veh0       2.79 Unable to open log file: vehicle_veh0_data.txt
+      veh0       2.89 Unable to open log file: vehicle_veh0_data.txt
+      veh0       2.99 Unable to open log file: vehicle_veh0_data.txt
+      veh0       3.09 Unable to open log file: vehicle_veh0_data.txt
+      veh0       3.19 Unable to open log file: vehicle_veh0_data.txt
+      veh0       3.29 Unable to open log file: vehicle_veh0_data.txt
+      veh0       3.39 Unable to open log file: vehicle_veh0_data.txt
+      veh0       3.49 Unable to open log file: vehicle_veh0_data.txt
+      veh0       3.59 Unable to open log file: vehicle_veh0_data.txt
+      veh0       3.69 Unable to open log file: vehicle_veh0_data.txt
+      veh0       3.79 Unable to open log file: vehicle_veh0_data.txt
+      veh0       3.89 Unable to open log file: vehicle_veh0_data.txt
+      veh0       3.99 Unable to open log file: vehicle_veh0_data.txt
+      veh0       4.09 Unable to open log file: vehicle_veh0_data.txt
+      veh0       4.19 Unable to open log file: vehicle_veh0_data.txt
+      veh0       4.29 Unable to open log file: vehicle_veh0_data.txt
+      veh0       4.39 Unable to open log file: vehicle_veh0_data.txt
+      veh0       4.49 Unable to open log file: vehicle_veh0_data.txt
+      veh0       4.59 Unable to open log file: vehicle_veh0_data.txt
+      veh0       4.69 Unable to open log file: vehicle_veh0_data.txt
+      veh0       4.79 Unable to open log file: vehicle_veh0_data.txt
+      veh0       4.89 Unable to open log file: vehicle_veh0_data.txt
+      veh0       4.99 Unable to open log file: vehicle_veh0_data.txt
+      veh0       5.09 Unable to open log file: vehicle_veh0_data.txt
+      veh1       5.10 SpeedMonitoringService initialized. Monitoring log file: vehicle_veh1_data.txt
+       376       5.10 SpeedAlertReceiverService initialized
+ CaService       5.10 Monitoring enabled: 0
+ CaService       5.10 CaService initialized successfully
+      veh0       5.19 Unable to open log file: vehicle_veh0_data.txt
+       376       5.19 Received CAM from station 18 with speed 19.720000 m/s
+      veh1       5.24 Unable to open log file: vehicle_veh1_data.txt
+      veh0       5.29 Unable to open log file: vehicle_veh0_data.txt
+      veh1       5.34 Unable to open log file: vehicle_veh1_data.txt
+        18       5.35 Received CAM from station 376 with speed 33.290000 m/s
+      veh0       5.39 Unable to open log file: vehicle_veh0_data.txt
+       376       5.39 Received CAM from station 18 with speed 20.180000 m/s
+      veh1       5.44 Unable to open log file: vehicle_veh1_data.txt
+      veh0       5.49 Unable to open log file: vehicle_veh0_data.txt
+      veh1       5.54 Unable to open log file: vehicle_veh1_data.txt
+        18       5.55 Received CAM from station 376 with speed 32.390000 m/s
+      veh0       5.59 Unable to open log file: vehicle_veh0_data.txt
+       376       5.59 Received CAM from station 18 with speed 20.520000 m/s
+      veh1       5.64 Unable to open log file: vehicle_veh1_data.txt
+      veh0       5.69 Unable to open log file: vehicle_veh0_data.txt
+      veh1       5.74 Unable to open log file: vehicle_veh1_data.txt
+        18       5.75 Received CAM from station 376 with speed 31.490000 m/s
+      veh0       5.79 Unable to open log file: vehicle_veh0_data.txt
+       376       5.79 Received CAM from station 18 with speed 20.910000 m/s
+      veh1       5.84 Unable to open log file: vehicle_veh1_data.txt
+      veh0       5.89 Unable to open log file: vehicle_veh0_data.txt
+      veh1       5.94 Unable to open log file: vehicle_veh1_data.txt
+        18       5.95 Received CAM from station 376 with speed 30.590000 m/s
+      veh0       5.99 Unable to open log file: vehicle_veh0_data.txt
+       376       5.99 Received CAM from station 18 with speed 21.340000 m/s
+      veh1       6.04 Unable to open log file: vehicle_veh1_data.txt
+      veh0       6.09 Unable to open log file: vehicle_veh0_data.txt
+      veh1       6.14 Unable to open log file: vehicle_veh1_data.txt
+        18       6.15 Received CAM from station 376 with speed 29.640000 m/s
+      veh0       6.19 Unable to open log file: vehicle_veh0_data.txt
+       376       6.19 Received CAM from station 18 with speed 21.830000 m/s
+      veh1       6.24 Unable to open log file: vehicle_veh1_data.txt
+      veh0       6.29 Unable to open log file: vehicle_veh0_data.txt
+      veh1       6.34 Unable to open log file: vehicle_veh1_data.txt
+        18       6.35 Received CAM from station 376 with speed 28.690000 m/s
+      veh0       6.39 Unable to open log file: vehicle_veh0_data.txt
+       376       6.39 Received CAM from station 18 with speed 22.230000 m/s
+      veh1       6.44 Unable to open log file: vehicle_veh1_data.txt
+      veh0       6.49 Unable to open log file: vehicle_veh0_data.txt
+      veh1       6.54 Unable to open log file: vehicle_veh1_data.txt
+        18       6.55 Received CAM from station 376 with speed 27.790000 m/s
+      veh0       6.59 Unable to open log file: vehicle_veh0_data.txt
+       376       6.59 Received CAM from station 18 with speed 22.600000 m/s
+      veh1       6.64 Unable to open log file: vehicle_veh1_data.txt
+      veh0       6.69 Unable to open log file: vehicle_veh0_data.txt
+      veh1       6.74 Unable to open log file: vehicle_veh1_data.txt
+        18       6.75 Received CAM from station 376 with speed 27.480000 m/s
+      veh0       6.79 Unable to open log file: vehicle_veh0_data.txt
+       376       6.79 Received CAM from station 18 with speed 22.910000 m/s
+      veh1       6.84 Unable to open log file: vehicle_veh1_data.txt
+      veh0       6.89 Unable to open log file: vehicle_veh0_data.txt
+      veh1       6.94 Unable to open log file: vehicle_veh1_data.txt
+        18       6.95 Received CAM from station 376 with speed 27.610000 m/s
+      veh0       6.99 Unable to open log file: vehicle_veh0_data.txt
+       376       6.99 Received CAM from station 18 with speed 23.390000 m/s
+      veh1       7.04 Unable to open log file: vehicle_veh1_data.txt
+      veh0       7.09 Unable to open log file: vehicle_veh0_data.txt
+      veh1       7.14 Unable to open log file: vehicle_veh1_data.txt
+        18       7.15 Received CAM from station 376 with speed 27.810000 m/s
+      veh0       7.19 Unable to open log file: vehicle_veh0_data.txt
+       376       7.19 Received CAM from station 18 with speed 23.810000 m/s
+      veh1       7.24 Unable to open log file: vehicle_veh1_data.txt
+      veh0       7.29 Unable to open log file: vehicle_veh0_data.txt
+      veh1       7.34 Unable to open log file: vehicle_veh1_data.txt
+        18       7.35 Received CAM from station 376 with speed 28.090000 m/s
+      veh0       7.39 Unable to open log file: vehicle_veh0_data.txt
+       376       7.39 Received CAM from station 18 with speed 24.220000 m/s
+      veh1       7.44 Unable to open log file: vehicle_veh1_data.txt
+      veh0       7.49 Unable to open log file: vehicle_veh0_data.txt
+      veh1       7.54 Unable to open log file: vehicle_veh1_data.txt
+        18       7.55 Received CAM from station 376 with speed 28.190000 m/s
+      veh0       7.59 Unable to open log file: vehicle_veh0_data.txt
+       376       7.59 Received CAM from station 18 with speed 24.550000 m/s
+      veh1       7.64 Unable to open log file: vehicle_veh1_data.txt
+      veh0       7.69 Unable to open log file: vehicle_veh0_data.txt
+      veh1       7.74 Unable to open log file: vehicle_veh1_data.txt
+        18       7.75 Received CAM from station 376 with speed 28.360000 m/s
+      veh0       7.79 Unable to open log file: vehicle_veh0_data.txt
+       376       7.79 Received CAM from station 18 with speed 24.950000 m/s
+      veh1       7.84 Unable to open log file: vehicle_veh1_data.txt
+      veh0       7.89 Unable to open log file: vehicle_veh0_data.txt
+      veh1       7.94 Unable to open log file: vehicle_veh1_data.txt
+        18       7.95 Received CAM from station 376 with speed 28.530000 m/s
+      veh0       7.99 Unable to open log file: vehicle_veh0_data.txt
+       376       7.99 Received CAM from station 18 with speed 25.390000 m/s
+      veh1       8.04 Unable to open log file: vehicle_veh1_data.txt
+      veh0       8.09 Unable to open log file: vehicle_veh0_data.txt
+      veh1       8.14 Unable to open log file: vehicle_veh1_data.txt
+        18       8.15 Received CAM from station 376 with speed 28.780000 m/s
+      veh0       8.19 Unable to open log file: vehicle_veh0_data.txt
+       376       8.19 Received CAM from station 18 with speed 25.740000 m/s
+      veh1       8.24 Unable to open log file: vehicle_veh1_data.txt
+      veh0       8.29 Unable to open log file: vehicle_veh0_data.txt
+      veh1       8.34 Unable to open log file: vehicle_veh1_data.txt
+        18       8.35 Received CAM from station 376 with speed 29.040000 m/s
+      veh0       8.39 Unable to open log file: vehicle_veh0_data.txt
+       376       8.39 Received CAM from station 18 with speed 26.110000 m/s
+      veh1       8.44 Unable to open log file: vehicle_veh1_data.txt
+      veh0       8.49 Unable to open log file: vehicle_veh0_data.txt
+      veh1       8.54 Unable to open log file: vehicle_veh1_data.txt
+        18       8.55 Received CAM from station 376 with speed 29.210000 m/s
+      veh0       8.59 Unable to open log file: vehicle_veh0_data.txt
+       376       8.59 Received CAM from station 18 with speed 26.490000 m/s
+      veh1       8.64 Unable to open log file: vehicle_veh1_data.txt
+      veh0       8.69 Unable to open log file: vehicle_veh0_data.txt
+      veh1       8.74 Unable to open log file: vehicle_veh1_data.txt
+        18       8.75 Received CAM from station 376 with speed 29.400000 m/s
+      veh0       8.79 Unable to open log file: vehicle_veh0_data.txt
+       376       8.79 Received CAM from station 18 with speed 26.790000 m/s
+      veh1       8.84 Unable to open log file: vehicle_veh1_data.txt
+      veh0       8.89 Unable to open log file: vehicle_veh0_data.txt
+      veh1       8.94 Unable to open log file: vehicle_veh1_data.txt
+        18       8.95 Received CAM from station 376 with speed 29.560000 m/s
+      veh0       8.99 Unable to open log file: vehicle_veh0_data.txt
+       376       8.99 Received CAM from station 18 with speed 27.220000 m/s
+      veh1       9.04 Unable to open log file: vehicle_veh1_data.txt
+      veh0       9.09 Unable to open log file: vehicle_veh0_data.txt
+      veh1       9.14 Unable to open log file: vehicle_veh1_data.txt
+        18       9.15 Received CAM from station 376 with speed 29.930000 m/s
+      veh0       9.19 Unable to open log file: vehicle_veh0_data.txt
+       376       9.19 Received CAM from station 18 with speed 27.610000 m/s
+      veh1       9.24 Unable to open log file: vehicle_veh1_data.txt
+      veh0       9.29 Unable to open log file: vehicle_veh0_data.txt
+      veh1       9.34 Unable to open log file: vehicle_veh1_data.txt
+        18       9.35 Received CAM from station 376 with speed 30.150000 m/s
+      veh0       9.39 Unable to open log file: vehicle_veh0_data.txt
+       376       9.39 Received CAM from station 18 with speed 28.000000 m/s
+      veh1       9.44 Unable to open log file: vehicle_veh1_data.txt
+      veh0       9.49 Unable to open log file: vehicle_veh0_data.txt
+      veh1       9.54 Unable to open log file: vehicle_veh1_data.txt
+        18       9.55 Received CAM from station 376 with speed 30.340000 m/s
+      veh0       9.59 Unable to open log file: vehicle_veh0_data.txt
+       376       9.59 Received CAM from station 18 with speed 28.400000 m/s
+      veh1       9.64 Unable to open log file: vehicle_veh1_data.txt
+      veh0       9.69 Unable to open log file: vehicle_veh0_data.txt
+      veh1       9.74 Unable to open log file: vehicle_veh1_data.txt
+        18       9.75 Received CAM from station 376 with speed 30.570000 m/s
+      veh0       9.79 Unable to open log file: vehicle_veh0_data.txt
+       376       9.79 Received CAM from station 18 with speed 28.740000 m/s
+      veh1       9.84 Unable to open log file: vehicle_veh1_data.txt
+      veh0       9.89 Unable to open log file: vehicle_veh0_data.txt
+      veh1       9.94 Unable to open log file: vehicle_veh1_data.txt
+        18       9.95 Received CAM from station 376 with speed 30.950000 m/s
+      veh0       9.99 Unable to open log file: vehicle_veh0_data.txt
+       376       9.99 Received CAM from station 18 with speed 29.090000 m/s
+      veh1      10.04 Unable to open log file: vehicle_veh1_data.txt
+      veh0      10.09 Unable to open log file: vehicle_veh0_data.txt
+      veh2      10.10 SpeedMonitoringService initialized. Monitoring log file: vehicle_veh2_data.txt
+       450      10.10 SpeedAlertReceiverService initialized
+ CaService      10.10 Monitoring enabled: 0
+ CaService      10.10 CaService initialized successfully
+      veh1      10.14 Unable to open log file: vehicle_veh1_data.txt
+        18      10.15 Received CAM from station 376 with speed 31.160000 m/s
+       450      10.15 Received CAM from station 376 with speed 31.160000 m/s
+      veh0      10.19 Unable to open log file: vehicle_veh0_data.txt
+       376      10.19 Received CAM from station 18 with speed 29.450000 m/s
+       450      10.19 Received CAM from station 18 with speed 29.450000 m/s
+      veh2      10.24 Unable to open log file: vehicle_veh2_data.txt
+      veh1      10.24 Unable to open log file: vehicle_veh1_data.txt
+      veh0      10.29 Unable to open log file: vehicle_veh0_data.txt
+      veh2      10.34 Unable to open log file: vehicle_veh2_data.txt
+       376      10.34 Received CAM from station 450 with speed 33.250000 m/s
+        18      10.34 Received CAM from station 450 with speed 33.250000 m/s
+      veh1      10.34 Unable to open log file: vehicle_veh1_data.txt
+        18      10.35 Received CAM from station 376 with speed 31.450000 m/s
+       450      10.35 Received CAM from station 376 with speed 31.450000 m/s
+      veh0      10.39 Unable to open log file: vehicle_veh0_data.txt
+       376      10.39 Received CAM from station 18 with speed 29.870000 m/s
+       450      10.39 Received CAM from station 18 with speed 29.870000 m/s
+      veh2      10.44 Unable to open log file: vehicle_veh2_data.txt
+      veh1      10.44 Unable to open log file: vehicle_veh1_data.txt
+      veh0      10.49 Unable to open log file: vehicle_veh0_data.txt
+      veh2      10.54 Unable to open log file: vehicle_veh2_data.txt
+       376      10.54 Received CAM from station 450 with speed 33.310000 m/s
+        18      10.54 Received CAM from station 450 with speed 33.310000 m/s
+      veh1      10.54 Unable to open log file: vehicle_veh1_data.txt
+        18      10.55 Received CAM from station 376 with speed 31.710000 m/s
+       450      10.55 Received CAM from station 376 with speed 31.710000 m/s
+      veh0      10.59 Unable to open log file: vehicle_veh0_data.txt
+       376      10.59 Received CAM from station 18 with speed 30.310000 m/s
+       450      10.59 Received CAM from station 18 with speed 30.310000 m/s
+      veh2      10.64 Unable to open log file: vehicle_veh2_data.txt
+      veh1      10.64 Unable to open log file: vehicle_veh1_data.txt
+      veh0      10.69 Unable to open log file: vehicle_veh0_data.txt
+      veh2      10.74 Unable to open log file: vehicle_veh2_data.txt
+       376      10.74 Received CAM from station 450 with speed 33.250000 m/s
+        18      10.74 Received CAM from station 450 with speed 33.250000 m/s
+      veh1      10.74 Unable to open log file: vehicle_veh1_data.txt
+        18      10.75 Received CAM from station 376 with speed 31.970000 m/s
+       450      10.75 Received CAM from station 376 with speed 31.970000 m/s
+      veh0      10.79 Unable to open log file: vehicle_veh0_data.txt
+       376      10.79 Received CAM from station 18 with speed 30.670000 m/s
+       450      10.79 Received CAM from station 18 with speed 30.670000 m/s
+      veh2      10.84 Unable to open log file: vehicle_veh2_data.txt
+      veh1      10.84 Unable to open log file: vehicle_veh1_data.txt
+      veh0      10.89 Unable to open log file: vehicle_veh0_data.txt
+      veh2      10.94 Unable to open log file: vehicle_veh2_data.txt
+       376      10.94 Received CAM from station 450 with speed 33.260000 m/s
+        18      10.94 Received CAM from station 450 with speed 33.260000 m/s
+      veh1      10.94 Unable to open log file: vehicle_veh1_data.txt
+        18      10.95 Received CAM from station 376 with speed 32.230000 m/s
+       450      10.95 Received CAM from station 376 with speed 32.230000 m/s
+      veh0      10.99 Unable to open log file: vehicle_veh0_data.txt
+       376      10.99 Received CAM from station 18 with speed 31.050000 m/s
+       450      10.99 Received CAM from station 18 with speed 31.050000 m/s
+      veh2      11.04 Unable to open log file: vehicle_veh2_data.txt
+      veh1      11.04 Unable to open log file: vehicle_veh1_data.txt
+      veh0      11.09 Unable to open log file: vehicle_veh0_data.txt
+      veh2      11.14 Unable to open log file: vehicle_veh2_data.txt
+       376      11.14 Received CAM from station 450 with speed 33.220000 m/s
+        18      11.14 Received CAM from station 450 with speed 33.220000 m/s
+      veh1      11.14 Unable to open log file: vehicle_veh1_data.txt
+        18      11.15 Received CAM from station 376 with speed 32.570000 m/s
+       450      11.15 Received CAM from station 376 with speed 32.570000 m/s
+      veh0      11.19 Unable to open log file: vehicle_veh0_data.txt
+       376      11.19 Received CAM from station 18 with speed 31.360000 m/s
+       450      11.19 Received CAM from station 18 with speed 31.360000 m/s
+      veh2      11.24 Unable to open log file: vehicle_veh2_data.txt
+      veh1      11.24 Unable to open log file: vehicle_veh1_data.txt
+      veh0      11.29 Unable to open log file: vehicle_veh0_data.txt
+      veh2      11.34 Unable to open log file: vehicle_veh2_data.txt
+       376      11.34 Received CAM from station 450 with speed 33.300000 m/s
+        18      11.34 Received CAM from station 450 with speed 33.300000 m/s
+      veh1      11.34 Unable to open log file: vehicle_veh1_data.txt
+        18      11.35 Received CAM from station 376 with speed 32.710000 m/s
+       450      11.35 Received CAM from station 376 with speed 32.710000 m/s
+      veh0      11.39 Unable to open log file: vehicle_veh0_data.txt
+       376      11.39 Received CAM from station 18 with speed 31.640000 m/s
+       450      11.39 Received CAM from station 18 with speed 31.640000 m/s

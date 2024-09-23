@@ -15,6 +15,7 @@
 #include <vanetza/units/angle.hpp>
 #include <vanetza/units/velocity.hpp>
 #include <omnetpp/simtime.h>
+#include <mutex>
 
 namespace artery
 {
@@ -32,6 +33,13 @@ class CaService : public ItsG5BaseService
 		void trigger() override;
 
 	private:
+		bool mMonitoringEnabled;
+		std::string mLogFilePath;
+		std::mutex mLogFileMutex;
+
+		bool isMonitoringEnabled();
+		void writeToLogFile(const std::string& data);
+
 		void checkTriggeringConditions(const omnetpp::SimTime&);
 		bool checkHeadingDelta() const;
 		bool checkPositionDelta() const;

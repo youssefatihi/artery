@@ -1,0 +1,6 @@
+      veh0       0.10 SpeedMonitoringService initialized. Monitoring log file: logs/vehicle_18_data.txt
+        18       0.10 SpeedAlertReceiverService initialized
+ CaService       0.10 Monitoring enabled: 1
+ CaService       0.10 Log file created: logs/vehicle_18_data.txt
+ CaService       0.10 CaService initialized successfully
+      veh0       0.29 SpeedMonitoringService triggered

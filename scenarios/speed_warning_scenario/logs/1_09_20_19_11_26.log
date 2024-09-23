@@ -1,0 +1,12 @@
+      veh0       0.10 SpeedMonitoringService initialized
+        18       0.10 SpeedAlertReceiverService initialized
+ CaService       0.10 CaService initialized  successfully
+      veh1       5.10 SpeedMonitoringService initialized
+       376       5.10 SpeedAlertReceiverService initialized
+ CaService       5.10 CaService initialized  successfully
+      veh2      10.10 SpeedMonitoringService initialized
+       450      10.10 SpeedAlertReceiverService initialized
+ CaService      10.10 CaService initialized  successfully
+      veh3      15.10 SpeedMonitoringService initialized
+       524      15.10 SpeedAlertReceiverService initialized
+ CaService      15.10 CaService initialized  successfully
