@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services>
+    <service type="LaneChangeWarningService">
+        <listener port="2003" />
+        <filters>
+            <name pattern="vehA" />
+        </filters>
+    </service>
+    <service type="LaneChangeAlertReceiverService">
+        <listener port="2003" />  
+        <filters>
+            <name pattern="veh*" />
+            <name pattern="emergencyVeh" />
+            <name pattern="vehA" match="inverse" />
+        </filters>
+    </service>
+    <service type="artery.application.CaService">
+        <listener port="2001" />
+    </service>
+</services>

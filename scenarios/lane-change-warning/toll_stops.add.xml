@@ -1,0 +1,4 @@
+<additional>
+    <busStop id="toll_A1" lane="A1_1" startPos="-20" endPos="-10" friendlyPos="true"/>
+    <busStop id="toll_B2" lane="B2_1" startPos="480" endPos="490" friendlyPos="true"/>
+</additional>

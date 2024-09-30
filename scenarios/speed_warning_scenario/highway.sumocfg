@@ -4,7 +4,7 @@
     <input>
         <net-file value="highway.net.xml"/>
         <route-files value="highway.rou.xml"/>
-        <additional-files value="toll_stops.add.xml"/>
+        <additional-files value="toll_stops.add.xml,toll_shape.add.xml"/>
     </input>
     <time>
         <begin value="0"/>

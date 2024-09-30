@@ -1,0 +1,1463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-09-27 07:49:58 by Eclipse SUMO GUI Version v1_20_0+1676-0884fd201b0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="highway.net.xml"/>
+        <route-files value="highway.rou.xml"/>
+        <additional-files value="toll_stops.add.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="highway_fcd.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <report>
+        <message-log value="results/sumo-0.log"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="58525"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="23423"/>
+    </random_number>
+
+    <gui_only>
+        <quit-on-end value="true"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<fcd-export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/fcd_file.xsd">
+    <timestep time="0.00">
+        <vehicle id="drowsy_driver" x="2786.73" y="2336.32" angle="23.56" type="drowsy_car" speed="20.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+    </timestep>
+    <timestep time="0.10">
+        <vehicle id="drowsy_driver" x="2787.53" y="2338.16" angle="23.56" type="drowsy_car" speed="20.12" pos="6.61" lane="B1.2102_1" slope="0.00"/>
+    </timestep>
+    <timestep time="0.20">
+        <vehicle id="drowsy_driver" x="2788.35" y="2340.02" angle="23.56" type="drowsy_car" speed="20.31" pos="8.64" lane="B1.2102_1" slope="0.00"/>
+    </timestep>
+    <timestep time="0.30">
+        <vehicle id="drowsy_driver" x="2789.16" y="2341.89" angle="23.56" type="drowsy_car" speed="20.39" pos="10.68" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="0.40">
+        <vehicle id="drowsy_driver" x="2789.98" y="2343.77" angle="23.56" type="drowsy_car" speed="20.46" pos="12.73" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2789.67" y="2335.06" angle="23.56" type="car" speed="0.25" pos="4.62" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="0.50">
+        <vehicle id="drowsy_driver" x="2790.81" y="2345.67" angle="23.56" type="drowsy_car" speed="20.72" pos="14.80" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2789.69" y="2335.11" angle="23.56" type="car" speed="0.50" pos="4.67" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="0.60">
+        <vehicle id="drowsy_driver" x="2791.64" y="2347.59" angle="23.56" type="drowsy_car" speed="20.96" pos="16.90" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2789.72" y="2335.17" angle="23.56" type="car" speed="0.73" pos="4.75" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="0.70">
+        <vehicle id="drowsy_driver" x="2792.48" y="2349.52" angle="23.56" type="drowsy_car" speed="21.04" pos="19.00" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2789.76" y="2335.26" angle="23.56" type="car" speed="0.96" pos="4.84" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="0.80">
+        <vehicle id="drowsy_driver" x="2793.33" y="2351.45" angle="23.56" type="drowsy_car" speed="21.15" pos="21.11" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2789.81" y="2335.37" angle="23.56" type="car" speed="1.22" pos="4.96" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="0.90">
+        <vehicle id="drowsy_driver" x="2794.18" y="2353.41" angle="23.56" type="drowsy_car" speed="21.34" pos="23.25" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2789.86" y="2335.50" angle="23.56" type="car" speed="1.43" pos="5.11" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="1.00">
+        <vehicle id="drowsy_driver" x="2795.04" y="2355.38" angle="23.56" type="drowsy_car" speed="21.47" pos="25.39" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2789.93" y="2335.65" angle="23.56" type="car" speed="1.63" pos="5.27" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="1.10">
+        <vehicle id="drowsy_driver" x="2795.90" y="2357.35" angle="23.56" type="drowsy_car" speed="21.54" pos="27.55" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2790.00" y="2335.82" angle="23.56" type="car" speed="1.84" pos="5.46" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="1.20">
+        <vehicle id="drowsy_driver" x="2796.77" y="2359.35" angle="23.56" type="drowsy_car" speed="21.75" pos="29.72" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2790.08" y="2336.01" angle="23.56" type="car" speed="2.09" pos="5.66" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="1.30">
+        <vehicle id="drowsy_driver" x="2797.65" y="2361.36" angle="23.56" type="drowsy_car" speed="21.99" pos="31.92" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2790.18" y="2336.22" angle="23.56" type="car" speed="2.29" pos="5.89" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="1.40">
+        <vehicle id="drowsy_driver" x="2798.54" y="2363.40" angle="23.56" type="drowsy_car" speed="22.23" pos="34.15" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2790.28" y="2336.45" angle="23.56" type="car" speed="2.50" pos="6.14" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="1.50">
+        <vehicle id="drowsy_driver" x="2799.44" y="2365.46" angle="23.56" type="drowsy_car" speed="22.45" pos="36.39" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2790.38" y="2336.70" angle="23.56" type="car" speed="2.70" pos="6.41" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="1.60">
+        <vehicle id="drowsy_driver" x="2800.34" y="2367.54" angle="23.56" type="drowsy_car" speed="22.68" pos="38.66" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2790.50" y="2336.96" angle="23.56" type="car" speed="2.84" pos="6.70" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="1.70">
+        <vehicle id="drowsy_driver" x="2801.26" y="2369.63" angle="23.56" type="drowsy_car" speed="22.80" pos="40.94" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2790.62" y="2337.23" angle="23.56" type="car" speed="2.97" pos="6.99" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="1.80">
+        <vehicle id="drowsy_driver" x="2802.17" y="2371.73" angle="23.56" type="drowsy_car" speed="22.94" pos="43.23" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2790.74" y="2337.53" angle="23.56" type="car" speed="3.21" pos="7.32" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="1.90">
+        <vehicle id="drowsy_driver" x="2803.10" y="2373.85" angle="23.56" type="drowsy_car" speed="23.12" pos="45.55" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2790.88" y="2337.84" angle="23.56" type="car" speed="3.43" pos="7.66" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="2.00">
+        <vehicle id="drowsy_driver" x="2804.02" y="2375.97" angle="23.56" type="drowsy_car" speed="23.17" pos="47.86" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2791.03" y="2338.17" angle="23.56" type="car" speed="3.64" pos="8.02" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="2.10">
+        <vehicle id="drowsy_driver" x="2804.95" y="2378.11" angle="23.56" type="drowsy_car" speed="23.28" pos="50.19" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2791.18" y="2338.52" angle="23.56" type="car" speed="3.78" pos="8.40" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="2.20">
+        <vehicle id="drowsy_driver" x="2805.89" y="2380.26" angle="23.56" type="drowsy_car" speed="23.48" pos="52.54" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2791.34" y="2338.89" angle="23.56" type="car" speed="4.00" pos="8.80" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="2.30">
+        <vehicle id="drowsy_driver" x="2806.83" y="2382.42" angle="23.56" type="drowsy_car" speed="23.56" pos="54.89" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2791.51" y="2339.27" angle="23.56" type="car" speed="4.18" pos="9.22" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="2.40">
+        <vehicle id="drowsy_driver" x="2807.78" y="2384.59" angle="23.56" type="drowsy_car" speed="23.68" pos="57.26" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2791.68" y="2339.67" angle="23.56" type="car" speed="4.37" pos="9.65" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="2.50">
+        <vehicle id="drowsy_driver" x="2808.73" y="2386.77" angle="23.56" type="drowsy_car" speed="23.84" pos="59.65" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2791.86" y="2340.09" angle="23.56" type="car" speed="4.55" pos="10.11" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="2.60">
+        <vehicle id="drowsy_driver" x="2809.69" y="2388.97" angle="23.56" type="drowsy_car" speed="23.93" pos="62.04" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.03" y="2340.46" angle="23.56" type="car" speed="4.10" pos="10.52" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="2.70">
+        <vehicle id="drowsy_driver" x="2810.65" y="2391.17" angle="23.56" type="drowsy_car" speed="24.07" pos="64.45" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.17" y="2340.80" angle="23.56" type="car" speed="3.65" pos="10.88" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="2.80">
+        <vehicle id="drowsy_driver" x="2811.62" y="2393.39" angle="23.56" type="drowsy_car" speed="24.22" pos="66.87" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.30" y="2341.09" angle="23.56" type="car" speed="3.20" pos="11.20" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="2.90">
+        <vehicle id="drowsy_driver" x="2812.60" y="2395.64" angle="23.56" type="drowsy_car" speed="24.47" pos="69.32" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.41" y="2341.34" angle="23.56" type="car" speed="2.75" pos="11.48" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="3.00">
+        <vehicle id="drowsy_driver" x="2813.58" y="2397.89" angle="23.56" type="drowsy_car" speed="24.63" pos="71.78" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.50" y="2341.55" angle="23.56" type="car" speed="2.30" pos="11.71" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="3.10">
+        <vehicle id="drowsy_driver" x="2814.57" y="2400.16" angle="23.56" type="drowsy_car" speed="24.77" pos="74.26" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.57" y="2341.72" angle="23.56" type="car" speed="1.85" pos="11.89" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="3.20">
+        <vehicle id="drowsy_driver" x="2815.57" y="2402.44" angle="23.56" type="drowsy_car" speed="24.86" pos="76.74" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.63" y="2341.86" angle="23.56" type="car" speed="1.48" pos="12.04" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="3.30">
+        <vehicle id="drowsy_driver" x="2816.56" y="2404.73" angle="23.56" type="drowsy_car" speed="24.96" pos="79.24" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.68" y="2341.96" angle="23.56" type="car" speed="1.18" pos="12.16" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="3.40">
+        <vehicle id="drowsy_driver" x="2817.57" y="2407.03" angle="23.56" type="drowsy_car" speed="25.04" pos="81.74" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.72" y="2342.05" angle="23.56" type="car" speed="0.94" pos="12.25" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="3.50">
+        <vehicle id="drowsy_driver" x="2818.57" y="2409.34" angle="23.56" type="drowsy_car" speed="25.22" pos="84.27" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.74" y="2342.10" angle="23.56" type="car" speed="0.49" pos="12.30" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="3.60">
+        <vehicle id="drowsy_driver" x="2819.59" y="2411.67" angle="23.56" type="drowsy_car" speed="25.40" pos="86.81" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.75" y="2342.12" angle="23.56" type="car" speed="0.25" pos="12.32" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="3.70">
+        <vehicle id="drowsy_driver" x="2820.61" y="2414.00" angle="23.56" type="drowsy_car" speed="25.49" pos="89.35" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.75" y="2342.13" angle="23.56" type="car" speed="0.12" pos="12.34" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="3.80">
+        <vehicle id="drowsy_driver" x="2821.64" y="2416.36" angle="23.56" type="drowsy_car" speed="25.73" pos="91.93" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.06" pos="12.34" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="3.90">
+        <vehicle id="drowsy_driver" x="2822.67" y="2418.74" angle="23.56" type="drowsy_car" speed="25.94" pos="94.52" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.03" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="4.00">
+        <vehicle id="drowsy_driver" x="2823.72" y="2421.14" angle="23.56" type="drowsy_car" speed="26.18" pos="97.14" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.02" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="4.10">
+        <vehicle id="drowsy_driver" x="2824.78" y="2423.56" angle="23.56" type="drowsy_car" speed="26.40" pos="99.78" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.01" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+    </timestep>
+    <timestep time="4.20">
+        <vehicle id="drowsy_driver" x="2825.83" y="2425.99" angle="23.56" type="drowsy_car" speed="26.50" pos="102.43" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+    </timestep>
+    <timestep time="4.30">
+        <vehicle id="drowsy_driver" x="2826.90" y="2428.42" angle="23.56" type="drowsy_car" speed="26.57" pos="105.09" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+    </timestep>
+    <timestep time="4.40">
+        <vehicle id="drowsy_driver" x="2827.96" y="2430.87" angle="23.56" type="drowsy_car" speed="26.70" pos="107.76" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+    </timestep>
+    <timestep time="4.50">
+        <vehicle id="drowsy_driver" x="2829.04" y="2433.34" angle="23.56" type="drowsy_car" speed="26.91" pos="110.45" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+    </timestep>
+    <timestep time="4.60">
+        <vehicle id="drowsy_driver" x="2830.12" y="2435.81" angle="23.56" type="drowsy_car" speed="26.99" pos="113.15" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+    </timestep>
+    <timestep time="4.70">
+        <vehicle id="drowsy_driver" x="2831.21" y="2438.31" angle="23.56" type="drowsy_car" speed="27.20" pos="115.87" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+    </timestep>
+    <timestep time="4.80">
+        <vehicle id="drowsy_driver" x="2832.30" y="2440.81" angle="23.56" type="drowsy_car" speed="27.34" pos="118.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+    </timestep>
+    <timestep time="4.90">
+        <vehicle id="drowsy_driver" x="2833.40" y="2443.33" angle="23.56" type="drowsy_car" speed="27.47" pos="121.35" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+    </timestep>
+    <timestep time="5.00">
+        <vehicle id="drowsy_driver" x="2834.50" y="2445.87" angle="23.56" type="drowsy_car" speed="27.70" pos="124.12" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+    </timestep>
+    <timestep time="5.10">
+        <vehicle id="drowsy_driver" x="2835.62" y="2448.43" angle="23.56" type="drowsy_car" speed="27.95" pos="126.91" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="5.20">
+        <vehicle id="drowsy_driver" x="2836.74" y="2451.00" angle="23.56" type="drowsy_car" speed="28.07" pos="129.72" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="5.30">
+        <vehicle id="drowsy_driver" x="2837.87" y="2453.60" angle="23.56" type="drowsy_car" speed="28.28" pos="132.55" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="5.40">
+        <vehicle id="drowsy_driver" x="2839.01" y="2456.20" angle="23.56" type="drowsy_car" speed="28.46" pos="135.39" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="5.50">
+        <vehicle id="drowsy_driver" x="2840.15" y="2458.82" angle="23.56" type="drowsy_car" speed="28.56" pos="138.25" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="5.60">
+        <vehicle id="drowsy_driver" x="2841.30" y="2461.45" angle="23.56" type="drowsy_car" speed="28.67" pos="141.12" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="5.70">
+        <vehicle id="drowsy_driver" x="2842.45" y="2464.08" angle="23.56" type="drowsy_car" speed="28.74" pos="143.99" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="5.80">
+        <vehicle id="drowsy_driver" x="2843.61" y="2466.74" angle="23.56" type="drowsy_car" speed="28.96" pos="146.89" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="5.90">
+        <vehicle id="drowsy_driver" x="2844.77" y="2469.41" angle="23.56" type="drowsy_car" speed="29.20" pos="149.81" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="6.00">
+        <vehicle id="drowsy_driver" x="2845.95" y="2472.11" angle="23.56" type="drowsy_car" speed="29.39" pos="152.74" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="6.10">
+        <vehicle id="drowsy_driver" x="2847.13" y="2474.82" angle="23.56" type="drowsy_car" speed="29.56" pos="155.70" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="6.20">
+        <vehicle id="drowsy_driver" x="2848.32" y="2477.55" angle="23.56" type="drowsy_car" speed="29.77" pos="158.68" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="6.30">
+        <vehicle id="drowsy_driver" x="2849.51" y="2480.29" angle="23.56" type="drowsy_car" speed="29.90" pos="161.67" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="6.40">
+        <vehicle id="drowsy_driver" x="2850.65" y="2483.06" angle="22.70" type="drowsy_car" speed="29.98" pos="164.67" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="6.50">
+        <vehicle id="drowsy_driver" x="2851.78" y="2485.86" angle="21.94" type="drowsy_car" speed="30.12" pos="167.68" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="6.60">
+        <vehicle id="drowsy_driver" x="2852.91" y="2488.67" angle="21.94" type="drowsy_car" speed="30.31" pos="170.71" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="6.70">
+        <vehicle id="drowsy_driver" x="2854.05" y="2491.49" angle="21.94" type="drowsy_car" speed="30.45" pos="173.75" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="6.80">
+        <vehicle id="drowsy_driver" x="2855.19" y="2494.33" angle="21.94" type="drowsy_car" speed="30.59" pos="176.81" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="6.90">
+        <vehicle id="drowsy_driver" x="2856.34" y="2497.19" angle="21.94" type="drowsy_car" speed="30.84" pos="179.90" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="7.00">
+        <vehicle id="drowsy_driver" x="2857.50" y="2500.06" angle="21.94" type="drowsy_car" speed="30.91" pos="182.99" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="7.10">
+        <vehicle id="drowsy_driver" x="2858.66" y="2502.94" angle="21.94" type="drowsy_car" speed="31.09" pos="186.10" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="7.20">
+        <vehicle id="drowsy_driver" x="2859.83" y="2505.84" angle="21.94" type="drowsy_car" speed="31.27" pos="189.22" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="7.30">
+        <vehicle id="drowsy_driver" x="2861.00" y="2508.75" angle="21.94" type="drowsy_car" speed="31.37" pos="192.36" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="7.40">
+        <vehicle id="drowsy_driver" x="2862.18" y="2511.68" angle="21.94" type="drowsy_car" speed="31.57" pos="195.52" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="7.50">
+        <vehicle id="drowsy_driver" x="2863.36" y="2514.62" angle="21.94" type="drowsy_car" speed="31.67" pos="198.69" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="7.60">
+        <vehicle id="drowsy_driver" x="2864.55" y="2517.56" angle="21.94" type="drowsy_car" speed="31.72" pos="201.86" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="7.70">
+        <vehicle id="drowsy_driver" x="2865.74" y="2520.51" angle="21.94" type="drowsy_car" speed="31.82" pos="205.04" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="7.80">
+        <vehicle id="drowsy_driver" x="2866.93" y="2523.48" angle="21.94" type="drowsy_car" speed="31.97" pos="208.24" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="7.90">
+        <vehicle id="drowsy_driver" x="2868.13" y="2526.47" angle="21.94" type="drowsy_car" speed="32.21" pos="211.46" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="8.00">
+        <vehicle id="drowsy_driver" x="2869.35" y="2529.47" angle="21.94" type="drowsy_car" speed="32.42" pos="214.70" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="8.10">
+        <vehicle id="drowsy_driver" x="2870.56" y="2532.49" angle="21.94" type="drowsy_car" speed="32.52" pos="217.95" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="8.20">
+        <vehicle id="drowsy_driver" x="2871.78" y="2535.52" angle="21.94" type="drowsy_car" speed="32.72" pos="221.23" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="8.30">
+        <vehicle id="drowsy_driver" x="2873.01" y="2538.57" angle="21.94" type="drowsy_car" speed="32.84" pos="224.51" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="8.40">
+        <vehicle id="drowsy_driver" x="2874.24" y="2541.63" angle="21.94" type="drowsy_car" speed="32.95" pos="227.80" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="8.50">
+        <vehicle id="drowsy_driver" x="2875.48" y="2544.70" angle="21.94" type="drowsy_car" speed="33.16" pos="231.12" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="8.60">
+        <vehicle id="drowsy_driver" x="2876.72" y="2547.78" angle="21.94" type="drowsy_car" speed="33.13" pos="234.43" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="8.70">
+        <vehicle id="drowsy_driver" x="2877.96" y="2550.86" angle="21.94" type="drowsy_car" speed="33.24" pos="237.76" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="8.80">
+        <vehicle id="drowsy_driver" x="2879.20" y="2553.94" angle="21.94" type="drowsy_car" speed="33.25" pos="241.08" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="8.90">
+        <vehicle id="drowsy_driver" x="2880.44" y="2557.02" angle="21.94" type="drowsy_car" speed="33.13" pos="244.40" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="9.00">
+        <vehicle id="drowsy_driver" x="2881.68" y="2560.10" angle="21.94" type="drowsy_car" speed="33.29" pos="247.72" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="9.10">
+        <vehicle id="drowsy_driver" x="2882.92" y="2563.18" angle="21.94" type="drowsy_car" speed="33.13" pos="251.04" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="9.20">
+        <vehicle id="drowsy_driver" x="2884.16" y="2566.26" angle="21.94" type="drowsy_car" speed="33.25" pos="254.36" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="9.30">
+        <vehicle id="drowsy_driver" x="2885.41" y="2569.35" angle="21.94" type="drowsy_car" speed="33.25" pos="257.69" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="9.40">
+        <vehicle id="drowsy_driver" x="2886.65" y="2572.43" angle="21.94" type="drowsy_car" speed="33.23" pos="261.01" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="9.50">
+        <vehicle id="drowsy_driver" x="2887.89" y="2575.52" angle="21.94" type="drowsy_car" speed="33.30" pos="264.34" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="9.60">
+        <vehicle id="drowsy_driver" x="2889.13" y="2578.60" angle="21.94" type="drowsy_car" speed="33.20" pos="267.66" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="9.70">
+        <vehicle id="drowsy_driver" x="2890.37" y="2581.68" angle="21.94" type="drowsy_car" speed="33.21" pos="270.98" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="9.80">
+        <vehicle id="drowsy_driver" x="2891.61" y="2584.76" angle="21.94" type="drowsy_car" speed="33.25" pos="274.30" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="9.90">
+        <vehicle id="drowsy_driver" x="2892.85" y="2587.84" angle="21.94" type="drowsy_car" speed="33.19" pos="277.62" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="10.00">
+        <vehicle id="drowsy_driver" x="2894.09" y="2590.91" angle="21.94" type="drowsy_car" speed="33.15" pos="280.94" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="10.10">
+        <vehicle id="drowsy_driver" x="2895.33" y="2593.99" angle="21.94" type="drowsy_car" speed="33.18" pos="284.26" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="10.20">
+        <vehicle id="drowsy_driver" x="2896.57" y="2597.06" angle="21.94" type="drowsy_car" speed="33.13" pos="287.57" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="10.30">
+        <vehicle id="drowsy_driver" x="2897.81" y="2600.14" angle="21.94" type="drowsy_car" speed="33.15" pos="290.88" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="10.40">
+        <vehicle id="drowsy_driver" x="2899.05" y="2603.22" angle="21.94" type="drowsy_car" speed="33.28" pos="294.21" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="10.50">
+        <vehicle id="drowsy_driver" x="2900.30" y="2606.31" angle="21.94" type="drowsy_car" speed="33.29" pos="297.54" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="10.60">
+        <vehicle id="drowsy_driver" x="2901.54" y="2609.40" angle="21.94" type="drowsy_car" speed="33.24" pos="300.86" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="10.70">
+        <vehicle id="drowsy_driver" x="2902.78" y="2612.48" angle="21.94" type="drowsy_car" speed="33.21" pos="304.19" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="10.80">
+        <vehicle id="drowsy_driver" x="2904.02" y="2615.55" angle="21.94" type="drowsy_car" speed="33.18" pos="307.50" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="10.90">
+        <vehicle id="drowsy_driver" x="2905.26" y="2618.63" angle="21.94" type="drowsy_car" speed="33.19" pos="310.82" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="11.00">
+        <vehicle id="drowsy_driver" x="2906.50" y="2621.71" angle="21.94" type="drowsy_car" speed="33.15" pos="314.14" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="11.10">
+        <vehicle id="drowsy_driver" x="2907.74" y="2624.79" angle="21.94" type="drowsy_car" speed="33.25" pos="317.46" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="11.20">
+        <vehicle id="drowsy_driver" x="2908.98" y="2627.88" angle="21.94" type="drowsy_car" speed="33.31" pos="320.79" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="11.30">
+        <vehicle id="drowsy_driver" x="2910.22" y="2630.96" angle="21.94" type="drowsy_car" speed="33.19" pos="324.11" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="11.40">
+        <vehicle id="drowsy_driver" x="2911.47" y="2634.05" angle="21.94" type="drowsy_car" speed="33.28" pos="327.44" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="11.50">
+        <vehicle id="drowsy_driver" x="2912.71" y="2637.12" angle="21.94" type="drowsy_car" speed="33.14" pos="330.75" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="11.60">
+        <vehicle id="drowsy_driver" x="2913.95" y="2640.20" angle="21.94" type="drowsy_car" speed="33.21" pos="334.08" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="11.70">
+        <vehicle id="drowsy_driver" x="2915.19" y="2643.28" angle="21.94" type="drowsy_car" speed="33.21" pos="337.40" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="11.80">
+        <vehicle id="drowsy_driver" x="2916.43" y="2646.36" angle="21.94" type="drowsy_car" speed="33.15" pos="340.71" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="11.90">
+        <vehicle id="drowsy_driver" x="2917.67" y="2649.45" angle="21.94" type="drowsy_car" speed="33.30" pos="344.04" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="12.00">
+        <vehicle id="drowsy_driver" x="2918.91" y="2652.53" angle="21.94" type="drowsy_car" speed="33.22" pos="347.36" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="12.10">
+        <vehicle id="drowsy_driver" x="2920.15" y="2655.62" angle="21.94" type="drowsy_car" speed="33.30" pos="350.69" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="12.20">
+        <vehicle id="drowsy_driver" x="2921.40" y="2658.70" angle="21.94" type="drowsy_car" speed="33.25" pos="354.02" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="12.30">
+        <vehicle id="drowsy_driver" x="2922.64" y="2661.78" angle="21.94" type="drowsy_car" speed="33.19" pos="357.34" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="12.40">
+        <vehicle id="drowsy_driver" x="2923.88" y="2664.85" angle="21.94" type="drowsy_car" speed="33.13" pos="360.65" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="12.50">
+        <vehicle id="drowsy_driver" x="2925.11" y="2667.93" angle="21.94" type="drowsy_car" speed="33.16" pos="363.97" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="12.60">
+        <vehicle id="drowsy_driver" x="2926.36" y="2671.02" angle="21.94" type="drowsy_car" speed="33.30" pos="367.30" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="12.70">
+        <vehicle id="drowsy_driver" x="2927.60" y="2674.10" angle="21.94" type="drowsy_car" speed="33.27" pos="370.62" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="12.80">
+        <vehicle id="drowsy_driver" x="2928.85" y="2677.19" angle="21.94" type="drowsy_car" speed="33.28" pos="373.95" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="12.90">
+        <vehicle id="drowsy_driver" x="2930.09" y="2680.28" angle="21.94" type="drowsy_car" speed="33.30" pos="377.28" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="13.00">
+        <vehicle id="drowsy_driver" x="2931.33" y="2683.36" angle="21.94" type="drowsy_car" speed="33.22" pos="380.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="13.10">
+        <vehicle id="drowsy_driver" x="2932.58" y="2686.45" angle="21.94" type="drowsy_car" speed="33.33" pos="383.94" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="13.20">
+        <vehicle id="drowsy_driver" x="2933.82" y="2689.54" angle="21.94" type="drowsy_car" speed="33.28" pos="387.27" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="13.30">
+        <vehicle id="drowsy_driver" x="2935.06" y="2692.63" angle="21.94" type="drowsy_car" speed="33.28" pos="390.59" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="13.40">
+        <vehicle id="drowsy_driver" x="2936.31" y="2695.72" angle="21.94" type="drowsy_car" speed="33.33" pos="393.93" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="13.50">
+        <vehicle id="drowsy_driver" x="2937.55" y="2698.79" angle="21.94" type="drowsy_car" speed="33.14" pos="397.24" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="13.60">
+        <vehicle id="drowsy_driver" x="2938.79" y="2701.87" angle="21.94" type="drowsy_car" speed="33.17" pos="400.56" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="13.70">
+        <vehicle id="drowsy_driver" x="2940.03" y="2704.95" angle="21.94" type="drowsy_car" speed="33.29" pos="403.89" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="13.80">
+        <vehicle id="drowsy_driver" x="2941.27" y="2708.03" angle="21.94" type="drowsy_car" speed="33.17" pos="407.20" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="13.90">
+        <vehicle id="drowsy_driver" x="2942.51" y="2711.11" angle="21.94" type="drowsy_car" speed="33.20" pos="410.52" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="14.00">
+        <vehicle id="drowsy_driver" x="2943.75" y="2714.20" angle="21.94" type="drowsy_car" speed="33.29" pos="413.85" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="14.10">
+        <vehicle id="drowsy_driver" x="2944.99" y="2717.27" angle="21.94" type="drowsy_car" speed="33.16" pos="417.17" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="14.20">
+        <vehicle id="drowsy_driver" x="2946.23" y="2720.35" angle="21.94" type="drowsy_car" speed="33.16" pos="420.48" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="14.30">
+        <vehicle id="drowsy_driver" x="2947.47" y="2723.44" angle="21.94" type="drowsy_car" speed="33.29" pos="423.81" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="14.40">
+        <vehicle id="drowsy_driver" x="2948.71" y="2726.51" angle="21.94" type="drowsy_car" speed="33.16" pos="427.13" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="14.50">
+        <vehicle id="drowsy_driver" x="2949.95" y="2729.59" angle="21.94" type="drowsy_car" speed="33.15" pos="430.44" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="14.60">
+        <vehicle id="drowsy_driver" x="2951.20" y="2732.68" angle="21.94" type="drowsy_car" speed="33.29" pos="433.77" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="14.70">
+        <vehicle id="drowsy_driver" x="2952.43" y="2735.75" angle="21.94" type="drowsy_car" speed="33.17" pos="437.09" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="14.80">
+        <vehicle id="drowsy_driver" x="2953.70" y="2738.83" angle="22.27" type="drowsy_car" speed="33.26" pos="0.30" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="14.90">
+        <vehicle id="drowsy_driver" x="2955.16" y="2741.82" angle="25.27" type="drowsy_car" speed="33.27" pos="3.62" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="15.00">
+        <vehicle id="drowsy_driver" x="2956.62" y="2744.80" angle="26.00" type="drowsy_car" speed="33.24" pos="6.95" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="15.10">
+        <vehicle id="drowsy_driver" x="2958.08" y="2747.80" angle="26.00" type="drowsy_car" speed="33.33" pos="10.28" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="15.20">
+        <vehicle id="drowsy_driver" x="2959.53" y="2750.79" angle="26.00" type="drowsy_car" speed="33.26" pos="13.60" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="15.30">
+        <vehicle id="drowsy_driver" x="2960.99" y="2753.77" angle="26.00" type="drowsy_car" speed="33.22" pos="16.93" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="15.40">
+        <vehicle id="drowsy_driver" x="2962.45" y="2756.76" angle="26.00" type="drowsy_car" speed="33.28" pos="20.26" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="15.50">
+        <vehicle id="drowsy_driver" x="2963.90" y="2759.74" angle="26.00" type="drowsy_car" speed="33.16" pos="23.57" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="15.60">
+        <vehicle id="drowsy_driver" x="2965.36" y="2762.73" angle="26.00" type="drowsy_car" speed="33.20" pos="26.89" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="15.70">
+        <vehicle id="drowsy_driver" x="2966.82" y="2765.72" angle="26.00" type="drowsy_car" speed="33.25" pos="30.22" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="15.80">
+        <vehicle id="drowsy_driver" x="2968.28" y="2768.71" angle="26.00" type="drowsy_car" speed="33.33" pos="33.55" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="15.90">
+        <vehicle id="drowsy_driver" x="2969.73" y="2771.69" angle="26.00" type="drowsy_car" speed="33.13" pos="36.86" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="16.00">
+        <vehicle id="drowsy_driver" x="2971.19" y="2774.67" angle="26.00" type="drowsy_car" speed="33.19" pos="40.18" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="16.10">
+        <vehicle id="drowsy_driver" x="2972.64" y="2777.65" angle="26.00" type="drowsy_car" speed="33.17" pos="43.50" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="16.20">
+        <vehicle id="drowsy_driver" x="2974.09" y="2780.63" angle="26.00" type="drowsy_car" speed="33.14" pos="46.81" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="16.30">
+        <vehicle id="drowsy_driver" x="2975.55" y="2783.62" angle="26.00" type="drowsy_car" speed="33.22" pos="50.13" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="16.40">
+        <vehicle id="drowsy_driver" x="2977.01" y="2786.61" angle="26.00" type="drowsy_car" speed="33.28" pos="53.46" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="16.50">
+        <vehicle id="drowsy_driver" x="2978.46" y="2789.59" angle="26.00" type="drowsy_car" speed="33.16" pos="56.78" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="16.60">
+        <vehicle id="drowsy_driver" x="2979.92" y="2792.58" angle="26.00" type="drowsy_car" speed="33.31" pos="60.11" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="16.70">
+        <vehicle id="drowsy_driver" x="2981.38" y="2795.57" angle="26.00" type="drowsy_car" speed="33.23" pos="63.43" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="16.80">
+        <vehicle id="drowsy_driver" x="2982.83" y="2798.55" angle="26.00" type="drowsy_car" speed="33.16" pos="66.75" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="16.90">
+        <vehicle id="drowsy_driver" x="2984.29" y="2801.54" angle="26.00" type="drowsy_car" speed="33.25" pos="70.07" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="17.00">
+        <vehicle id="drowsy_driver" x="2985.75" y="2804.53" angle="26.00" type="drowsy_car" speed="33.29" pos="73.40" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="17.10">
+        <vehicle id="drowsy_driver" x="2987.20" y="2807.51" angle="26.00" type="drowsy_car" speed="33.15" pos="76.71" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="17.20">
+        <vehicle id="drowsy_driver" x="2988.66" y="2810.50" angle="26.00" type="drowsy_car" speed="33.25" pos="80.04" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="17.30">
+        <vehicle id="drowsy_driver" x="2990.12" y="2813.49" angle="26.00" type="drowsy_car" speed="33.26" pos="83.37" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="17.40">
+        <vehicle id="drowsy_driver" x="2991.58" y="2816.48" angle="26.00" type="drowsy_car" speed="33.26" pos="86.69" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="17.50">
+        <vehicle id="drowsy_driver" x="2993.03" y="2819.46" angle="26.00" type="drowsy_car" speed="33.19" pos="90.01" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="17.60">
+        <vehicle id="drowsy_driver" x="2994.49" y="2822.45" angle="26.00" type="drowsy_car" speed="33.23" pos="93.33" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="17.70">
+        <vehicle id="drowsy_driver" x="2995.95" y="2825.43" angle="26.00" type="drowsy_car" speed="33.26" pos="96.66" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="17.80">
+        <vehicle id="drowsy_driver" x="2997.40" y="2828.41" angle="26.00" type="drowsy_car" speed="33.14" pos="99.97" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="17.90">
+        <vehicle id="drowsy_driver" x="2998.86" y="2831.41" angle="26.00" type="drowsy_car" speed="33.30" pos="103.30" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="18.00">
+        <vehicle id="drowsy_driver" x="3000.32" y="2834.40" angle="26.00" type="drowsy_car" speed="33.29" pos="106.63" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="18.10">
+        <vehicle id="drowsy_driver" x="3001.78" y="2837.39" angle="26.00" type="drowsy_car" speed="33.31" pos="109.96" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="18.20">
+        <vehicle id="drowsy_driver" x="3003.24" y="2840.37" angle="26.00" type="drowsy_car" speed="33.18" pos="113.28" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="18.30">
+        <vehicle id="drowsy_driver" x="3004.69" y="2843.36" angle="26.00" type="drowsy_car" speed="33.19" pos="116.60" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="18.40">
+        <vehicle id="drowsy_driver" x="3006.15" y="2846.34" angle="26.00" type="drowsy_car" speed="33.23" pos="119.92" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="18.50">
+        <vehicle id="drowsy_driver" x="3007.61" y="2849.34" angle="26.00" type="drowsy_car" speed="33.31" pos="123.25" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="18.60">
+        <vehicle id="drowsy_driver" x="3009.07" y="2852.33" angle="26.00" type="drowsy_car" speed="33.33" pos="126.59" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="18.70">
+        <vehicle id="drowsy_driver" x="3010.52" y="2855.31" angle="26.00" type="drowsy_car" speed="33.14" pos="129.90" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="18.80">
+        <vehicle id="drowsy_driver" x="3011.98" y="2858.29" angle="26.00" type="drowsy_car" speed="33.17" pos="133.22" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="18.90">
+        <vehicle id="drowsy_driver" x="3013.43" y="2861.28" angle="26.00" type="drowsy_car" speed="33.21" pos="136.54" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="19.00">
+        <vehicle id="drowsy_driver" x="3014.89" y="2864.27" angle="26.00" type="drowsy_car" speed="33.31" pos="139.87" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="19.10">
+        <vehicle id="drowsy_driver" x="3016.35" y="2867.25" angle="26.00" type="drowsy_car" speed="33.16" pos="143.19" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="19.20">
+        <vehicle id="drowsy_driver" x="3017.81" y="2870.24" angle="26.00" type="drowsy_car" speed="33.26" pos="146.51" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="19.30">
+        <vehicle id="drowsy_driver" x="3019.26" y="2873.22" angle="26.00" type="drowsy_car" speed="33.18" pos="149.83" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="19.40">
+        <vehicle id="drowsy_driver" x="3020.71" y="2876.20" angle="26.00" type="drowsy_car" speed="33.14" pos="153.14" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="19.50">
+        <vehicle id="drowsy_driver" x="3022.17" y="2879.19" angle="26.00" type="drowsy_car" speed="33.30" pos="156.47" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="19.60">
+        <vehicle id="drowsy_driver" x="3023.63" y="2882.19" angle="26.00" type="drowsy_car" speed="33.28" pos="159.80" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="19.70">
+        <vehicle id="drowsy_driver" x="3025.09" y="2885.17" angle="26.00" type="drowsy_car" speed="33.23" pos="163.12" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="19.80">
+        <vehicle id="drowsy_driver" x="3026.55" y="2888.17" angle="26.00" type="drowsy_car" speed="33.32" pos="166.46" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="19.90">
+        <vehicle id="drowsy_driver" x="3028.00" y="2891.15" angle="26.00" type="drowsy_car" speed="33.17" pos="169.77" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="20.00">
+        <vehicle id="drowsy_driver" x="3029.46" y="2894.13" angle="26.00" type="drowsy_car" speed="33.21" pos="173.09" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="20.10">
+        <vehicle id="drowsy_driver" x="3030.92" y="2897.12" angle="26.00" type="drowsy_car" speed="33.22" pos="176.42" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="20.20">
+        <vehicle id="drowsy_driver" x="3032.38" y="2900.11" angle="26.00" type="drowsy_car" speed="33.29" pos="179.74" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="20.30">
+        <vehicle id="drowsy_driver" x="3033.84" y="2903.11" angle="26.00" type="drowsy_car" speed="33.33" pos="183.08" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="20.40">
+        <vehicle id="drowsy_driver" x="3035.29" y="2906.09" angle="26.00" type="drowsy_car" speed="33.25" pos="186.40" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="20.50">
+        <vehicle id="drowsy_driver" x="3036.75" y="2909.08" angle="26.00" type="drowsy_car" speed="33.27" pos="189.73" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="20.60">
+        <vehicle id="drowsy_driver" x="3038.21" y="2912.06" angle="26.00" type="drowsy_car" speed="33.15" pos="193.04" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="20.70">
+        <vehicle id="drowsy_driver" x="3039.66" y="2915.05" angle="26.00" type="drowsy_car" speed="33.19" pos="196.36" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="20.80">
+        <vehicle id="drowsy_driver" x="3041.12" y="2918.04" angle="26.00" type="drowsy_car" speed="33.31" pos="199.70" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="20.90">
+        <vehicle id="drowsy_driver" x="3042.58" y="2921.02" angle="26.00" type="drowsy_car" speed="33.18" pos="203.01" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="21.00">
+        <vehicle id="drowsy_driver" x="3044.04" y="2924.01" angle="26.00" type="drowsy_car" speed="33.28" pos="206.34" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="21.10">
+        <vehicle id="drowsy_driver" x="3045.49" y="2926.99" angle="26.00" type="drowsy_car" speed="33.13" pos="209.65" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="21.20">
+        <vehicle id="drowsy_driver" x="3046.94" y="2929.97" angle="26.00" type="drowsy_car" speed="33.12" pos="212.97" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="21.30">
+        <vehicle id="drowsy_driver" x="3048.39" y="2932.95" angle="26.00" type="drowsy_car" speed="33.15" pos="216.28" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="21.40">
+        <vehicle id="drowsy_driver" x="3049.85" y="2935.93" angle="26.00" type="drowsy_car" speed="33.18" pos="219.60" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="21.50">
+        <vehicle id="drowsy_driver" x="3051.31" y="2938.92" angle="26.00" type="drowsy_car" speed="33.26" pos="222.92" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="21.60">
+        <vehicle id="drowsy_driver" x="3052.76" y="2941.90" angle="26.00" type="drowsy_car" speed="33.13" pos="226.24" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="21.70">
+        <vehicle id="drowsy_driver" x="3054.22" y="2944.89" angle="26.00" type="drowsy_car" speed="33.26" pos="229.56" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="21.80">
+        <vehicle id="drowsy_driver" x="3055.68" y="2947.88" angle="26.00" type="drowsy_car" speed="33.26" pos="232.89" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="21.90">
+        <vehicle id="drowsy_driver" x="3057.14" y="2950.87" angle="26.00" type="drowsy_car" speed="33.32" pos="236.22" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="22.00">
+        <vehicle id="drowsy_driver" x="3058.59" y="2953.86" angle="26.00" type="drowsy_car" speed="33.25" pos="239.55" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="22.10">
+        <vehicle id="drowsy_driver" x="3060.05" y="2956.85" angle="26.00" type="drowsy_car" speed="33.27" pos="242.87" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="22.20">
+        <vehicle id="drowsy_driver" x="3061.51" y="2959.84" angle="26.00" type="drowsy_car" speed="33.24" pos="246.20" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="22.30">
+        <vehicle id="drowsy_driver" x="3062.97" y="2962.83" angle="26.00" type="drowsy_car" speed="33.32" pos="249.53" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="22.40">
+        <vehicle id="drowsy_driver" x="3064.43" y="2965.82" angle="26.00" type="drowsy_car" speed="33.29" pos="252.86" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="22.50">
+        <vehicle id="drowsy_driver" x="3065.89" y="2968.81" angle="26.00" type="drowsy_car" speed="33.20" pos="256.18" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="22.60">
+        <vehicle id="drowsy_driver" x="3067.34" y="2971.79" angle="26.00" type="drowsy_car" speed="33.23" pos="259.50" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="22.70">
+        <vehicle id="drowsy_driver" x="3068.80" y="2974.78" angle="26.00" type="drowsy_car" speed="33.25" pos="262.83" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="22.80">
+        <vehicle id="drowsy_driver" x="3070.25" y="2977.76" angle="26.00" type="drowsy_car" speed="33.13" pos="266.14" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="22.90">
+        <vehicle id="drowsy_driver" x="3071.71" y="2980.74" angle="26.00" type="drowsy_car" speed="33.20" pos="269.46" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="23.00">
+        <vehicle id="drowsy_driver" x="3073.17" y="2983.74" angle="26.00" type="drowsy_car" speed="33.29" pos="272.79" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="23.10">
+        <vehicle id="drowsy_driver" x="3074.63" y="2986.73" angle="26.00" type="drowsy_car" speed="33.30" pos="276.12" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="23.20">
+        <vehicle id="drowsy_driver" x="3076.08" y="2989.71" angle="26.00" type="drowsy_car" speed="33.16" pos="279.43" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="23.30">
+        <vehicle id="drowsy_driver" x="3077.54" y="2992.69" angle="26.00" type="drowsy_car" speed="33.15" pos="282.75" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="23.40">
+        <vehicle id="drowsy_driver" x="3078.99" y="2995.67" angle="26.00" type="drowsy_car" speed="33.17" pos="286.07" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="23.50">
+        <vehicle id="drowsy_driver" x="3080.45" y="2998.65" angle="26.00" type="drowsy_car" speed="33.19" pos="289.39" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="23.60">
+        <vehicle id="drowsy_driver" x="3081.90" y="3001.63" angle="26.00" type="drowsy_car" speed="33.15" pos="292.70" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="23.70">
+        <vehicle id="drowsy_driver" x="3083.35" y="3004.61" angle="26.00" type="drowsy_car" speed="33.14" pos="296.01" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="23.80">
+        <vehicle id="drowsy_driver" x="3084.81" y="3007.60" angle="26.00" type="drowsy_car" speed="33.27" pos="299.34" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="23.90">
+        <vehicle id="drowsy_driver" x="3086.27" y="3010.59" angle="26.00" type="drowsy_car" speed="33.28" pos="302.67" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="24.00">
+        <vehicle id="drowsy_driver" x="3087.72" y="3013.57" angle="26.00" type="drowsy_car" speed="33.13" pos="305.98" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="24.10">
+        <vehicle id="drowsy_driver" x="3089.18" y="3016.56" angle="26.00" type="drowsy_car" speed="33.32" pos="309.31" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="24.20">
+        <vehicle id="drowsy_driver" x="3090.64" y="3019.55" angle="26.00" type="drowsy_car" speed="33.17" pos="312.63" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="24.30">
+        <vehicle id="drowsy_driver" x="3092.09" y="3022.52" angle="26.00" type="drowsy_car" speed="33.13" pos="315.94" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="24.40">
+        <vehicle id="drowsy_driver" x="3093.54" y="3025.50" angle="26.00" type="drowsy_car" speed="33.18" pos="319.26" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="24.50">
+        <vehicle id="drowsy_driver" x="3095.01" y="3028.50" angle="26.00" type="drowsy_car" speed="33.32" pos="322.59" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="24.60">
+        <vehicle id="drowsy_driver" x="3096.47" y="3031.49" angle="26.00" type="drowsy_car" speed="33.31" pos="325.92" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="24.70">
+        <vehicle id="drowsy_driver" x="3097.92" y="3034.48" angle="26.00" type="drowsy_car" speed="33.20" pos="329.24" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="24.80">
+        <vehicle id="drowsy_driver" x="3099.38" y="3037.46" angle="26.00" type="drowsy_car" speed="33.18" pos="332.56" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+    <timestep time="24.90">
+        <vehicle id="drowsy_driver" x="3100.83" y="3040.45" angle="26.00" type="drowsy_car" speed="33.26" pos="335.89" lane="B2_1" slope="0.00"/>
+        <vehicle id="entering_flow.0" x="2792.76" y="2342.14" angle="23.56" type="car" speed="0.00" pos="12.35" lane="B1.2102_0" slope="0.00"/>
+        <vehicle id="normal_flow.0" x="2786.73" y="2336.32" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_1" slope="0.00"/>
+        <vehicle id="normal_flow.1" x="2789.66" y="2335.04" angle="23.56" type="car" speed="0.00" pos="4.60" lane="B1.2102_0" slope="0.00"/>
+    </timestep>
+</fcd-export>

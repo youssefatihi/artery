@@ -11,6 +11,6 @@
     </service>
     <service type="artery.application.CaService">
         <listener port="2001" />      
-    </service>
+    </service>    
     
 </services>

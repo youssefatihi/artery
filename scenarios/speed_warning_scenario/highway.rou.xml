@@ -5,8 +5,8 @@
     
     <route id="route_main" edges="B1.2102 B2"/>
     
-    <vehicle id="veh0" type="car_normal" route="route_main" depart="5" departLane="1" departSpeed="20"/>
-    <vehicle id="veh1" type="car_speeding" route="route_main" depart="0" departLane="0" departSpeed="max"/>
+    <vehicle id="veh0" type="car_speeding" route="route_main" depart="0" departLane="0" departSpeed="30"/>
+    <vehicle id="veh1" type="car_normal" route="route_main" depart="5" departLane="1" departSpeed="20"/>
     <vehicle id="veh2" type="car_normal" route="route_main" depart="10" departLane="2" departSpeed="max"/>
     <vehicle id="veh3" type="car_speeding" route="route_main" depart="15" departLane="1" departSpeed="max"/>
 </routes>

@@ -1,0 +1,3777 @@
+      veh0       5.10 SpeedMonitoringService initialized. Monitoring log file: logs/vehicle_302_data.txt
+       302       5.10 SpeedAlertReceiverService initialized
+ CaService       5.10 Monitoring enabled: 1
+ CaService       5.10 Log file created: logs/vehicle_302_data.txt
+ CaService       5.10 CaService initialized successfully
+      veh2      10.10 SpeedMonitoringService initialized. Monitoring log file: logs/vehicle_376_data.txt
+       376      10.10 SpeedAlertReceiverService initialized
+ CaService      10.10 Monitoring enabled: 1
+ CaService      10.10 Log file created: logs/vehicle_376_data.txt
+ CaService      10.10 CaService initialized successfully
+       376      10.16 Received CAM from station 302 with speed 29.720000 m/s
+      veh2      10.27 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      10.27 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      10.27 
+       376      10.36 Received CAM from station 302 with speed 30.180000 m/s
+      veh2      10.37 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      10.37 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      10.37 
+      veh2      10.37 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      10.37 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      10.37 
+       302      10.37 Received CAM from station 376 with speed 33.250000 m/s
+      veh0      10.46 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      10.46 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      10.46 Sending warning DENM (SubCauseCode 1)
+      veh0      10.46 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      10.46 
+       376      10.46 Received a packet in SpeedAlertReceiverService
+       376      10.46 Packet is a DENMMessage
+       376      10.46 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 119.700000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      10.46 I am the offending vehicle. Adjusting speed.
+       376      10.46 Reducing speed to 26.578597 m/s due to speed violation warning
+      veh2      10.47 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      10.47 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      10.47 
+      veh2      10.47 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      10.47 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      10.47 
+      veh0      10.56 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      10.56 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      10.56 Sending warning DENM (SubCauseCode 1)
+      veh0      10.56 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      10.56 
+       376      10.56 Received a packet in SpeedAlertReceiverService
+       376      10.56 Packet is a DENMMessage
+       376      10.56 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 119.700000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      10.56 Received irrelevant DENM from veh0
+      veh2      10.57 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      10.57 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      10.57 
+      veh2      10.57 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      10.57 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      10.57 
+       302      10.57 Received CAM from station 376 with speed 32.770000 m/s
+       376      10.62 Received CAM from station 302 with speed 30.520000 m/s
+      veh0      10.66 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      10.66 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      10.66 Sending warning DENM (SubCauseCode 1)
+      veh0      10.66 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      10.66 
+      veh0      10.66 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      10.66 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      10.66 Sending warning DENM (SubCauseCode 1)
+      veh0      10.66 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      10.66 
+      veh2      10.67 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      10.67 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      10.67 
+      veh2      10.67 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      10.67 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      10.67 
+      veh2      10.67 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      10.67 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      10.67 
+       376      10.68 Received a packet in SpeedAlertReceiverService
+       376      10.68 Packet is a DENMMessage
+       376      10.68 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 119.700000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      10.68 Received irrelevant DENM from veh0
+       376      10.74 Received a packet in SpeedAlertReceiverService
+       376      10.74 Packet is a DENMMessage
+       376      10.74 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 117.972000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      10.74 Received irrelevant DENM from veh0
+      veh0      10.76 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      10.76 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      10.76 Sending warning DENM (SubCauseCode 1)
+      veh0      10.76 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      10.76 
+      veh0      10.76 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      10.76 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      10.76 Sending warning DENM (SubCauseCode 1)
+      veh0      10.76 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      10.76 
+      veh2      10.77 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      10.77 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      10.77 
+      veh2      10.77 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      10.77 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      10.77 
+      veh2      10.77 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      10.77 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      10.77 
+       302      10.77 Received CAM from station 376 with speed 31.870000 m/s
+       376      10.80 Received a packet in SpeedAlertReceiverService
+       376      10.80 Packet is a DENMMessage
+       376      10.80 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 117.972000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      10.80 Received irrelevant DENM from veh0
+      veh0      10.86 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      10.86 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      10.86 Sending warning DENM (SubCauseCode 1)
+      veh0      10.86 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      10.86 
+      veh0      10.86 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      10.86 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      10.86 Sending warning DENM (SubCauseCode 1)
+      veh0      10.86 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      10.86 
+      veh0      10.86 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      10.86 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      10.86 Sending warning DENM (SubCauseCode 1)
+      veh0      10.86 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      10.86 
+       376      10.86 Received CAM from station 302 with speed 30.910000 m/s
+      veh2      10.87 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      10.87 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      10.87 
+      veh2      10.87 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      10.87 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      10.87 
+      veh2      10.87 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      10.87 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      10.87 
+      veh2      10.87 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      10.87 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      10.87 Sending warning DENM (SubCauseCode 1)
+      veh2      10.87 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      10.87 
+       302      10.87 Received a packet in SpeedAlertReceiverService
+       302      10.87 Packet is a DENMMessage
+       302      10.87 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      10.87 I am the offending vehicle. Adjusting speed.
+       302      10.87 Reducing speed to 24.873695 m/s due to speed violation warning
+       376      10.92 Received a packet in SpeedAlertReceiverService
+       376      10.92 Packet is a DENMMessage
+       376      10.92 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 117.972000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      10.92 Received irrelevant DENM from veh0
+      veh0      10.96 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      10.96 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      10.96 Sending warning DENM (SubCauseCode 1)
+      veh0      10.96 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      10.96 
+      veh0      10.96 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      10.96 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      10.96 Sending warning DENM (SubCauseCode 1)
+      veh0      10.96 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      10.96 
+      veh0      10.96 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      10.96 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      10.96 Sending warning DENM (SubCauseCode 1)
+      veh0      10.96 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      10.96 
+      veh2      10.97 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      10.97 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      10.97 
+      veh2      10.97 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      10.97 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      10.97 
+      veh2      10.97 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      10.97 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      10.97 
+      veh2      10.97 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      10.97 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      10.97 Sending warning DENM (SubCauseCode 1)
+      veh2      10.97 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      10.97 
+       302      10.97 Received CAM from station 376 with speed 30.970000 m/s
+       376      10.98 Received a packet in SpeedAlertReceiverService
+       376      10.98 Packet is a DENMMessage
+       376      10.98 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 114.732000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      10.98 Received irrelevant DENM from veh0
+       302      11.03 Received a packet in SpeedAlertReceiverService
+       302      11.03 Packet is a DENMMessage
+       302      11.03 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      11.03 Received irrelevant DENM from veh2
+       376      11.04 Received CAM from station 302 with speed 30.640000 m/s
+      veh0      11.06 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      11.06 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      11.06 Sending warning DENM (SubCauseCode 1)
+      veh0      11.06 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      11.06 
+      veh0      11.06 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      11.06 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      11.06 Sending warning DENM (SubCauseCode 1)
+      veh0      11.06 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      11.06 
+      veh0      11.06 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      11.06 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      11.06 Sending warning DENM (SubCauseCode 1)
+      veh0      11.06 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      11.06 
+      veh0      11.06 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      11.06 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      11.06 Sending warning DENM (SubCauseCode 1)
+      veh0      11.06 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      11.06 
+      veh2      11.07 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      11.07 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      11.07 
+      veh2      11.07 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      11.07 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      11.07 
+      veh2      11.07 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      11.07 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      11.07 
+      veh2      11.07 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      11.07 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      11.07 Sending warning DENM (SubCauseCode 1)
+      veh2      11.07 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      11.07 
+      veh2      11.07 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      11.07 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      11.07 Sending warning DENM (SubCauseCode 1)
+      veh2      11.07 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      11.07 
+       302      11.09 Received a packet in SpeedAlertReceiverService
+       302      11.09 Packet is a DENMMessage
+       302      11.09 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      11.09 Received irrelevant DENM from veh2
+       376      11.10 Received a packet in SpeedAlertReceiverService
+       376      11.10 Packet is a DENMMessage
+       376      11.10 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 114.732000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      11.10 Received irrelevant DENM from veh0
+       302      11.15 Received a packet in SpeedAlertReceiverService
+       302      11.15 Packet is a DENMMessage
+       302      11.15 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 110.304000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      11.15 Received irrelevant DENM from veh2
+      veh0      11.16 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      11.16 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      11.16 Sending warning DENM (SubCauseCode 1)
+      veh0      11.16 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      11.16 
+      veh0      11.16 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      11.16 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      11.16 Sending warning DENM (SubCauseCode 1)
+      veh0      11.16 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      11.16 
+      veh0      11.16 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      11.16 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      11.16 Sending warning DENM (SubCauseCode 1)
+      veh0      11.16 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      11.16 
+      veh0      11.16 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      11.16 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      11.16 Sending warning DENM (SubCauseCode 1)
+      veh0      11.16 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      11.16 
+       376      11.16 Received a packet in SpeedAlertReceiverService
+       376      11.16 Packet is a DENMMessage
+       376      11.16 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      11.16 Received irrelevant DENM from veh0
+      veh2      11.17 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      11.17 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      11.17 
+      veh2      11.17 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      11.17 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      11.17 
+      veh2      11.17 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      11.17 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      11.17 
+      veh2      11.17 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      11.17 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      11.17 Sending warning DENM (SubCauseCode 1)
+      veh2      11.17 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      11.17 
+      veh2      11.17 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      11.17 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      11.17 Sending warning DENM (SubCauseCode 1)
+      veh2      11.17 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      11.17 
+       302      11.21 Received a packet in SpeedAlertReceiverService
+       302      11.21 Packet is a DENMMessage
+       302      11.21 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      11.21 Received irrelevant DENM from veh2
+       376      11.22 Received a packet in SpeedAlertReceiverService
+       376      11.22 Packet is a DENMMessage
+       376      11.22 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      11.22 Received irrelevant DENM from veh0
+      veh0      11.26 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      11.26 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      11.26 Sending warning DENM (SubCauseCode 1)
+      veh0      11.26 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      11.26 
+      veh0      11.26 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      11.26 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      11.26 Sending warning DENM (SubCauseCode 1)
+      veh0      11.26 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      11.26 
+      veh0      11.26 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      11.26 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      11.26 Sending warning DENM (SubCauseCode 1)
+      veh0      11.26 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      11.26 
+      veh0      11.26 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      11.26 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      11.26 Sending warning DENM (SubCauseCode 1)
+      veh0      11.26 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      11.26 
+      veh2      11.27 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      11.27 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      11.27 
+      veh2      11.27 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      11.27 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      11.27 
+      veh2      11.27 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      11.27 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      11.27 
+      veh2      11.27 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      11.27 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      11.27 Sending warning DENM (SubCauseCode 1)
+      veh2      11.27 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      11.27 
+      veh2      11.27 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      11.27 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      11.27 Sending warning DENM (SubCauseCode 1)
+      veh2      11.27 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      11.27 
+       302      11.27 Received a packet in SpeedAlertReceiverService
+       302      11.27 Packet is a DENMMessage
+       302      11.27 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 110.304000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      11.27 Received irrelevant DENM from veh2
+       376      11.28 Received a packet in SpeedAlertReceiverService
+       376      11.28 Packet is a DENMMessage
+       376      11.28 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 114.732000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      11.28 Received irrelevant DENM from veh0
+       302      11.33 Received a packet in SpeedAlertReceiverService
+       302      11.33 Packet is a DENMMessage
+       302      11.33 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      11.33 Received irrelevant DENM from veh2
+       376      11.34 Received a packet in SpeedAlertReceiverService
+       376      11.34 Packet is a DENMMessage
+       376      11.34 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      11.34 Received irrelevant DENM from veh0
+      veh0      11.36 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      11.36 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      11.36 Sending warning DENM (SubCauseCode 1)
+      veh0      11.36 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      11.36 
+      veh0      11.36 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      11.36 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      11.36 Sending warning DENM (SubCauseCode 1)
+      veh0      11.36 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      11.36 
+      veh0      11.36 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      11.36 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      11.36 Sending warning DENM (SubCauseCode 1)
+      veh0      11.36 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      11.36 
+      veh0      11.36 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      11.36 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      11.36 Sending warning DENM (SubCauseCode 1)
+      veh0      11.36 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      11.36 
+      veh2      11.37 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      11.37 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      11.37 
+      veh2      11.37 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      11.37 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      11.37 
+      veh2      11.37 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      11.37 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      11.37 
+      veh2      11.37 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      11.37 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      11.37 Sending warning DENM (SubCauseCode 1)
+      veh2      11.37 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      11.37 
+      veh2      11.37 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      11.37 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      11.37 Sending warning DENM (SubCauseCode 1)
+      veh2      11.37 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      11.37 
+       302      11.39 Received a packet in SpeedAlertReceiverService
+       302      11.39 Packet is a DENMMessage
+       302      11.39 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      11.39 Received irrelevant DENM from veh2
+       376      11.40 Received a packet in SpeedAlertReceiverService
+       376      11.40 Packet is a DENMMessage
+       376      11.40 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      11.40 Received irrelevant DENM from veh0
+       302      11.45 Received a packet in SpeedAlertReceiverService
+       302      11.45 Packet is a DENMMessage
+       302      11.45 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 110.304000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      11.45 Received irrelevant DENM from veh2
+      veh0      11.46 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      11.46 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      11.46 Sending warning DENM (SubCauseCode 1)
+      veh0      11.46 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      11.46 
+      veh0      11.46 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      11.46 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      11.46 Sending warning DENM (SubCauseCode 1)
+      veh0      11.46 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      11.46 
+      veh0      11.46 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      11.46 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      11.46 Sending warning DENM (SubCauseCode 1)
+      veh0      11.46 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      11.46 
+      veh0      11.46 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      11.46 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      11.46 Sending warning DENM (SubCauseCode 1)
+      veh0      11.46 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      11.46 
+       376      11.46 Received CAM from station 302 with speed 28.840000 m/s
+      veh2      11.47 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      11.47 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      11.47 
+      veh2      11.47 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      11.47 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      11.47 
+      veh2      11.47 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      11.47 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      11.47 
+      veh2      11.47 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      11.47 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      11.47 Sending warning DENM (SubCauseCode 1)
+      veh2      11.47 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      11.47 
+      veh2      11.47 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      11.47 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      11.47 Sending warning DENM (SubCauseCode 1)
+      veh2      11.47 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      11.47 
+      veh2      11.47 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      11.47 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      11.47 
+       302      11.51 Received a packet in SpeedAlertReceiverService
+       302      11.51 Packet is a DENMMessage
+       302      11.51 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      11.51 Received irrelevant DENM from veh2
+       376      11.52 Received a packet in SpeedAlertReceiverService
+       376      11.52 Packet is a DENMMessage
+       376      11.52 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 114.732000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      11.52 Received irrelevant DENM from veh0
+      veh0      11.56 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      11.56 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      11.56 Sending warning DENM (SubCauseCode 1)
+      veh0      11.56 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      11.56 
+      veh0      11.56 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      11.56 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      11.56 Sending warning DENM (SubCauseCode 1)
+      veh0      11.56 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      11.56 
+      veh0      11.56 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      11.56 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      11.56 Sending warning DENM (SubCauseCode 1)
+      veh0      11.56 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      11.56 
+      veh0      11.56 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      11.56 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      11.56 Sending warning DENM (SubCauseCode 1)
+      veh0      11.56 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      11.56 
+      veh2      11.57 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      11.57 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      11.57 
+      veh2      11.57 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      11.57 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      11.57 
+      veh2      11.57 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      11.57 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      11.57 
+      veh2      11.57 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      11.57 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      11.57 Sending warning DENM (SubCauseCode 1)
+      veh2      11.57 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      11.57 
+      veh2      11.57 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      11.57 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      11.57 Sending warning DENM (SubCauseCode 1)
+      veh2      11.57 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      11.57 
+      veh2      11.57 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      11.57 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      11.57 
+       302      11.57 Received a packet in SpeedAlertReceiverService
+       302      11.57 Packet is a DENMMessage
+       302      11.57 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 110.304000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      11.57 Received irrelevant DENM from veh2
+       376      11.58 Received a packet in SpeedAlertReceiverService
+       376      11.58 Packet is a DENMMessage
+       376      11.58 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      11.58 Received irrelevant DENM from veh0
+       302      11.63 Received a packet in SpeedAlertReceiverService
+       302      11.63 Packet is a DENMMessage
+       302      11.63 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      11.63 Received irrelevant DENM from veh2
+       376      11.64 Received CAM from station 302 with speed 27.940000 m/s
+      veh0      11.66 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      11.66 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      11.66 Sending warning DENM (SubCauseCode 1)
+      veh0      11.66 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      11.66 
+      veh0      11.66 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      11.66 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      11.66 Sending warning DENM (SubCauseCode 1)
+      veh0      11.66 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      11.66 
+      veh0      11.66 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      11.66 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      11.66 Sending warning DENM (SubCauseCode 1)
+      veh0      11.66 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      11.66 
+      veh0      11.66 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      11.66 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      11.66 Sending warning DENM (SubCauseCode 1)
+      veh0      11.66 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      11.66 
+      veh2      11.67 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      11.67 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      11.67 
+      veh2      11.67 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      11.67 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      11.67 
+      veh2      11.67 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      11.67 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      11.67 
+      veh2      11.67 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      11.67 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      11.67 Sending warning DENM (SubCauseCode 1)
+      veh2      11.67 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      11.67 
+      veh2      11.67 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      11.67 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      11.67 Sending warning DENM (SubCauseCode 1)
+      veh2      11.67 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      11.67 
+      veh2      11.67 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      11.67 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      11.67 
+      veh2      11.67 Checking speed violation for vehicle 302 at 11.635500s
+      veh2      11.67 Speed check results for vehicle 302:
+  Current speed: 100.58 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 0.58 km/h
+  Decision: No speed violation detected
+
+      veh2      11.67 
+       302      11.69 Received a packet in SpeedAlertReceiverService
+       302      11.69 Packet is a DENMMessage
+       302      11.69 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      11.69 Received irrelevant DENM from veh2
+       376      11.70 Received a packet in SpeedAlertReceiverService
+       376      11.70 Packet is a DENMMessage
+       376      11.70 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 114.732000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      11.70 Received irrelevant DENM from veh0
+       302      11.75 Received a packet in SpeedAlertReceiverService
+       302      11.75 Packet is a DENMMessage
+       302      11.75 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 110.304000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      11.75 Received irrelevant DENM from veh2
+      veh0      11.76 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      11.76 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      11.76 Sending warning DENM (SubCauseCode 1)
+      veh0      11.76 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      11.76 
+      veh0      11.76 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      11.76 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      11.76 Sending warning DENM (SubCauseCode 1)
+      veh0      11.76 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      11.76 
+      veh0      11.76 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      11.76 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      11.76 Sending warning DENM (SubCauseCode 1)
+      veh0      11.76 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      11.76 
+      veh0      11.76 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      11.76 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      11.76 Sending warning DENM (SubCauseCode 1)
+      veh0      11.76 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      11.76 
+       376      11.76 Received a packet in SpeedAlertReceiverService
+       376      11.76 Packet is a DENMMessage
+       376      11.76 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      11.76 Received irrelevant DENM from veh0
+      veh2      11.77 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      11.77 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      11.77 
+      veh2      11.77 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      11.77 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      11.77 
+      veh2      11.77 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      11.77 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      11.77 
+      veh2      11.77 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      11.77 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      11.77 Sending warning DENM (SubCauseCode 1)
+      veh2      11.77 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      11.77 
+      veh2      11.77 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      11.77 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      11.77 Sending warning DENM (SubCauseCode 1)
+      veh2      11.77 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      11.77 
+      veh2      11.77 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      11.77 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      11.77 
+      veh2      11.77 Checking speed violation for vehicle 302 at 11.635500s
+      veh2      11.77 Speed check results for vehicle 302:
+  Current speed: 100.58 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 0.58 km/h
+  Decision: No speed violation detected
+
+      veh2      11.77 
+       302      11.81 Received a packet in SpeedAlertReceiverService
+       302      11.81 Packet is a DENMMessage
+       302      11.81 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      11.81 Received irrelevant DENM from veh2
+       376      11.82 Received a packet in SpeedAlertReceiverService
+       376      11.82 Packet is a DENMMessage
+       376      11.82 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      11.82 Received irrelevant DENM from veh0
+      veh0      11.86 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      11.86 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      11.86 Sending warning DENM (SubCauseCode 1)
+      veh0      11.86 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      11.86 
+      veh0      11.86 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      11.86 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      11.86 Sending warning DENM (SubCauseCode 1)
+      veh0      11.86 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      11.86 
+      veh0      11.86 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      11.86 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      11.86 Sending warning DENM (SubCauseCode 1)
+      veh0      11.86 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      11.86 
+      veh0      11.86 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      11.86 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      11.86 Sending warning DENM (SubCauseCode 1)
+      veh0      11.86 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      11.86 
+      veh2      11.87 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      11.87 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      11.87 
+      veh2      11.87 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      11.87 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      11.87 
+      veh2      11.87 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      11.87 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      11.87 
+      veh2      11.87 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      11.87 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      11.87 Sending warning DENM (SubCauseCode 1)
+      veh2      11.87 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      11.87 
+      veh2      11.87 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      11.87 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      11.87 Sending warning DENM (SubCauseCode 1)
+      veh2      11.87 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      11.87 
+      veh2      11.87 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      11.87 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      11.87 
+      veh2      11.87 Checking speed violation for vehicle 302 at 11.635500s
+      veh2      11.87 Speed check results for vehicle 302:
+  Current speed: 100.58 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 0.58 km/h
+  Decision: No speed violation detected
+
+      veh2      11.87 
+       302      11.87 Received a packet in SpeedAlertReceiverService
+       302      11.87 Packet is a DENMMessage
+       302      11.87 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 110.304000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      11.87 Received irrelevant DENM from veh2
+       376      11.88 Received a packet in SpeedAlertReceiverService
+       376      11.88 Packet is a DENMMessage
+       376      11.88 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 114.732000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      11.88 Received irrelevant DENM from veh0
+       302      11.93 Received a packet in SpeedAlertReceiverService
+       302      11.93 Packet is a DENMMessage
+       302      11.93 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      11.93 Received irrelevant DENM from veh2
+       376      11.94 Received a packet in SpeedAlertReceiverService
+       376      11.94 Packet is a DENMMessage
+       376      11.94 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      11.94 Received irrelevant DENM from veh0
+      veh0      11.96 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      11.96 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      11.96 Sending warning DENM (SubCauseCode 1)
+      veh0      11.96 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      11.96 
+      veh0      11.96 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      11.96 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      11.96 Sending warning DENM (SubCauseCode 1)
+      veh0      11.96 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      11.96 
+      veh0      11.96 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      11.96 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      11.96 Sending warning DENM (SubCauseCode 1)
+      veh0      11.96 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      11.96 
+      veh0      11.96 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      11.96 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      11.96 Sending warning DENM (SubCauseCode 1)
+      veh0      11.96 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      11.96 
+      veh2      11.97 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      11.97 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      11.97 
+      veh2      11.97 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      11.97 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      11.97 
+      veh2      11.97 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      11.97 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      11.97 
+      veh2      11.97 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      11.97 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      11.97 Sending warning DENM (SubCauseCode 1)
+      veh2      11.97 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      11.97 
+      veh2      11.97 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      11.97 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      11.97 Sending warning DENM (SubCauseCode 1)
+      veh2      11.97 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      11.97 
+      veh2      11.97 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      11.97 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      11.97 
+      veh2      11.97 Checking speed violation for vehicle 302 at 11.635500s
+      veh2      11.97 Speed check results for vehicle 302:
+  Current speed: 100.58 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 0.58 km/h
+  Decision: No speed violation detected
+
+      veh2      11.97 
+       302      11.99 Received a packet in SpeedAlertReceiverService
+       302      11.99 Packet is a DENMMessage
+       302      11.99 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      11.99 Received irrelevant DENM from veh2
+       376      12.00 Received a packet in SpeedAlertReceiverService
+       376      12.00 Packet is a DENMMessage
+       376      12.00 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      12.00 Received irrelevant DENM from veh0
+       302      12.05 Received a packet in SpeedAlertReceiverService
+       302      12.05 Packet is a DENMMessage
+       302      12.05 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 110.304000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      12.05 Received irrelevant DENM from veh2
+      veh0      12.06 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      12.06 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      12.06 Sending warning DENM (SubCauseCode 1)
+      veh0      12.06 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      12.06 
+      veh0      12.06 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      12.06 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      12.06 Sending warning DENM (SubCauseCode 1)
+      veh0      12.06 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      12.06 
+      veh0      12.06 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      12.06 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      12.06 Sending warning DENM (SubCauseCode 1)
+      veh0      12.06 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      12.06 
+      veh0      12.06 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      12.06 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      12.06 Sending warning DENM (SubCauseCode 1)
+      veh0      12.06 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      12.06 
+       376      12.06 Received CAM from station 302 with speed 26.140000 m/s
+      veh2      12.07 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      12.07 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      12.07 
+      veh2      12.07 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      12.07 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      12.07 
+      veh2      12.07 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      12.07 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      12.07 
+      veh2      12.07 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      12.07 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      12.07 Sending warning DENM (SubCauseCode 1)
+      veh2      12.07 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      12.07 
+      veh2      12.07 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      12.07 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      12.07 Sending warning DENM (SubCauseCode 1)
+      veh2      12.07 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      12.07 
+      veh2      12.07 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      12.07 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      12.07 
+      veh2      12.07 Checking speed violation for vehicle 302 at 11.635500s
+      veh2      12.07 Speed check results for vehicle 302:
+  Current speed: 100.58 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 0.58 km/h
+  Decision: No speed violation detected
+
+      veh2      12.07 
+      veh2      12.07 Checking speed violation for vehicle 302 at 12.055800s
+      veh2      12.07 Speed check results for vehicle 302:
+  Current speed: 94.10 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -5.90 km/h
+  Decision: No speed violation detected
+
+      veh2      12.07 
+       302      12.11 Received a packet in SpeedAlertReceiverService
+       302      12.11 Packet is a DENMMessage
+       302      12.11 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      12.11 Received irrelevant DENM from veh2
+       376      12.12 Received a packet in SpeedAlertReceiverService
+       376      12.12 Packet is a DENMMessage
+       376      12.12 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 114.732000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      12.12 Received irrelevant DENM from veh0
+      veh0      12.16 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      12.16 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      12.16 Sending warning DENM (SubCauseCode 1)
+      veh0      12.16 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      12.16 
+      veh0      12.16 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      12.16 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      12.16 Sending warning DENM (SubCauseCode 1)
+      veh0      12.16 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      12.16 
+      veh0      12.16 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      12.16 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      12.16 Sending warning DENM (SubCauseCode 1)
+      veh0      12.16 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      12.16 
+      veh0      12.16 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      12.16 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      12.16 Sending warning DENM (SubCauseCode 1)
+      veh0      12.16 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      12.16 
+      veh2      12.17 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      12.17 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      12.17 
+      veh2      12.17 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      12.17 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      12.17 
+      veh2      12.17 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      12.17 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      12.17 
+      veh2      12.17 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      12.17 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      12.17 Sending warning DENM (SubCauseCode 1)
+      veh2      12.17 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      12.17 
+      veh2      12.17 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      12.17 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      12.17 Sending warning DENM (SubCauseCode 1)
+      veh2      12.17 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      12.17 
+      veh2      12.17 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      12.17 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      12.17 
+      veh2      12.17 Checking speed violation for vehicle 302 at 11.635500s
+      veh2      12.17 Speed check results for vehicle 302:
+  Current speed: 100.58 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 0.58 km/h
+  Decision: No speed violation detected
+
+      veh2      12.17 
+      veh2      12.17 Checking speed violation for vehicle 302 at 12.055800s
+      veh2      12.17 Speed check results for vehicle 302:
+  Current speed: 94.10 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -5.90 km/h
+  Decision: No speed violation detected
+
+      veh2      12.17 
+       302      12.17 Received a packet in SpeedAlertReceiverService
+       302      12.17 Packet is a DENMMessage
+       302      12.17 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 110.304000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      12.17 Received irrelevant DENM from veh2
+       376      12.18 Received a packet in SpeedAlertReceiverService
+       376      12.18 Packet is a DENMMessage
+       376      12.18 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      12.18 Received irrelevant DENM from veh0
+       302      12.23 Received a packet in SpeedAlertReceiverService
+       302      12.23 Packet is a DENMMessage
+       302      12.23 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      12.23 Received irrelevant DENM from veh2
+       376      12.24 Received CAM from station 302 with speed 25.240000 m/s
+      veh0      12.26 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      12.26 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      12.26 Sending warning DENM (SubCauseCode 1)
+      veh0      12.26 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      12.26 
+      veh0      12.26 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      12.26 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      12.26 Sending warning DENM (SubCauseCode 1)
+      veh0      12.26 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      12.26 
+      veh0      12.26 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      12.26 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      12.26 Sending warning DENM (SubCauseCode 1)
+      veh0      12.26 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      12.26 
+      veh0      12.26 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      12.26 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      12.26 Sending warning DENM (SubCauseCode 1)
+      veh0      12.26 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      12.26 
+      veh2      12.27 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      12.27 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      12.27 
+      veh2      12.27 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      12.27 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      12.27 
+      veh2      12.27 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      12.27 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      12.27 
+      veh2      12.27 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      12.27 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      12.27 Sending warning DENM (SubCauseCode 1)
+      veh2      12.27 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      12.27 
+      veh2      12.27 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      12.27 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      12.27 Sending warning DENM (SubCauseCode 1)
+      veh2      12.27 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      12.27 
+      veh2      12.27 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      12.27 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      12.27 
+      veh2      12.27 Checking speed violation for vehicle 302 at 11.635500s
+      veh2      12.27 Speed check results for vehicle 302:
+  Current speed: 100.58 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 0.58 km/h
+  Decision: No speed violation detected
+
+      veh2      12.27 
+      veh2      12.27 Checking speed violation for vehicle 302 at 12.055800s
+      veh2      12.27 Speed check results for vehicle 302:
+  Current speed: 94.10 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -5.90 km/h
+  Decision: No speed violation detected
+
+      veh2      12.27 
+      veh2      12.27 Checking speed violation for vehicle 302 at 12.235500s
+      veh2      12.27 Speed check results for vehicle 302:
+  Current speed: 90.86 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -9.14 km/h
+  Decision: No speed violation detected
+
+      veh2      12.27 
+       302      12.29 Received a packet in SpeedAlertReceiverService
+       302      12.29 Packet is a DENMMessage
+       302      12.29 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      12.29 Received irrelevant DENM from veh2
+       376      12.30 Received a packet in SpeedAlertReceiverService
+       376      12.30 Packet is a DENMMessage
+       376      12.30 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 114.732000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      12.30 Received irrelevant DENM from veh0
+       302      12.35 Received a packet in SpeedAlertReceiverService
+       302      12.35 Packet is a DENMMessage
+       302      12.35 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 110.304000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      12.35 Received irrelevant DENM from veh2
+      veh0      12.36 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      12.36 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      12.36 Sending warning DENM (SubCauseCode 1)
+      veh0      12.36 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      12.36 
+      veh0      12.36 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      12.36 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      12.36 Sending warning DENM (SubCauseCode 1)
+      veh0      12.36 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      12.36 
+      veh0      12.36 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      12.36 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      12.36 Sending warning DENM (SubCauseCode 1)
+      veh0      12.36 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      12.36 
+      veh0      12.36 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      12.36 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      12.36 Sending warning DENM (SubCauseCode 1)
+      veh0      12.36 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      12.36 
+       376      12.36 Received a packet in SpeedAlertReceiverService
+       376      12.36 Packet is a DENMMessage
+       376      12.36 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      12.36 Received irrelevant DENM from veh0
+      veh2      12.37 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      12.37 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      12.37 
+      veh2      12.37 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      12.37 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      12.37 
+      veh2      12.37 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      12.37 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      12.37 
+      veh2      12.37 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      12.37 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      12.37 Sending warning DENM (SubCauseCode 1)
+      veh2      12.37 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      12.37 
+      veh2      12.37 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      12.37 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      12.37 Sending warning DENM (SubCauseCode 1)
+      veh2      12.37 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      12.37 
+      veh2      12.37 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      12.37 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      12.37 
+      veh2      12.37 Checking speed violation for vehicle 302 at 11.635500s
+      veh2      12.37 Speed check results for vehicle 302:
+  Current speed: 100.58 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 0.58 km/h
+  Decision: No speed violation detected
+
+      veh2      12.37 
+      veh2      12.37 Checking speed violation for vehicle 302 at 12.055800s
+      veh2      12.37 Speed check results for vehicle 302:
+  Current speed: 94.10 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -5.90 km/h
+  Decision: No speed violation detected
+
+      veh2      12.37 
+      veh2      12.37 Checking speed violation for vehicle 302 at 12.235500s
+      veh2      12.37 Speed check results for vehicle 302:
+  Current speed: 90.86 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -9.14 km/h
+  Decision: No speed violation detected
+
+      veh2      12.37 
+       302      12.41 Received a packet in SpeedAlertReceiverService
+       302      12.41 Packet is a DENMMessage
+       302      12.41 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      12.41 Received irrelevant DENM from veh2
+       376      12.42 Received a packet in SpeedAlertReceiverService
+       376      12.42 Packet is a DENMMessage
+       376      12.42 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      12.42 Received irrelevant DENM from veh0
+      veh0      12.46 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      12.46 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      12.46 Sending warning DENM (SubCauseCode 1)
+      veh0      12.46 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      12.46 
+      veh0      12.46 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      12.46 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      12.46 Sending warning DENM (SubCauseCode 1)
+      veh0      12.46 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      12.46 
+      veh0      12.46 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      12.46 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      12.46 Sending warning DENM (SubCauseCode 1)
+      veh0      12.46 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      12.46 
+      veh0      12.46 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      12.46 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      12.46 Sending warning DENM (SubCauseCode 1)
+      veh0      12.46 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      12.46 
+      veh2      12.47 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      12.47 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      12.47 
+      veh2      12.47 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      12.47 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      12.47 
+      veh2      12.47 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      12.47 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      12.47 
+      veh2      12.47 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      12.47 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      12.47 Sending warning DENM (SubCauseCode 1)
+      veh2      12.47 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      12.47 
+      veh2      12.47 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      12.47 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      12.47 Sending warning DENM (SubCauseCode 1)
+      veh2      12.47 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      12.47 
+      veh2      12.47 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      12.47 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      12.47 
+      veh2      12.47 Checking speed violation for vehicle 302 at 11.635500s
+      veh2      12.47 Speed check results for vehicle 302:
+  Current speed: 100.58 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 0.58 km/h
+  Decision: No speed violation detected
+
+      veh2      12.47 
+      veh2      12.47 Checking speed violation for vehicle 302 at 12.055800s
+      veh2      12.47 Speed check results for vehicle 302:
+  Current speed: 94.10 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -5.90 km/h
+  Decision: No speed violation detected
+
+      veh2      12.47 
+      veh2      12.47 Checking speed violation for vehicle 302 at 12.235500s
+      veh2      12.47 Speed check results for vehicle 302:
+  Current speed: 90.86 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -9.14 km/h
+  Decision: No speed violation detected
+
+      veh2      12.47 
+       302      12.47 Received a packet in SpeedAlertReceiverService
+       302      12.47 Packet is a DENMMessage
+       302      12.47 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 110.304000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      12.47 Received irrelevant DENM from veh2
+       376      12.48 Received a packet in SpeedAlertReceiverService
+       376      12.48 Packet is a DENMMessage
+       376      12.48 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 114.732000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      12.48 Received irrelevant DENM from veh0
+       302      12.53 Received a packet in SpeedAlertReceiverService
+       302      12.53 Packet is a DENMMessage
+       302      12.53 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      12.53 Received irrelevant DENM from veh2
+       376      12.54 Received a packet in SpeedAlertReceiverService
+       376      12.54 Packet is a DENMMessage
+       376      12.54 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      12.54 Received irrelevant DENM from veh0
+      veh0      12.56 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      12.56 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      12.56 Sending warning DENM (SubCauseCode 1)
+      veh0      12.56 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      12.56 
+      veh0      12.56 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      12.56 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      12.56 Sending warning DENM (SubCauseCode 1)
+      veh0      12.56 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      12.56 
+      veh0      12.56 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      12.56 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      12.56 Sending warning DENM (SubCauseCode 1)
+      veh0      12.56 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      12.56 
+      veh0      12.56 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      12.56 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      12.56 Sending warning DENM (SubCauseCode 1)
+      veh0      12.56 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      12.56 
+      veh2      12.57 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      12.57 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      12.57 
+      veh2      12.57 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      12.57 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      12.57 
+      veh2      12.57 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      12.57 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      12.57 
+      veh2      12.57 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      12.57 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      12.57 Sending warning DENM (SubCauseCode 1)
+      veh2      12.57 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      12.57 
+      veh2      12.57 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      12.57 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      12.57 Sending warning DENM (SubCauseCode 1)
+      veh2      12.57 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      12.57 
+      veh2      12.57 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      12.57 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      12.57 
+      veh2      12.57 Checking speed violation for vehicle 302 at 11.635500s
+      veh2      12.57 Speed check results for vehicle 302:
+  Current speed: 100.58 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 0.58 km/h
+  Decision: No speed violation detected
+
+      veh2      12.57 
+      veh2      12.57 Checking speed violation for vehicle 302 at 12.055800s
+      veh2      12.57 Speed check results for vehicle 302:
+  Current speed: 94.10 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -5.90 km/h
+  Decision: No speed violation detected
+
+      veh2      12.57 
+      veh2      12.57 Checking speed violation for vehicle 302 at 12.235500s
+      veh2      12.57 Speed check results for vehicle 302:
+  Current speed: 90.86 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -9.14 km/h
+  Decision: No speed violation detected
+
+      veh2      12.57 
+       302      12.59 Received a packet in SpeedAlertReceiverService
+       302      12.59 Packet is a DENMMessage
+       302      12.59 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      12.59 Received irrelevant DENM from veh2
+       376      12.60 Received a packet in SpeedAlertReceiverService
+       376      12.60 Packet is a DENMMessage
+       376      12.60 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      12.60 Received irrelevant DENM from veh0
+       302      12.65 Received a packet in SpeedAlertReceiverService
+       302      12.65 Packet is a DENMMessage
+       302      12.65 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 110.304000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      12.65 Received irrelevant DENM from veh2
+      veh0      12.66 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      12.66 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      12.66 Sending warning DENM (SubCauseCode 1)
+      veh0      12.66 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      12.66 
+      veh0      12.66 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      12.66 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      12.66 Sending warning DENM (SubCauseCode 1)
+      veh0      12.66 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      12.66 
+      veh0      12.66 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      12.66 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      12.66 Sending warning DENM (SubCauseCode 1)
+      veh0      12.66 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      12.66 
+      veh0      12.66 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      12.66 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      12.66 Sending warning DENM (SubCauseCode 1)
+      veh0      12.66 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      12.66 
+       376      12.66 Received CAM from station 302 with speed 24.870000 m/s
+      veh2      12.67 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      12.67 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      12.67 
+      veh2      12.67 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      12.67 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      12.67 
+      veh2      12.67 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      12.67 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      12.67 
+      veh2      12.67 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      12.67 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      12.67 Sending warning DENM (SubCauseCode 1)
+      veh2      12.67 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      12.67 
+      veh2      12.67 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      12.67 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      12.67 Sending warning DENM (SubCauseCode 1)
+      veh2      12.67 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      12.67 
+      veh2      12.67 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      12.67 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      12.67 
+      veh2      12.67 Checking speed violation for vehicle 302 at 11.635500s
+      veh2      12.67 Speed check results for vehicle 302:
+  Current speed: 100.58 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 0.58 km/h
+  Decision: No speed violation detected
+
+      veh2      12.67 
+      veh2      12.67 Checking speed violation for vehicle 302 at 12.055800s
+      veh2      12.67 Speed check results for vehicle 302:
+  Current speed: 94.10 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -5.90 km/h
+  Decision: No speed violation detected
+
+      veh2      12.67 
+      veh2      12.67 Checking speed violation for vehicle 302 at 12.235500s
+      veh2      12.67 Speed check results for vehicle 302:
+  Current speed: 90.86 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -9.14 km/h
+  Decision: No speed violation detected
+
+      veh2      12.67 
+      veh2      12.67 Checking speed violation for vehicle 302 at 12.655800s
+      veh2      12.67 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      12.67 
+       302      12.71 Received a packet in SpeedAlertReceiverService
+       302      12.71 Packet is a DENMMessage
+       302      12.71 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      12.71 Received irrelevant DENM from veh2
+       376      12.72 Received a packet in SpeedAlertReceiverService
+       376      12.72 Packet is a DENMMessage
+       376      12.72 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 114.732000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      12.72 Received irrelevant DENM from veh0
+      veh0      12.76 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      12.76 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      12.76 Sending warning DENM (SubCauseCode 1)
+      veh0      12.76 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      12.76 
+      veh0      12.76 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      12.76 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      12.76 Sending warning DENM (SubCauseCode 1)
+      veh0      12.76 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      12.76 
+      veh0      12.76 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      12.76 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      12.76 Sending warning DENM (SubCauseCode 1)
+      veh0      12.76 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      12.76 
+      veh0      12.76 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      12.76 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      12.76 Sending warning DENM (SubCauseCode 1)
+      veh0      12.76 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      12.76 
+      veh2      12.77 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      12.77 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      12.77 
+      veh2      12.77 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      12.77 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      12.77 
+      veh2      12.77 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      12.77 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      12.77 
+      veh2      12.77 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      12.77 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      12.77 Sending warning DENM (SubCauseCode 1)
+      veh2      12.77 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      12.77 
+      veh2      12.77 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      12.77 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      12.77 Sending warning DENM (SubCauseCode 1)
+      veh2      12.77 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      12.77 
+      veh2      12.77 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      12.77 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      12.77 
+      veh2      12.77 Checking speed violation for vehicle 302 at 11.635500s
+      veh2      12.77 Speed check results for vehicle 302:
+  Current speed: 100.58 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 0.58 km/h
+  Decision: No speed violation detected
+
+      veh2      12.77 
+      veh2      12.77 Checking speed violation for vehicle 302 at 12.055800s
+      veh2      12.77 Speed check results for vehicle 302:
+  Current speed: 94.10 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -5.90 km/h
+  Decision: No speed violation detected
+
+      veh2      12.77 
+      veh2      12.77 Checking speed violation for vehicle 302 at 12.235500s
+      veh2      12.77 Speed check results for vehicle 302:
+  Current speed: 90.86 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -9.14 km/h
+  Decision: No speed violation detected
+
+      veh2      12.77 
+      veh2      12.77 Checking speed violation for vehicle 302 at 12.655800s
+      veh2      12.77 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      12.77 
+       302      12.77 Received a packet in SpeedAlertReceiverService
+       302      12.77 Packet is a DENMMessage
+       302      12.77 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 110.304000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      12.77 Received irrelevant DENM from veh2
+       376      12.78 Received a packet in SpeedAlertReceiverService
+       376      12.78 Packet is a DENMMessage
+       376      12.78 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      12.78 Received irrelevant DENM from veh0
+       302      12.83 Received a packet in SpeedAlertReceiverService
+       302      12.83 Packet is a DENMMessage
+       302      12.83 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      12.83 Received irrelevant DENM from veh2
+       376      12.84 Received CAM from station 302 with speed 24.870000 m/s
+      veh0      12.86 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      12.86 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      12.86 Sending warning DENM (SubCauseCode 1)
+      veh0      12.86 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      12.86 
+      veh0      12.86 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      12.86 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      12.86 Sending warning DENM (SubCauseCode 1)
+      veh0      12.86 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      12.86 
+      veh0      12.86 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      12.86 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      12.86 Sending warning DENM (SubCauseCode 1)
+      veh0      12.86 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      12.86 
+      veh0      12.86 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      12.86 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      12.86 Sending warning DENM (SubCauseCode 1)
+      veh0      12.86 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      12.86 
+      veh2      12.87 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      12.87 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      12.87 
+      veh2      12.87 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      12.87 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      12.87 
+      veh2      12.87 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      12.87 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      12.87 
+      veh2      12.87 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      12.87 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      12.87 Sending warning DENM (SubCauseCode 1)
+      veh2      12.87 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      12.87 
+      veh2      12.87 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      12.87 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      12.87 Sending warning DENM (SubCauseCode 1)
+      veh2      12.87 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      12.87 
+      veh2      12.87 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      12.87 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      12.87 
+      veh2      12.87 Checking speed violation for vehicle 302 at 11.635500s
+      veh2      12.87 Speed check results for vehicle 302:
+  Current speed: 100.58 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 0.58 km/h
+  Decision: No speed violation detected
+
+      veh2      12.87 
+      veh2      12.87 Checking speed violation for vehicle 302 at 12.055800s
+      veh2      12.87 Speed check results for vehicle 302:
+  Current speed: 94.10 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -5.90 km/h
+  Decision: No speed violation detected
+
+      veh2      12.87 
+      veh2      12.87 Checking speed violation for vehicle 302 at 12.235500s
+      veh2      12.87 Speed check results for vehicle 302:
+  Current speed: 90.86 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -9.14 km/h
+  Decision: No speed violation detected
+
+      veh2      12.87 
+      veh2      12.87 Checking speed violation for vehicle 302 at 12.655800s
+      veh2      12.87 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      12.87 
+      veh2      12.87 Checking speed violation for vehicle 302 at 12.835500s
+      veh2      12.87 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      12.87 
+       302      12.89 Received a packet in SpeedAlertReceiverService
+       302      12.89 Packet is a DENMMessage
+       302      12.89 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      12.89 Received irrelevant DENM from veh2
+       376      12.90 Received a packet in SpeedAlertReceiverService
+       376      12.90 Packet is a DENMMessage
+       376      12.90 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 114.732000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      12.90 Received irrelevant DENM from veh0
+       302      12.95 Received a packet in SpeedAlertReceiverService
+       302      12.95 Packet is a DENMMessage
+       302      12.95 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 110.304000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      12.95 Received irrelevant DENM from veh2
+      veh0      12.96 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      12.96 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      12.96 Sending warning DENM (SubCauseCode 1)
+      veh0      12.96 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      12.96 
+      veh0      12.96 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      12.96 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      12.96 Sending warning DENM (SubCauseCode 1)
+      veh0      12.96 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      12.96 
+      veh0      12.96 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      12.96 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      12.96 Sending warning DENM (SubCauseCode 1)
+      veh0      12.96 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      12.96 
+      veh0      12.96 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      12.96 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      12.96 Sending warning DENM (SubCauseCode 1)
+      veh0      12.96 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      12.96 
+       376      12.96 Received a packet in SpeedAlertReceiverService
+       376      12.96 Packet is a DENMMessage
+       376      12.96 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      12.96 Received irrelevant DENM from veh0
+      veh2      12.97 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      12.97 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      12.97 
+      veh2      12.97 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      12.97 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      12.97 
+      veh2      12.97 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      12.97 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      12.97 
+      veh2      12.97 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      12.97 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      12.97 Sending warning DENM (SubCauseCode 1)
+      veh2      12.97 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      12.97 
+      veh2      12.97 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      12.97 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      12.97 Sending warning DENM (SubCauseCode 1)
+      veh2      12.97 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      12.97 
+      veh2      12.97 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      12.97 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      12.97 
+      veh2      12.97 Checking speed violation for vehicle 302 at 11.635500s
+      veh2      12.97 Speed check results for vehicle 302:
+  Current speed: 100.58 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 0.58 km/h
+  Decision: No speed violation detected
+
+      veh2      12.97 
+      veh2      12.97 Checking speed violation for vehicle 302 at 12.055800s
+      veh2      12.97 Speed check results for vehicle 302:
+  Current speed: 94.10 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -5.90 km/h
+  Decision: No speed violation detected
+
+      veh2      12.97 
+      veh2      12.97 Checking speed violation for vehicle 302 at 12.235500s
+      veh2      12.97 Speed check results for vehicle 302:
+  Current speed: 90.86 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -9.14 km/h
+  Decision: No speed violation detected
+
+      veh2      12.97 
+      veh2      12.97 Checking speed violation for vehicle 302 at 12.655800s
+      veh2      12.97 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      12.97 
+      veh2      12.97 Checking speed violation for vehicle 302 at 12.835500s
+      veh2      12.97 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      12.97 
+       302      13.01 Received a packet in SpeedAlertReceiverService
+       302      13.01 Packet is a DENMMessage
+       302      13.01 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      13.01 Received irrelevant DENM from veh2
+       376      13.02 Received a packet in SpeedAlertReceiverService
+       376      13.02 Packet is a DENMMessage
+       376      13.02 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      13.02 Received irrelevant DENM from veh0
+      veh0      13.06 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      13.06 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      13.06 Sending warning DENM (SubCauseCode 1)
+      veh0      13.06 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      13.06 
+      veh0      13.06 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      13.06 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      13.06 Sending warning DENM (SubCauseCode 1)
+      veh0      13.06 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      13.06 
+      veh0      13.06 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      13.06 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      13.06 Sending warning DENM (SubCauseCode 1)
+      veh0      13.06 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      13.06 
+      veh0      13.06 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      13.06 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      13.06 Sending warning DENM (SubCauseCode 1)
+      veh0      13.06 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      13.06 
+      veh2      13.07 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      13.07 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      13.07 
+      veh2      13.07 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      13.07 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      13.07 
+      veh2      13.07 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      13.07 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      13.07 
+      veh2      13.07 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      13.07 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      13.07 Sending warning DENM (SubCauseCode 1)
+      veh2      13.07 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      13.07 
+      veh2      13.07 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      13.07 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      13.07 Sending warning DENM (SubCauseCode 1)
+      veh2      13.07 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      13.07 
+      veh2      13.07 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      13.07 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      13.07 
+      veh2      13.07 Checking speed violation for vehicle 302 at 11.635500s
+      veh2      13.07 Speed check results for vehicle 302:
+  Current speed: 100.58 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 0.58 km/h
+  Decision: No speed violation detected
+
+      veh2      13.07 
+      veh2      13.07 Checking speed violation for vehicle 302 at 12.055800s
+      veh2      13.07 Speed check results for vehicle 302:
+  Current speed: 94.10 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -5.90 km/h
+  Decision: No speed violation detected
+
+      veh2      13.07 
+      veh2      13.07 Checking speed violation for vehicle 302 at 12.235500s
+      veh2      13.07 Speed check results for vehicle 302:
+  Current speed: 90.86 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -9.14 km/h
+  Decision: No speed violation detected
+
+      veh2      13.07 
+      veh2      13.07 Checking speed violation for vehicle 302 at 12.655800s
+      veh2      13.07 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.07 
+      veh2      13.07 Checking speed violation for vehicle 302 at 12.835500s
+      veh2      13.07 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.07 
+       302      13.07 Received a packet in SpeedAlertReceiverService
+       302      13.07 Packet is a DENMMessage
+       302      13.07 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 110.304000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      13.07 Received irrelevant DENM from veh2
+       376      13.08 Received a packet in SpeedAlertReceiverService
+       376      13.08 Packet is a DENMMessage
+       376      13.08 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 114.732000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      13.08 Received irrelevant DENM from veh0
+       302      13.13 Received a packet in SpeedAlertReceiverService
+       302      13.13 Packet is a DENMMessage
+       302      13.13 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      13.13 Received irrelevant DENM from veh2
+       376      13.14 Received a packet in SpeedAlertReceiverService
+       376      13.14 Packet is a DENMMessage
+       376      13.14 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      13.14 Received irrelevant DENM from veh0
+      veh0      13.16 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      13.16 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      13.16 Sending warning DENM (SubCauseCode 1)
+      veh0      13.16 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      13.16 
+      veh0      13.16 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      13.16 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      13.16 Sending warning DENM (SubCauseCode 1)
+      veh0      13.16 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      13.16 
+      veh0      13.16 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      13.16 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      13.16 Sending warning DENM (SubCauseCode 1)
+      veh0      13.16 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      13.16 
+      veh0      13.16 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      13.16 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      13.16 Sending warning DENM (SubCauseCode 1)
+      veh0      13.16 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      13.16 
+      veh2      13.17 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      13.17 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      13.17 
+      veh2      13.17 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      13.17 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      13.17 
+      veh2      13.17 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      13.17 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      13.17 
+      veh2      13.17 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      13.17 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      13.17 Sending warning DENM (SubCauseCode 1)
+      veh2      13.17 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      13.17 
+      veh2      13.17 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      13.17 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      13.17 Sending warning DENM (SubCauseCode 1)
+      veh2      13.17 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      13.17 
+      veh2      13.17 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      13.17 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      13.17 
+      veh2      13.17 Checking speed violation for vehicle 302 at 11.635500s
+      veh2      13.17 Speed check results for vehicle 302:
+  Current speed: 100.58 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 0.58 km/h
+  Decision: No speed violation detected
+
+      veh2      13.17 
+      veh2      13.17 Checking speed violation for vehicle 302 at 12.055800s
+      veh2      13.17 Speed check results for vehicle 302:
+  Current speed: 94.10 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -5.90 km/h
+  Decision: No speed violation detected
+
+      veh2      13.17 
+      veh2      13.17 Checking speed violation for vehicle 302 at 12.235500s
+      veh2      13.17 Speed check results for vehicle 302:
+  Current speed: 90.86 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -9.14 km/h
+  Decision: No speed violation detected
+
+      veh2      13.17 
+      veh2      13.17 Checking speed violation for vehicle 302 at 12.655800s
+      veh2      13.17 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.17 
+      veh2      13.17 Checking speed violation for vehicle 302 at 12.835500s
+      veh2      13.17 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.17 
+       302      13.19 Received a packet in SpeedAlertReceiverService
+       302      13.19 Packet is a DENMMessage
+       302      13.19 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      13.19 Received irrelevant DENM from veh2
+       376      13.20 Received a packet in SpeedAlertReceiverService
+       376      13.20 Packet is a DENMMessage
+       376      13.20 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      13.20 Received irrelevant DENM from veh0
+       302      13.25 Received a packet in SpeedAlertReceiverService
+       302      13.25 Packet is a DENMMessage
+       302      13.25 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 110.304000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      13.25 Received irrelevant DENM from veh2
+      veh0      13.26 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      13.26 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      13.26 Sending warning DENM (SubCauseCode 1)
+      veh0      13.26 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      13.26 
+      veh0      13.26 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      13.26 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      13.26 Sending warning DENM (SubCauseCode 1)
+      veh0      13.26 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      13.26 
+      veh0      13.26 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      13.26 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      13.26 Sending warning DENM (SubCauseCode 1)
+      veh0      13.26 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      13.26 
+      veh0      13.26 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      13.26 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      13.26 Sending warning DENM (SubCauseCode 1)
+      veh0      13.26 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      13.26 
+       376      13.26 Received CAM from station 302 with speed 24.870000 m/s
+      veh2      13.27 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      13.27 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      13.27 
+      veh2      13.27 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      13.27 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      13.27 
+      veh2      13.27 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      13.27 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      13.27 
+      veh2      13.27 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      13.27 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      13.27 Sending warning DENM (SubCauseCode 1)
+      veh2      13.27 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      13.27 
+      veh2      13.27 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      13.27 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      13.27 Sending warning DENM (SubCauseCode 1)
+      veh2      13.27 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      13.27 
+      veh2      13.27 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      13.27 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      13.27 
+      veh2      13.27 Checking speed violation for vehicle 302 at 11.635500s
+      veh2      13.27 Speed check results for vehicle 302:
+  Current speed: 100.58 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 0.58 km/h
+  Decision: No speed violation detected
+
+      veh2      13.27 
+      veh2      13.27 Checking speed violation for vehicle 302 at 12.055800s
+      veh2      13.27 Speed check results for vehicle 302:
+  Current speed: 94.10 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -5.90 km/h
+  Decision: No speed violation detected
+
+      veh2      13.27 
+      veh2      13.27 Checking speed violation for vehicle 302 at 12.235500s
+      veh2      13.27 Speed check results for vehicle 302:
+  Current speed: 90.86 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -9.14 km/h
+  Decision: No speed violation detected
+
+      veh2      13.27 
+      veh2      13.27 Checking speed violation for vehicle 302 at 12.655800s
+      veh2      13.27 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.27 
+      veh2      13.27 Checking speed violation for vehicle 302 at 12.835500s
+      veh2      13.27 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.27 
+      veh2      13.27 Checking speed violation for vehicle 302 at 13.255800s
+      veh2      13.27 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.27 
+       302      13.31 Received a packet in SpeedAlertReceiverService
+       302      13.31 Packet is a DENMMessage
+       302      13.31 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      13.31 Received irrelevant DENM from veh2
+       376      13.32 Received a packet in SpeedAlertReceiverService
+       376      13.32 Packet is a DENMMessage
+       376      13.32 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 114.732000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      13.32 Received irrelevant DENM from veh0
+      veh0      13.36 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      13.36 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      13.36 Sending warning DENM (SubCauseCode 1)
+      veh0      13.36 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      13.36 
+      veh0      13.36 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      13.36 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      13.36 Sending warning DENM (SubCauseCode 1)
+      veh0      13.36 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      13.36 
+      veh0      13.36 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      13.36 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      13.36 Sending warning DENM (SubCauseCode 1)
+      veh0      13.36 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      13.36 
+      veh0      13.36 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      13.36 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      13.36 Sending warning DENM (SubCauseCode 1)
+      veh0      13.36 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      13.36 
+      veh2      13.37 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      13.37 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      13.37 
+      veh2      13.37 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      13.37 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      13.37 
+      veh2      13.37 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      13.37 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      13.37 
+      veh2      13.37 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      13.37 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      13.37 Sending warning DENM (SubCauseCode 1)
+      veh2      13.37 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      13.37 
+      veh2      13.37 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      13.37 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      13.37 Sending warning DENM (SubCauseCode 1)
+      veh2      13.37 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      13.37 
+      veh2      13.37 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      13.37 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      13.37 
+      veh2      13.37 Checking speed violation for vehicle 302 at 11.635500s
+      veh2      13.37 Speed check results for vehicle 302:
+  Current speed: 100.58 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 0.58 km/h
+  Decision: No speed violation detected
+
+      veh2      13.37 
+      veh2      13.37 Checking speed violation for vehicle 302 at 12.055800s
+      veh2      13.37 Speed check results for vehicle 302:
+  Current speed: 94.10 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -5.90 km/h
+  Decision: No speed violation detected
+
+      veh2      13.37 
+      veh2      13.37 Checking speed violation for vehicle 302 at 12.235500s
+      veh2      13.37 Speed check results for vehicle 302:
+  Current speed: 90.86 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -9.14 km/h
+  Decision: No speed violation detected
+
+      veh2      13.37 
+      veh2      13.37 Checking speed violation for vehicle 302 at 12.655800s
+      veh2      13.37 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.37 
+      veh2      13.37 Checking speed violation for vehicle 302 at 12.835500s
+      veh2      13.37 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.37 
+      veh2      13.37 Checking speed violation for vehicle 302 at 13.255800s
+      veh2      13.37 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.37 
+       302      13.37 Received a packet in SpeedAlertReceiverService
+       302      13.37 Packet is a DENMMessage
+       302      13.37 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 110.304000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      13.37 Received irrelevant DENM from veh2
+       376      13.38 Received a packet in SpeedAlertReceiverService
+       376      13.38 Packet is a DENMMessage
+       376      13.38 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      13.38 Received irrelevant DENM from veh0
+       302      13.43 Received a packet in SpeedAlertReceiverService
+       302      13.43 Packet is a DENMMessage
+       302      13.43 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      13.43 Received irrelevant DENM from veh2
+       376      13.44 Received CAM from station 302 with speed 24.870000 m/s
+      veh0      13.46 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      13.46 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      13.46 Sending warning DENM (SubCauseCode 1)
+      veh0      13.46 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      13.46 
+      veh0      13.46 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      13.46 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      13.46 Sending warning DENM (SubCauseCode 1)
+      veh0      13.46 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      13.46 
+      veh0      13.46 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      13.46 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      13.46 Sending warning DENM (SubCauseCode 1)
+      veh0      13.46 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      13.46 
+      veh0      13.46 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      13.46 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      13.46 Sending warning DENM (SubCauseCode 1)
+      veh0      13.46 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      13.46 
+      veh2      13.47 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      13.47 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      13.47 
+      veh2      13.47 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      13.47 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      13.47 
+      veh2      13.47 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      13.47 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      13.47 
+      veh2      13.47 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      13.47 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      13.47 Sending warning DENM (SubCauseCode 1)
+      veh2      13.47 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      13.47 
+      veh2      13.47 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      13.47 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      13.47 Sending warning DENM (SubCauseCode 1)
+      veh2      13.47 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      13.47 
+      veh2      13.47 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      13.47 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      13.47 
+      veh2      13.47 Checking speed violation for vehicle 302 at 11.635500s
+      veh2      13.47 Speed check results for vehicle 302:
+  Current speed: 100.58 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 0.58 km/h
+  Decision: No speed violation detected
+
+      veh2      13.47 
+      veh2      13.47 Checking speed violation for vehicle 302 at 12.055800s
+      veh2      13.47 Speed check results for vehicle 302:
+  Current speed: 94.10 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -5.90 km/h
+  Decision: No speed violation detected
+
+      veh2      13.47 
+      veh2      13.47 Checking speed violation for vehicle 302 at 12.235500s
+      veh2      13.47 Speed check results for vehicle 302:
+  Current speed: 90.86 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -9.14 km/h
+  Decision: No speed violation detected
+
+      veh2      13.47 
+      veh2      13.47 Checking speed violation for vehicle 302 at 12.655800s
+      veh2      13.47 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.47 
+      veh2      13.47 Checking speed violation for vehicle 302 at 12.835500s
+      veh2      13.47 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.47 
+      veh2      13.47 Checking speed violation for vehicle 302 at 13.255800s
+      veh2      13.47 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.47 
+      veh2      13.47 Checking speed violation for vehicle 302 at 13.435500s
+      veh2      13.47 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.47 
+       302      13.49 Received a packet in SpeedAlertReceiverService
+       302      13.49 Packet is a DENMMessage
+       302      13.49 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      13.49 Received irrelevant DENM from veh2
+       376      13.50 Received a packet in SpeedAlertReceiverService
+       376      13.50 Packet is a DENMMessage
+       376      13.50 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 114.732000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      13.50 Received irrelevant DENM from veh0
+       302      13.55 Received a packet in SpeedAlertReceiverService
+       302      13.55 Packet is a DENMMessage
+       302      13.55 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 110.304000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      13.55 Received irrelevant DENM from veh2
+      veh0      13.56 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      13.56 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      13.56 Sending warning DENM (SubCauseCode 1)
+      veh0      13.56 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      13.56 
+      veh0      13.56 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      13.56 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      13.56 Sending warning DENM (SubCauseCode 1)
+      veh0      13.56 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      13.56 
+      veh0      13.56 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      13.56 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      13.56 Sending warning DENM (SubCauseCode 1)
+      veh0      13.56 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      13.56 
+      veh0      13.56 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      13.56 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      13.56 Sending warning DENM (SubCauseCode 1)
+      veh0      13.56 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      13.56 
+       376      13.56 Received a packet in SpeedAlertReceiverService
+       376      13.56 Packet is a DENMMessage
+       376      13.56 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      13.56 Received irrelevant DENM from veh0
+      veh2      13.57 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      13.57 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      13.57 
+      veh2      13.57 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      13.57 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      13.57 
+      veh2      13.57 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      13.57 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      13.57 
+      veh2      13.57 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      13.57 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      13.57 Sending warning DENM (SubCauseCode 1)
+      veh2      13.57 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      13.57 
+      veh2      13.57 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      13.57 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      13.57 Sending warning DENM (SubCauseCode 1)
+      veh2      13.57 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      13.57 
+      veh2      13.57 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      13.57 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      13.57 
+      veh2      13.57 Checking speed violation for vehicle 302 at 11.635500s
+      veh2      13.57 Speed check results for vehicle 302:
+  Current speed: 100.58 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 0.58 km/h
+  Decision: No speed violation detected
+
+      veh2      13.57 
+      veh2      13.57 Checking speed violation for vehicle 302 at 12.055800s
+      veh2      13.57 Speed check results for vehicle 302:
+  Current speed: 94.10 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -5.90 km/h
+  Decision: No speed violation detected
+
+      veh2      13.57 
+      veh2      13.57 Checking speed violation for vehicle 302 at 12.235500s
+      veh2      13.57 Speed check results for vehicle 302:
+  Current speed: 90.86 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -9.14 km/h
+  Decision: No speed violation detected
+
+      veh2      13.57 
+      veh2      13.57 Checking speed violation for vehicle 302 at 12.655800s
+      veh2      13.57 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.57 
+      veh2      13.57 Checking speed violation for vehicle 302 at 12.835500s
+      veh2      13.57 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.57 
+      veh2      13.57 Checking speed violation for vehicle 302 at 13.255800s
+      veh2      13.57 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.57 
+      veh2      13.57 Checking speed violation for vehicle 302 at 13.435500s
+      veh2      13.57 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.57 
+       302      13.61 Received a packet in SpeedAlertReceiverService
+       302      13.61 Packet is a DENMMessage
+       302      13.61 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 111.276000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      13.61 Received irrelevant DENM from veh2
+       376      13.62 Received a packet in SpeedAlertReceiverService
+       376      13.62 Packet is a DENMMessage
+       376      13.62 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 111.492000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      13.62 Received irrelevant DENM from veh0
+      veh0      13.66 Checking speed violation for vehicle 376 at 10.372000s
+      veh0      13.66 Speed check results for vehicle 376:
+  Current speed: 119.70 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 19.70 km/h
+  Decision: Speed violation warning
+
+      veh0      13.66 Sending warning DENM (SubCauseCode 1)
+      veh0      13.66 Sending DENM: Offending Vehicle = 376, Speed = 119.700000 km/h, SubCauseCode = 1
+      veh0      13.66 
+      veh0      13.66 Checking speed violation for vehicle 376 at 10.571700s
+      veh0      13.66 Speed check results for vehicle 376:
+  Current speed: 117.97 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 17.97 km/h
+  Decision: Speed violation warning
+
+      veh0      13.66 Sending warning DENM (SubCauseCode 1)
+      veh0      13.66 Sending DENM: Offending Vehicle = 376, Speed = 117.972000 km/h, SubCauseCode = 1
+      veh0      13.66 
+      veh0      13.66 Checking speed violation for vehicle 376 at 10.771700s
+      veh0      13.66 Speed check results for vehicle 376:
+  Current speed: 114.73 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 14.73 km/h
+  Decision: Speed violation warning
+
+      veh0      13.66 Sending warning DENM (SubCauseCode 1)
+      veh0      13.66 Sending DENM: Offending Vehicle = 376, Speed = 114.732000 km/h, SubCauseCode = 1
+      veh0      13.66 
+      veh0      13.66 Checking speed violation for vehicle 376 at 10.972000s
+      veh0      13.66 Speed check results for vehicle 376:
+  Current speed: 111.49 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.49 km/h
+  Decision: Speed violation warning
+
+      veh0      13.66 Sending warning DENM (SubCauseCode 1)
+      veh0      13.66 Sending DENM: Offending Vehicle = 376, Speed = 111.492000 km/h, SubCauseCode = 1
+      veh0      13.66 
+      veh2      13.67 Checking speed violation for vehicle 302 at 10.155800s
+      veh2      13.67 Speed check results for vehicle 302:
+  Current speed: 106.99 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 6.99 km/h
+  Decision: No speed violation detected
+
+      veh2      13.67 
+      veh2      13.67 Checking speed violation for vehicle 302 at 10.355500s
+      veh2      13.67 Speed check results for vehicle 302:
+  Current speed: 108.65 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 8.65 km/h
+  Decision: No speed violation detected
+
+      veh2      13.67 
+      veh2      13.67 Checking speed violation for vehicle 302 at 10.615500s
+      veh2      13.67 Speed check results for vehicle 302:
+  Current speed: 109.87 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 9.87 km/h
+  Decision: No speed violation detected
+
+      veh2      13.67 
+      veh2      13.67 Checking speed violation for vehicle 302 at 10.855800s
+      veh2      13.67 Speed check results for vehicle 302:
+  Current speed: 111.28 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 11.28 km/h
+  Decision: Speed violation warning
+
+      veh2      13.67 Sending warning DENM (SubCauseCode 1)
+      veh2      13.67 Sending DENM: Offending Vehicle = 302, Speed = 111.276000 km/h, SubCauseCode = 1
+      veh2      13.67 
+      veh2      13.67 Checking speed violation for vehicle 302 at 11.035500s
+      veh2      13.67 Speed check results for vehicle 302:
+  Current speed: 110.30 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 10.30 km/h
+  Decision: Speed violation warning
+
+      veh2      13.67 Sending warning DENM (SubCauseCode 1)
+      veh2      13.67 Sending DENM: Offending Vehicle = 302, Speed = 110.304000 km/h, SubCauseCode = 1
+      veh2      13.67 
+      veh2      13.67 Checking speed violation for vehicle 302 at 11.455800s
+      veh2      13.67 Speed check results for vehicle 302:
+  Current speed: 103.82 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 3.82 km/h
+  Decision: No speed violation detected
+
+      veh2      13.67 
+      veh2      13.67 Checking speed violation for vehicle 302 at 11.635500s
+      veh2      13.67 Speed check results for vehicle 302:
+  Current speed: 100.58 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: 0.58 km/h
+  Decision: No speed violation detected
+
+      veh2      13.67 
+      veh2      13.67 Checking speed violation for vehicle 302 at 12.055800s
+      veh2      13.67 Speed check results for vehicle 302:
+  Current speed: 94.10 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -5.90 km/h
+  Decision: No speed violation detected
+
+      veh2      13.67 
+      veh2      13.67 Checking speed violation for vehicle 302 at 12.235500s
+      veh2      13.67 Speed check results for vehicle 302:
+  Current speed: 90.86 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -9.14 km/h
+  Decision: No speed violation detected
+
+      veh2      13.67 
+      veh2      13.67 Checking speed violation for vehicle 302 at 12.655800s
+      veh2      13.67 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.67 
+      veh2      13.67 Checking speed violation for vehicle 302 at 12.835500s
+      veh2      13.67 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.67 
+      veh2      13.67 Checking speed violation for vehicle 302 at 13.255800s
+      veh2      13.67 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.67 
+      veh2      13.67 Checking speed violation for vehicle 302 at 13.435500s
+      veh2      13.67 Speed check results for vehicle 302:
+  Current speed: 89.53 km/h
+  Speed limit: 100.00 km/h
+  Speed excess: -10.47 km/h
+  Decision: No speed violation detected
+
+      veh2      13.67 
+       302      13.67 Received a packet in SpeedAlertReceiverService
+       302      13.67 Packet is a DENMMessage
+       302      13.67 Processing DENM from veh2: Offending Vehicle = 302, Current Speed = 110.304000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       302      13.67 Received irrelevant DENM from veh2
+       376      13.68 Received a packet in SpeedAlertReceiverService
+       376      13.68 Packet is a DENMMessage
+       376      13.68 Processing DENM from veh0: Offending Vehicle = 376, Current Speed = 114.732000 km/h, Speed Limit = 100.000000 km/h, SubCauseCode = 1
+       376      13.68 Received irrelevant DENM from veh0

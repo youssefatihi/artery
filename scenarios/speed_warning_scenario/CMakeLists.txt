@@ -3,12 +3,13 @@ include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}
     ${CMAKE_CURRENT_BINARY_DIR}
 )
-
 # Ajout de la feature speed_monitoring
 add_artery_feature(speed_monitoring
     SpeedMonitoringService.cc
     SpeedAlertReceiverService.cc
-    Utils.cc
+    Utils.cc    
+    DataCollector.cc
+    IdMapper.cc
 )
 
 # Génération du message DENM

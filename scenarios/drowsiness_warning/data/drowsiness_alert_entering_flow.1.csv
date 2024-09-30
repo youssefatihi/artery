@@ -1,0 +1,9 @@
+Time,VehicleID,Speed,AlertReceived,AlertType,SenderID,DrowsinessLevel,ReactionTime,Distance,Action
+15.789,entering_flow.1,0.253,No,N/A,N/A,N/A,N/A,N/A,NoAlert
+15.889,entering_flow.1,0.491,No,N/A,N/A,N/A,N/A,N/A,NoAlert
+15.989,entering_flow.1,0.742,No,N/A,N/A,N/A,N/A,N/A,NoAlert
+16.089,entering_flow.1,0.970,No,N/A,N/A,N/A,N/A,N/A,NoAlert
+16.189,entering_flow.1,1.188,No,N/A,N/A,N/A,N/A,N/A,NoAlert
+16.289,entering_flow.1,1.406,No,N/A,N/A,N/A,N/A,N/A,NoAlert
+16.389,entering_flow.1,1.592,No,N/A,N/A,N/A,N/A,N/A,NoAlert
+16.489,entering_flow.1,1.791,No,N/A,N/A,N/A,N/A,N/A,NoAlert

@@ -1,30 +1,31 @@
-#ifndef DATACOLLECTOR_H
-#define DATACOLLECTOR_H
+#pragma once
 
 #include <string>
 #include <fstream>
 #include <mutex>
 #include <map>
+#include <sys/stat.h>
+#include <errno.h>
+#include <string.h>
 
-class DataCollector {
+class DataCollector
+{
 public:
-    DataCollector(const std::string& vehicleDataPath, const std::string& denmDataPath);
+    DataCollector(const std::string& dataDir);
     ~DataCollector();
 
-    void recordVehicleData(int sumoId, double time, double speed, const std::pair<double, double>& position, bool receivedDenm, const std::string& action);
-    void recordDenmData(double time, int senderSumoId, int senderStationId, double detectedSpeed, const std::pair<double, double>& position, const std::string& violationType);
+    void initializeVehicleFile(const std::string& sumoId, const std::string& stationId);
+    void recordVehicleData(const std::string& sumoId, double time, double speed, double posX, double posY);
 
-    void addIdMapping(int sumoId, int stationId);
+    void recordDenmData(double time, const std::string& senderSumoId, const std::string& senderStationId,
+                        const std::string& offenderSumoId, const std::string& offenderStationId,
+                        double detectedSpeed, double posX, double posY, const std::string& violationType);
 
 private:
-    std::string m_vehicleDataPath;
-    std::string m_denmDataPath;
-    std::ofstream m_denmFile;
-    std::mutex m_denmMutex;
-    std::map<int, int> m_idMapping;  // SUMO ID to Station ID mapping
+    std::string mDataDir = "data";
+    std::map<std::string, std::ofstream> mVehicleFiles ;
+    std::ofstream mDenmFile;
+    std::mutex mMutex;
 
-    std::ofstream& getVehicleFile(int sumoId);
-    std::map<int, std::ofstream> m_vehicleFiles;
+    void createDirectory(const std::string& path);
 };
-
-#endif // DATACOLLECTOR_H

@@ -25,13 +25,31 @@ void SpeedMonitoringService::initialize()
     mVehicleController = &getFacilities().get_const<traci::VehicleController>();
     mVehicleDataProvider = &getFacilities().get_const<VehicleDataProvider>();
 
-    mLogFilePath = "logs/vehicle_" + std::to_string(mVehicleDataProvider->station_id()) + "_data.txt";
-    logToFile(mVehicleController->getVehicleId(), "SpeedMonitoringService initialized. Monitoring log file: " + mLogFilePath);
+    mSumoId = mVehicleController->getVehicleId();
+    mStationId = std::to_string(mVehicleDataProvider->station_id());
+
+    mLogFilePath = "logs/vehicle_" + mStationId + "_data.txt";
+    
+    // Initialize DataCollector
+    mDataCollector = new DataCollector("data");
+    mDataCollector->initializeVehicleFile(mSumoId, mStationId);
+
+    // Add mapping to IdMapper
+    IdMapper::getInstance().addMapping(mSumoId, mStationId);
+
+    logToFile(mSumoId, "SpeedMonitoringService initialized. Monitoring log file: " + mLogFilePath);
 }
+
+void SpeedMonitoringService::finish()
+{
+    delete mDataCollector;
+}
+
 void SpeedMonitoringService::trigger()
 {
     Enter_Method("SpeedMonitoringService trigger");
 
+    recordVehicleData();
     std::ifstream logFile(mLogFilePath);
     if (logFile.is_open()) {
         std::string line;
@@ -49,20 +67,23 @@ void SpeedMonitoringService::trigger()
 
                     double speedValue = std::stod(speed);
                     double timestampValue = std::stod(timestamp);
-                    logToFile(mVehicleController->getVehicleId(), "Checking speed violation for vehicle " + vehicleId + " at " + std::to_string(timestampValue) + "s");
+                    double x = std::stod(longitude);
+                    double y = std::stod(latitude);
+                    
+                    logToFile(mSumoId, "Checking speed violation for vehicle " + vehicleId + " at " + std::to_string(timestampValue) + "s");
                     checkSpeedViolation(vehicleId, speedValue);
                 } else {
-                    logToFile(mVehicleController->getVehicleId(), "Invalid log entry format: " + line);
+                    logToFile(mSumoId, "Invalid log entry format: " + line);
                 }
             } catch (const std::invalid_argument& e) {
-                // logToFile(mVehicleController->getVehicleId(), "Error parsing log entry: " + line + " - " + e.what());
+                // logToFile(mSumoId, "Error parsing log entry: " + line + " - " + e.what());
             } catch (const std::out_of_range& e) {
-                logToFile(mVehicleController->getVehicleId(), "Number out of range in log entry: " + line + " - " + e.what());
+                logToFile(mSumoId, "Number out of range in log entry: " + line + " - " + e.what());
             }
         }
         logFile.close();
     } else {
-        logToFile(mVehicleController->getVehicleId(), "Unable to open log file: " + mLogFilePath);
+        logToFile(mSumoId, "Unable to open log file: " + mLogFilePath);
     }
 
     // Clean up old speed records
@@ -74,6 +95,7 @@ void SpeedMonitoringService::trigger()
             ++it;
         }
     }
+
 }
 
 void SpeedMonitoringService::checkSpeedViolation(const std::string& vehicleId, double speed)
@@ -81,6 +103,7 @@ void SpeedMonitoringService::checkSpeedViolation(const std::string& vehicleId, d
     mVehicleSpeeds[vehicleId] = std::make_pair(speed, simTime());
 
     double speedExcess = speed - mSpeedLimit;
+    int subCauseCode = 0;
 
     std::stringstream decisionInfo;
     decisionInfo << "Speed check results for vehicle " << vehicleId << ":\n";
@@ -90,22 +113,32 @@ void SpeedMonitoringService::checkSpeedViolation(const std::string& vehicleId, d
 
     if (speedExcess > mSpeedLimitCriticalThreshold) {
         decisionInfo << "  Decision: Critical speed violation detected\n";
-        logToFile(mVehicleController->getVehicleId(), decisionInfo.str());
-        logToFile(mVehicleController->getVehicleId(), "Sending critical DENM (SubCauseCode 2)");
+        logToFile(mSumoId, decisionInfo.str());
+        logToFile(mSumoId, "Sending critical DENM (SubCauseCode 2)");
+        subCauseCode = 2;
         sendDENM(vehicleId, speed, 2); // Critical speed violation
     } 
     else if (speedExcess > mSpeedLimitWarningThreshold) {
         decisionInfo << "  Decision: Speed violation warning\n";
-        logToFile(mVehicleController->getVehicleId(), decisionInfo.str());
-        logToFile(mVehicleController->getVehicleId(), "Sending warning DENM (SubCauseCode 1)");
+        logToFile(mSumoId, decisionInfo.str());
+        logToFile(mSumoId, "Sending warning DENM (SubCauseCode 1)");
+        subCauseCode = 1;
         sendDENM(vehicleId, speed, 1); // Speed violation warning
     }
     else {
         decisionInfo << "  Decision: No speed violation detected\n";
-        logToFile(mVehicleController->getVehicleId(), decisionInfo.str());
+        logToFile(mSumoId, decisionInfo.str());
     }
 
-    logToFile(mVehicleController->getVehicleId(), "");
+    // Record DENM data
+    const auto& position = mVehicleController->getPosition();
+    std::string violationType = (subCauseCode == 2) ? "Critical" : "Warning";
+    // Get the station ID of the offending vehicle
+    std::string offenderStationId = IdMapper::getInstance().getStationId(vehicleId);
+    
+    mDataCollector->recordDenmData(simTime().dbl(), mSumoId, mStationId, vehicleId, offenderStationId, speed, 
+                                   position.x.value(), position.y.value(), violationType);
+    logToFile(mSumoId, "");
 }
 
 void SpeedMonitoringService::sendDENM(const std::string& vehicleId, double speed, int subCauseCode)
@@ -123,7 +156,7 @@ void SpeedMonitoringService::sendDENM(const std::string& vehicleId, double speed
     // Header
     message->setProtocolVersion(1);
     message->setMessageID(1); // DENM messageID
-    message->setStationID(mVehicleController->getVehicleId().c_str());
+    message->setStationID(mSumoId.c_str());
     
     // Management Container
     message->setDetectionTime(simTime());
@@ -151,8 +184,19 @@ void SpeedMonitoringService::sendDENM(const std::string& vehicleId, double speed
 
     message->setByteLength(128); // Adjust as needed
 
-    logToFile(mVehicleController->getVehicleId(), "Sending DENM: Offending Vehicle = " + vehicleId + 
+    logToFile(mSumoId, "Sending DENM: Offending Vehicle = " + vehicleId + 
               ", Speed = " + std::to_string(speed * 3.6) + " km/h, SubCauseCode = " + std::to_string(subCauseCode));
 
     request(req, message);
+
+}
+
+void SpeedMonitoringService::recordVehicleData()
+{
+    const auto& position = mVehicleController->getPosition();
+    double speed = mVehicleController->getSpeed().value();
+
+    mDataCollector->recordVehicleData(mSumoId, simTime().dbl(), speed, 
+                                      position.x.value(), position.y.value()
+                                      );
 }

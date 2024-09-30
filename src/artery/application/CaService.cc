@@ -237,7 +237,7 @@ void CaService::indicate(const vanetza::btp::DataIndication& ind, std::unique_pt
 
             std::string logMessage = "Received CAM from station " + std::to_string(asn1Cam->header.stationID) +
                                      " with speed " + std::to_string(speed) + " m/s";
-            logToFile(std::to_string(mVehicleDataProvider->station_id()), logMessage);
+            // logToFile(std::to_string(mVehicleDataProvider->station_id()), logMessage);
         }
     }
 }
