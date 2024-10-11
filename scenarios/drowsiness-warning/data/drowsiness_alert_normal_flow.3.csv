@@ -1,0 +1,11 @@
+Time,VehicleID,Speed,AlertReceived,AlertType,SenderID,DrowsinessLevel,ReactionTime,Distance,Action
+10.646,normal_flow.3,0.000,Yes,Critical,drowsy_driver,1.000,2.500,290.350,Ignored
+10.706,normal_flow.3,0.248,Yes,Critical,drowsy_driver,1.000,2.500,293.653,Ignored
+10.846,normal_flow.3,0.499,Yes,Critical,drowsy_driver,1.000,2.500,296.931,Ignored
+10.906,normal_flow.3,0.729,Yes,Critical,drowsy_driver,1.000,2.500,300.181,Ignored
+11.046,normal_flow.3,0.978,Yes,Critical,drowsy_driver,1.000,2.500,303.400,Ignored
+11.106,normal_flow.3,1.220,Yes,Critical,drowsy_driver,1.000,2.500,306.599,Ignored
+11.246,normal_flow.3,1.458,Yes,Critical,drowsy_driver,1.000,2.500,309.765,Ignored
+11.306,normal_flow.3,1.716,Yes,Critical,drowsy_driver,1.000,2.500,312.921,Ignored
+11.446,normal_flow.3,1.914,Yes,Critical,drowsy_driver,1.000,2.500,316.047,Ignored
+11.573,normal_flow.3,2.152,No,N/A,N/A,N/A,N/A,N/A,NoAlert

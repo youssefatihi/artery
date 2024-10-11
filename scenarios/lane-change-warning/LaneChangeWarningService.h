@@ -39,7 +39,7 @@ private:
     void initiateLaneChange();
     void checkLaneChangeRisk();
     double calculateTimeToCollision(const artery::LocalEnvironmentModel::Tracking& tracking);
-    void sendLaneChangeDENM(double risk , int subCauseCode);
+    void sendLaneChangeDENM(double risk);
 
     // Paramètres pour l'évaluation du risque
     double mMaxDetectionDistance = 100.0; // mètres
@@ -48,9 +48,9 @@ private:
     double mMinAvailableSpace = 10.0; // mètres
 
     // Poids pour les facteurs de risque
-    double mW1 = 0.4; // Distance
+    double mW1 = 0.2; // Distance
     double mW2 = 0.2; // Vitesse relative
-    double mW3 = 0.4; // TTC
+    double mW3 = 0.6; // TTC
 };
 
 #endif /* LANECHANGEWARNINGSERVICE_H_ */

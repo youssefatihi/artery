@@ -11,6 +11,8 @@
 #include "artery/application/VehicleDataProvider.h"
 #include "artery/utility/simtime_cast.h"
 #include "veins/base/utils/Coord.h"
+#include "artery/traci/VehicleController.h"
+
 #include <boost/units/cmath.hpp>
 #include <boost/units/systems/si/prefixes.hpp>
 #include <omnetpp/cexception.h>
@@ -144,6 +146,8 @@ void CaService::writeToLogFile(const std::string& data)
     ItsG5BaseService::initialize();
     mNetworkInterfaceTable = &getFacilities().get_const<NetworkInterfaceTable>();
     mVehicleDataProvider = &getFacilities().get_const<VehicleDataProvider>();
+    mVehicleController = &getFacilities().get_const<traci::VehicleController>();
+
     mTimer = &getFacilities().get_const<Timer>();
     mLocalDynamicMap = &getFacilities().get_mutable<artery::LocalDynamicMap>();
 
@@ -189,7 +193,7 @@ void CaService::writeToLogFile(const std::string& data)
         // Créez ou réinitialisez le fichier de log
         std::ofstream logFile(mLogFilePath, std::ios::trunc);
         if (logFile.is_open()) {
-            logFile << "timestamp,vehicleId,speed,heading,longitude,latitude" << std::endl;
+            logFile << "timestamp,vehicleId,speed,heading,longitude,lattitude" << std::endl;
             logFile.close();
             logToFile("CaService", "Log file created: " + mLogFilePath);
         } else {
@@ -209,6 +213,11 @@ void CaService::trigger()
 void CaService::indicate(const vanetza::btp::DataIndication& ind, std::unique_ptr<vanetza::UpPacket> packet)
 {
     Enter_Method("indicate");
+	const auto& position = mVehicleController->getPosition();
+
+    double x = mVehicleController->getPosition().x.value();
+    double y = mVehicleController->getPosition().y.value();
+
 
     Asn1PacketVisitor<vanetza::asn1::Cam> visitor;
     const vanetza::asn1::Cam* cam = boost::apply_visitor(visitor, *packet);
@@ -228,8 +237,8 @@ void CaService::indicate(const vanetza::btp::DataIndication& ind, std::unique_pt
                << asn1Cam->header.stationID << ","
                << speed << ","
                << bvc.heading.headingValue * 0.1 << ","
-               << asn1Cam->cam.camParameters.basicContainer.referencePosition.longitude << ","
-               << asn1Cam->cam.camParameters.basicContainer.referencePosition.latitude;
+               << x << ","
+               << y;
 
             if (mMonitoringEnabled) {
                 writeToLogFile(ss.str());

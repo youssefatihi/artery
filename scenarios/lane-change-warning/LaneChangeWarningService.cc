@@ -93,8 +93,7 @@ void LaneChangeWarningService::checkLaneChangeRisk()
             }
 
             if (risk > par("riskThreshold").doubleValue()) {
-                int subCauseCode = static_cast<int>(risk * 100);  // Convert risk to 0-100 scale
-                sendLaneChangeDENM(risk, subCauseCode);
+                sendLaneChangeDENM(risk);
             }
         }
     }
@@ -262,7 +261,7 @@ double LaneChangeWarningService::calculateTimeToCollision(const artery::LocalEnv
     logToFile(mVehicleController->getVehicleId(), debugInfo.str());
     return ttc;
 }
-void LaneChangeWarningService::sendLaneChangeDENM(double risk, int subCauseCode)
+void LaneChangeWarningService::sendLaneChangeDENM(double risk)
 {
     auto message = new DENMMessage();
     
@@ -275,8 +274,8 @@ void LaneChangeWarningService::sendLaneChangeDENM(double risk, int subCauseCode)
     message->setTermination(0);
     
     message->setInformationQuality(7);
-    message->setCauseCode(98); // dangerousLaneChange
-    message->setSubCauseCode(subCauseCode);
+    message->setCauseCode(97); // collsion risk warning
+    message->setSubCauseCode(3);  // lateral collision risk
     
     message->setEventPosition_latitude(mVehicleController->getPosition().x.value());
     message->setEventPosition_longitude(mVehicleController->getPosition().y.value());

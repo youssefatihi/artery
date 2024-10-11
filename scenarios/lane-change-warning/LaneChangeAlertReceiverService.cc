@@ -21,7 +21,7 @@ void LaneChangeAlertReceiverService::initialize() {
     mLaneChangeWarningSignal = registerSignal("LaneChangeWarning");
     mVehicleController = &getFacilities().get_mutable<traci::VehicleController>();
 
-    std::string dataDir = "/home/yelfatihi/artery/scenarios/lane_change_warning/data";
+    std::string dataDir = "/home/yelfatihi/artery/scenarios/lane-change-warning/data";
     int status = system(("mkdir -p " + dataDir).c_str());
     if (status == -1) {
         throw omnetpp::cRuntimeError("Failed to create data directory");
@@ -57,17 +57,17 @@ void LaneChangeAlertReceiverService::indicate(const vanetza::btp::DataIndication
 void LaneChangeAlertReceiverService::processDENM(const DENMMessage* denm) {
     logToFile(mVehicleController->getVehicleId(),
               "Processing DENM from " + std::string(denm->getStationID()) +
-              ": Risk = " + std::to_string(denm->getSubCauseCode()) +
+              ": Risk = " + std::to_string(denm->getRisk()) +
               ", CauseCode = " + std::to_string(denm->getCauseCode()));
 
     if (isDENMRelevant(denm)) {
         logToFile(mVehicleController->getVehicleId(),
                   "Received relevant DENM from " + std::string(denm->getStationID()) +
-                  ": Risk = " + std::to_string(denm->getSubCauseCode()) +
+                  ": Risk = " + std::to_string(denm->getRisk()) +
                   ", CurrentLane = " + std::to_string(denm->getCurrentLane()) +
                   ", TargetLane = " + std::to_string(denm->getTargetLane()));
         
-    double riskValue = static_cast<double>(denm->getSubCauseCode()) / 100.0;
+    double riskValue = static_cast<double>(denm->getRisk()) ;
     emit(mLaneChangeWarningSignal, riskValue);        
         reactToLaneChange(denm);
     } else {
@@ -137,7 +137,7 @@ void LaneChangeAlertReceiverService::recordData(const DENMMessage* denm, const s
         if (denm) {
             mDataFile << "LaneChange" << ","
                       << denm->getStationID() << ","
-                      << denm->getSubCauseCode() / 100.0 << ","
+                      << denm->getRisk() / 100.0 << ","
                       << denm->getCurrentLane() << ","
                       << denm->getTargetLane() << ",";
         } else {

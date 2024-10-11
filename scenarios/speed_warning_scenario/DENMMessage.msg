@@ -28,4 +28,5 @@ packet DENMMessage
     string offendingVehicleId;
     double currentSpeed;
     double speedLimit;
+    int DangerLevel;
 }

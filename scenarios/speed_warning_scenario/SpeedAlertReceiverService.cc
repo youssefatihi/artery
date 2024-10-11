@@ -46,7 +46,7 @@ void SpeedAlertReceiverService::processDENM(const DENMMessage* denm)
               ": Offending Vehicle = " + std::string(denm->getOffendingVehicleId()) +
               ", Current Speed = " + std::to_string(denm->getCurrentSpeed() * 3.6) +
               " km/h, Speed Limit = " + std::to_string(denm->getSpeedLimit() * 3.6) +
-              " km/h, SubCauseCode = " + std::to_string(denm->getSubCauseCode()));
+              " km/h, DangerLevel = " + std::to_string(denm->getDangerLevel()));
 
     if (isDENMRelevant(denm)) {
         std::string myStationId = std::to_string(mVehicleDataProvider->station_id());
@@ -54,13 +54,12 @@ void SpeedAlertReceiverService::processDENM(const DENMMessage* denm)
         if (myStationId == denm->getOffendingVehicleId()) {
             logToFile(std::to_string(mVehicleDataProvider->station_id()), "I am the offending vehicle. Adjusting speed.");
             double speedExcess = denm->getCurrentSpeed() - denm->getSpeedLimit();
-            adjustSpeed(speedExcess, denm->getSubCauseCode());
+            adjustSpeed(speedExcess, denm->getDangerLevel());
         } else {
-            logToFile(std::to_string(mVehicleDataProvider->station_id()), "Another vehicle is speeding. Increasing safety distance.");
-            increaseSafetyDistance();
+            logToFile(std::to_string(mVehicleDataProvider->station_id()), "Another vehicle is speeding.");
         }
 
-        emit(mSpeedWarningSignal, denm->getSubCauseCode());
+        emit(mSpeedWarningSignal, denm->getDangerLevel());
     } else {
         logToFile(std::to_string(mVehicleDataProvider->station_id()),
                   "Received irrelevant DENM from " + std::string(denm->getStationID()));
@@ -80,27 +79,40 @@ bool SpeedAlertReceiverService::isDENMRelevant(const DENMMessage* denm)
         (simTime() - lastAlertIt->second) < mAlertCooldown) {
         return false;
     }
+    if (distance > 500.0) {
+        logToFile(std::to_string(mVehicleDataProvider->station_id()), "DENM is not relevant: distance = " + std::to_string(distance));
+        return false;
+
+    }
+    else if (denm->getCauseCode() != 99) {
+        logToFile(std::to_string(mVehicleDataProvider->station_id()), "DENM is not relevant: cause code = " + std::to_string(denm->getCauseCode()));
+        return false;
+    }
+    else if (myStationId != denm->getOffendingVehicleId() && distance > 100.0) {
+        logToFile(std::to_string(mVehicleDataProvider->station_id()), "DENM is not relevant: distance = " + std::to_string(distance));
+        return false;
+    }
 
     // Update the last alert time for this vehicle
     mLastAlertTimes[denm->getOffendingVehicleId()] = simTime();
 
     // Consider the alert relevant if it's within 500 meters, it's a speed violation message,
     // and either we are the offending vehicle or it's close enough to affect us
-    return distance < 500.0 && denm->getCauseCode() == 94 && 
+    return distance < 500.0 && denm->getCauseCode() == 99 && 
            (myStationId == denm->getOffendingVehicleId() || distance < 100.0);
 }
 
-void SpeedAlertReceiverService::adjustSpeed(double speedExcess, int subCauseCode)
+void SpeedAlertReceiverService::adjustSpeed(double speedExcess, int DangerLevel)
 {
     auto currentSpeed = mVehicleController->getSpeed();
     auto newSpeed = currentSpeed;
 
-    if (subCauseCode == 2) {
+    if (DangerLevel == 2) {
         // Critical danger: emergency speed reduction
         newSpeed = currentSpeed * 0.5;
         logToFile(std::to_string(mVehicleDataProvider->station_id()),
                   "Emergency speed reduction to " + std::to_string(newSpeed.value()) + " m/s due to critical speed violation");
-    } else if (subCauseCode == 1) {
+    } else if (DangerLevel == 1) {
         // Warning: moderate speed reduction
         newSpeed = currentSpeed * 0.8;
         logToFile(std::to_string(mVehicleDataProvider->station_id()),

@@ -112,6 +112,6 @@ endif()
 
 # add_subdirectory(scenarios/speed_warning_scenario)
 # add_subdirectory(scenarios/collision_warning)
-# add_subdirectory(scenarios/drowsiness-warning)
+add_subdirectory(scenarios/drowsiness-warning)
 
-add_subdirectory(scenarios/lane-change-warning)
+# add_subdirectory(scenarios/lane-change-warning)

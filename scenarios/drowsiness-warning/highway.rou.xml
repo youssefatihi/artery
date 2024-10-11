@@ -19,10 +19,10 @@
     </vehicle>
 
     <!-- Véhicules normaux sur la route principale -->
-    <flow id="normal_flow" type="car" route="route_main" begin="0" end="3600" probability="0.3"/>
+    <flow id="normal_flow" type="car" route="route_main" begin="0" end="3600" probability="0.7"/>
 
     <!-- Véhicules entrant sur la route -->
-    <flow id="entering_flow" type="car" route="route_enter" begin="0" end="3600" probability="0.1">
+    <flow id="entering_flow" type="car" route="route_enter" begin="0" end="3600" probability="0.4">
         <param key="departSpeed" value="20"/>
     </flow>
 

@@ -23,7 +23,7 @@ void DrowsinessAlertReceiverService::initialize()
     mVehicleController = &getFacilities().get_mutable<traci::VehicleController>();
 
     // Ouvrir le fichier CSV pour l'enregistrement des données
-    std::string dataDir = "/home/yelfatihi/artery/scenarios/drowsiness_warning/data";
+    std::string dataDir = "/home/yelfatihi/artery/scenarios/drowsiness-warning/data";
     int status = system(("mkdir -p " + dataDir).c_str());
     if (status == -1) {
         throw omnetpp::cRuntimeError("Failed to create data directory");
@@ -102,11 +102,11 @@ bool DrowsinessAlertReceiverService::isDENMRelevant(const DENMMessage* denm)
     if (distance >500.0 ) {
         logToFile(mVehicleController->getVehicleId(), "DENM is not relevant: distance = " + std::to_string(distance));
     }
-    if (denm->getCauseCode() != 91) {
+    if (denm->getCauseCode() != 93) {
         logToFile(mVehicleController->getVehicleId(), "DENM is not relevant: cause code = " + std::to_string(denm->getCauseCode()));
     }
     // Considérer l'alerte comme pertinente si elle est à moins de 500 mètres et si c'est un message de somnolence
-    return distance < 500.0 && denm->getCauseCode() == 91;
+    return distance < 500.0 && denm->getCauseCode() == 93;
 }
 
 void DrowsinessAlertReceiverService::recordData(const DENMMessage* denm, const std::string& action)

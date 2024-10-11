@@ -16,6 +16,12 @@
 #include <vanetza/units/velocity.hpp>
 #include <omnetpp/simtime.h>
 #include <mutex>
+#include "artery/application/Middleware.h"
+#include "artery/application/StoryboardSignal.h"
+#include "artery/utility/InitStages.h"
+#include "artery/traci/VehicleController.h"
+#include "artery/application/VehicleDataProvider.h"
+#include "collision_msgs/DENMMessage_m.h"
 
 namespace artery
 {
@@ -36,6 +42,8 @@ class CaService : public ItsG5BaseService
 		bool mMonitoringEnabled;
 		std::string mLogFilePath;
 		std::mutex mLogFileMutex;
+		const traci::VehicleController* mVehicleController = nullptr;
+
 
 		bool isMonitoringEnabled();
 		void writeToLogFile(const std::string& data);

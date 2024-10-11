@@ -11,11 +11,11 @@
 
     
     <!-- Véhicules -->
-    <!-- Véhicule A (celui qui va effectuer le changement de voie dangereux) -->
+    <!-- Véhicule A (celui qui va effectuer le changement de voie dangereux ) -->
     <vehicle id="vehA" type="car" route="route_B" depart="0" departLane="0" departSpeed="25">
     </vehicle>
 
-    <!-- Véhicules B, C, D qui vont être dans la voie cible -->
+    <!-- Véhicules B, C, D qui vont être dans la voie cible avec des vitesses superieures à A pour le rattraper  -->
     <vehicle id="vehB" type="car" route="route_B" depart="2" departLane="1" departSpeed="30"/>
     <vehicle id="vehC" type="truck" route="route_B" depart="4" departLane="1" departSpeed="25"/>
     <vehicle id="vehD" type="car" route="route_B" depart="6" departLane="1" departSpeed="33"/>

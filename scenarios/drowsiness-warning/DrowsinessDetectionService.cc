@@ -5,6 +5,8 @@
 #include <vanetza/dcc/profile.hpp>
 #include <vanetza/geonet/interface.hpp>
 #include "Utils.h"
+#include <fstream>
+#include <iomanip>
 
 using namespace omnetpp;
 using namespace vanetza;
@@ -17,7 +19,29 @@ void DrowsinessDetectionService::initialize()
     mVehicleController = &getFacilities().get_const<traci::VehicleController>();
     mLastUpdateTime = simTime();
     
+    // Initialisation du système de collecte de données
+    std::string dataDir = "/home/yelfatihi/artery/scenarios/drowsiness-warning/data";
+    int status = system(("mkdir -p " + dataDir).c_str());
+    if (status == -1) {
+        throw omnetpp::cRuntimeError("Failed to create data directory");
+    }
+
+    std::string filename = dataDir + "/drowsiness_data_" + mVehicleController->getVehicleId() + ".csv";
+    mDataFile.open(filename, std::ios::out | std::ios::trunc);
+    if (!mDataFile.is_open()) {
+        throw omnetpp::cRuntimeError("Failed to open data file for writing: %s", filename.c_str());
+    }
+    mDataFile << "Time,DrowsinessLevel,AlertType" << std::endl;
+    
     logToFile(mVehicleController->getVehicleId(), "DrowsinessDetectionService initialized");
+}
+
+void DrowsinessDetectionService::finish()
+{
+    ItsG5Service::finish();
+    if (mDataFile.is_open()) {
+        mDataFile.close();
+    }
 }
 
 void DrowsinessDetectionService::trigger()
@@ -25,6 +49,7 @@ void DrowsinessDetectionService::trigger()
     Enter_Method("DrowsinessDetectionService trigger");
     updateDrowsinessLevel();
     checkDrowsinessLevel();
+    recordData();
 }
 
 void DrowsinessDetectionService::updateDrowsinessLevel()
@@ -33,12 +58,12 @@ void DrowsinessDetectionService::updateDrowsinessLevel()
     const double RANDOM_FACTOR = 0.05;  // Facteur aléatoire maximal
 
     simtime_t now = simTime();
-    double elapsedHours = (now - mLastUpdateTime).dbl() / 10.0;  
+    double elapsedHours = (now - mLastUpdateTime).dbl() / 15.0;  
     // Augmentation basée sur le temps
     double increase = elapsedHours * MAX_DROWSINESS_RATE;
 
     // Facteur aléatoire
-    double randomFactor = uniform(0.0, RANDOM_FACTOR);
+    double randomFactor = uniform(-RANDOM_FACTOR/2, RANDOM_FACTOR);
 
     mDrowsinessLevel += increase + randomFactor;
     mDrowsinessLevel = std::max(0.0, std::min(1.0, mDrowsinessLevel));  // Limiter entre 0 et 1
@@ -50,12 +75,25 @@ void DrowsinessDetectionService::updateDrowsinessLevel()
 
 void DrowsinessDetectionService::checkDrowsinessLevel()
 {
+    mCurrentAlertType = 0;  // Par défaut, pas d'alerte
     if (mDrowsinessLevel >= mCriticalThreshold) {
         logToFile(mVehicleController->getVehicleId(), "Critical drowsiness detected");
         sendDrowsinessDENM(2);  // Alerte critique
+        mCurrentAlertType = 2;
     } else if (mDrowsinessLevel >= mWarningThreshold) {
         logToFile(mVehicleController->getVehicleId(), "Warning drowsiness detected");
         sendDrowsinessDENM(1);  // Avertissement
+        mCurrentAlertType = 1;
+    }
+}
+
+void DrowsinessDetectionService::recordData()
+{
+    if (mDataFile.is_open()) {
+        mDataFile << std::fixed << std::setprecision(3)
+                  << simTime().dbl() << ","
+                  << mDrowsinessLevel << ","
+                  << mCurrentAlertType << std::endl;
     }
 }
 
@@ -92,8 +130,8 @@ void DrowsinessDetectionService::sendDrowsinessDENM(int alertType)
     
     // Situation Container
     message->setInformationQuality(7); // Qualité la plus élevée
-    message->setCauseCode(91); // Code pour "Anomalous driving"
-    message->setSubCauseCode(alertType);
+    message->setCauseCode(93); // human problem 
+    message->setSubCauseCode(0); 
     
     // Location Container
     message->setEventPosition_latitude(mVehicleController->getPosition().x.value());
