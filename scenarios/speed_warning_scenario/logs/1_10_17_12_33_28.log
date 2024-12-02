@@ -1,0 +1,751 @@
+      veh0       0.10 SpeedMonitoringService initialized. Monitoring log file: logs/vehicle_18_data.txt
+        18       0.10 SpeedAlertReceiverService initialized
+ CaService       0.10 Monitoring enabled: 1
+ CaService       0.10 Log file created: logs/vehicle_18_data.txt
+ CaService       0.10 CaService initialized successfully
+      veh1       5.10 SpeedMonitoringService initialized. Monitoring log file: logs/vehicle_376_data.txt
+       376       5.10 SpeedAlertReceiverService initialized
+ CaService       5.10 Monitoring enabled: 1
+ CaService       5.10 Log file created: logs/vehicle_376_data.txt
+ CaService       5.10 CaService initialized successfully
+      veh1       5.24 Checking speed violation for vehicle 18 at 5.186280s
+      veh1       5.24 Speed check results for vehicle 18:
+  Current speed: 137.56 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 931.33 m
+  Speed excess: 52.84%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       5.24 Sending critical DENM (DangerLevel 2)
+      veh1       5.24 Sending DENM: Offending Vehicle = 18, Speed = 137.556000 km/h, DangerLevel = 2
+      veh1       5.24 Recorded DENM data
+      veh1       5.24 
+        18       5.25 Received a packet in SpeedAlertReceiverService
+        18       5.25 Packet is a DENMMessage
+        18       5.25 Processing DENM from veh1: Offending Vehicle = 18, Current Speed = 137.556000 km/h, Speed Limit = 100.000000 km/h, DangerLevel = 2
+        18       5.25 I am the offending vehicle. Adjusting speed.
+        18       5.25 Emergency speed reduction to 19.093739 m/s due to critical speed violation
+      veh1       5.34 Checking speed violation for vehicle 18 at 5.186280s
+      veh1       5.34 Speed check results for vehicle 18:
+  Current speed: 137.56 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 931.33 m
+  Speed excess: 52.84%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       5.34 Sending critical DENM (DangerLevel 2)
+      veh1       5.34 Sending DENM: Offending Vehicle = 18, Speed = 137.556000 km/h, DangerLevel = 2
+      veh1       5.34 Recorded DENM data
+      veh1       5.34 
+      veh0       5.39 Checking speed violation for vehicle 376 at 5.345400s
+      veh0       5.39 Speed check results for vehicle 376:
+  Current speed: 73.40 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 747.41 m
+  Speed excess: -18.44%
+  Decision: No speed violation detected
+
+      veh0       5.39 
+        18       5.41 Received a packet in SpeedAlertReceiverService
+        18       5.41 Packet is a DENMMessage
+        18       5.41 Processing DENM from veh1: Offending Vehicle = 18, Current Speed = 137.556000 km/h, Speed Limit = 100.000000 km/h, DangerLevel = 2
+        18       5.41 Received irrelevant DENM from veh1
+      veh1       5.44 Checking speed violation for vehicle 18 at 5.186280s
+      veh1       5.44 Speed check results for vehicle 18:
+  Current speed: 137.56 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 931.33 m
+  Speed excess: 52.84%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       5.44 Sending critical DENM (DangerLevel 2)
+      veh1       5.44 Sending DENM: Offending Vehicle = 18, Speed = 137.556000 km/h, DangerLevel = 2
+      veh1       5.44 Recorded DENM data
+      veh1       5.44 
+      veh1       5.44 Checking speed violation for vehicle 18 at 5.386000s
+      veh1       5.44 Speed check results for vehicle 18:
+  Current speed: 135.86 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 927.28 m
+  Speed excess: 50.96%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       5.44 Sending critical DENM (DangerLevel 2)
+      veh1       5.44 Sending DENM: Offending Vehicle = 18, Speed = 135.864000 km/h, DangerLevel = 2
+      veh1       5.44 
+        18       5.47 Received a packet in SpeedAlertReceiverService
+        18       5.47 Packet is a DENMMessage
+        18       5.47 Processing DENM from veh1: Offending Vehicle = 18, Current Speed = 137.556000 km/h, Speed Limit = 100.000000 km/h, DangerLevel = 2
+        18       5.47 Received irrelevant DENM from veh1
+      veh0       5.49 Checking speed violation for vehicle 376 at 5.345400s
+      veh0       5.49 Speed check results for vehicle 376:
+  Current speed: 73.40 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 747.41 m
+  Speed excess: -18.44%
+  Decision: No speed violation detected
+
+      veh0       5.49 
+        18       5.53 Received a packet in SpeedAlertReceiverService
+        18       5.53 Packet is a DENMMessage
+        18       5.53 Processing DENM from veh1: Offending Vehicle = 18, Current Speed = 135.864000 km/h, Speed Limit = 100.000000 km/h, DangerLevel = 2
+        18       5.53 Received irrelevant DENM from veh1
+      veh1       5.54 Checking speed violation for vehicle 18 at 5.186280s
+      veh1       5.54 Speed check results for vehicle 18:
+  Current speed: 137.56 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 931.33 m
+  Speed excess: 52.84%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       5.54 Sending critical DENM (DangerLevel 2)
+      veh1       5.54 Sending DENM: Offending Vehicle = 18, Speed = 137.556000 km/h, DangerLevel = 2
+      veh1       5.54 Recorded DENM data
+      veh1       5.54 
+      veh1       5.54 Checking speed violation for vehicle 18 at 5.386000s
+      veh1       5.54 Speed check results for vehicle 18:
+  Current speed: 135.86 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 927.28 m
+  Speed excess: 50.96%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       5.54 Sending critical DENM (DangerLevel 2)
+      veh1       5.54 Sending DENM: Offending Vehicle = 18, Speed = 135.864000 km/h, DangerLevel = 2
+      veh1       5.54 
+        18       5.59 Received a packet in SpeedAlertReceiverService
+        18       5.59 Packet is a DENMMessage
+        18       5.59 Processing DENM from veh1: Offending Vehicle = 18, Current Speed = 137.556000 km/h, Speed Limit = 100.000000 km/h, DangerLevel = 2
+        18       5.59 Received irrelevant DENM from veh1
+      veh0       5.59 Checking speed violation for vehicle 376 at 5.345400s
+      veh0       5.59 Speed check results for vehicle 376:
+  Current speed: 73.40 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 747.41 m
+  Speed excess: -18.44%
+  Decision: No speed violation detected
+
+      veh0       5.59 
+      veh1       5.64 Checking speed violation for vehicle 18 at 5.186280s
+      veh1       5.64 Speed check results for vehicle 18:
+  Current speed: 137.56 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 931.33 m
+  Speed excess: 52.84%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       5.64 Sending critical DENM (DangerLevel 2)
+      veh1       5.64 Sending DENM: Offending Vehicle = 18, Speed = 137.556000 km/h, DangerLevel = 2
+      veh1       5.64 Recorded DENM data
+      veh1       5.64 
+      veh1       5.64 Checking speed violation for vehicle 18 at 5.386000s
+      veh1       5.64 Speed check results for vehicle 18:
+  Current speed: 135.86 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 927.28 m
+  Speed excess: 50.96%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       5.64 Sending critical DENM (DangerLevel 2)
+      veh1       5.64 Sending DENM: Offending Vehicle = 18, Speed = 135.864000 km/h, DangerLevel = 2
+      veh1       5.64 
+      veh1       5.64 Checking speed violation for vehicle 18 at 5.586000s
+      veh1       5.64 Speed check results for vehicle 18:
+  Current speed: 132.62 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 923.16 m
+  Speed excess: 47.36%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       5.64 Sending critical DENM (DangerLevel 2)
+      veh1       5.64 Sending DENM: Offending Vehicle = 18, Speed = 132.624000 km/h, DangerLevel = 2
+      veh1       5.64 
+        18       5.65 Received a packet in SpeedAlertReceiverService
+        18       5.65 Packet is a DENMMessage
+        18       5.65 Processing DENM from veh1: Offending Vehicle = 18, Current Speed = 135.864000 km/h, Speed Limit = 100.000000 km/h, DangerLevel = 2
+        18       5.65 Received irrelevant DENM from veh1
+      veh0       5.69 Checking speed violation for vehicle 376 at 5.345400s
+      veh0       5.69 Speed check results for vehicle 376:
+  Current speed: 73.40 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 747.41 m
+  Speed excess: -18.44%
+  Decision: No speed violation detected
+
+      veh0       5.69 
+        18       5.71 Received a packet in SpeedAlertReceiverService
+        18       5.71 Packet is a DENMMessage
+        18       5.71 Processing DENM from veh1: Offending Vehicle = 18, Current Speed = 135.864000 km/h, Speed Limit = 100.000000 km/h, DangerLevel = 2
+        18       5.71 Received irrelevant DENM from veh1
+      veh1       5.74 Checking speed violation for vehicle 18 at 5.186280s
+      veh1       5.74 Speed check results for vehicle 18:
+  Current speed: 137.56 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 931.33 m
+  Speed excess: 52.84%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       5.74 Sending critical DENM (DangerLevel 2)
+      veh1       5.74 Sending DENM: Offending Vehicle = 18, Speed = 137.556000 km/h, DangerLevel = 2
+      veh1       5.74 Recorded DENM data
+      veh1       5.74 
+      veh1       5.74 Checking speed violation for vehicle 18 at 5.386000s
+      veh1       5.74 Speed check results for vehicle 18:
+  Current speed: 135.86 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 927.28 m
+  Speed excess: 50.96%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       5.74 Sending critical DENM (DangerLevel 2)
+      veh1       5.74 Sending DENM: Offending Vehicle = 18, Speed = 135.864000 km/h, DangerLevel = 2
+      veh1       5.74 
+      veh1       5.74 Checking speed violation for vehicle 18 at 5.586000s
+      veh1       5.74 Speed check results for vehicle 18:
+  Current speed: 132.62 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 923.16 m
+  Speed excess: 47.36%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       5.74 Sending critical DENM (DangerLevel 2)
+      veh1       5.74 Sending DENM: Offending Vehicle = 18, Speed = 132.624000 km/h, DangerLevel = 2
+      veh1       5.74 
+        18       5.77 Received a packet in SpeedAlertReceiverService
+        18       5.77 Packet is a DENMMessage
+        18       5.77 Processing DENM from veh1: Offending Vehicle = 18, Current Speed = 135.864000 km/h, Speed Limit = 100.000000 km/h, DangerLevel = 2
+        18       5.77 Received irrelevant DENM from veh1
+      veh0       5.79 Checking speed violation for vehicle 376 at 5.345400s
+      veh0       5.79 Speed check results for vehicle 376:
+  Current speed: 73.40 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 747.41 m
+  Speed excess: -18.44%
+  Decision: No speed violation detected
+
+      veh0       5.79 
+        18       5.83 Received a packet in SpeedAlertReceiverService
+        18       5.83 Packet is a DENMMessage
+        18       5.83 Processing DENM from veh1: Offending Vehicle = 18, Current Speed = 132.624000 km/h, Speed Limit = 100.000000 km/h, DangerLevel = 2
+        18       5.83 Received irrelevant DENM from veh1
+      veh1       5.84 Checking speed violation for vehicle 18 at 5.186280s
+      veh1       5.84 Speed check results for vehicle 18:
+  Current speed: 137.56 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 931.33 m
+  Speed excess: 52.84%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       5.84 Sending critical DENM (DangerLevel 2)
+      veh1       5.84 Sending DENM: Offending Vehicle = 18, Speed = 137.556000 km/h, DangerLevel = 2
+      veh1       5.84 Recorded DENM data
+      veh1       5.84 
+      veh1       5.84 Checking speed violation for vehicle 18 at 5.386000s
+      veh1       5.84 Speed check results for vehicle 18:
+  Current speed: 135.86 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 927.28 m
+  Speed excess: 50.96%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       5.84 Sending critical DENM (DangerLevel 2)
+      veh1       5.84 Sending DENM: Offending Vehicle = 18, Speed = 135.864000 km/h, DangerLevel = 2
+      veh1       5.84 
+      veh1       5.84 Checking speed violation for vehicle 18 at 5.586000s
+      veh1       5.84 Speed check results for vehicle 18:
+  Current speed: 132.62 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 923.16 m
+  Speed excess: 47.36%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       5.84 Sending critical DENM (DangerLevel 2)
+      veh1       5.84 Sending DENM: Offending Vehicle = 18, Speed = 132.624000 km/h, DangerLevel = 2
+      veh1       5.84 
+      veh1       5.84 Checking speed violation for vehicle 18 at 5.786280s
+      veh1       5.84 Speed check results for vehicle 18:
+  Current speed: 129.38 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 918.95 m
+  Speed excess: 43.76%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       5.84 Sending critical DENM (DangerLevel 2)
+      veh1       5.84 Sending DENM: Offending Vehicle = 18, Speed = 129.384000 km/h, DangerLevel = 2
+      veh1       5.84 
+        18       5.89 Received a packet in SpeedAlertReceiverService
+        18       5.89 Packet is a DENMMessage
+        18       5.89 Processing DENM from veh1: Offending Vehicle = 18, Current Speed = 132.624000 km/h, Speed Limit = 100.000000 km/h, DangerLevel = 2
+        18       5.89 Received irrelevant DENM from veh1
+      veh0       5.89 Checking speed violation for vehicle 376 at 5.345400s
+      veh0       5.89 Speed check results for vehicle 376:
+  Current speed: 73.40 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 747.41 m
+  Speed excess: -18.44%
+  Decision: No speed violation detected
+
+      veh0       5.89 
+      veh1       5.94 Checking speed violation for vehicle 18 at 5.186280s
+      veh1       5.94 Speed check results for vehicle 18:
+  Current speed: 137.56 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 931.33 m
+  Speed excess: 52.84%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       5.94 Sending critical DENM (DangerLevel 2)
+      veh1       5.94 Sending DENM: Offending Vehicle = 18, Speed = 137.556000 km/h, DangerLevel = 2
+      veh1       5.94 Recorded DENM data
+      veh1       5.94 
+      veh1       5.94 Checking speed violation for vehicle 18 at 5.386000s
+      veh1       5.94 Speed check results for vehicle 18:
+  Current speed: 135.86 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 927.28 m
+  Speed excess: 50.96%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       5.94 Sending critical DENM (DangerLevel 2)
+      veh1       5.94 Sending DENM: Offending Vehicle = 18, Speed = 135.864000 km/h, DangerLevel = 2
+      veh1       5.94 
+      veh1       5.94 Checking speed violation for vehicle 18 at 5.586000s
+      veh1       5.94 Speed check results for vehicle 18:
+  Current speed: 132.62 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 923.16 m
+  Speed excess: 47.36%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       5.94 Sending critical DENM (DangerLevel 2)
+      veh1       5.94 Sending DENM: Offending Vehicle = 18, Speed = 132.624000 km/h, DangerLevel = 2
+      veh1       5.94 
+      veh1       5.94 Checking speed violation for vehicle 18 at 5.786280s
+      veh1       5.94 Speed check results for vehicle 18:
+  Current speed: 129.38 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 918.95 m
+  Speed excess: 43.76%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       5.94 Sending critical DENM (DangerLevel 2)
+      veh1       5.94 Sending DENM: Offending Vehicle = 18, Speed = 129.384000 km/h, DangerLevel = 2
+      veh1       5.94 
+        18       5.95 Received a packet in SpeedAlertReceiverService
+        18       5.95 Packet is a DENMMessage
+        18       5.95 Processing DENM from veh1: Offending Vehicle = 18, Current Speed = 129.384000 km/h, Speed Limit = 100.000000 km/h, DangerLevel = 2
+        18       5.95 Received irrelevant DENM from veh1
+      veh0       5.99 Checking speed violation for vehicle 376 at 5.345400s
+      veh0       5.99 Speed check results for vehicle 376:
+  Current speed: 73.40 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 747.41 m
+  Speed excess: -18.44%
+  Decision: No speed violation detected
+
+      veh0       5.99 
+        18       6.01 Received a packet in SpeedAlertReceiverService
+        18       6.01 Packet is a DENMMessage
+        18       6.01 Processing DENM from veh1: Offending Vehicle = 18, Current Speed = 132.624000 km/h, Speed Limit = 100.000000 km/h, DangerLevel = 2
+        18       6.01 Received irrelevant DENM from veh1
+      veh1       6.04 Checking speed violation for vehicle 18 at 5.186280s
+      veh1       6.04 Speed check results for vehicle 18:
+  Current speed: 137.56 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 931.33 m
+  Speed excess: 52.84%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.04 Sending critical DENM (DangerLevel 2)
+      veh1       6.04 Sending DENM: Offending Vehicle = 18, Speed = 137.556000 km/h, DangerLevel = 2
+      veh1       6.04 Recorded DENM data
+      veh1       6.04 
+      veh1       6.04 Checking speed violation for vehicle 18 at 5.386000s
+      veh1       6.04 Speed check results for vehicle 18:
+  Current speed: 135.86 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 927.28 m
+  Speed excess: 50.96%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.04 Sending critical DENM (DangerLevel 2)
+      veh1       6.04 Sending DENM: Offending Vehicle = 18, Speed = 135.864000 km/h, DangerLevel = 2
+      veh1       6.04 
+      veh1       6.04 Checking speed violation for vehicle 18 at 5.586000s
+      veh1       6.04 Speed check results for vehicle 18:
+  Current speed: 132.62 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 923.16 m
+  Speed excess: 47.36%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.04 Sending critical DENM (DangerLevel 2)
+      veh1       6.04 Sending DENM: Offending Vehicle = 18, Speed = 132.624000 km/h, DangerLevel = 2
+      veh1       6.04 
+      veh1       6.04 Checking speed violation for vehicle 18 at 5.786280s
+      veh1       6.04 Speed check results for vehicle 18:
+  Current speed: 129.38 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 918.95 m
+  Speed excess: 43.76%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.04 Sending critical DENM (DangerLevel 2)
+      veh1       6.04 Sending DENM: Offending Vehicle = 18, Speed = 129.384000 km/h, DangerLevel = 2
+      veh1       6.04 
+      veh1       6.04 Checking speed violation for vehicle 18 at 5.986000s
+      veh1       6.04 Speed check results for vehicle 18:
+  Current speed: 126.14 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 914.66 m
+  Speed excess: 40.16%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.04 Sending critical DENM (DangerLevel 2)
+      veh1       6.04 Sending DENM: Offending Vehicle = 18, Speed = 126.144000 km/h, DangerLevel = 2
+      veh1       6.04 
+        18       6.07 Received a packet in SpeedAlertReceiverService
+        18       6.07 Packet is a DENMMessage
+        18       6.07 Processing DENM from veh1: Offending Vehicle = 18, Current Speed = 129.384000 km/h, Speed Limit = 100.000000 km/h, DangerLevel = 2
+        18       6.07 Received irrelevant DENM from veh1
+      veh0       6.09 Checking speed violation for vehicle 376 at 5.345400s
+      veh0       6.09 Speed check results for vehicle 376:
+  Current speed: 73.40 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 747.41 m
+  Speed excess: -18.44%
+  Decision: No speed violation detected
+
+      veh0       6.09 
+        18       6.13 Received a packet in SpeedAlertReceiverService
+        18       6.13 Packet is a DENMMessage
+        18       6.13 Processing DENM from veh1: Offending Vehicle = 18, Current Speed = 126.144000 km/h, Speed Limit = 100.000000 km/h, DangerLevel = 2
+        18       6.13 Received irrelevant DENM from veh1
+      veh1       6.14 Checking speed violation for vehicle 18 at 5.186280s
+      veh1       6.14 Speed check results for vehicle 18:
+  Current speed: 137.56 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 931.33 m
+  Speed excess: 52.84%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.14 Sending critical DENM (DangerLevel 2)
+      veh1       6.14 Sending DENM: Offending Vehicle = 18, Speed = 137.556000 km/h, DangerLevel = 2
+      veh1       6.14 Recorded DENM data
+      veh1       6.14 
+      veh1       6.14 Checking speed violation for vehicle 18 at 5.386000s
+      veh1       6.14 Speed check results for vehicle 18:
+  Current speed: 135.86 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 927.28 m
+  Speed excess: 50.96%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.14 Sending critical DENM (DangerLevel 2)
+      veh1       6.14 Sending DENM: Offending Vehicle = 18, Speed = 135.864000 km/h, DangerLevel = 2
+      veh1       6.14 
+      veh1       6.14 Checking speed violation for vehicle 18 at 5.586000s
+      veh1       6.14 Speed check results for vehicle 18:
+  Current speed: 132.62 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 923.16 m
+  Speed excess: 47.36%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.14 Sending critical DENM (DangerLevel 2)
+      veh1       6.14 Sending DENM: Offending Vehicle = 18, Speed = 132.624000 km/h, DangerLevel = 2
+      veh1       6.14 
+      veh1       6.14 Checking speed violation for vehicle 18 at 5.786280s
+      veh1       6.14 Speed check results for vehicle 18:
+  Current speed: 129.38 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 918.95 m
+  Speed excess: 43.76%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.14 Sending critical DENM (DangerLevel 2)
+      veh1       6.14 Sending DENM: Offending Vehicle = 18, Speed = 129.384000 km/h, DangerLevel = 2
+      veh1       6.14 
+      veh1       6.14 Checking speed violation for vehicle 18 at 5.986000s
+      veh1       6.14 Speed check results for vehicle 18:
+  Current speed: 126.14 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 914.66 m
+  Speed excess: 40.16%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.14 Sending critical DENM (DangerLevel 2)
+      veh1       6.14 Sending DENM: Offending Vehicle = 18, Speed = 126.144000 km/h, DangerLevel = 2
+      veh1       6.14 
+        18       6.19 Received a packet in SpeedAlertReceiverService
+        18       6.19 Packet is a DENMMessage
+        18       6.19 Processing DENM from veh1: Offending Vehicle = 18, Current Speed = 129.384000 km/h, Speed Limit = 100.000000 km/h, DangerLevel = 2
+        18       6.19 Received irrelevant DENM from veh1
+      veh0       6.19 Checking speed violation for vehicle 376 at 5.345400s
+      veh0       6.19 Speed check results for vehicle 376:
+  Current speed: 73.40 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 747.41 m
+  Speed excess: -18.44%
+  Decision: No speed violation detected
+
+      veh0       6.19 
+      veh1       6.24 Checking speed violation for vehicle 18 at 5.186280s
+      veh1       6.24 Speed check results for vehicle 18:
+  Current speed: 137.56 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 931.33 m
+  Speed excess: 52.84%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.24 Sending critical DENM (DangerLevel 2)
+      veh1       6.24 Sending DENM: Offending Vehicle = 18, Speed = 137.556000 km/h, DangerLevel = 2
+      veh1       6.24 Recorded DENM data
+      veh1       6.24 
+      veh1       6.24 Checking speed violation for vehicle 18 at 5.386000s
+      veh1       6.24 Speed check results for vehicle 18:
+  Current speed: 135.86 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 927.28 m
+  Speed excess: 50.96%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.24 Sending critical DENM (DangerLevel 2)
+      veh1       6.24 Sending DENM: Offending Vehicle = 18, Speed = 135.864000 km/h, DangerLevel = 2
+      veh1       6.24 
+      veh1       6.24 Checking speed violation for vehicle 18 at 5.586000s
+      veh1       6.24 Speed check results for vehicle 18:
+  Current speed: 132.62 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 923.16 m
+  Speed excess: 47.36%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.24 Sending critical DENM (DangerLevel 2)
+      veh1       6.24 Sending DENM: Offending Vehicle = 18, Speed = 132.624000 km/h, DangerLevel = 2
+      veh1       6.24 
+      veh1       6.24 Checking speed violation for vehicle 18 at 5.786280s
+      veh1       6.24 Speed check results for vehicle 18:
+  Current speed: 129.38 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 918.95 m
+  Speed excess: 43.76%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.24 Sending critical DENM (DangerLevel 2)
+      veh1       6.24 Sending DENM: Offending Vehicle = 18, Speed = 129.384000 km/h, DangerLevel = 2
+      veh1       6.24 
+      veh1       6.24 Checking speed violation for vehicle 18 at 5.986000s
+      veh1       6.24 Speed check results for vehicle 18:
+  Current speed: 126.14 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 914.66 m
+  Speed excess: 40.16%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.24 Sending critical DENM (DangerLevel 2)
+      veh1       6.24 Sending DENM: Offending Vehicle = 18, Speed = 126.144000 km/h, DangerLevel = 2
+      veh1       6.24 
+      veh1       6.24 Checking speed violation for vehicle 18 at 6.186000s
+      veh1       6.24 Speed check results for vehicle 18:
+  Current speed: 122.90 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 910.30 m
+  Speed excess: 36.56%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.24 Sending critical DENM (DangerLevel 2)
+      veh1       6.24 Sending DENM: Offending Vehicle = 18, Speed = 122.904000 km/h, DangerLevel = 2
+      veh1       6.24 
+        18       6.25 Received a packet in SpeedAlertReceiverService
+        18       6.25 Packet is a DENMMessage
+        18       6.25 Processing DENM from veh1: Offending Vehicle = 18, Current Speed = 126.144000 km/h, Speed Limit = 100.000000 km/h, DangerLevel = 2
+        18       6.25 Received irrelevant DENM from veh1
+      veh0       6.29 Checking speed violation for vehicle 376 at 5.345400s
+      veh0       6.29 Speed check results for vehicle 376:
+  Current speed: 73.40 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 747.41 m
+  Speed excess: -18.44%
+  Decision: No speed violation detected
+
+      veh0       6.29 
+        18       6.31 Received a packet in SpeedAlertReceiverService
+        18       6.31 Packet is a DENMMessage
+        18       6.31 Processing DENM from veh1: Offending Vehicle = 18, Current Speed = 126.144000 km/h, Speed Limit = 100.000000 km/h, DangerLevel = 2
+        18       6.31 Received irrelevant DENM from veh1
+      veh1       6.34 Checking speed violation for vehicle 18 at 5.186280s
+      veh1       6.34 Speed check results for vehicle 18:
+  Current speed: 137.56 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 931.33 m
+  Speed excess: 52.84%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.34 Sending critical DENM (DangerLevel 2)
+      veh1       6.34 Sending DENM: Offending Vehicle = 18, Speed = 137.556000 km/h, DangerLevel = 2
+      veh1       6.34 Recorded DENM data
+      veh1       6.34 
+      veh1       6.34 Checking speed violation for vehicle 18 at 5.386000s
+      veh1       6.34 Speed check results for vehicle 18:
+  Current speed: 135.86 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 927.28 m
+  Speed excess: 50.96%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.34 Sending critical DENM (DangerLevel 2)
+      veh1       6.34 Sending DENM: Offending Vehicle = 18, Speed = 135.864000 km/h, DangerLevel = 2
+      veh1       6.34 
+      veh1       6.34 Checking speed violation for vehicle 18 at 5.586000s
+      veh1       6.34 Speed check results for vehicle 18:
+  Current speed: 132.62 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 923.16 m
+  Speed excess: 47.36%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.34 Sending critical DENM (DangerLevel 2)
+      veh1       6.34 Sending DENM: Offending Vehicle = 18, Speed = 132.624000 km/h, DangerLevel = 2
+      veh1       6.34 
+      veh1       6.34 Checking speed violation for vehicle 18 at 5.786280s
+      veh1       6.34 Speed check results for vehicle 18:
+  Current speed: 129.38 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 918.95 m
+  Speed excess: 43.76%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.34 Sending critical DENM (DangerLevel 2)
+      veh1       6.34 Sending DENM: Offending Vehicle = 18, Speed = 129.384000 km/h, DangerLevel = 2
+      veh1       6.34 
+      veh1       6.34 Checking speed violation for vehicle 18 at 5.986000s
+      veh1       6.34 Speed check results for vehicle 18:
+  Current speed: 126.14 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 914.66 m
+  Speed excess: 40.16%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.34 Sending critical DENM (DangerLevel 2)
+      veh1       6.34 Sending DENM: Offending Vehicle = 18, Speed = 126.144000 km/h, DangerLevel = 2
+      veh1       6.34 
+      veh1       6.34 Checking speed violation for vehicle 18 at 6.186000s
+      veh1       6.34 Speed check results for vehicle 18:
+  Current speed: 122.90 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 910.30 m
+  Speed excess: 36.56%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.34 Sending critical DENM (DangerLevel 2)
+      veh1       6.34 Sending DENM: Offending Vehicle = 18, Speed = 122.904000 km/h, DangerLevel = 2
+      veh1       6.34 
+        18       6.37 Received a packet in SpeedAlertReceiverService
+        18       6.37 Packet is a DENMMessage
+        18       6.37 Processing DENM from veh1: Offending Vehicle = 18, Current Speed = 126.144000 km/h, Speed Limit = 100.000000 km/h, DangerLevel = 2
+        18       6.37 Received irrelevant DENM from veh1
+      veh0       6.39 Checking speed violation for vehicle 376 at 5.345400s
+      veh0       6.39 Speed check results for vehicle 376:
+  Current speed: 73.40 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 747.41 m
+  Speed excess: -18.44%
+  Decision: No speed violation detected
+
+      veh0       6.39 
+        18       6.43 Received a packet in SpeedAlertReceiverService
+        18       6.43 Packet is a DENMMessage
+        18       6.43 Processing DENM from veh1: Offending Vehicle = 18, Current Speed = 122.904000 km/h, Speed Limit = 100.000000 km/h, DangerLevel = 2
+        18       6.43 Received irrelevant DENM from veh1
+      veh1       6.44 Checking speed violation for vehicle 18 at 5.186280s
+      veh1       6.44 Speed check results for vehicle 18:
+  Current speed: 137.56 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 931.33 m
+  Speed excess: 52.84%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.44 Sending critical DENM (DangerLevel 2)
+      veh1       6.44 Sending DENM: Offending Vehicle = 18, Speed = 137.556000 km/h, DangerLevel = 2
+      veh1       6.44 Recorded DENM data
+      veh1       6.44 
+      veh1       6.44 Checking speed violation for vehicle 18 at 5.386000s
+      veh1       6.44 Speed check results for vehicle 18:
+  Current speed: 135.86 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 927.28 m
+  Speed excess: 50.96%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.44 Sending critical DENM (DangerLevel 2)
+      veh1       6.44 Sending DENM: Offending Vehicle = 18, Speed = 135.864000 km/h, DangerLevel = 2
+      veh1       6.44 
+      veh1       6.44 Checking speed violation for vehicle 18 at 5.586000s
+      veh1       6.44 Speed check results for vehicle 18:
+  Current speed: 132.62 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 923.16 m
+  Speed excess: 47.36%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.44 Sending critical DENM (DangerLevel 2)
+      veh1       6.44 Sending DENM: Offending Vehicle = 18, Speed = 132.624000 km/h, DangerLevel = 2
+      veh1       6.44 
+      veh1       6.44 Checking speed violation for vehicle 18 at 5.786280s
+      veh1       6.44 Speed check results for vehicle 18:
+  Current speed: 129.38 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 918.95 m
+  Speed excess: 43.76%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.44 Sending critical DENM (DangerLevel 2)
+      veh1       6.44 Sending DENM: Offending Vehicle = 18, Speed = 129.384000 km/h, DangerLevel = 2
+      veh1       6.44 
+      veh1       6.44 Checking speed violation for vehicle 18 at 5.986000s
+      veh1       6.44 Speed check results for vehicle 18:
+  Current speed: 126.14 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 914.66 m
+  Speed excess: 40.16%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.44 Sending critical DENM (DangerLevel 2)
+      veh1       6.44 Sending DENM: Offending Vehicle = 18, Speed = 126.144000 km/h, DangerLevel = 2
+      veh1       6.44 
+      veh1       6.44 Checking speed violation for vehicle 18 at 6.186000s
+      veh1       6.44 Speed check results for vehicle 18:
+  Current speed: 122.90 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 910.30 m
+  Speed excess: 36.56%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.44 Sending critical DENM (DangerLevel 2)
+      veh1       6.44 Sending DENM: Offending Vehicle = 18, Speed = 122.904000 km/h, DangerLevel = 2
+      veh1       6.44 
+      veh1       6.44 Checking speed violation for vehicle 18 at 6.386280s
+      veh1       6.44 Speed check results for vehicle 18:
+  Current speed: 119.66 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 905.87 m
+  Speed excess: 32.96%
+  Decision: Critical speed violation detected (>20%)
+
+      veh1       6.44 Sending critical DENM (DangerLevel 2)
+      veh1       6.44 Sending DENM: Offending Vehicle = 18, Speed = 119.664000 km/h, DangerLevel = 2
+      veh1       6.44 
+        18       6.49 Received a packet in SpeedAlertReceiverService
+        18       6.49 Packet is a DENMMessage
+        18       6.49 Processing DENM from veh1: Offending Vehicle = 18, Current Speed = 122.904000 km/h, Speed Limit = 100.000000 km/h, DangerLevel = 2
+        18       6.49 Received irrelevant DENM from veh1
+      veh0       6.49 Checking speed violation for vehicle 376 at 5.345400s
+      veh0       6.49 Speed check results for vehicle 376:
+  Current speed: 73.40 km/h
+  Speed limit: 90.00 km/h
+  Distance to toll: 747.41 m
+  Speed excess: -18.44%
+  Decision: No speed violation detected
+
+      veh0       6.49 
